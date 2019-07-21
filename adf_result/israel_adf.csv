@@ -1,0 +1,35 @@
+Null Hypothesis: QT_ISRAEL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.053356, 0.2641
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_ISRAEL),,,,
+Method: Least Squares,,,,
+Date: 07/21/19   Time: 00:20,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_ISRAEL(-1),-0.021137,0.010294,-2.053356,0.0409
+D(QT_ISRAEL(-1)),0.233722,0.055533,4.208668,0.0000
+C,0.030479,0.014850,2.052420,0.0410
+,,,,
+R-squared,0.062603,    Mean dependent var,,4.40E-05
+Adjusted R-squared,0.056496,    S.D. dependent var,,0.016359
+S.E. of regression,0.015891,    Akaike info criterion,,-5.436541
+Sum squared resid,0.077521,    Schwarz criterion,,-5.400381
+Log likelihood,845.6639,    Hannan-Quinn criter.,,-5.422086
+F-statistic,10.25137,    Durbin-Watson stat,,1.992914
+Prob(F-statistic),0.000049,,,
+,,,,

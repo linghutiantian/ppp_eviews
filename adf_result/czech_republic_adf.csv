@@ -1,0 +1,35 @@
+Null Hypothesis: QT_CZECH_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.721253, 0.4195
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_CZECH_REPUBLIC),,,,
+Method: Least Squares,,,,
+Date: 07/21/19   Time: 00:20,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_CZECH_REPUBLIC(-1),-0.009720,0.005647,-1.721253,0.0862
+D(QT_CZECH_REPUBLIC(-1)),0.237047,0.055195,4.294691,0.0000
+C,0.031005,0.018933,1.637623,0.1025
+,,,,
+R-squared,0.064874,    Mean dependent var,,-0.001931
+Adjusted R-squared,0.058782,    S.D. dependent var,,0.027789
+S.E. of regression,0.026960,    Akaike info criterion,,-4.379321
+Sum squared resid,0.223135,    Schwarz criterion,,-4.343161
+Log likelihood,681.7947,    Hannan-Quinn criter.,,-4.364865
+F-statistic,10.64907,    Durbin-Watson stat,,1.987828
+Prob(F-statistic),0.000034,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_UNITED_KINGDOM has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.660782, 0.4503
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_UNITED_KINGDOM),,,,
+Method: Least Squares,,,,
+Date: 07/21/19   Time: 00:20,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_UNITED_KINGDOM(-1),-0.020823,0.012538,-1.660782,0.0978
+D(QT_UNITED_KINGDOM(-1)),0.120693,0.056065,2.152738,0.0321
+C,-0.007497,0.004908,-1.527553,0.1277
+,,,,
+R-squared,0.020704,    Mean dependent var,,0.000479
+Adjusted R-squared,0.014324,    S.D. dependent var,,0.021341
+S.E. of regression,0.021187,    Akaike info criterion,,-4.861185
+Sum squared resid,0.137815,    Schwarz criterion,,-4.825025
+Log likelihood,756.4837,    Hannan-Quinn criter.,,-4.846730
+F-statistic,3.245290,    Durbin-Watson stat,,1.942185
+Prob(F-statistic),0.040298,,,
+,,,,

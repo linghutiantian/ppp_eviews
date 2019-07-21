@@ -1,0 +1,35 @@
+Null Hypothesis: QT_KOREA_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.420481, 0.0110
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_KOREA_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/21/19   Time: 00:20,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_KOREA_REPUBLIC_OF(-1),-0.041564,0.012152,-3.420481,0.0007
+D(QT_KOREA_REPUBLIC_OF(-1)),0.441260,0.051117,8.632290,0.0000
+C,0.295989,0.086478,3.422704,0.0007
+,,,,
+R-squared,0.207956,    Mean dependent var,,0.000433
+Adjusted R-squared,0.202796,    S.D. dependent var,,0.031080
+S.E. of regression,0.027751,    Akaike info criterion,,-4.321494
+Sum squared resid,0.236418,    Schwarz criterion,,-4.285334
+Log likelihood,672.8316,    Hannan-Quinn criter.,,-4.307039
+F-statistic,40.30231,    Durbin-Watson stat,,1.742238
+Prob(F-statistic),0.000000,,,
+,,,,

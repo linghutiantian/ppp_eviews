@@ -1,0 +1,35 @@
+Null Hypothesis: QT_COLOMBIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.198660, 0.2073
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_COLOMBIA),,,,
+Method: Least Squares,,,,
+Date: 07/21/19   Time: 00:20,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_COLOMBIA(-1),-0.018623,0.008470,-2.198660,0.0286
+D(QT_COLOMBIA(-1)),0.363352,0.052997,6.856085,0.0000
+C,0.150542,0.068596,2.194609,0.0289
+,,,,
+R-squared,0.140331,    Mean dependent var,,-0.000398
+Adjusted R-squared,0.134730,    S.D. dependent var,,0.029311
+S.E. of regression,0.027265,    Akaike info criterion,,-4.356807
+Sum squared resid,0.228215,    Schwarz criterion,,-4.320646
+Log likelihood,678.3050,    Hannan-Quinn criter.,,-4.342351
+F-statistic,25.05704,    Durbin-Watson stat,,1.924982
+Prob(F-statistic),0.000000,,,
+,,,,

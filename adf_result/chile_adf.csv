@@ -1,0 +1,35 @@
+Null Hypothesis: QT_CHILE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.115578, 0.2388
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_CHILE),,,,
+Method: Least Squares,,,,
+Date: 07/21/19   Time: 00:20,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_CHILE(-1),-0.020056,0.009480,-2.115578,0.0352
+D(QT_CHILE(-1)),0.328224,0.053934,6.085610,0.0000
+C,0.132065,0.062367,2.117542,0.0350
+,,,,
+R-squared,0.113960,    Mean dependent var,,0.000226
+Adjusted R-squared,0.108188,    S.D. dependent var,,0.022488
+S.E. of regression,0.021237,    Akaike info criterion,,-4.856537
+Sum squared resid,0.138457,    Schwarz criterion,,-4.820377
+Log likelihood,755.7632,    Hannan-Quinn criter.,,-4.842082
+F-statistic,19.74283,    Durbin-Watson stat,,1.961984
+Prob(F-statistic),0.000000,,,
+,,,,

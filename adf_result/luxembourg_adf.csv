@@ -1,0 +1,35 @@
+Null Hypothesis: QT_LUXEMBOURG has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.936433, 0.3153
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_LUXEMBOURG),,,,
+Method: Least Squares,,,,
+Date: 07/21/19   Time: 00:20,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_LUXEMBOURG(-1),-0.019000,0.009812,-1.936433,0.0537
+D(QT_LUXEMBOURG(-1)),0.231823,0.055477,4.178693,0.0000
+C,0.068538,0.035257,1.943936,0.0528
+,,,,
+R-squared,0.060961,    Mean dependent var,,0.000418
+Adjusted R-squared,0.054843,    S.D. dependent var,,0.023506
+S.E. of regression,0.022852,    Akaike info criterion,,-4.709926
+Sum squared resid,0.160320,    Schwarz criterion,,-4.673765
+Log likelihood,733.0385,    Hannan-Quinn criter.,,-4.695470
+F-statistic,9.964913,    Durbin-Watson stat,,1.993652
+Prob(F-statistic),0.000064,,,
+,,,,

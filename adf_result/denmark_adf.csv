@@ -1,0 +1,35 @@
+Null Hypothesis: QT_DENMARK has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.090950, 0.2486
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_DENMARK),,,,
+Method: Least Squares,,,,
+Date: 07/21/19   Time: 00:20,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_DENMARK(-1),-0.020970,0.010029,-2.090950,0.0374
+D(QT_DENMARK(-1)),0.294118,0.054592,5.387539,0.0000
+C,0.039964,0.018995,2.103916,0.0362
+,,,,
+R-squared,0.093046,    Mean dependent var,,0.000476
+Adjusted R-squared,0.087138,    S.D. dependent var,,0.022695
+S.E. of regression,0.021684,    Akaike info criterion,,-4.814885
+Sum squared resid,0.144346,    Schwarz criterion,,-4.778725
+Log likelihood,749.3072,    Hannan-Quinn criter.,,-4.800430
+F-statistic,15.74785,    Durbin-Watson stat,,1.952133
+Prob(F-statistic),0.000000,,,
+,,,,

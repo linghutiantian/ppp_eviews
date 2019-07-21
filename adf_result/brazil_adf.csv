@@ -1,0 +1,35 @@
+Null Hypothesis: QT_BRAZIL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.038418, 0.2703
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_BRAZIL),,,,
+Method: Least Squares,,,,
+Date: 07/21/19   Time: 00:20,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_BRAZIL(-1),-0.024267,0.011905,-2.038418,0.0424
+D(QT_BRAZIL(-1)),0.021201,0.055441,0.382399,0.7024
+C,-0.063537,0.031064,-2.045362,0.0417
+,,,,
+R-squared,0.013519,    Mean dependent var,,-0.000546
+Adjusted R-squared,0.007092,    S.D. dependent var,,0.054577
+S.E. of regression,0.054383,    Akaike info criterion,,-2.975901
+Sum squared resid,0.907955,    Schwarz criterion,,-2.939740
+Log likelihood,464.2646,    Hannan-Quinn criter.,,-2.961445
+F-statistic,2.103596,    Durbin-Watson stat,,2.048915
+Prob(F-statistic),0.123772,,,
+,,,,

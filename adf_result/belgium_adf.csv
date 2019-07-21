@@ -1,0 +1,35 @@
+Null Hypothesis: QT_BELGIUM has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.055069, 0.2633
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_BELGIUM),,,,
+Method: Least Squares,,,,
+Date: 07/21/19   Time: 00:20,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_BELGIUM(-1),-0.019826,0.009647,-2.055069,0.0407
+D(QT_BELGIUM(-1)),0.281375,0.054705,5.143499,0.0000
+C,0.071011,0.034446,2.061540,0.0401
+,,,,
+R-squared,0.086467,    Mean dependent var,,0.000394
+Adjusted R-squared,0.080516,    S.D. dependent var,,0.022738
+S.E. of regression,0.021804,    Akaike info criterion,,-4.803835
+Sum squared resid,0.145949,    Schwarz criterion,,-4.767675
+Log likelihood,747.5945,    Hannan-Quinn criter.,,-4.789380
+F-statistic,14.52902,    Durbin-Watson stat,,1.952359
+Prob(F-statistic),0.000001,,,
+,,,,

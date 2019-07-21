@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SPAIN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.973361, 0.2986
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SPAIN),,,,
+Method: Least Squares,,,,
+Date: 07/21/19   Time: 00:20,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SPAIN(-1),-0.017772,0.009006,-1.973361,0.0494
+D(QT_SPAIN(-1)),0.294092,0.054385,5.407623,0.0000
+C,0.089447,0.045168,1.980311,0.0486
+,,,,
+R-squared,0.093496,    Mean dependent var,,0.000526
+Adjusted R-squared,0.087590,    S.D. dependent var,,0.023573
+S.E. of regression,0.022517,    Akaike info criterion,,-4.739487
+Sum squared resid,0.155650,    Schwarz criterion,,-4.703326
+Log likelihood,737.6204,    Hannan-Quinn criter.,,-4.725031
+F-statistic,15.83184,    Durbin-Watson stat,,1.944810
+Prob(F-statistic),0.000000,,,
+,,,,

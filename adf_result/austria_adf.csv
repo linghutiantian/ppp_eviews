@@ -1,0 +1,35 @@
+Null Hypothesis: QT_AUSTRIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.153795, 0.2240
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_AUSTRIA),,,,
+Method: Least Squares,,,,
+Date: 07/21/19   Time: 00:20,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_AUSTRIA(-1),-0.021485,0.009975,-2.153795,0.0320
+D(QT_AUSTRIA(-1)),0.291109,0.054574,5.334230,0.0000
+C,0.054158,0.025052,2.161803,0.0314
+,,,,
+R-squared,0.092410,    Mean dependent var,,0.000399
+Adjusted R-squared,0.086498,    S.D. dependent var,,0.023234
+S.E. of regression,0.022207,    Akaike info criterion,,-4.767232
+Sum squared resid,0.151391,    Schwarz criterion,,-4.731072
+Log likelihood,741.9209,    Hannan-Quinn criter.,,-4.752777
+F-statistic,15.62928,    Durbin-Watson stat,,1.939264
+Prob(F-statistic),0.000000,,,
+,,,,

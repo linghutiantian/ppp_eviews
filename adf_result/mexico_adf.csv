@@ -1,0 +1,35 @@
+Null Hypothesis: QT_MEXICO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.640966, 0.0859
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_MEXICO),,,,
+Method: Least Squares,,,,
+Date: 07/21/19   Time: 00:20,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_MEXICO(-1),-0.037319,0.014131,-2.640966,0.0087
+D(QT_MEXICO(-1)),0.236455,0.055708,4.244533,0.0000
+C,0.108395,0.040729,2.661382,0.0082
+,,,,
+R-squared,0.067487,    Mean dependent var,,0.001202
+Adjusted R-squared,0.061412,    S.D. dependent var,,0.033072
+S.E. of regression,0.032041,    Akaike info criterion,,-4.033988
+Sum squared resid,0.315169,    Schwarz criterion,,-3.997827
+Log likelihood,628.2681,    Hannan-Quinn criter.,,-4.019532
+F-statistic,11.10889,    Durbin-Watson stat,,1.983321
+Prob(F-statistic),0.000022,,,
+,,,,
