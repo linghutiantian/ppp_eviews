@@ -91,6 +91,10 @@ for i in exception:
 filter_country = list(filter_country_set)
 filter_country.sort()
 
+country_out = open('unit_root_countries.csv', 'wb')
+country_writer = csv.writer(country_out)
+country_writer.writerow(filter_country)
+
 
 # china = "China, P.R.: Mainland"
 # print(len(er_dict[china]), len(cpi_dict[china]))
