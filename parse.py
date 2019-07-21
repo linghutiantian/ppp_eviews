@@ -1,6 +1,8 @@
 import csv
 import re
 
+exception = ["Moldova"]
+
 debug = False
 
 exchange_rates = list(csv.reader(open("exchange_rates.csv")))
@@ -83,7 +85,10 @@ for country in cpi_dict:
   if len(cpi_dict[country]) > threshold:
     cpi_filter_country.append(country)
 
-filter_country = list(set(er_filter_country) & set(cpi_filter_country))
+filter_country_set = set(er_filter_country) & set(cpi_filter_country)
+for i in exception:
+  filter_country_set.remove(i)
+filter_country = list(filter_country_set)
 filter_country.sort()
 
 
@@ -92,7 +97,7 @@ filter_country.sort()
 # print(filter_country, len(filter_country))
 
 # final_table = []
-out = open('final_unit_root_data_1.csv', 'wb')
+out = open('final_unit_root_data_2.csv', 'wb')
 writer = csv.writer(out)
 # 
 # for row in final_table:
@@ -126,4 +131,5 @@ for i in range(row_start, row_end + 1):
       row.append(cpi_dict[country][i])
   writer.writerow(row)
 
-print set(bad_country)
+if len(bad_country):
+  print set(bad_country)
