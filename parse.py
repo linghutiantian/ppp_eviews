@@ -59,6 +59,8 @@ for idx, row in enumerate(exchange_rates):
       country = er_idx_to_country[col]
       if not er_dict.get(country):
         er_dict[country] = {}
+      if val == "0" or val == "-":
+        val = ""
       er_dict[country][idx] = val
 
 for idx, row in enumerate(cpis):
@@ -73,7 +75,7 @@ for idx, row in enumerate(cpis):
         cpi_dict[country] = {}
       cpi_dict[country][idx] = val
 
-threshold = 300
+threshold = 0
 er_filter_country = []
 cpi_filter_country = []
 
@@ -90,6 +92,15 @@ for i in exception:
   filter_country_set.remove(i)
 filter_country = list(filter_country_set)
 filter_country.sort()
+
+filter_country_final = []
+for country in filter_country:
+  er_idx = set(er_dict[country].keys())
+  cpi_idx = set(cpi_dict[country].keys())
+  if len(er_idx & cpi_idx) < 10:
+    print("no intersection:", country)
+  else:
+    filter_country_final.append(country)
 
 country_out = open('unit_root_countries.csv', 'wb')
 country_writer = csv.writer(country_out)
@@ -115,7 +126,7 @@ for country in filter_country:
 writer.writerow(row_0)
 
 
-row_start = month_to_rol["1993M01"]
+row_start = month_to_rol["1960M01"]
 row_end = month_to_rol["2018M12"]
 
 bad_country = []
@@ -123,17 +134,17 @@ for i in range(row_start, row_end + 1):
   row = [rol_to_month[i]]
   for country in filter_country:
     if i not in er_dict[country]:
-      row.append("###")
+      row.append("")
       bad_country.append(country + "_ER")
     else:
       row.append(er_dict[country][i])
   for country in filter_country:
     if i not in cpi_dict[country]:
-      row.append("###")
+      row.append("")
       bad_country.append(country + "_CPI")
     else:
       row.append(cpi_dict[country][i])
   writer.writerow(row)
 
-if len(bad_country):
-  print set(bad_country)
+# if len(bad_country):
+#   print set(bad_country)

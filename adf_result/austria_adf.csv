@@ -4,10 +4,10 @@ Lag Length: 1 (Fixed),,,,
 ,,,,
 ,,,t-Statistic,  Prob.*
 ,,,,
-Augmented Dickey-Fuller test statistic,,,-2.153795, 0.2240
-Test critical values:,1% level,,-3.451283,
-,5% level,,-2.870651,
-,10% level,,-2.571695,
+Augmented Dickey-Fuller test statistic,,,-2.339028, 0.1600
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
 ,,,,
 *MacKinnon (1996) one-sided p-values.,,,,
 ,,,,
@@ -15,21 +15,21 @@ Test critical values:,1% level,,-3.451283,
 Augmented Dickey-Fuller Test Equation,,,,
 Dependent Variable: D(QT_AUSTRIA),,,,
 Method: Least Squares,,,,
-Date: 07/21/19   Time: 00:20,,,,
-Sample (adjusted): 1993M03 2018M12,,,,
-Included observations: 310 after adjustments,,,,
+Date: 07/21/19   Time: 12:19,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
 ,,,,
 Variable,Coefficient,Std. Error,t-Statistic,Prob.  
 ,,,,
-QT_AUSTRIA(-1),-0.021485,0.009975,-2.153795,0.0320
-D(QT_AUSTRIA(-1)),0.291109,0.054574,5.334230,0.0000
-C,0.054158,0.025052,2.161803,0.0314
+QT_AUSTRIA(-1),-0.008728,0.003732,-2.339028,0.0196
+D(QT_AUSTRIA(-1)),0.280977,0.036095,7.784444,0.0000
+C,0.022552,0.009905,2.276788,0.0231
 ,,,,
-R-squared,0.092410,    Mean dependent var,,0.000399
-Adjusted R-squared,0.086498,    S.D. dependent var,,0.023234
-S.E. of regression,0.022207,    Akaike info criterion,,-4.767232
-Sum squared resid,0.151391,    Schwarz criterion,,-4.731072
-Log likelihood,741.9209,    Hannan-Quinn criter.,,-4.752777
-F-statistic,15.62928,    Durbin-Watson stat,,1.939264
+R-squared,0.084804,    Mean dependent var,,-0.000731
+Adjusted R-squared,0.082200,    S.D. dependent var,,0.023664
+S.E. of regression,0.022671,    Akaike info criterion,,-4.731225
+Sum squared resid,0.361322,    Schwarz criterion,,-4.711850
+Log likelihood,1673.122,    Hannan-Quinn criter.,,-4.723738
+F-statistic,32.57055,    Durbin-Watson stat,,1.966544
 Prob(F-statistic),0.000000,,,
 ,,,,

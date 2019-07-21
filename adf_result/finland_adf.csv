@@ -4,10 +4,10 @@ Lag Length: 1 (Fixed),,,,
 ,,,,
 ,,,t-Statistic,  Prob.*
 ,,,,
-Augmented Dickey-Fuller test statistic,,,-2.124670, 0.2352
-Test critical values:,1% level,,-3.451283,
-,5% level,,-2.870651,
-,10% level,,-2.571695,
+Augmented Dickey-Fuller test statistic,,,-2.636013, 0.0862
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
 ,,,,
 *MacKinnon (1996) one-sided p-values.,,,,
 ,,,,
@@ -15,21 +15,21 @@ Test critical values:,1% level,,-3.451283,
 Augmented Dickey-Fuller Test Equation,,,,
 Dependent Variable: D(QT_FINLAND),,,,
 Method: Least Squares,,,,
-Date: 07/21/19   Time: 00:20,,,,
-Sample (adjusted): 1993M03 2018M12,,,,
-Included observations: 310 after adjustments,,,,
+Date: 07/21/19   Time: 12:19,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
 ,,,,
 Variable,Coefficient,Std. Error,t-Statistic,Prob.  
 ,,,,
-QT_FINLAND(-1),-0.021569,0.010151,-2.124670,0.0344
-D(QT_FINLAND(-1)),0.296906,0.053656,5.533489,0.0000
-C,0.035642,0.016749,2.127976,0.0341
+QT_FINLAND(-1),-0.015138,0.005743,-2.636013,0.0086
+D(QT_FINLAND(-1)),0.234394,0.036667,6.392445,0.0000
+C,0.024329,0.009271,2.624259,0.0089
 ,,,,
-R-squared,0.097262,    Mean dependent var,,0.000315
-Adjusted R-squared,0.091381,    S.D. dependent var,,0.023059
-S.E. of regression,0.021980,    Akaike info criterion,,-4.787728
-Sum squared resid,0.148319,    Schwarz criterion,,-4.751568
-Log likelihood,745.0978,    Hannan-Quinn criter.,,-4.773273
-F-statistic,16.53829,    Durbin-Watson stat,,1.939191
+R-squared,0.060708,    Mean dependent var,,3.30E-06
+Adjusted R-squared,0.058036,    S.D. dependent var,,0.023975
+S.E. of regression,0.023269,    Akaike info criterion,,-4.679150
+Sum squared resid,0.380637,    Schwarz criterion,,-4.659775
+Log likelihood,1654.740,    Hannan-Quinn criter.,,-4.671663
+F-statistic,22.71809,    Durbin-Watson stat,,1.987104
 Prob(F-statistic),0.000000,,,
 ,,,,
