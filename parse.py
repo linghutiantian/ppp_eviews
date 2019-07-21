@@ -1,7 +1,7 @@
 import csv
 import re
 
-exception = ["Moldova"]
+exception = ["Moldova", "Guadeloupe", "Zimbabwe"]
 
 debug = False
 
@@ -104,7 +104,7 @@ for country in filter_country:
 
 country_out = open('unit_root_countries.csv', 'wb')
 country_writer = csv.writer(country_out)
-country_writer.writerow(filter_country)
+country_writer.writerow(filter_country_final)
 
 
 # china = "China, P.R.: Mainland"
@@ -119,9 +119,9 @@ writer = csv.writer(out)
 #   writer.writerow(row)
 
 row_0 = ["DATE"]
-for country in filter_country:
+for country in filter_country_final:
   row_0.append(parse_country_name(country) + "_ER")
-for country in filter_country:
+for country in filter_country_final:
   row_0.append(parse_country_name(country) + "_CPI")
 writer.writerow(row_0)
 
@@ -132,13 +132,13 @@ row_end = month_to_rol["2018M12"]
 bad_country = []
 for i in range(row_start, row_end + 1):
   row = [rol_to_month[i]]
-  for country in filter_country:
+  for country in filter_country_final:
     if i not in er_dict[country]:
       row.append("")
       bad_country.append(country + "_ER")
     else:
       row.append(er_dict[country][i])
-  for country in filter_country:
+  for country in filter_country_final:
     if i not in cpi_dict[country]:
       row.append("")
       bad_country.append(country + "_CPI")
