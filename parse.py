@@ -148,3 +148,45 @@ for i in range(row_start, row_end + 1):
 
 # if len(bad_country):
 #   print set(bad_country)
+
+
+oecd_countries_ = list(csv.reader(open("oecd.csv")))
+oecd_countries = [ y for x in oecd_countries_ for y in x]
+oecd_countries.sort()
+
+oecd_string = ""
+for oecd_country in oecd_countries:
+  oecd_string += (oecd_country + ", ")
+  if not er_dict.get(oecd_country):
+    print(oecd_country)
+print(oecd_string)
+
+panal_out = open('final_panal_data.csv', 'wb')
+panal_writer = csv.writer(panal_out)
+
+panal_row_0 = ["DATE", "COUNTRY", "CPI", "CPI_US", "ER"]
+panal_writer.writerow(panal_row_0)
+
+for oecd_country in oecd_countries:
+  if oecd_country == "United States":
+    continue
+  for i in range(row_start, row_end + 1):
+    row = [rol_to_month[i]]
+    row.append(parse_country_name(oecd_country))
+    if i in cpi_dict[oecd_country]:
+      row.append(cpi_dict[oecd_country][i])
+    else:
+      row.append("")
+
+
+    if i in cpi_dict["United States"]:
+      row.append(cpi_dict["United States"][i])
+    else:
+      row.append("")
+
+    if i in er_dict[oecd_country]:
+      row.append(er_dict[oecd_country][i])
+    else:
+      row.append("")
+
+    panal_writer.writerow(row)
