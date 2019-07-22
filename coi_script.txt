@@ -1,0 +1,2172 @@
+genr PT_UNITED_STATES = log(UNITED_STATES_CPI)
+genr ST_AFGHANISTAN_ISLAMIC_REPUBLIC_OF = log(AFGHANISTAN_ISLAMIC_REPUBLIC_OF_ER)
+genr PDIFF_AFGHANISTAN_ISLAMIC_REPUBLIC_OF = log(AFGHANISTAN_ISLAMIC_REPUBLIC_OF_CPI) - PT_UNITED_STATES
+equation EQ_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.ls ST_AFGHANISTAN_ISLAMIC_REPUBLIC_OF c PDIFF_AFGHANISTAN_ISLAMIC_REPUBLIC_OF
+EQ_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.makeresids RES_AFGHANISTAN_ISLAMIC_REPUBLIC_OF
+freeze(FRZ_ST_AFGHANISTAN_ISLAMIC_REPUBLIC_OF) ST_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.uroot(lag=1)
+FRZ_ST_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\AFGHANISTAN_ISLAMIC_REPUBLIC_OF_ADF.csv
+FRZ_ST_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\AFGHANISTAN_ISLAMIC_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_PDIFF_AFGHANISTAN_ISLAMIC_REPUBLIC_OF) PDIFF_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.uroot(lag=1)
+FRZ_PDIFF_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\AFGHANISTAN_ISLAMIC_REPUBLIC_OF_ADF.csv
+FRZ_PDIFF_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\AFGHANISTAN_ISLAMIC_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_RES_AFGHANISTAN_ISLAMIC_REPUBLIC_OF) RES_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.uroot(lag=1)
+FRZ_RES_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\AFGHANISTAN_ISLAMIC_REPUBLIC_OF_ADF.csv
+FRZ_RES_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\AFGHANISTAN_ISLAMIC_REPUBLIC_OF_ADF.pdf
+genr ST_ALBANIA = log(ALBANIA_ER)
+genr PDIFF_ALBANIA = log(ALBANIA_CPI) - PT_UNITED_STATES
+equation EQ_ALBANIA.ls ST_ALBANIA c PDIFF_ALBANIA
+EQ_ALBANIA.makeresids RES_ALBANIA
+freeze(FRZ_ST_ALBANIA) ST_ALBANIA.uroot(lag=1)
+FRZ_ST_ALBANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ALBANIA_ADF.csv
+FRZ_ST_ALBANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ALBANIA_ADF.pdf
+freeze(FRZ_PDIFF_ALBANIA) PDIFF_ALBANIA.uroot(lag=1)
+FRZ_PDIFF_ALBANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ALBANIA_ADF.csv
+FRZ_PDIFF_ALBANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ALBANIA_ADF.pdf
+freeze(FRZ_RES_ALBANIA) RES_ALBANIA.uroot(lag=1)
+FRZ_RES_ALBANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ALBANIA_ADF.csv
+FRZ_RES_ALBANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ALBANIA_ADF.pdf
+genr ST_ALGERIA = log(ALGERIA_ER)
+genr PDIFF_ALGERIA = log(ALGERIA_CPI) - PT_UNITED_STATES
+equation EQ_ALGERIA.ls ST_ALGERIA c PDIFF_ALGERIA
+EQ_ALGERIA.makeresids RES_ALGERIA
+freeze(FRZ_ST_ALGERIA) ST_ALGERIA.uroot(lag=1)
+FRZ_ST_ALGERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ALGERIA_ADF.csv
+FRZ_ST_ALGERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ALGERIA_ADF.pdf
+freeze(FRZ_PDIFF_ALGERIA) PDIFF_ALGERIA.uroot(lag=1)
+FRZ_PDIFF_ALGERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ALGERIA_ADF.csv
+FRZ_PDIFF_ALGERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ALGERIA_ADF.pdf
+freeze(FRZ_RES_ALGERIA) RES_ALGERIA.uroot(lag=1)
+FRZ_RES_ALGERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ALGERIA_ADF.csv
+FRZ_RES_ALGERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ALGERIA_ADF.pdf
+genr ST_ANGOLA = log(ANGOLA_ER)
+genr PDIFF_ANGOLA = log(ANGOLA_CPI) - PT_UNITED_STATES
+equation EQ_ANGOLA.ls ST_ANGOLA c PDIFF_ANGOLA
+EQ_ANGOLA.makeresids RES_ANGOLA
+freeze(FRZ_ST_ANGOLA) ST_ANGOLA.uroot(lag=1)
+FRZ_ST_ANGOLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ANGOLA_ADF.csv
+FRZ_ST_ANGOLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ANGOLA_ADF.pdf
+freeze(FRZ_PDIFF_ANGOLA) PDIFF_ANGOLA.uroot(lag=1)
+FRZ_PDIFF_ANGOLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ANGOLA_ADF.csv
+FRZ_PDIFF_ANGOLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ANGOLA_ADF.pdf
+freeze(FRZ_RES_ANGOLA) RES_ANGOLA.uroot(lag=1)
+FRZ_RES_ANGOLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ANGOLA_ADF.csv
+FRZ_RES_ANGOLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ANGOLA_ADF.pdf
+genr ST_ANTIGUA_AND_BARBUDA = log(ANTIGUA_AND_BARBUDA_ER)
+genr PDIFF_ANTIGUA_AND_BARBUDA = log(ANTIGUA_AND_BARBUDA_CPI) - PT_UNITED_STATES
+equation EQ_ANTIGUA_AND_BARBUDA.ls ST_ANTIGUA_AND_BARBUDA c PDIFF_ANTIGUA_AND_BARBUDA
+EQ_ANTIGUA_AND_BARBUDA.makeresids RES_ANTIGUA_AND_BARBUDA
+freeze(FRZ_ST_ANTIGUA_AND_BARBUDA) ST_ANTIGUA_AND_BARBUDA.uroot(lag=1)
+FRZ_ST_ANTIGUA_AND_BARBUDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ANTIGUA_AND_BARBUDA_ADF.csv
+FRZ_ST_ANTIGUA_AND_BARBUDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ANTIGUA_AND_BARBUDA_ADF.pdf
+freeze(FRZ_PDIFF_ANTIGUA_AND_BARBUDA) PDIFF_ANTIGUA_AND_BARBUDA.uroot(lag=1)
+FRZ_PDIFF_ANTIGUA_AND_BARBUDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ANTIGUA_AND_BARBUDA_ADF.csv
+FRZ_PDIFF_ANTIGUA_AND_BARBUDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ANTIGUA_AND_BARBUDA_ADF.pdf
+freeze(FRZ_RES_ANTIGUA_AND_BARBUDA) RES_ANTIGUA_AND_BARBUDA.uroot(lag=1)
+FRZ_RES_ANTIGUA_AND_BARBUDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ANTIGUA_AND_BARBUDA_ADF.csv
+FRZ_RES_ANTIGUA_AND_BARBUDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ANTIGUA_AND_BARBUDA_ADF.pdf
+genr ST_ARGENTINA = log(ARGENTINA_ER)
+genr PDIFF_ARGENTINA = log(ARGENTINA_CPI) - PT_UNITED_STATES
+equation EQ_ARGENTINA.ls ST_ARGENTINA c PDIFF_ARGENTINA
+EQ_ARGENTINA.makeresids RES_ARGENTINA
+freeze(FRZ_ST_ARGENTINA) ST_ARGENTINA.uroot(lag=1)
+FRZ_ST_ARGENTINA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ARGENTINA_ADF.csv
+FRZ_ST_ARGENTINA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ARGENTINA_ADF.pdf
+freeze(FRZ_PDIFF_ARGENTINA) PDIFF_ARGENTINA.uroot(lag=1)
+FRZ_PDIFF_ARGENTINA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ARGENTINA_ADF.csv
+FRZ_PDIFF_ARGENTINA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ARGENTINA_ADF.pdf
+freeze(FRZ_RES_ARGENTINA) RES_ARGENTINA.uroot(lag=1)
+FRZ_RES_ARGENTINA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ARGENTINA_ADF.csv
+FRZ_RES_ARGENTINA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ARGENTINA_ADF.pdf
+genr ST_ARMENIA_REPUBLIC_OF = log(ARMENIA_REPUBLIC_OF_ER)
+genr PDIFF_ARMENIA_REPUBLIC_OF = log(ARMENIA_REPUBLIC_OF_CPI) - PT_UNITED_STATES
+equation EQ_ARMENIA_REPUBLIC_OF.ls ST_ARMENIA_REPUBLIC_OF c PDIFF_ARMENIA_REPUBLIC_OF
+EQ_ARMENIA_REPUBLIC_OF.makeresids RES_ARMENIA_REPUBLIC_OF
+freeze(FRZ_ST_ARMENIA_REPUBLIC_OF) ST_ARMENIA_REPUBLIC_OF.uroot(lag=1)
+FRZ_ST_ARMENIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ARMENIA_REPUBLIC_OF_ADF.csv
+FRZ_ST_ARMENIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ARMENIA_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_PDIFF_ARMENIA_REPUBLIC_OF) PDIFF_ARMENIA_REPUBLIC_OF.uroot(lag=1)
+FRZ_PDIFF_ARMENIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ARMENIA_REPUBLIC_OF_ADF.csv
+FRZ_PDIFF_ARMENIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ARMENIA_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_RES_ARMENIA_REPUBLIC_OF) RES_ARMENIA_REPUBLIC_OF.uroot(lag=1)
+FRZ_RES_ARMENIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ARMENIA_REPUBLIC_OF_ADF.csv
+FRZ_RES_ARMENIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ARMENIA_REPUBLIC_OF_ADF.pdf
+genr ST_AUSTRIA = log(AUSTRIA_ER)
+genr PDIFF_AUSTRIA = log(AUSTRIA_CPI) - PT_UNITED_STATES
+equation EQ_AUSTRIA.ls ST_AUSTRIA c PDIFF_AUSTRIA
+EQ_AUSTRIA.makeresids RES_AUSTRIA
+freeze(FRZ_ST_AUSTRIA) ST_AUSTRIA.uroot(lag=1)
+FRZ_ST_AUSTRIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\AUSTRIA_ADF.csv
+FRZ_ST_AUSTRIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\AUSTRIA_ADF.pdf
+freeze(FRZ_PDIFF_AUSTRIA) PDIFF_AUSTRIA.uroot(lag=1)
+FRZ_PDIFF_AUSTRIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\AUSTRIA_ADF.csv
+FRZ_PDIFF_AUSTRIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\AUSTRIA_ADF.pdf
+freeze(FRZ_RES_AUSTRIA) RES_AUSTRIA.uroot(lag=1)
+FRZ_RES_AUSTRIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\AUSTRIA_ADF.csv
+FRZ_RES_AUSTRIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\AUSTRIA_ADF.pdf
+genr ST_AZERBAIJAN_REPUBLIC_OF = log(AZERBAIJAN_REPUBLIC_OF_ER)
+genr PDIFF_AZERBAIJAN_REPUBLIC_OF = log(AZERBAIJAN_REPUBLIC_OF_CPI) - PT_UNITED_STATES
+equation EQ_AZERBAIJAN_REPUBLIC_OF.ls ST_AZERBAIJAN_REPUBLIC_OF c PDIFF_AZERBAIJAN_REPUBLIC_OF
+EQ_AZERBAIJAN_REPUBLIC_OF.makeresids RES_AZERBAIJAN_REPUBLIC_OF
+freeze(FRZ_ST_AZERBAIJAN_REPUBLIC_OF) ST_AZERBAIJAN_REPUBLIC_OF.uroot(lag=1)
+FRZ_ST_AZERBAIJAN_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\AZERBAIJAN_REPUBLIC_OF_ADF.csv
+FRZ_ST_AZERBAIJAN_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\AZERBAIJAN_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_PDIFF_AZERBAIJAN_REPUBLIC_OF) PDIFF_AZERBAIJAN_REPUBLIC_OF.uroot(lag=1)
+FRZ_PDIFF_AZERBAIJAN_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\AZERBAIJAN_REPUBLIC_OF_ADF.csv
+FRZ_PDIFF_AZERBAIJAN_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\AZERBAIJAN_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_RES_AZERBAIJAN_REPUBLIC_OF) RES_AZERBAIJAN_REPUBLIC_OF.uroot(lag=1)
+FRZ_RES_AZERBAIJAN_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\AZERBAIJAN_REPUBLIC_OF_ADF.csv
+FRZ_RES_AZERBAIJAN_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\AZERBAIJAN_REPUBLIC_OF_ADF.pdf
+genr ST_BAHRAIN_KINGDOM_OF = log(BAHRAIN_KINGDOM_OF_ER)
+genr PDIFF_BAHRAIN_KINGDOM_OF = log(BAHRAIN_KINGDOM_OF_CPI) - PT_UNITED_STATES
+equation EQ_BAHRAIN_KINGDOM_OF.ls ST_BAHRAIN_KINGDOM_OF c PDIFF_BAHRAIN_KINGDOM_OF
+EQ_BAHRAIN_KINGDOM_OF.makeresids RES_BAHRAIN_KINGDOM_OF
+freeze(FRZ_ST_BAHRAIN_KINGDOM_OF) ST_BAHRAIN_KINGDOM_OF.uroot(lag=1)
+FRZ_ST_BAHRAIN_KINGDOM_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BAHRAIN_KINGDOM_OF_ADF.csv
+FRZ_ST_BAHRAIN_KINGDOM_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BAHRAIN_KINGDOM_OF_ADF.pdf
+freeze(FRZ_PDIFF_BAHRAIN_KINGDOM_OF) PDIFF_BAHRAIN_KINGDOM_OF.uroot(lag=1)
+FRZ_PDIFF_BAHRAIN_KINGDOM_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BAHRAIN_KINGDOM_OF_ADF.csv
+FRZ_PDIFF_BAHRAIN_KINGDOM_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BAHRAIN_KINGDOM_OF_ADF.pdf
+freeze(FRZ_RES_BAHRAIN_KINGDOM_OF) RES_BAHRAIN_KINGDOM_OF.uroot(lag=1)
+FRZ_RES_BAHRAIN_KINGDOM_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BAHRAIN_KINGDOM_OF_ADF.csv
+FRZ_RES_BAHRAIN_KINGDOM_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BAHRAIN_KINGDOM_OF_ADF.pdf
+genr ST_BANGLADESH = log(BANGLADESH_ER)
+genr PDIFF_BANGLADESH = log(BANGLADESH_CPI) - PT_UNITED_STATES
+equation EQ_BANGLADESH.ls ST_BANGLADESH c PDIFF_BANGLADESH
+EQ_BANGLADESH.makeresids RES_BANGLADESH
+freeze(FRZ_ST_BANGLADESH) ST_BANGLADESH.uroot(lag=1)
+FRZ_ST_BANGLADESH.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BANGLADESH_ADF.csv
+FRZ_ST_BANGLADESH.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BANGLADESH_ADF.pdf
+freeze(FRZ_PDIFF_BANGLADESH) PDIFF_BANGLADESH.uroot(lag=1)
+FRZ_PDIFF_BANGLADESH.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BANGLADESH_ADF.csv
+FRZ_PDIFF_BANGLADESH.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BANGLADESH_ADF.pdf
+freeze(FRZ_RES_BANGLADESH) RES_BANGLADESH.uroot(lag=1)
+FRZ_RES_BANGLADESH.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BANGLADESH_ADF.csv
+FRZ_RES_BANGLADESH.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BANGLADESH_ADF.pdf
+genr ST_BARBADOS = log(BARBADOS_ER)
+genr PDIFF_BARBADOS = log(BARBADOS_CPI) - PT_UNITED_STATES
+equation EQ_BARBADOS.ls ST_BARBADOS c PDIFF_BARBADOS
+EQ_BARBADOS.makeresids RES_BARBADOS
+freeze(FRZ_ST_BARBADOS) ST_BARBADOS.uroot(lag=1)
+FRZ_ST_BARBADOS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BARBADOS_ADF.csv
+FRZ_ST_BARBADOS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BARBADOS_ADF.pdf
+freeze(FRZ_PDIFF_BARBADOS) PDIFF_BARBADOS.uroot(lag=1)
+FRZ_PDIFF_BARBADOS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BARBADOS_ADF.csv
+FRZ_PDIFF_BARBADOS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BARBADOS_ADF.pdf
+freeze(FRZ_RES_BARBADOS) RES_BARBADOS.uroot(lag=1)
+FRZ_RES_BARBADOS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BARBADOS_ADF.csv
+FRZ_RES_BARBADOS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BARBADOS_ADF.pdf
+genr ST_BELARUS = log(BELARUS_ER)
+genr PDIFF_BELARUS = log(BELARUS_CPI) - PT_UNITED_STATES
+equation EQ_BELARUS.ls ST_BELARUS c PDIFF_BELARUS
+EQ_BELARUS.makeresids RES_BELARUS
+freeze(FRZ_ST_BELARUS) ST_BELARUS.uroot(lag=1)
+FRZ_ST_BELARUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BELARUS_ADF.csv
+FRZ_ST_BELARUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BELARUS_ADF.pdf
+freeze(FRZ_PDIFF_BELARUS) PDIFF_BELARUS.uroot(lag=1)
+FRZ_PDIFF_BELARUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BELARUS_ADF.csv
+FRZ_PDIFF_BELARUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BELARUS_ADF.pdf
+freeze(FRZ_RES_BELARUS) RES_BELARUS.uroot(lag=1)
+FRZ_RES_BELARUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BELARUS_ADF.csv
+FRZ_RES_BELARUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BELARUS_ADF.pdf
+genr ST_BELGIUM = log(BELGIUM_ER)
+genr PDIFF_BELGIUM = log(BELGIUM_CPI) - PT_UNITED_STATES
+equation EQ_BELGIUM.ls ST_BELGIUM c PDIFF_BELGIUM
+EQ_BELGIUM.makeresids RES_BELGIUM
+freeze(FRZ_ST_BELGIUM) ST_BELGIUM.uroot(lag=1)
+FRZ_ST_BELGIUM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BELGIUM_ADF.csv
+FRZ_ST_BELGIUM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BELGIUM_ADF.pdf
+freeze(FRZ_PDIFF_BELGIUM) PDIFF_BELGIUM.uroot(lag=1)
+FRZ_PDIFF_BELGIUM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BELGIUM_ADF.csv
+FRZ_PDIFF_BELGIUM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BELGIUM_ADF.pdf
+freeze(FRZ_RES_BELGIUM) RES_BELGIUM.uroot(lag=1)
+FRZ_RES_BELGIUM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BELGIUM_ADF.csv
+FRZ_RES_BELGIUM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BELGIUM_ADF.pdf
+genr ST_BELIZE = log(BELIZE_ER)
+genr PDIFF_BELIZE = log(BELIZE_CPI) - PT_UNITED_STATES
+equation EQ_BELIZE.ls ST_BELIZE c PDIFF_BELIZE
+EQ_BELIZE.makeresids RES_BELIZE
+freeze(FRZ_ST_BELIZE) ST_BELIZE.uroot(lag=1)
+FRZ_ST_BELIZE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BELIZE_ADF.csv
+FRZ_ST_BELIZE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BELIZE_ADF.pdf
+freeze(FRZ_PDIFF_BELIZE) PDIFF_BELIZE.uroot(lag=1)
+FRZ_PDIFF_BELIZE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BELIZE_ADF.csv
+FRZ_PDIFF_BELIZE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BELIZE_ADF.pdf
+freeze(FRZ_RES_BELIZE) RES_BELIZE.uroot(lag=1)
+FRZ_RES_BELIZE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BELIZE_ADF.csv
+FRZ_RES_BELIZE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BELIZE_ADF.pdf
+genr ST_BENIN = log(BENIN_ER)
+genr PDIFF_BENIN = log(BENIN_CPI) - PT_UNITED_STATES
+equation EQ_BENIN.ls ST_BENIN c PDIFF_BENIN
+EQ_BENIN.makeresids RES_BENIN
+freeze(FRZ_ST_BENIN) ST_BENIN.uroot(lag=1)
+FRZ_ST_BENIN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BENIN_ADF.csv
+FRZ_ST_BENIN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BENIN_ADF.pdf
+freeze(FRZ_PDIFF_BENIN) PDIFF_BENIN.uroot(lag=1)
+FRZ_PDIFF_BENIN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BENIN_ADF.csv
+FRZ_PDIFF_BENIN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BENIN_ADF.pdf
+freeze(FRZ_RES_BENIN) RES_BENIN.uroot(lag=1)
+FRZ_RES_BENIN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BENIN_ADF.csv
+FRZ_RES_BENIN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BENIN_ADF.pdf
+genr ST_BHUTAN = log(BHUTAN_ER)
+genr PDIFF_BHUTAN = log(BHUTAN_CPI) - PT_UNITED_STATES
+equation EQ_BHUTAN.ls ST_BHUTAN c PDIFF_BHUTAN
+EQ_BHUTAN.makeresids RES_BHUTAN
+freeze(FRZ_ST_BHUTAN) ST_BHUTAN.uroot(lag=1)
+FRZ_ST_BHUTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BHUTAN_ADF.csv
+FRZ_ST_BHUTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BHUTAN_ADF.pdf
+freeze(FRZ_PDIFF_BHUTAN) PDIFF_BHUTAN.uroot(lag=1)
+FRZ_PDIFF_BHUTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BHUTAN_ADF.csv
+FRZ_PDIFF_BHUTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BHUTAN_ADF.pdf
+freeze(FRZ_RES_BHUTAN) RES_BHUTAN.uroot(lag=1)
+FRZ_RES_BHUTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BHUTAN_ADF.csv
+FRZ_RES_BHUTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BHUTAN_ADF.pdf
+genr ST_BOLIVIA = log(BOLIVIA_ER)
+genr PDIFF_BOLIVIA = log(BOLIVIA_CPI) - PT_UNITED_STATES
+equation EQ_BOLIVIA.ls ST_BOLIVIA c PDIFF_BOLIVIA
+EQ_BOLIVIA.makeresids RES_BOLIVIA
+freeze(FRZ_ST_BOLIVIA) ST_BOLIVIA.uroot(lag=1)
+FRZ_ST_BOLIVIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BOLIVIA_ADF.csv
+FRZ_ST_BOLIVIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BOLIVIA_ADF.pdf
+freeze(FRZ_PDIFF_BOLIVIA) PDIFF_BOLIVIA.uroot(lag=1)
+FRZ_PDIFF_BOLIVIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BOLIVIA_ADF.csv
+FRZ_PDIFF_BOLIVIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BOLIVIA_ADF.pdf
+freeze(FRZ_RES_BOLIVIA) RES_BOLIVIA.uroot(lag=1)
+FRZ_RES_BOLIVIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BOLIVIA_ADF.csv
+FRZ_RES_BOLIVIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BOLIVIA_ADF.pdf
+genr ST_BOSNIA_AND_HERZEGOVINA = log(BOSNIA_AND_HERZEGOVINA_ER)
+genr PDIFF_BOSNIA_AND_HERZEGOVINA = log(BOSNIA_AND_HERZEGOVINA_CPI) - PT_UNITED_STATES
+equation EQ_BOSNIA_AND_HERZEGOVINA.ls ST_BOSNIA_AND_HERZEGOVINA c PDIFF_BOSNIA_AND_HERZEGOVINA
+EQ_BOSNIA_AND_HERZEGOVINA.makeresids RES_BOSNIA_AND_HERZEGOVINA
+freeze(FRZ_ST_BOSNIA_AND_HERZEGOVINA) ST_BOSNIA_AND_HERZEGOVINA.uroot(lag=1)
+FRZ_ST_BOSNIA_AND_HERZEGOVINA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BOSNIA_AND_HERZEGOVINA_ADF.csv
+FRZ_ST_BOSNIA_AND_HERZEGOVINA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BOSNIA_AND_HERZEGOVINA_ADF.pdf
+freeze(FRZ_PDIFF_BOSNIA_AND_HERZEGOVINA) PDIFF_BOSNIA_AND_HERZEGOVINA.uroot(lag=1)
+FRZ_PDIFF_BOSNIA_AND_HERZEGOVINA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BOSNIA_AND_HERZEGOVINA_ADF.csv
+FRZ_PDIFF_BOSNIA_AND_HERZEGOVINA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BOSNIA_AND_HERZEGOVINA_ADF.pdf
+freeze(FRZ_RES_BOSNIA_AND_HERZEGOVINA) RES_BOSNIA_AND_HERZEGOVINA.uroot(lag=1)
+FRZ_RES_BOSNIA_AND_HERZEGOVINA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BOSNIA_AND_HERZEGOVINA_ADF.csv
+FRZ_RES_BOSNIA_AND_HERZEGOVINA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BOSNIA_AND_HERZEGOVINA_ADF.pdf
+genr ST_BOTSWANA = log(BOTSWANA_ER)
+genr PDIFF_BOTSWANA = log(BOTSWANA_CPI) - PT_UNITED_STATES
+equation EQ_BOTSWANA.ls ST_BOTSWANA c PDIFF_BOTSWANA
+EQ_BOTSWANA.makeresids RES_BOTSWANA
+freeze(FRZ_ST_BOTSWANA) ST_BOTSWANA.uroot(lag=1)
+FRZ_ST_BOTSWANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BOTSWANA_ADF.csv
+FRZ_ST_BOTSWANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BOTSWANA_ADF.pdf
+freeze(FRZ_PDIFF_BOTSWANA) PDIFF_BOTSWANA.uroot(lag=1)
+FRZ_PDIFF_BOTSWANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BOTSWANA_ADF.csv
+FRZ_PDIFF_BOTSWANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BOTSWANA_ADF.pdf
+freeze(FRZ_RES_BOTSWANA) RES_BOTSWANA.uroot(lag=1)
+FRZ_RES_BOTSWANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BOTSWANA_ADF.csv
+FRZ_RES_BOTSWANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BOTSWANA_ADF.pdf
+genr ST_BRAZIL = log(BRAZIL_ER)
+genr PDIFF_BRAZIL = log(BRAZIL_CPI) - PT_UNITED_STATES
+equation EQ_BRAZIL.ls ST_BRAZIL c PDIFF_BRAZIL
+EQ_BRAZIL.makeresids RES_BRAZIL
+freeze(FRZ_ST_BRAZIL) ST_BRAZIL.uroot(lag=1)
+FRZ_ST_BRAZIL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BRAZIL_ADF.csv
+FRZ_ST_BRAZIL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BRAZIL_ADF.pdf
+freeze(FRZ_PDIFF_BRAZIL) PDIFF_BRAZIL.uroot(lag=1)
+FRZ_PDIFF_BRAZIL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BRAZIL_ADF.csv
+FRZ_PDIFF_BRAZIL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BRAZIL_ADF.pdf
+freeze(FRZ_RES_BRAZIL) RES_BRAZIL.uroot(lag=1)
+FRZ_RES_BRAZIL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BRAZIL_ADF.csv
+FRZ_RES_BRAZIL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BRAZIL_ADF.pdf
+genr ST_BRUNEI_DARUSSALAM = log(BRUNEI_DARUSSALAM_ER)
+genr PDIFF_BRUNEI_DARUSSALAM = log(BRUNEI_DARUSSALAM_CPI) - PT_UNITED_STATES
+equation EQ_BRUNEI_DARUSSALAM.ls ST_BRUNEI_DARUSSALAM c PDIFF_BRUNEI_DARUSSALAM
+EQ_BRUNEI_DARUSSALAM.makeresids RES_BRUNEI_DARUSSALAM
+freeze(FRZ_ST_BRUNEI_DARUSSALAM) ST_BRUNEI_DARUSSALAM.uroot(lag=1)
+FRZ_ST_BRUNEI_DARUSSALAM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BRUNEI_DARUSSALAM_ADF.csv
+FRZ_ST_BRUNEI_DARUSSALAM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BRUNEI_DARUSSALAM_ADF.pdf
+freeze(FRZ_PDIFF_BRUNEI_DARUSSALAM) PDIFF_BRUNEI_DARUSSALAM.uroot(lag=1)
+FRZ_PDIFF_BRUNEI_DARUSSALAM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BRUNEI_DARUSSALAM_ADF.csv
+FRZ_PDIFF_BRUNEI_DARUSSALAM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BRUNEI_DARUSSALAM_ADF.pdf
+freeze(FRZ_RES_BRUNEI_DARUSSALAM) RES_BRUNEI_DARUSSALAM.uroot(lag=1)
+FRZ_RES_BRUNEI_DARUSSALAM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BRUNEI_DARUSSALAM_ADF.csv
+FRZ_RES_BRUNEI_DARUSSALAM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BRUNEI_DARUSSALAM_ADF.pdf
+genr ST_BULGARIA = log(BULGARIA_ER)
+genr PDIFF_BULGARIA = log(BULGARIA_CPI) - PT_UNITED_STATES
+equation EQ_BULGARIA.ls ST_BULGARIA c PDIFF_BULGARIA
+EQ_BULGARIA.makeresids RES_BULGARIA
+freeze(FRZ_ST_BULGARIA) ST_BULGARIA.uroot(lag=1)
+FRZ_ST_BULGARIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BULGARIA_ADF.csv
+FRZ_ST_BULGARIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BULGARIA_ADF.pdf
+freeze(FRZ_PDIFF_BULGARIA) PDIFF_BULGARIA.uroot(lag=1)
+FRZ_PDIFF_BULGARIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BULGARIA_ADF.csv
+FRZ_PDIFF_BULGARIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BULGARIA_ADF.pdf
+freeze(FRZ_RES_BULGARIA) RES_BULGARIA.uroot(lag=1)
+FRZ_RES_BULGARIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BULGARIA_ADF.csv
+FRZ_RES_BULGARIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BULGARIA_ADF.pdf
+genr ST_BURKINA_FASO = log(BURKINA_FASO_ER)
+genr PDIFF_BURKINA_FASO = log(BURKINA_FASO_CPI) - PT_UNITED_STATES
+equation EQ_BURKINA_FASO.ls ST_BURKINA_FASO c PDIFF_BURKINA_FASO
+EQ_BURKINA_FASO.makeresids RES_BURKINA_FASO
+freeze(FRZ_ST_BURKINA_FASO) ST_BURKINA_FASO.uroot(lag=1)
+FRZ_ST_BURKINA_FASO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BURKINA_FASO_ADF.csv
+FRZ_ST_BURKINA_FASO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BURKINA_FASO_ADF.pdf
+freeze(FRZ_PDIFF_BURKINA_FASO) PDIFF_BURKINA_FASO.uroot(lag=1)
+FRZ_PDIFF_BURKINA_FASO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BURKINA_FASO_ADF.csv
+FRZ_PDIFF_BURKINA_FASO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BURKINA_FASO_ADF.pdf
+freeze(FRZ_RES_BURKINA_FASO) RES_BURKINA_FASO.uroot(lag=1)
+FRZ_RES_BURKINA_FASO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BURKINA_FASO_ADF.csv
+FRZ_RES_BURKINA_FASO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BURKINA_FASO_ADF.pdf
+genr ST_BURUNDI = log(BURUNDI_ER)
+genr PDIFF_BURUNDI = log(BURUNDI_CPI) - PT_UNITED_STATES
+equation EQ_BURUNDI.ls ST_BURUNDI c PDIFF_BURUNDI
+EQ_BURUNDI.makeresids RES_BURUNDI
+freeze(FRZ_ST_BURUNDI) ST_BURUNDI.uroot(lag=1)
+FRZ_ST_BURUNDI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\BURUNDI_ADF.csv
+FRZ_ST_BURUNDI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\BURUNDI_ADF.pdf
+freeze(FRZ_PDIFF_BURUNDI) PDIFF_BURUNDI.uroot(lag=1)
+FRZ_PDIFF_BURUNDI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\BURUNDI_ADF.csv
+FRZ_PDIFF_BURUNDI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\BURUNDI_ADF.pdf
+freeze(FRZ_RES_BURUNDI) RES_BURUNDI.uroot(lag=1)
+FRZ_RES_BURUNDI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\BURUNDI_ADF.csv
+FRZ_RES_BURUNDI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\BURUNDI_ADF.pdf
+genr ST_CABO_VERDE = log(CABO_VERDE_ER)
+genr PDIFF_CABO_VERDE = log(CABO_VERDE_CPI) - PT_UNITED_STATES
+equation EQ_CABO_VERDE.ls ST_CABO_VERDE c PDIFF_CABO_VERDE
+EQ_CABO_VERDE.makeresids RES_CABO_VERDE
+freeze(FRZ_ST_CABO_VERDE) ST_CABO_VERDE.uroot(lag=1)
+FRZ_ST_CABO_VERDE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CABO_VERDE_ADF.csv
+FRZ_ST_CABO_VERDE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CABO_VERDE_ADF.pdf
+freeze(FRZ_PDIFF_CABO_VERDE) PDIFF_CABO_VERDE.uroot(lag=1)
+FRZ_PDIFF_CABO_VERDE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CABO_VERDE_ADF.csv
+FRZ_PDIFF_CABO_VERDE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CABO_VERDE_ADF.pdf
+freeze(FRZ_RES_CABO_VERDE) RES_CABO_VERDE.uroot(lag=1)
+FRZ_RES_CABO_VERDE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CABO_VERDE_ADF.csv
+FRZ_RES_CABO_VERDE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CABO_VERDE_ADF.pdf
+genr ST_CAMBODIA = log(CAMBODIA_ER)
+genr PDIFF_CAMBODIA = log(CAMBODIA_CPI) - PT_UNITED_STATES
+equation EQ_CAMBODIA.ls ST_CAMBODIA c PDIFF_CAMBODIA
+EQ_CAMBODIA.makeresids RES_CAMBODIA
+freeze(FRZ_ST_CAMBODIA) ST_CAMBODIA.uroot(lag=1)
+FRZ_ST_CAMBODIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CAMBODIA_ADF.csv
+FRZ_ST_CAMBODIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CAMBODIA_ADF.pdf
+freeze(FRZ_PDIFF_CAMBODIA) PDIFF_CAMBODIA.uroot(lag=1)
+FRZ_PDIFF_CAMBODIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CAMBODIA_ADF.csv
+FRZ_PDIFF_CAMBODIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CAMBODIA_ADF.pdf
+freeze(FRZ_RES_CAMBODIA) RES_CAMBODIA.uroot(lag=1)
+FRZ_RES_CAMBODIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CAMBODIA_ADF.csv
+FRZ_RES_CAMBODIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CAMBODIA_ADF.pdf
+genr ST_CAMEROON = log(CAMEROON_ER)
+genr PDIFF_CAMEROON = log(CAMEROON_CPI) - PT_UNITED_STATES
+equation EQ_CAMEROON.ls ST_CAMEROON c PDIFF_CAMEROON
+EQ_CAMEROON.makeresids RES_CAMEROON
+freeze(FRZ_ST_CAMEROON) ST_CAMEROON.uroot(lag=1)
+FRZ_ST_CAMEROON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CAMEROON_ADF.csv
+FRZ_ST_CAMEROON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CAMEROON_ADF.pdf
+freeze(FRZ_PDIFF_CAMEROON) PDIFF_CAMEROON.uroot(lag=1)
+FRZ_PDIFF_CAMEROON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CAMEROON_ADF.csv
+FRZ_PDIFF_CAMEROON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CAMEROON_ADF.pdf
+freeze(FRZ_RES_CAMEROON) RES_CAMEROON.uroot(lag=1)
+FRZ_RES_CAMEROON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CAMEROON_ADF.csv
+FRZ_RES_CAMEROON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CAMEROON_ADF.pdf
+genr ST_CANADA = log(CANADA_ER)
+genr PDIFF_CANADA = log(CANADA_CPI) - PT_UNITED_STATES
+equation EQ_CANADA.ls ST_CANADA c PDIFF_CANADA
+EQ_CANADA.makeresids RES_CANADA
+freeze(FRZ_ST_CANADA) ST_CANADA.uroot(lag=1)
+FRZ_ST_CANADA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CANADA_ADF.csv
+FRZ_ST_CANADA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CANADA_ADF.pdf
+freeze(FRZ_PDIFF_CANADA) PDIFF_CANADA.uroot(lag=1)
+FRZ_PDIFF_CANADA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CANADA_ADF.csv
+FRZ_PDIFF_CANADA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CANADA_ADF.pdf
+freeze(FRZ_RES_CANADA) RES_CANADA.uroot(lag=1)
+FRZ_RES_CANADA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CANADA_ADF.csv
+FRZ_RES_CANADA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CANADA_ADF.pdf
+genr ST_CENTRAL_AFRICAN_REPUBLIC = log(CENTRAL_AFRICAN_REPUBLIC_ER)
+genr PDIFF_CENTRAL_AFRICAN_REPUBLIC = log(CENTRAL_AFRICAN_REPUBLIC_CPI) - PT_UNITED_STATES
+equation EQ_CENTRAL_AFRICAN_REPUBLIC.ls ST_CENTRAL_AFRICAN_REPUBLIC c PDIFF_CENTRAL_AFRICAN_REPUBLIC
+EQ_CENTRAL_AFRICAN_REPUBLIC.makeresids RES_CENTRAL_AFRICAN_REPUBLIC
+freeze(FRZ_ST_CENTRAL_AFRICAN_REPUBLIC) ST_CENTRAL_AFRICAN_REPUBLIC.uroot(lag=1)
+FRZ_ST_CENTRAL_AFRICAN_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CENTRAL_AFRICAN_REPUBLIC_ADF.csv
+FRZ_ST_CENTRAL_AFRICAN_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CENTRAL_AFRICAN_REPUBLIC_ADF.pdf
+freeze(FRZ_PDIFF_CENTRAL_AFRICAN_REPUBLIC) PDIFF_CENTRAL_AFRICAN_REPUBLIC.uroot(lag=1)
+FRZ_PDIFF_CENTRAL_AFRICAN_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CENTRAL_AFRICAN_REPUBLIC_ADF.csv
+FRZ_PDIFF_CENTRAL_AFRICAN_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CENTRAL_AFRICAN_REPUBLIC_ADF.pdf
+freeze(FRZ_RES_CENTRAL_AFRICAN_REPUBLIC) RES_CENTRAL_AFRICAN_REPUBLIC.uroot(lag=1)
+FRZ_RES_CENTRAL_AFRICAN_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CENTRAL_AFRICAN_REPUBLIC_ADF.csv
+FRZ_RES_CENTRAL_AFRICAN_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CENTRAL_AFRICAN_REPUBLIC_ADF.pdf
+genr ST_CHAD = log(CHAD_ER)
+genr PDIFF_CHAD = log(CHAD_CPI) - PT_UNITED_STATES
+equation EQ_CHAD.ls ST_CHAD c PDIFF_CHAD
+EQ_CHAD.makeresids RES_CHAD
+freeze(FRZ_ST_CHAD) ST_CHAD.uroot(lag=1)
+FRZ_ST_CHAD.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CHAD_ADF.csv
+FRZ_ST_CHAD.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CHAD_ADF.pdf
+freeze(FRZ_PDIFF_CHAD) PDIFF_CHAD.uroot(lag=1)
+FRZ_PDIFF_CHAD.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CHAD_ADF.csv
+FRZ_PDIFF_CHAD.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CHAD_ADF.pdf
+freeze(FRZ_RES_CHAD) RES_CHAD.uroot(lag=1)
+FRZ_RES_CHAD.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CHAD_ADF.csv
+FRZ_RES_CHAD.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CHAD_ADF.pdf
+genr ST_CHILE = log(CHILE_ER)
+genr PDIFF_CHILE = log(CHILE_CPI) - PT_UNITED_STATES
+equation EQ_CHILE.ls ST_CHILE c PDIFF_CHILE
+EQ_CHILE.makeresids RES_CHILE
+freeze(FRZ_ST_CHILE) ST_CHILE.uroot(lag=1)
+FRZ_ST_CHILE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CHILE_ADF.csv
+FRZ_ST_CHILE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CHILE_ADF.pdf
+freeze(FRZ_PDIFF_CHILE) PDIFF_CHILE.uroot(lag=1)
+FRZ_PDIFF_CHILE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CHILE_ADF.csv
+FRZ_PDIFF_CHILE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CHILE_ADF.pdf
+freeze(FRZ_RES_CHILE) RES_CHILE.uroot(lag=1)
+FRZ_RES_CHILE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CHILE_ADF.csv
+FRZ_RES_CHILE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CHILE_ADF.pdf
+genr ST_CHINA_P_R_HONG_KONG = log(CHINA_P_R_HONG_KONG_ER)
+genr PDIFF_CHINA_P_R_HONG_KONG = log(CHINA_P_R_HONG_KONG_CPI) - PT_UNITED_STATES
+equation EQ_CHINA_P_R_HONG_KONG.ls ST_CHINA_P_R_HONG_KONG c PDIFF_CHINA_P_R_HONG_KONG
+EQ_CHINA_P_R_HONG_KONG.makeresids RES_CHINA_P_R_HONG_KONG
+freeze(FRZ_ST_CHINA_P_R_HONG_KONG) ST_CHINA_P_R_HONG_KONG.uroot(lag=1)
+FRZ_ST_CHINA_P_R_HONG_KONG.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CHINA_P_R_HONG_KONG_ADF.csv
+FRZ_ST_CHINA_P_R_HONG_KONG.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CHINA_P_R_HONG_KONG_ADF.pdf
+freeze(FRZ_PDIFF_CHINA_P_R_HONG_KONG) PDIFF_CHINA_P_R_HONG_KONG.uroot(lag=1)
+FRZ_PDIFF_CHINA_P_R_HONG_KONG.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CHINA_P_R_HONG_KONG_ADF.csv
+FRZ_PDIFF_CHINA_P_R_HONG_KONG.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CHINA_P_R_HONG_KONG_ADF.pdf
+freeze(FRZ_RES_CHINA_P_R_HONG_KONG) RES_CHINA_P_R_HONG_KONG.uroot(lag=1)
+FRZ_RES_CHINA_P_R_HONG_KONG.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CHINA_P_R_HONG_KONG_ADF.csv
+FRZ_RES_CHINA_P_R_HONG_KONG.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CHINA_P_R_HONG_KONG_ADF.pdf
+genr ST_CHINA_P_R_MACAO = log(CHINA_P_R_MACAO_ER)
+genr PDIFF_CHINA_P_R_MACAO = log(CHINA_P_R_MACAO_CPI) - PT_UNITED_STATES
+equation EQ_CHINA_P_R_MACAO.ls ST_CHINA_P_R_MACAO c PDIFF_CHINA_P_R_MACAO
+EQ_CHINA_P_R_MACAO.makeresids RES_CHINA_P_R_MACAO
+freeze(FRZ_ST_CHINA_P_R_MACAO) ST_CHINA_P_R_MACAO.uroot(lag=1)
+FRZ_ST_CHINA_P_R_MACAO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CHINA_P_R_MACAO_ADF.csv
+FRZ_ST_CHINA_P_R_MACAO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CHINA_P_R_MACAO_ADF.pdf
+freeze(FRZ_PDIFF_CHINA_P_R_MACAO) PDIFF_CHINA_P_R_MACAO.uroot(lag=1)
+FRZ_PDIFF_CHINA_P_R_MACAO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CHINA_P_R_MACAO_ADF.csv
+FRZ_PDIFF_CHINA_P_R_MACAO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CHINA_P_R_MACAO_ADF.pdf
+freeze(FRZ_RES_CHINA_P_R_MACAO) RES_CHINA_P_R_MACAO.uroot(lag=1)
+FRZ_RES_CHINA_P_R_MACAO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CHINA_P_R_MACAO_ADF.csv
+FRZ_RES_CHINA_P_R_MACAO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CHINA_P_R_MACAO_ADF.pdf
+genr ST_CHINA_P_R_MAINLAND = log(CHINA_P_R_MAINLAND_ER)
+genr PDIFF_CHINA_P_R_MAINLAND = log(CHINA_P_R_MAINLAND_CPI) - PT_UNITED_STATES
+equation EQ_CHINA_P_R_MAINLAND.ls ST_CHINA_P_R_MAINLAND c PDIFF_CHINA_P_R_MAINLAND
+EQ_CHINA_P_R_MAINLAND.makeresids RES_CHINA_P_R_MAINLAND
+freeze(FRZ_ST_CHINA_P_R_MAINLAND) ST_CHINA_P_R_MAINLAND.uroot(lag=1)
+FRZ_ST_CHINA_P_R_MAINLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CHINA_P_R_MAINLAND_ADF.csv
+FRZ_ST_CHINA_P_R_MAINLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CHINA_P_R_MAINLAND_ADF.pdf
+freeze(FRZ_PDIFF_CHINA_P_R_MAINLAND) PDIFF_CHINA_P_R_MAINLAND.uroot(lag=1)
+FRZ_PDIFF_CHINA_P_R_MAINLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CHINA_P_R_MAINLAND_ADF.csv
+FRZ_PDIFF_CHINA_P_R_MAINLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CHINA_P_R_MAINLAND_ADF.pdf
+freeze(FRZ_RES_CHINA_P_R_MAINLAND) RES_CHINA_P_R_MAINLAND.uroot(lag=1)
+FRZ_RES_CHINA_P_R_MAINLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CHINA_P_R_MAINLAND_ADF.csv
+FRZ_RES_CHINA_P_R_MAINLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CHINA_P_R_MAINLAND_ADF.pdf
+genr ST_COLOMBIA = log(COLOMBIA_ER)
+genr PDIFF_COLOMBIA = log(COLOMBIA_CPI) - PT_UNITED_STATES
+equation EQ_COLOMBIA.ls ST_COLOMBIA c PDIFF_COLOMBIA
+EQ_COLOMBIA.makeresids RES_COLOMBIA
+freeze(FRZ_ST_COLOMBIA) ST_COLOMBIA.uroot(lag=1)
+FRZ_ST_COLOMBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\COLOMBIA_ADF.csv
+FRZ_ST_COLOMBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\COLOMBIA_ADF.pdf
+freeze(FRZ_PDIFF_COLOMBIA) PDIFF_COLOMBIA.uroot(lag=1)
+FRZ_PDIFF_COLOMBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\COLOMBIA_ADF.csv
+FRZ_PDIFF_COLOMBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\COLOMBIA_ADF.pdf
+freeze(FRZ_RES_COLOMBIA) RES_COLOMBIA.uroot(lag=1)
+FRZ_RES_COLOMBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\COLOMBIA_ADF.csv
+FRZ_RES_COLOMBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\COLOMBIA_ADF.pdf
+genr ST_COMOROS = log(COMOROS_ER)
+genr PDIFF_COMOROS = log(COMOROS_CPI) - PT_UNITED_STATES
+equation EQ_COMOROS.ls ST_COMOROS c PDIFF_COMOROS
+EQ_COMOROS.makeresids RES_COMOROS
+freeze(FRZ_ST_COMOROS) ST_COMOROS.uroot(lag=1)
+FRZ_ST_COMOROS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\COMOROS_ADF.csv
+FRZ_ST_COMOROS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\COMOROS_ADF.pdf
+freeze(FRZ_PDIFF_COMOROS) PDIFF_COMOROS.uroot(lag=1)
+FRZ_PDIFF_COMOROS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\COMOROS_ADF.csv
+FRZ_PDIFF_COMOROS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\COMOROS_ADF.pdf
+freeze(FRZ_RES_COMOROS) RES_COMOROS.uroot(lag=1)
+FRZ_RES_COMOROS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\COMOROS_ADF.csv
+FRZ_RES_COMOROS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\COMOROS_ADF.pdf
+genr ST_CONGO_DEMOCRATIC_REPUBLIC_OF = log(CONGO_DEMOCRATIC_REPUBLIC_OF_ER)
+genr PDIFF_CONGO_DEMOCRATIC_REPUBLIC_OF = log(CONGO_DEMOCRATIC_REPUBLIC_OF_CPI) - PT_UNITED_STATES
+equation EQ_CONGO_DEMOCRATIC_REPUBLIC_OF.ls ST_CONGO_DEMOCRATIC_REPUBLIC_OF c PDIFF_CONGO_DEMOCRATIC_REPUBLIC_OF
+EQ_CONGO_DEMOCRATIC_REPUBLIC_OF.makeresids RES_CONGO_DEMOCRATIC_REPUBLIC_OF
+freeze(FRZ_ST_CONGO_DEMOCRATIC_REPUBLIC_OF) ST_CONGO_DEMOCRATIC_REPUBLIC_OF.uroot(lag=1)
+FRZ_ST_CONGO_DEMOCRATIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CONGO_DEMOCRATIC_REPUBLIC_OF_ADF.csv
+FRZ_ST_CONGO_DEMOCRATIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CONGO_DEMOCRATIC_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_PDIFF_CONGO_DEMOCRATIC_REPUBLIC_OF) PDIFF_CONGO_DEMOCRATIC_REPUBLIC_OF.uroot(lag=1)
+FRZ_PDIFF_CONGO_DEMOCRATIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CONGO_DEMOCRATIC_REPUBLIC_OF_ADF.csv
+FRZ_PDIFF_CONGO_DEMOCRATIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CONGO_DEMOCRATIC_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_RES_CONGO_DEMOCRATIC_REPUBLIC_OF) RES_CONGO_DEMOCRATIC_REPUBLIC_OF.uroot(lag=1)
+FRZ_RES_CONGO_DEMOCRATIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CONGO_DEMOCRATIC_REPUBLIC_OF_ADF.csv
+FRZ_RES_CONGO_DEMOCRATIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CONGO_DEMOCRATIC_REPUBLIC_OF_ADF.pdf
+genr ST_CONGO_REPUBLIC_OF = log(CONGO_REPUBLIC_OF_ER)
+genr PDIFF_CONGO_REPUBLIC_OF = log(CONGO_REPUBLIC_OF_CPI) - PT_UNITED_STATES
+equation EQ_CONGO_REPUBLIC_OF.ls ST_CONGO_REPUBLIC_OF c PDIFF_CONGO_REPUBLIC_OF
+EQ_CONGO_REPUBLIC_OF.makeresids RES_CONGO_REPUBLIC_OF
+freeze(FRZ_ST_CONGO_REPUBLIC_OF) ST_CONGO_REPUBLIC_OF.uroot(lag=1)
+FRZ_ST_CONGO_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CONGO_REPUBLIC_OF_ADF.csv
+FRZ_ST_CONGO_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CONGO_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_PDIFF_CONGO_REPUBLIC_OF) PDIFF_CONGO_REPUBLIC_OF.uroot(lag=1)
+FRZ_PDIFF_CONGO_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CONGO_REPUBLIC_OF_ADF.csv
+FRZ_PDIFF_CONGO_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CONGO_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_RES_CONGO_REPUBLIC_OF) RES_CONGO_REPUBLIC_OF.uroot(lag=1)
+FRZ_RES_CONGO_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CONGO_REPUBLIC_OF_ADF.csv
+FRZ_RES_CONGO_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CONGO_REPUBLIC_OF_ADF.pdf
+genr ST_COSTA_RICA = log(COSTA_RICA_ER)
+genr PDIFF_COSTA_RICA = log(COSTA_RICA_CPI) - PT_UNITED_STATES
+equation EQ_COSTA_RICA.ls ST_COSTA_RICA c PDIFF_COSTA_RICA
+EQ_COSTA_RICA.makeresids RES_COSTA_RICA
+freeze(FRZ_ST_COSTA_RICA) ST_COSTA_RICA.uroot(lag=1)
+FRZ_ST_COSTA_RICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\COSTA_RICA_ADF.csv
+FRZ_ST_COSTA_RICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\COSTA_RICA_ADF.pdf
+freeze(FRZ_PDIFF_COSTA_RICA) PDIFF_COSTA_RICA.uroot(lag=1)
+FRZ_PDIFF_COSTA_RICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\COSTA_RICA_ADF.csv
+FRZ_PDIFF_COSTA_RICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\COSTA_RICA_ADF.pdf
+freeze(FRZ_RES_COSTA_RICA) RES_COSTA_RICA.uroot(lag=1)
+FRZ_RES_COSTA_RICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\COSTA_RICA_ADF.csv
+FRZ_RES_COSTA_RICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\COSTA_RICA_ADF.pdf
+genr ST_CROATIA = log(CROATIA_ER)
+genr PDIFF_CROATIA = log(CROATIA_CPI) - PT_UNITED_STATES
+equation EQ_CROATIA.ls ST_CROATIA c PDIFF_CROATIA
+EQ_CROATIA.makeresids RES_CROATIA
+freeze(FRZ_ST_CROATIA) ST_CROATIA.uroot(lag=1)
+FRZ_ST_CROATIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CROATIA_ADF.csv
+FRZ_ST_CROATIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CROATIA_ADF.pdf
+freeze(FRZ_PDIFF_CROATIA) PDIFF_CROATIA.uroot(lag=1)
+FRZ_PDIFF_CROATIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CROATIA_ADF.csv
+FRZ_PDIFF_CROATIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CROATIA_ADF.pdf
+freeze(FRZ_RES_CROATIA) RES_CROATIA.uroot(lag=1)
+FRZ_RES_CROATIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CROATIA_ADF.csv
+FRZ_RES_CROATIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CROATIA_ADF.pdf
+genr ST_CYPRUS = log(CYPRUS_ER)
+genr PDIFF_CYPRUS = log(CYPRUS_CPI) - PT_UNITED_STATES
+equation EQ_CYPRUS.ls ST_CYPRUS c PDIFF_CYPRUS
+EQ_CYPRUS.makeresids RES_CYPRUS
+freeze(FRZ_ST_CYPRUS) ST_CYPRUS.uroot(lag=1)
+FRZ_ST_CYPRUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CYPRUS_ADF.csv
+FRZ_ST_CYPRUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CYPRUS_ADF.pdf
+freeze(FRZ_PDIFF_CYPRUS) PDIFF_CYPRUS.uroot(lag=1)
+FRZ_PDIFF_CYPRUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CYPRUS_ADF.csv
+FRZ_PDIFF_CYPRUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CYPRUS_ADF.pdf
+freeze(FRZ_RES_CYPRUS) RES_CYPRUS.uroot(lag=1)
+FRZ_RES_CYPRUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CYPRUS_ADF.csv
+FRZ_RES_CYPRUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CYPRUS_ADF.pdf
+genr ST_CZECH_REPUBLIC = log(CZECH_REPUBLIC_ER)
+genr PDIFF_CZECH_REPUBLIC = log(CZECH_REPUBLIC_CPI) - PT_UNITED_STATES
+equation EQ_CZECH_REPUBLIC.ls ST_CZECH_REPUBLIC c PDIFF_CZECH_REPUBLIC
+EQ_CZECH_REPUBLIC.makeresids RES_CZECH_REPUBLIC
+freeze(FRZ_ST_CZECH_REPUBLIC) ST_CZECH_REPUBLIC.uroot(lag=1)
+FRZ_ST_CZECH_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\CZECH_REPUBLIC_ADF.csv
+FRZ_ST_CZECH_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\CZECH_REPUBLIC_ADF.pdf
+freeze(FRZ_PDIFF_CZECH_REPUBLIC) PDIFF_CZECH_REPUBLIC.uroot(lag=1)
+FRZ_PDIFF_CZECH_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\CZECH_REPUBLIC_ADF.csv
+FRZ_PDIFF_CZECH_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\CZECH_REPUBLIC_ADF.pdf
+freeze(FRZ_RES_CZECH_REPUBLIC) RES_CZECH_REPUBLIC.uroot(lag=1)
+FRZ_RES_CZECH_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\CZECH_REPUBLIC_ADF.csv
+FRZ_RES_CZECH_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\CZECH_REPUBLIC_ADF.pdf
+genr ST_DENMARK = log(DENMARK_ER)
+genr PDIFF_DENMARK = log(DENMARK_CPI) - PT_UNITED_STATES
+equation EQ_DENMARK.ls ST_DENMARK c PDIFF_DENMARK
+EQ_DENMARK.makeresids RES_DENMARK
+freeze(FRZ_ST_DENMARK) ST_DENMARK.uroot(lag=1)
+FRZ_ST_DENMARK.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\DENMARK_ADF.csv
+FRZ_ST_DENMARK.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\DENMARK_ADF.pdf
+freeze(FRZ_PDIFF_DENMARK) PDIFF_DENMARK.uroot(lag=1)
+FRZ_PDIFF_DENMARK.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\DENMARK_ADF.csv
+FRZ_PDIFF_DENMARK.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\DENMARK_ADF.pdf
+freeze(FRZ_RES_DENMARK) RES_DENMARK.uroot(lag=1)
+FRZ_RES_DENMARK.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\DENMARK_ADF.csv
+FRZ_RES_DENMARK.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\DENMARK_ADF.pdf
+genr ST_DOMINICA = log(DOMINICA_ER)
+genr PDIFF_DOMINICA = log(DOMINICA_CPI) - PT_UNITED_STATES
+equation EQ_DOMINICA.ls ST_DOMINICA c PDIFF_DOMINICA
+EQ_DOMINICA.makeresids RES_DOMINICA
+freeze(FRZ_ST_DOMINICA) ST_DOMINICA.uroot(lag=1)
+FRZ_ST_DOMINICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\DOMINICA_ADF.csv
+FRZ_ST_DOMINICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\DOMINICA_ADF.pdf
+freeze(FRZ_PDIFF_DOMINICA) PDIFF_DOMINICA.uroot(lag=1)
+FRZ_PDIFF_DOMINICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\DOMINICA_ADF.csv
+FRZ_PDIFF_DOMINICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\DOMINICA_ADF.pdf
+freeze(FRZ_RES_DOMINICA) RES_DOMINICA.uroot(lag=1)
+FRZ_RES_DOMINICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\DOMINICA_ADF.csv
+FRZ_RES_DOMINICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\DOMINICA_ADF.pdf
+genr ST_DOMINICAN_REPUBLIC = log(DOMINICAN_REPUBLIC_ER)
+genr PDIFF_DOMINICAN_REPUBLIC = log(DOMINICAN_REPUBLIC_CPI) - PT_UNITED_STATES
+equation EQ_DOMINICAN_REPUBLIC.ls ST_DOMINICAN_REPUBLIC c PDIFF_DOMINICAN_REPUBLIC
+EQ_DOMINICAN_REPUBLIC.makeresids RES_DOMINICAN_REPUBLIC
+freeze(FRZ_ST_DOMINICAN_REPUBLIC) ST_DOMINICAN_REPUBLIC.uroot(lag=1)
+FRZ_ST_DOMINICAN_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\DOMINICAN_REPUBLIC_ADF.csv
+FRZ_ST_DOMINICAN_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\DOMINICAN_REPUBLIC_ADF.pdf
+freeze(FRZ_PDIFF_DOMINICAN_REPUBLIC) PDIFF_DOMINICAN_REPUBLIC.uroot(lag=1)
+FRZ_PDIFF_DOMINICAN_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\DOMINICAN_REPUBLIC_ADF.csv
+FRZ_PDIFF_DOMINICAN_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\DOMINICAN_REPUBLIC_ADF.pdf
+freeze(FRZ_RES_DOMINICAN_REPUBLIC) RES_DOMINICAN_REPUBLIC.uroot(lag=1)
+FRZ_RES_DOMINICAN_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\DOMINICAN_REPUBLIC_ADF.csv
+FRZ_RES_DOMINICAN_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\DOMINICAN_REPUBLIC_ADF.pdf
+genr ST_EGYPT = log(EGYPT_ER)
+genr PDIFF_EGYPT = log(EGYPT_CPI) - PT_UNITED_STATES
+equation EQ_EGYPT.ls ST_EGYPT c PDIFF_EGYPT
+EQ_EGYPT.makeresids RES_EGYPT
+freeze(FRZ_ST_EGYPT) ST_EGYPT.uroot(lag=1)
+FRZ_ST_EGYPT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\EGYPT_ADF.csv
+FRZ_ST_EGYPT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\EGYPT_ADF.pdf
+freeze(FRZ_PDIFF_EGYPT) PDIFF_EGYPT.uroot(lag=1)
+FRZ_PDIFF_EGYPT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\EGYPT_ADF.csv
+FRZ_PDIFF_EGYPT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\EGYPT_ADF.pdf
+freeze(FRZ_RES_EGYPT) RES_EGYPT.uroot(lag=1)
+FRZ_RES_EGYPT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\EGYPT_ADF.csv
+FRZ_RES_EGYPT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\EGYPT_ADF.pdf
+genr ST_EQUATORIAL_GUINEA = log(EQUATORIAL_GUINEA_ER)
+genr PDIFF_EQUATORIAL_GUINEA = log(EQUATORIAL_GUINEA_CPI) - PT_UNITED_STATES
+equation EQ_EQUATORIAL_GUINEA.ls ST_EQUATORIAL_GUINEA c PDIFF_EQUATORIAL_GUINEA
+EQ_EQUATORIAL_GUINEA.makeresids RES_EQUATORIAL_GUINEA
+freeze(FRZ_ST_EQUATORIAL_GUINEA) ST_EQUATORIAL_GUINEA.uroot(lag=1)
+FRZ_ST_EQUATORIAL_GUINEA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\EQUATORIAL_GUINEA_ADF.csv
+FRZ_ST_EQUATORIAL_GUINEA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\EQUATORIAL_GUINEA_ADF.pdf
+freeze(FRZ_PDIFF_EQUATORIAL_GUINEA) PDIFF_EQUATORIAL_GUINEA.uroot(lag=1)
+FRZ_PDIFF_EQUATORIAL_GUINEA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\EQUATORIAL_GUINEA_ADF.csv
+FRZ_PDIFF_EQUATORIAL_GUINEA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\EQUATORIAL_GUINEA_ADF.pdf
+freeze(FRZ_RES_EQUATORIAL_GUINEA) RES_EQUATORIAL_GUINEA.uroot(lag=1)
+FRZ_RES_EQUATORIAL_GUINEA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\EQUATORIAL_GUINEA_ADF.csv
+FRZ_RES_EQUATORIAL_GUINEA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\EQUATORIAL_GUINEA_ADF.pdf
+genr ST_ESTONIA = log(ESTONIA_ER)
+genr PDIFF_ESTONIA = log(ESTONIA_CPI) - PT_UNITED_STATES
+equation EQ_ESTONIA.ls ST_ESTONIA c PDIFF_ESTONIA
+EQ_ESTONIA.makeresids RES_ESTONIA
+freeze(FRZ_ST_ESTONIA) ST_ESTONIA.uroot(lag=1)
+FRZ_ST_ESTONIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ESTONIA_ADF.csv
+FRZ_ST_ESTONIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ESTONIA_ADF.pdf
+freeze(FRZ_PDIFF_ESTONIA) PDIFF_ESTONIA.uroot(lag=1)
+FRZ_PDIFF_ESTONIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ESTONIA_ADF.csv
+FRZ_PDIFF_ESTONIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ESTONIA_ADF.pdf
+freeze(FRZ_RES_ESTONIA) RES_ESTONIA.uroot(lag=1)
+FRZ_RES_ESTONIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ESTONIA_ADF.csv
+FRZ_RES_ESTONIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ESTONIA_ADF.pdf
+genr ST_ETHIOPIA = log(ETHIOPIA_ER)
+genr PDIFF_ETHIOPIA = log(ETHIOPIA_CPI) - PT_UNITED_STATES
+equation EQ_ETHIOPIA.ls ST_ETHIOPIA c PDIFF_ETHIOPIA
+EQ_ETHIOPIA.makeresids RES_ETHIOPIA
+freeze(FRZ_ST_ETHIOPIA) ST_ETHIOPIA.uroot(lag=1)
+FRZ_ST_ETHIOPIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ETHIOPIA_ADF.csv
+FRZ_ST_ETHIOPIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ETHIOPIA_ADF.pdf
+freeze(FRZ_PDIFF_ETHIOPIA) PDIFF_ETHIOPIA.uroot(lag=1)
+FRZ_PDIFF_ETHIOPIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ETHIOPIA_ADF.csv
+FRZ_PDIFF_ETHIOPIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ETHIOPIA_ADF.pdf
+freeze(FRZ_RES_ETHIOPIA) RES_ETHIOPIA.uroot(lag=1)
+FRZ_RES_ETHIOPIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ETHIOPIA_ADF.csv
+FRZ_RES_ETHIOPIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ETHIOPIA_ADF.pdf
+genr ST_FIJI = log(FIJI_ER)
+genr PDIFF_FIJI = log(FIJI_CPI) - PT_UNITED_STATES
+equation EQ_FIJI.ls ST_FIJI c PDIFF_FIJI
+EQ_FIJI.makeresids RES_FIJI
+freeze(FRZ_ST_FIJI) ST_FIJI.uroot(lag=1)
+FRZ_ST_FIJI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\FIJI_ADF.csv
+FRZ_ST_FIJI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\FIJI_ADF.pdf
+freeze(FRZ_PDIFF_FIJI) PDIFF_FIJI.uroot(lag=1)
+FRZ_PDIFF_FIJI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\FIJI_ADF.csv
+FRZ_PDIFF_FIJI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\FIJI_ADF.pdf
+freeze(FRZ_RES_FIJI) RES_FIJI.uroot(lag=1)
+FRZ_RES_FIJI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\FIJI_ADF.csv
+FRZ_RES_FIJI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\FIJI_ADF.pdf
+genr ST_FINLAND = log(FINLAND_ER)
+genr PDIFF_FINLAND = log(FINLAND_CPI) - PT_UNITED_STATES
+equation EQ_FINLAND.ls ST_FINLAND c PDIFF_FINLAND
+EQ_FINLAND.makeresids RES_FINLAND
+freeze(FRZ_ST_FINLAND) ST_FINLAND.uroot(lag=1)
+FRZ_ST_FINLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\FINLAND_ADF.csv
+FRZ_ST_FINLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\FINLAND_ADF.pdf
+freeze(FRZ_PDIFF_FINLAND) PDIFF_FINLAND.uroot(lag=1)
+FRZ_PDIFF_FINLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\FINLAND_ADF.csv
+FRZ_PDIFF_FINLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\FINLAND_ADF.pdf
+freeze(FRZ_RES_FINLAND) RES_FINLAND.uroot(lag=1)
+FRZ_RES_FINLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\FINLAND_ADF.csv
+FRZ_RES_FINLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\FINLAND_ADF.pdf
+genr ST_FRANCE = log(FRANCE_ER)
+genr PDIFF_FRANCE = log(FRANCE_CPI) - PT_UNITED_STATES
+equation EQ_FRANCE.ls ST_FRANCE c PDIFF_FRANCE
+EQ_FRANCE.makeresids RES_FRANCE
+freeze(FRZ_ST_FRANCE) ST_FRANCE.uroot(lag=1)
+FRZ_ST_FRANCE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\FRANCE_ADF.csv
+FRZ_ST_FRANCE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\FRANCE_ADF.pdf
+freeze(FRZ_PDIFF_FRANCE) PDIFF_FRANCE.uroot(lag=1)
+FRZ_PDIFF_FRANCE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\FRANCE_ADF.csv
+FRZ_PDIFF_FRANCE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\FRANCE_ADF.pdf
+freeze(FRZ_RES_FRANCE) RES_FRANCE.uroot(lag=1)
+FRZ_RES_FRANCE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\FRANCE_ADF.csv
+FRZ_RES_FRANCE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\FRANCE_ADF.pdf
+genr ST_FRENCH_TERRITORIES_NEW_CALEDONIA = log(FRENCH_TERRITORIES_NEW_CALEDONIA_ER)
+genr PDIFF_FRENCH_TERRITORIES_NEW_CALEDONIA = log(FRENCH_TERRITORIES_NEW_CALEDONIA_CPI) - PT_UNITED_STATES
+equation EQ_FRENCH_TERRITORIES_NEW_CALEDONIA.ls ST_FRENCH_TERRITORIES_NEW_CALEDONIA c PDIFF_FRENCH_TERRITORIES_NEW_CALEDONIA
+EQ_FRENCH_TERRITORIES_NEW_CALEDONIA.makeresids RES_FRENCH_TERRITORIES_NEW_CALEDONIA
+freeze(FRZ_ST_FRENCH_TERRITORIES_NEW_CALEDONIA) ST_FRENCH_TERRITORIES_NEW_CALEDONIA.uroot(lag=1)
+FRZ_ST_FRENCH_TERRITORIES_NEW_CALEDONIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\FRENCH_TERRITORIES_NEW_CALEDONIA_ADF.csv
+FRZ_ST_FRENCH_TERRITORIES_NEW_CALEDONIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\FRENCH_TERRITORIES_NEW_CALEDONIA_ADF.pdf
+freeze(FRZ_PDIFF_FRENCH_TERRITORIES_NEW_CALEDONIA) PDIFF_FRENCH_TERRITORIES_NEW_CALEDONIA.uroot(lag=1)
+FRZ_PDIFF_FRENCH_TERRITORIES_NEW_CALEDONIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\FRENCH_TERRITORIES_NEW_CALEDONIA_ADF.csv
+FRZ_PDIFF_FRENCH_TERRITORIES_NEW_CALEDONIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\FRENCH_TERRITORIES_NEW_CALEDONIA_ADF.pdf
+freeze(FRZ_RES_FRENCH_TERRITORIES_NEW_CALEDONIA) RES_FRENCH_TERRITORIES_NEW_CALEDONIA.uroot(lag=1)
+FRZ_RES_FRENCH_TERRITORIES_NEW_CALEDONIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\FRENCH_TERRITORIES_NEW_CALEDONIA_ADF.csv
+FRZ_RES_FRENCH_TERRITORIES_NEW_CALEDONIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\FRENCH_TERRITORIES_NEW_CALEDONIA_ADF.pdf
+genr ST_GABON = log(GABON_ER)
+genr PDIFF_GABON = log(GABON_CPI) - PT_UNITED_STATES
+equation EQ_GABON.ls ST_GABON c PDIFF_GABON
+EQ_GABON.makeresids RES_GABON
+freeze(FRZ_ST_GABON) ST_GABON.uroot(lag=1)
+FRZ_ST_GABON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\GABON_ADF.csv
+FRZ_ST_GABON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\GABON_ADF.pdf
+freeze(FRZ_PDIFF_GABON) PDIFF_GABON.uroot(lag=1)
+FRZ_PDIFF_GABON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\GABON_ADF.csv
+FRZ_PDIFF_GABON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\GABON_ADF.pdf
+freeze(FRZ_RES_GABON) RES_GABON.uroot(lag=1)
+FRZ_RES_GABON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\GABON_ADF.csv
+FRZ_RES_GABON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\GABON_ADF.pdf
+genr ST_GAMBIA_THE = log(GAMBIA_THE_ER)
+genr PDIFF_GAMBIA_THE = log(GAMBIA_THE_CPI) - PT_UNITED_STATES
+equation EQ_GAMBIA_THE.ls ST_GAMBIA_THE c PDIFF_GAMBIA_THE
+EQ_GAMBIA_THE.makeresids RES_GAMBIA_THE
+freeze(FRZ_ST_GAMBIA_THE) ST_GAMBIA_THE.uroot(lag=1)
+FRZ_ST_GAMBIA_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\GAMBIA_THE_ADF.csv
+FRZ_ST_GAMBIA_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\GAMBIA_THE_ADF.pdf
+freeze(FRZ_PDIFF_GAMBIA_THE) PDIFF_GAMBIA_THE.uroot(lag=1)
+FRZ_PDIFF_GAMBIA_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\GAMBIA_THE_ADF.csv
+FRZ_PDIFF_GAMBIA_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\GAMBIA_THE_ADF.pdf
+freeze(FRZ_RES_GAMBIA_THE) RES_GAMBIA_THE.uroot(lag=1)
+FRZ_RES_GAMBIA_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\GAMBIA_THE_ADF.csv
+FRZ_RES_GAMBIA_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\GAMBIA_THE_ADF.pdf
+genr ST_GEORGIA = log(GEORGIA_ER)
+genr PDIFF_GEORGIA = log(GEORGIA_CPI) - PT_UNITED_STATES
+equation EQ_GEORGIA.ls ST_GEORGIA c PDIFF_GEORGIA
+EQ_GEORGIA.makeresids RES_GEORGIA
+freeze(FRZ_ST_GEORGIA) ST_GEORGIA.uroot(lag=1)
+FRZ_ST_GEORGIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\GEORGIA_ADF.csv
+FRZ_ST_GEORGIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\GEORGIA_ADF.pdf
+freeze(FRZ_PDIFF_GEORGIA) PDIFF_GEORGIA.uroot(lag=1)
+FRZ_PDIFF_GEORGIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\GEORGIA_ADF.csv
+FRZ_PDIFF_GEORGIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\GEORGIA_ADF.pdf
+freeze(FRZ_RES_GEORGIA) RES_GEORGIA.uroot(lag=1)
+FRZ_RES_GEORGIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\GEORGIA_ADF.csv
+FRZ_RES_GEORGIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\GEORGIA_ADF.pdf
+genr ST_GERMANY = log(GERMANY_ER)
+genr PDIFF_GERMANY = log(GERMANY_CPI) - PT_UNITED_STATES
+equation EQ_GERMANY.ls ST_GERMANY c PDIFF_GERMANY
+EQ_GERMANY.makeresids RES_GERMANY
+freeze(FRZ_ST_GERMANY) ST_GERMANY.uroot(lag=1)
+FRZ_ST_GERMANY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\GERMANY_ADF.csv
+FRZ_ST_GERMANY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\GERMANY_ADF.pdf
+freeze(FRZ_PDIFF_GERMANY) PDIFF_GERMANY.uroot(lag=1)
+FRZ_PDIFF_GERMANY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\GERMANY_ADF.csv
+FRZ_PDIFF_GERMANY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\GERMANY_ADF.pdf
+freeze(FRZ_RES_GERMANY) RES_GERMANY.uroot(lag=1)
+FRZ_RES_GERMANY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\GERMANY_ADF.csv
+FRZ_RES_GERMANY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\GERMANY_ADF.pdf
+genr ST_GHANA = log(GHANA_ER)
+genr PDIFF_GHANA = log(GHANA_CPI) - PT_UNITED_STATES
+equation EQ_GHANA.ls ST_GHANA c PDIFF_GHANA
+EQ_GHANA.makeresids RES_GHANA
+freeze(FRZ_ST_GHANA) ST_GHANA.uroot(lag=1)
+FRZ_ST_GHANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\GHANA_ADF.csv
+FRZ_ST_GHANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\GHANA_ADF.pdf
+freeze(FRZ_PDIFF_GHANA) PDIFF_GHANA.uroot(lag=1)
+FRZ_PDIFF_GHANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\GHANA_ADF.csv
+FRZ_PDIFF_GHANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\GHANA_ADF.pdf
+freeze(FRZ_RES_GHANA) RES_GHANA.uroot(lag=1)
+FRZ_RES_GHANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\GHANA_ADF.csv
+FRZ_RES_GHANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\GHANA_ADF.pdf
+genr ST_GREECE = log(GREECE_ER)
+genr PDIFF_GREECE = log(GREECE_CPI) - PT_UNITED_STATES
+equation EQ_GREECE.ls ST_GREECE c PDIFF_GREECE
+EQ_GREECE.makeresids RES_GREECE
+freeze(FRZ_ST_GREECE) ST_GREECE.uroot(lag=1)
+FRZ_ST_GREECE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\GREECE_ADF.csv
+FRZ_ST_GREECE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\GREECE_ADF.pdf
+freeze(FRZ_PDIFF_GREECE) PDIFF_GREECE.uroot(lag=1)
+FRZ_PDIFF_GREECE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\GREECE_ADF.csv
+FRZ_PDIFF_GREECE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\GREECE_ADF.pdf
+freeze(FRZ_RES_GREECE) RES_GREECE.uroot(lag=1)
+FRZ_RES_GREECE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\GREECE_ADF.csv
+FRZ_RES_GREECE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\GREECE_ADF.pdf
+genr ST_GRENADA = log(GRENADA_ER)
+genr PDIFF_GRENADA = log(GRENADA_CPI) - PT_UNITED_STATES
+equation EQ_GRENADA.ls ST_GRENADA c PDIFF_GRENADA
+EQ_GRENADA.makeresids RES_GRENADA
+freeze(FRZ_ST_GRENADA) ST_GRENADA.uroot(lag=1)
+FRZ_ST_GRENADA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\GRENADA_ADF.csv
+FRZ_ST_GRENADA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\GRENADA_ADF.pdf
+freeze(FRZ_PDIFF_GRENADA) PDIFF_GRENADA.uroot(lag=1)
+FRZ_PDIFF_GRENADA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\GRENADA_ADF.csv
+FRZ_PDIFF_GRENADA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\GRENADA_ADF.pdf
+freeze(FRZ_RES_GRENADA) RES_GRENADA.uroot(lag=1)
+FRZ_RES_GRENADA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\GRENADA_ADF.csv
+FRZ_RES_GRENADA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\GRENADA_ADF.pdf
+genr ST_GUATEMALA = log(GUATEMALA_ER)
+genr PDIFF_GUATEMALA = log(GUATEMALA_CPI) - PT_UNITED_STATES
+equation EQ_GUATEMALA.ls ST_GUATEMALA c PDIFF_GUATEMALA
+EQ_GUATEMALA.makeresids RES_GUATEMALA
+freeze(FRZ_ST_GUATEMALA) ST_GUATEMALA.uroot(lag=1)
+FRZ_ST_GUATEMALA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\GUATEMALA_ADF.csv
+FRZ_ST_GUATEMALA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\GUATEMALA_ADF.pdf
+freeze(FRZ_PDIFF_GUATEMALA) PDIFF_GUATEMALA.uroot(lag=1)
+FRZ_PDIFF_GUATEMALA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\GUATEMALA_ADF.csv
+FRZ_PDIFF_GUATEMALA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\GUATEMALA_ADF.pdf
+freeze(FRZ_RES_GUATEMALA) RES_GUATEMALA.uroot(lag=1)
+FRZ_RES_GUATEMALA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\GUATEMALA_ADF.csv
+FRZ_RES_GUATEMALA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\GUATEMALA_ADF.pdf
+genr ST_GUINEA = log(GUINEA_ER)
+genr PDIFF_GUINEA = log(GUINEA_CPI) - PT_UNITED_STATES
+equation EQ_GUINEA.ls ST_GUINEA c PDIFF_GUINEA
+EQ_GUINEA.makeresids RES_GUINEA
+freeze(FRZ_ST_GUINEA) ST_GUINEA.uroot(lag=1)
+FRZ_ST_GUINEA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\GUINEA_ADF.csv
+FRZ_ST_GUINEA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\GUINEA_ADF.pdf
+freeze(FRZ_PDIFF_GUINEA) PDIFF_GUINEA.uroot(lag=1)
+FRZ_PDIFF_GUINEA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\GUINEA_ADF.csv
+FRZ_PDIFF_GUINEA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\GUINEA_ADF.pdf
+freeze(FRZ_RES_GUINEA) RES_GUINEA.uroot(lag=1)
+FRZ_RES_GUINEA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\GUINEA_ADF.csv
+FRZ_RES_GUINEA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\GUINEA_ADF.pdf
+genr ST_GUINEA_BISSAU = log(GUINEA_BISSAU_ER)
+genr PDIFF_GUINEA_BISSAU = log(GUINEA_BISSAU_CPI) - PT_UNITED_STATES
+equation EQ_GUINEA_BISSAU.ls ST_GUINEA_BISSAU c PDIFF_GUINEA_BISSAU
+EQ_GUINEA_BISSAU.makeresids RES_GUINEA_BISSAU
+freeze(FRZ_ST_GUINEA_BISSAU) ST_GUINEA_BISSAU.uroot(lag=1)
+FRZ_ST_GUINEA_BISSAU.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\GUINEA_BISSAU_ADF.csv
+FRZ_ST_GUINEA_BISSAU.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\GUINEA_BISSAU_ADF.pdf
+freeze(FRZ_PDIFF_GUINEA_BISSAU) PDIFF_GUINEA_BISSAU.uroot(lag=1)
+FRZ_PDIFF_GUINEA_BISSAU.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\GUINEA_BISSAU_ADF.csv
+FRZ_PDIFF_GUINEA_BISSAU.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\GUINEA_BISSAU_ADF.pdf
+freeze(FRZ_RES_GUINEA_BISSAU) RES_GUINEA_BISSAU.uroot(lag=1)
+FRZ_RES_GUINEA_BISSAU.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\GUINEA_BISSAU_ADF.csv
+FRZ_RES_GUINEA_BISSAU.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\GUINEA_BISSAU_ADF.pdf
+genr ST_GUYANA = log(GUYANA_ER)
+genr PDIFF_GUYANA = log(GUYANA_CPI) - PT_UNITED_STATES
+equation EQ_GUYANA.ls ST_GUYANA c PDIFF_GUYANA
+EQ_GUYANA.makeresids RES_GUYANA
+freeze(FRZ_ST_GUYANA) ST_GUYANA.uroot(lag=1)
+FRZ_ST_GUYANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\GUYANA_ADF.csv
+FRZ_ST_GUYANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\GUYANA_ADF.pdf
+freeze(FRZ_PDIFF_GUYANA) PDIFF_GUYANA.uroot(lag=1)
+FRZ_PDIFF_GUYANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\GUYANA_ADF.csv
+FRZ_PDIFF_GUYANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\GUYANA_ADF.pdf
+freeze(FRZ_RES_GUYANA) RES_GUYANA.uroot(lag=1)
+FRZ_RES_GUYANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\GUYANA_ADF.csv
+FRZ_RES_GUYANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\GUYANA_ADF.pdf
+genr ST_HAITI = log(HAITI_ER)
+genr PDIFF_HAITI = log(HAITI_CPI) - PT_UNITED_STATES
+equation EQ_HAITI.ls ST_HAITI c PDIFF_HAITI
+EQ_HAITI.makeresids RES_HAITI
+freeze(FRZ_ST_HAITI) ST_HAITI.uroot(lag=1)
+FRZ_ST_HAITI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\HAITI_ADF.csv
+FRZ_ST_HAITI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\HAITI_ADF.pdf
+freeze(FRZ_PDIFF_HAITI) PDIFF_HAITI.uroot(lag=1)
+FRZ_PDIFF_HAITI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\HAITI_ADF.csv
+FRZ_PDIFF_HAITI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\HAITI_ADF.pdf
+freeze(FRZ_RES_HAITI) RES_HAITI.uroot(lag=1)
+FRZ_RES_HAITI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\HAITI_ADF.csv
+FRZ_RES_HAITI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\HAITI_ADF.pdf
+genr ST_HONDURAS = log(HONDURAS_ER)
+genr PDIFF_HONDURAS = log(HONDURAS_CPI) - PT_UNITED_STATES
+equation EQ_HONDURAS.ls ST_HONDURAS c PDIFF_HONDURAS
+EQ_HONDURAS.makeresids RES_HONDURAS
+freeze(FRZ_ST_HONDURAS) ST_HONDURAS.uroot(lag=1)
+FRZ_ST_HONDURAS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\HONDURAS_ADF.csv
+FRZ_ST_HONDURAS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\HONDURAS_ADF.pdf
+freeze(FRZ_PDIFF_HONDURAS) PDIFF_HONDURAS.uroot(lag=1)
+FRZ_PDIFF_HONDURAS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\HONDURAS_ADF.csv
+FRZ_PDIFF_HONDURAS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\HONDURAS_ADF.pdf
+freeze(FRZ_RES_HONDURAS) RES_HONDURAS.uroot(lag=1)
+FRZ_RES_HONDURAS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\HONDURAS_ADF.csv
+FRZ_RES_HONDURAS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\HONDURAS_ADF.pdf
+genr ST_HUNGARY = log(HUNGARY_ER)
+genr PDIFF_HUNGARY = log(HUNGARY_CPI) - PT_UNITED_STATES
+equation EQ_HUNGARY.ls ST_HUNGARY c PDIFF_HUNGARY
+EQ_HUNGARY.makeresids RES_HUNGARY
+freeze(FRZ_ST_HUNGARY) ST_HUNGARY.uroot(lag=1)
+FRZ_ST_HUNGARY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\HUNGARY_ADF.csv
+FRZ_ST_HUNGARY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\HUNGARY_ADF.pdf
+freeze(FRZ_PDIFF_HUNGARY) PDIFF_HUNGARY.uroot(lag=1)
+FRZ_PDIFF_HUNGARY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\HUNGARY_ADF.csv
+FRZ_PDIFF_HUNGARY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\HUNGARY_ADF.pdf
+freeze(FRZ_RES_HUNGARY) RES_HUNGARY.uroot(lag=1)
+FRZ_RES_HUNGARY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\HUNGARY_ADF.csv
+FRZ_RES_HUNGARY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\HUNGARY_ADF.pdf
+genr ST_ICELAND = log(ICELAND_ER)
+genr PDIFF_ICELAND = log(ICELAND_CPI) - PT_UNITED_STATES
+equation EQ_ICELAND.ls ST_ICELAND c PDIFF_ICELAND
+EQ_ICELAND.makeresids RES_ICELAND
+freeze(FRZ_ST_ICELAND) ST_ICELAND.uroot(lag=1)
+FRZ_ST_ICELAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ICELAND_ADF.csv
+FRZ_ST_ICELAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ICELAND_ADF.pdf
+freeze(FRZ_PDIFF_ICELAND) PDIFF_ICELAND.uroot(lag=1)
+FRZ_PDIFF_ICELAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ICELAND_ADF.csv
+FRZ_PDIFF_ICELAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ICELAND_ADF.pdf
+freeze(FRZ_RES_ICELAND) RES_ICELAND.uroot(lag=1)
+FRZ_RES_ICELAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ICELAND_ADF.csv
+FRZ_RES_ICELAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ICELAND_ADF.pdf
+genr ST_INDIA = log(INDIA_ER)
+genr PDIFF_INDIA = log(INDIA_CPI) - PT_UNITED_STATES
+equation EQ_INDIA.ls ST_INDIA c PDIFF_INDIA
+EQ_INDIA.makeresids RES_INDIA
+freeze(FRZ_ST_INDIA) ST_INDIA.uroot(lag=1)
+FRZ_ST_INDIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\INDIA_ADF.csv
+FRZ_ST_INDIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\INDIA_ADF.pdf
+freeze(FRZ_PDIFF_INDIA) PDIFF_INDIA.uroot(lag=1)
+FRZ_PDIFF_INDIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\INDIA_ADF.csv
+FRZ_PDIFF_INDIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\INDIA_ADF.pdf
+freeze(FRZ_RES_INDIA) RES_INDIA.uroot(lag=1)
+FRZ_RES_INDIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\INDIA_ADF.csv
+FRZ_RES_INDIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\INDIA_ADF.pdf
+genr ST_INDONESIA = log(INDONESIA_ER)
+genr PDIFF_INDONESIA = log(INDONESIA_CPI) - PT_UNITED_STATES
+equation EQ_INDONESIA.ls ST_INDONESIA c PDIFF_INDONESIA
+EQ_INDONESIA.makeresids RES_INDONESIA
+freeze(FRZ_ST_INDONESIA) ST_INDONESIA.uroot(lag=1)
+FRZ_ST_INDONESIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\INDONESIA_ADF.csv
+FRZ_ST_INDONESIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\INDONESIA_ADF.pdf
+freeze(FRZ_PDIFF_INDONESIA) PDIFF_INDONESIA.uroot(lag=1)
+FRZ_PDIFF_INDONESIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\INDONESIA_ADF.csv
+FRZ_PDIFF_INDONESIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\INDONESIA_ADF.pdf
+freeze(FRZ_RES_INDONESIA) RES_INDONESIA.uroot(lag=1)
+FRZ_RES_INDONESIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\INDONESIA_ADF.csv
+FRZ_RES_INDONESIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\INDONESIA_ADF.pdf
+genr ST_IRAN_ISLAMIC_REPUBLIC_OF = log(IRAN_ISLAMIC_REPUBLIC_OF_ER)
+genr PDIFF_IRAN_ISLAMIC_REPUBLIC_OF = log(IRAN_ISLAMIC_REPUBLIC_OF_CPI) - PT_UNITED_STATES
+equation EQ_IRAN_ISLAMIC_REPUBLIC_OF.ls ST_IRAN_ISLAMIC_REPUBLIC_OF c PDIFF_IRAN_ISLAMIC_REPUBLIC_OF
+EQ_IRAN_ISLAMIC_REPUBLIC_OF.makeresids RES_IRAN_ISLAMIC_REPUBLIC_OF
+freeze(FRZ_ST_IRAN_ISLAMIC_REPUBLIC_OF) ST_IRAN_ISLAMIC_REPUBLIC_OF.uroot(lag=1)
+FRZ_ST_IRAN_ISLAMIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\IRAN_ISLAMIC_REPUBLIC_OF_ADF.csv
+FRZ_ST_IRAN_ISLAMIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\IRAN_ISLAMIC_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_PDIFF_IRAN_ISLAMIC_REPUBLIC_OF) PDIFF_IRAN_ISLAMIC_REPUBLIC_OF.uroot(lag=1)
+FRZ_PDIFF_IRAN_ISLAMIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\IRAN_ISLAMIC_REPUBLIC_OF_ADF.csv
+FRZ_PDIFF_IRAN_ISLAMIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\IRAN_ISLAMIC_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_RES_IRAN_ISLAMIC_REPUBLIC_OF) RES_IRAN_ISLAMIC_REPUBLIC_OF.uroot(lag=1)
+FRZ_RES_IRAN_ISLAMIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\IRAN_ISLAMIC_REPUBLIC_OF_ADF.csv
+FRZ_RES_IRAN_ISLAMIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\IRAN_ISLAMIC_REPUBLIC_OF_ADF.pdf
+genr ST_IRAQ = log(IRAQ_ER)
+genr PDIFF_IRAQ = log(IRAQ_CPI) - PT_UNITED_STATES
+equation EQ_IRAQ.ls ST_IRAQ c PDIFF_IRAQ
+EQ_IRAQ.makeresids RES_IRAQ
+freeze(FRZ_ST_IRAQ) ST_IRAQ.uroot(lag=1)
+FRZ_ST_IRAQ.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\IRAQ_ADF.csv
+FRZ_ST_IRAQ.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\IRAQ_ADF.pdf
+freeze(FRZ_PDIFF_IRAQ) PDIFF_IRAQ.uroot(lag=1)
+FRZ_PDIFF_IRAQ.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\IRAQ_ADF.csv
+FRZ_PDIFF_IRAQ.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\IRAQ_ADF.pdf
+freeze(FRZ_RES_IRAQ) RES_IRAQ.uroot(lag=1)
+FRZ_RES_IRAQ.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\IRAQ_ADF.csv
+FRZ_RES_IRAQ.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\IRAQ_ADF.pdf
+genr ST_IRELAND = log(IRELAND_ER)
+genr PDIFF_IRELAND = log(IRELAND_CPI) - PT_UNITED_STATES
+equation EQ_IRELAND.ls ST_IRELAND c PDIFF_IRELAND
+EQ_IRELAND.makeresids RES_IRELAND
+freeze(FRZ_ST_IRELAND) ST_IRELAND.uroot(lag=1)
+FRZ_ST_IRELAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\IRELAND_ADF.csv
+FRZ_ST_IRELAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\IRELAND_ADF.pdf
+freeze(FRZ_PDIFF_IRELAND) PDIFF_IRELAND.uroot(lag=1)
+FRZ_PDIFF_IRELAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\IRELAND_ADF.csv
+FRZ_PDIFF_IRELAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\IRELAND_ADF.pdf
+freeze(FRZ_RES_IRELAND) RES_IRELAND.uroot(lag=1)
+FRZ_RES_IRELAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\IRELAND_ADF.csv
+FRZ_RES_IRELAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\IRELAND_ADF.pdf
+genr ST_ISRAEL = log(ISRAEL_ER)
+genr PDIFF_ISRAEL = log(ISRAEL_CPI) - PT_UNITED_STATES
+equation EQ_ISRAEL.ls ST_ISRAEL c PDIFF_ISRAEL
+EQ_ISRAEL.makeresids RES_ISRAEL
+freeze(FRZ_ST_ISRAEL) ST_ISRAEL.uroot(lag=1)
+FRZ_ST_ISRAEL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ISRAEL_ADF.csv
+FRZ_ST_ISRAEL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ISRAEL_ADF.pdf
+freeze(FRZ_PDIFF_ISRAEL) PDIFF_ISRAEL.uroot(lag=1)
+FRZ_PDIFF_ISRAEL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ISRAEL_ADF.csv
+FRZ_PDIFF_ISRAEL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ISRAEL_ADF.pdf
+freeze(FRZ_RES_ISRAEL) RES_ISRAEL.uroot(lag=1)
+FRZ_RES_ISRAEL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ISRAEL_ADF.csv
+FRZ_RES_ISRAEL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ISRAEL_ADF.pdf
+genr ST_ITALY = log(ITALY_ER)
+genr PDIFF_ITALY = log(ITALY_CPI) - PT_UNITED_STATES
+equation EQ_ITALY.ls ST_ITALY c PDIFF_ITALY
+EQ_ITALY.makeresids RES_ITALY
+freeze(FRZ_ST_ITALY) ST_ITALY.uroot(lag=1)
+FRZ_ST_ITALY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ITALY_ADF.csv
+FRZ_ST_ITALY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ITALY_ADF.pdf
+freeze(FRZ_PDIFF_ITALY) PDIFF_ITALY.uroot(lag=1)
+FRZ_PDIFF_ITALY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ITALY_ADF.csv
+FRZ_PDIFF_ITALY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ITALY_ADF.pdf
+freeze(FRZ_RES_ITALY) RES_ITALY.uroot(lag=1)
+FRZ_RES_ITALY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ITALY_ADF.csv
+FRZ_RES_ITALY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ITALY_ADF.pdf
+genr ST_JAMAICA = log(JAMAICA_ER)
+genr PDIFF_JAMAICA = log(JAMAICA_CPI) - PT_UNITED_STATES
+equation EQ_JAMAICA.ls ST_JAMAICA c PDIFF_JAMAICA
+EQ_JAMAICA.makeresids RES_JAMAICA
+freeze(FRZ_ST_JAMAICA) ST_JAMAICA.uroot(lag=1)
+FRZ_ST_JAMAICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\JAMAICA_ADF.csv
+FRZ_ST_JAMAICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\JAMAICA_ADF.pdf
+freeze(FRZ_PDIFF_JAMAICA) PDIFF_JAMAICA.uroot(lag=1)
+FRZ_PDIFF_JAMAICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\JAMAICA_ADF.csv
+FRZ_PDIFF_JAMAICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\JAMAICA_ADF.pdf
+freeze(FRZ_RES_JAMAICA) RES_JAMAICA.uroot(lag=1)
+FRZ_RES_JAMAICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\JAMAICA_ADF.csv
+FRZ_RES_JAMAICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\JAMAICA_ADF.pdf
+genr ST_JAPAN = log(JAPAN_ER)
+genr PDIFF_JAPAN = log(JAPAN_CPI) - PT_UNITED_STATES
+equation EQ_JAPAN.ls ST_JAPAN c PDIFF_JAPAN
+EQ_JAPAN.makeresids RES_JAPAN
+freeze(FRZ_ST_JAPAN) ST_JAPAN.uroot(lag=1)
+FRZ_ST_JAPAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\JAPAN_ADF.csv
+FRZ_ST_JAPAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\JAPAN_ADF.pdf
+freeze(FRZ_PDIFF_JAPAN) PDIFF_JAPAN.uroot(lag=1)
+FRZ_PDIFF_JAPAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\JAPAN_ADF.csv
+FRZ_PDIFF_JAPAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\JAPAN_ADF.pdf
+freeze(FRZ_RES_JAPAN) RES_JAPAN.uroot(lag=1)
+FRZ_RES_JAPAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\JAPAN_ADF.csv
+FRZ_RES_JAPAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\JAPAN_ADF.pdf
+genr ST_JORDAN = log(JORDAN_ER)
+genr PDIFF_JORDAN = log(JORDAN_CPI) - PT_UNITED_STATES
+equation EQ_JORDAN.ls ST_JORDAN c PDIFF_JORDAN
+EQ_JORDAN.makeresids RES_JORDAN
+freeze(FRZ_ST_JORDAN) ST_JORDAN.uroot(lag=1)
+FRZ_ST_JORDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\JORDAN_ADF.csv
+FRZ_ST_JORDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\JORDAN_ADF.pdf
+freeze(FRZ_PDIFF_JORDAN) PDIFF_JORDAN.uroot(lag=1)
+FRZ_PDIFF_JORDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\JORDAN_ADF.csv
+FRZ_PDIFF_JORDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\JORDAN_ADF.pdf
+freeze(FRZ_RES_JORDAN) RES_JORDAN.uroot(lag=1)
+FRZ_RES_JORDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\JORDAN_ADF.csv
+FRZ_RES_JORDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\JORDAN_ADF.pdf
+genr ST_KAZAKHSTAN = log(KAZAKHSTAN_ER)
+genr PDIFF_KAZAKHSTAN = log(KAZAKHSTAN_CPI) - PT_UNITED_STATES
+equation EQ_KAZAKHSTAN.ls ST_KAZAKHSTAN c PDIFF_KAZAKHSTAN
+EQ_KAZAKHSTAN.makeresids RES_KAZAKHSTAN
+freeze(FRZ_ST_KAZAKHSTAN) ST_KAZAKHSTAN.uroot(lag=1)
+FRZ_ST_KAZAKHSTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\KAZAKHSTAN_ADF.csv
+FRZ_ST_KAZAKHSTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\KAZAKHSTAN_ADF.pdf
+freeze(FRZ_PDIFF_KAZAKHSTAN) PDIFF_KAZAKHSTAN.uroot(lag=1)
+FRZ_PDIFF_KAZAKHSTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\KAZAKHSTAN_ADF.csv
+FRZ_PDIFF_KAZAKHSTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\KAZAKHSTAN_ADF.pdf
+freeze(FRZ_RES_KAZAKHSTAN) RES_KAZAKHSTAN.uroot(lag=1)
+FRZ_RES_KAZAKHSTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\KAZAKHSTAN_ADF.csv
+FRZ_RES_KAZAKHSTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\KAZAKHSTAN_ADF.pdf
+genr ST_KENYA = log(KENYA_ER)
+genr PDIFF_KENYA = log(KENYA_CPI) - PT_UNITED_STATES
+equation EQ_KENYA.ls ST_KENYA c PDIFF_KENYA
+EQ_KENYA.makeresids RES_KENYA
+freeze(FRZ_ST_KENYA) ST_KENYA.uroot(lag=1)
+FRZ_ST_KENYA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\KENYA_ADF.csv
+FRZ_ST_KENYA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\KENYA_ADF.pdf
+freeze(FRZ_PDIFF_KENYA) PDIFF_KENYA.uroot(lag=1)
+FRZ_PDIFF_KENYA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\KENYA_ADF.csv
+FRZ_PDIFF_KENYA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\KENYA_ADF.pdf
+freeze(FRZ_RES_KENYA) RES_KENYA.uroot(lag=1)
+FRZ_RES_KENYA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\KENYA_ADF.csv
+FRZ_RES_KENYA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\KENYA_ADF.pdf
+genr ST_KIRIBATI = log(KIRIBATI_ER)
+genr PDIFF_KIRIBATI = log(KIRIBATI_CPI) - PT_UNITED_STATES
+equation EQ_KIRIBATI.ls ST_KIRIBATI c PDIFF_KIRIBATI
+EQ_KIRIBATI.makeresids RES_KIRIBATI
+freeze(FRZ_ST_KIRIBATI) ST_KIRIBATI.uroot(lag=1)
+FRZ_ST_KIRIBATI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\KIRIBATI_ADF.csv
+FRZ_ST_KIRIBATI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\KIRIBATI_ADF.pdf
+freeze(FRZ_PDIFF_KIRIBATI) PDIFF_KIRIBATI.uroot(lag=1)
+FRZ_PDIFF_KIRIBATI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\KIRIBATI_ADF.csv
+FRZ_PDIFF_KIRIBATI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\KIRIBATI_ADF.pdf
+freeze(FRZ_RES_KIRIBATI) RES_KIRIBATI.uroot(lag=1)
+FRZ_RES_KIRIBATI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\KIRIBATI_ADF.csv
+FRZ_RES_KIRIBATI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\KIRIBATI_ADF.pdf
+genr ST_KOREA_REPUBLIC_OF = log(KOREA_REPUBLIC_OF_ER)
+genr PDIFF_KOREA_REPUBLIC_OF = log(KOREA_REPUBLIC_OF_CPI) - PT_UNITED_STATES
+equation EQ_KOREA_REPUBLIC_OF.ls ST_KOREA_REPUBLIC_OF c PDIFF_KOREA_REPUBLIC_OF
+EQ_KOREA_REPUBLIC_OF.makeresids RES_KOREA_REPUBLIC_OF
+freeze(FRZ_ST_KOREA_REPUBLIC_OF) ST_KOREA_REPUBLIC_OF.uroot(lag=1)
+FRZ_ST_KOREA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\KOREA_REPUBLIC_OF_ADF.csv
+FRZ_ST_KOREA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\KOREA_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_PDIFF_KOREA_REPUBLIC_OF) PDIFF_KOREA_REPUBLIC_OF.uroot(lag=1)
+FRZ_PDIFF_KOREA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\KOREA_REPUBLIC_OF_ADF.csv
+FRZ_PDIFF_KOREA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\KOREA_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_RES_KOREA_REPUBLIC_OF) RES_KOREA_REPUBLIC_OF.uroot(lag=1)
+FRZ_RES_KOREA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\KOREA_REPUBLIC_OF_ADF.csv
+FRZ_RES_KOREA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\KOREA_REPUBLIC_OF_ADF.pdf
+genr ST_KOSOVO_REPUBLIC_OF = log(KOSOVO_REPUBLIC_OF_ER)
+genr PDIFF_KOSOVO_REPUBLIC_OF = log(KOSOVO_REPUBLIC_OF_CPI) - PT_UNITED_STATES
+equation EQ_KOSOVO_REPUBLIC_OF.ls ST_KOSOVO_REPUBLIC_OF c PDIFF_KOSOVO_REPUBLIC_OF
+EQ_KOSOVO_REPUBLIC_OF.makeresids RES_KOSOVO_REPUBLIC_OF
+freeze(FRZ_ST_KOSOVO_REPUBLIC_OF) ST_KOSOVO_REPUBLIC_OF.uroot(lag=1)
+FRZ_ST_KOSOVO_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\KOSOVO_REPUBLIC_OF_ADF.csv
+FRZ_ST_KOSOVO_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\KOSOVO_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_PDIFF_KOSOVO_REPUBLIC_OF) PDIFF_KOSOVO_REPUBLIC_OF.uroot(lag=1)
+FRZ_PDIFF_KOSOVO_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\KOSOVO_REPUBLIC_OF_ADF.csv
+FRZ_PDIFF_KOSOVO_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\KOSOVO_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_RES_KOSOVO_REPUBLIC_OF) RES_KOSOVO_REPUBLIC_OF.uroot(lag=1)
+FRZ_RES_KOSOVO_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\KOSOVO_REPUBLIC_OF_ADF.csv
+FRZ_RES_KOSOVO_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\KOSOVO_REPUBLIC_OF_ADF.pdf
+genr ST_KUWAIT = log(KUWAIT_ER)
+genr PDIFF_KUWAIT = log(KUWAIT_CPI) - PT_UNITED_STATES
+equation EQ_KUWAIT.ls ST_KUWAIT c PDIFF_KUWAIT
+EQ_KUWAIT.makeresids RES_KUWAIT
+freeze(FRZ_ST_KUWAIT) ST_KUWAIT.uroot(lag=1)
+FRZ_ST_KUWAIT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\KUWAIT_ADF.csv
+FRZ_ST_KUWAIT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\KUWAIT_ADF.pdf
+freeze(FRZ_PDIFF_KUWAIT) PDIFF_KUWAIT.uroot(lag=1)
+FRZ_PDIFF_KUWAIT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\KUWAIT_ADF.csv
+FRZ_PDIFF_KUWAIT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\KUWAIT_ADF.pdf
+freeze(FRZ_RES_KUWAIT) RES_KUWAIT.uroot(lag=1)
+FRZ_RES_KUWAIT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\KUWAIT_ADF.csv
+FRZ_RES_KUWAIT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\KUWAIT_ADF.pdf
+genr ST_KYRGYZ_REPUBLIC = log(KYRGYZ_REPUBLIC_ER)
+genr PDIFF_KYRGYZ_REPUBLIC = log(KYRGYZ_REPUBLIC_CPI) - PT_UNITED_STATES
+equation EQ_KYRGYZ_REPUBLIC.ls ST_KYRGYZ_REPUBLIC c PDIFF_KYRGYZ_REPUBLIC
+EQ_KYRGYZ_REPUBLIC.makeresids RES_KYRGYZ_REPUBLIC
+freeze(FRZ_ST_KYRGYZ_REPUBLIC) ST_KYRGYZ_REPUBLIC.uroot(lag=1)
+FRZ_ST_KYRGYZ_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\KYRGYZ_REPUBLIC_ADF.csv
+FRZ_ST_KYRGYZ_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\KYRGYZ_REPUBLIC_ADF.pdf
+freeze(FRZ_PDIFF_KYRGYZ_REPUBLIC) PDIFF_KYRGYZ_REPUBLIC.uroot(lag=1)
+FRZ_PDIFF_KYRGYZ_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\KYRGYZ_REPUBLIC_ADF.csv
+FRZ_PDIFF_KYRGYZ_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\KYRGYZ_REPUBLIC_ADF.pdf
+freeze(FRZ_RES_KYRGYZ_REPUBLIC) RES_KYRGYZ_REPUBLIC.uroot(lag=1)
+FRZ_RES_KYRGYZ_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\KYRGYZ_REPUBLIC_ADF.csv
+FRZ_RES_KYRGYZ_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\KYRGYZ_REPUBLIC_ADF.pdf
+genr ST_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC = log(LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_ER)
+genr PDIFF_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC = log(LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_CPI) - PT_UNITED_STATES
+equation EQ_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.ls ST_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC c PDIFF_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC
+EQ_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.makeresids RES_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC
+freeze(FRZ_ST_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC) ST_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.uroot(lag=1)
+FRZ_ST_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_ADF.csv
+FRZ_ST_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_ADF.pdf
+freeze(FRZ_PDIFF_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC) PDIFF_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.uroot(lag=1)
+FRZ_PDIFF_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_ADF.csv
+FRZ_PDIFF_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_ADF.pdf
+freeze(FRZ_RES_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC) RES_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.uroot(lag=1)
+FRZ_RES_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_ADF.csv
+FRZ_RES_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_ADF.pdf
+genr ST_LATVIA = log(LATVIA_ER)
+genr PDIFF_LATVIA = log(LATVIA_CPI) - PT_UNITED_STATES
+equation EQ_LATVIA.ls ST_LATVIA c PDIFF_LATVIA
+EQ_LATVIA.makeresids RES_LATVIA
+freeze(FRZ_ST_LATVIA) ST_LATVIA.uroot(lag=1)
+FRZ_ST_LATVIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\LATVIA_ADF.csv
+FRZ_ST_LATVIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\LATVIA_ADF.pdf
+freeze(FRZ_PDIFF_LATVIA) PDIFF_LATVIA.uroot(lag=1)
+FRZ_PDIFF_LATVIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\LATVIA_ADF.csv
+FRZ_PDIFF_LATVIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\LATVIA_ADF.pdf
+freeze(FRZ_RES_LATVIA) RES_LATVIA.uroot(lag=1)
+FRZ_RES_LATVIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\LATVIA_ADF.csv
+FRZ_RES_LATVIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\LATVIA_ADF.pdf
+genr ST_LEBANON = log(LEBANON_ER)
+genr PDIFF_LEBANON = log(LEBANON_CPI) - PT_UNITED_STATES
+equation EQ_LEBANON.ls ST_LEBANON c PDIFF_LEBANON
+EQ_LEBANON.makeresids RES_LEBANON
+freeze(FRZ_ST_LEBANON) ST_LEBANON.uroot(lag=1)
+FRZ_ST_LEBANON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\LEBANON_ADF.csv
+FRZ_ST_LEBANON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\LEBANON_ADF.pdf
+freeze(FRZ_PDIFF_LEBANON) PDIFF_LEBANON.uroot(lag=1)
+FRZ_PDIFF_LEBANON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\LEBANON_ADF.csv
+FRZ_PDIFF_LEBANON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\LEBANON_ADF.pdf
+freeze(FRZ_RES_LEBANON) RES_LEBANON.uroot(lag=1)
+FRZ_RES_LEBANON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\LEBANON_ADF.csv
+FRZ_RES_LEBANON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\LEBANON_ADF.pdf
+genr ST_LESOTHO = log(LESOTHO_ER)
+genr PDIFF_LESOTHO = log(LESOTHO_CPI) - PT_UNITED_STATES
+equation EQ_LESOTHO.ls ST_LESOTHO c PDIFF_LESOTHO
+EQ_LESOTHO.makeresids RES_LESOTHO
+freeze(FRZ_ST_LESOTHO) ST_LESOTHO.uroot(lag=1)
+FRZ_ST_LESOTHO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\LESOTHO_ADF.csv
+FRZ_ST_LESOTHO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\LESOTHO_ADF.pdf
+freeze(FRZ_PDIFF_LESOTHO) PDIFF_LESOTHO.uroot(lag=1)
+FRZ_PDIFF_LESOTHO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\LESOTHO_ADF.csv
+FRZ_PDIFF_LESOTHO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\LESOTHO_ADF.pdf
+freeze(FRZ_RES_LESOTHO) RES_LESOTHO.uroot(lag=1)
+FRZ_RES_LESOTHO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\LESOTHO_ADF.csv
+FRZ_RES_LESOTHO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\LESOTHO_ADF.pdf
+genr ST_LIBERIA = log(LIBERIA_ER)
+genr PDIFF_LIBERIA = log(LIBERIA_CPI) - PT_UNITED_STATES
+equation EQ_LIBERIA.ls ST_LIBERIA c PDIFF_LIBERIA
+EQ_LIBERIA.makeresids RES_LIBERIA
+freeze(FRZ_ST_LIBERIA) ST_LIBERIA.uroot(lag=1)
+FRZ_ST_LIBERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\LIBERIA_ADF.csv
+FRZ_ST_LIBERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\LIBERIA_ADF.pdf
+freeze(FRZ_PDIFF_LIBERIA) PDIFF_LIBERIA.uroot(lag=1)
+FRZ_PDIFF_LIBERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\LIBERIA_ADF.csv
+FRZ_PDIFF_LIBERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\LIBERIA_ADF.pdf
+freeze(FRZ_RES_LIBERIA) RES_LIBERIA.uroot(lag=1)
+FRZ_RES_LIBERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\LIBERIA_ADF.csv
+FRZ_RES_LIBERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\LIBERIA_ADF.pdf
+genr ST_LIBYA = log(LIBYA_ER)
+genr PDIFF_LIBYA = log(LIBYA_CPI) - PT_UNITED_STATES
+equation EQ_LIBYA.ls ST_LIBYA c PDIFF_LIBYA
+EQ_LIBYA.makeresids RES_LIBYA
+freeze(FRZ_ST_LIBYA) ST_LIBYA.uroot(lag=1)
+FRZ_ST_LIBYA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\LIBYA_ADF.csv
+FRZ_ST_LIBYA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\LIBYA_ADF.pdf
+freeze(FRZ_PDIFF_LIBYA) PDIFF_LIBYA.uroot(lag=1)
+FRZ_PDIFF_LIBYA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\LIBYA_ADF.csv
+FRZ_PDIFF_LIBYA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\LIBYA_ADF.pdf
+freeze(FRZ_RES_LIBYA) RES_LIBYA.uroot(lag=1)
+FRZ_RES_LIBYA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\LIBYA_ADF.csv
+FRZ_RES_LIBYA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\LIBYA_ADF.pdf
+genr ST_LITHUANIA = log(LITHUANIA_ER)
+genr PDIFF_LITHUANIA = log(LITHUANIA_CPI) - PT_UNITED_STATES
+equation EQ_LITHUANIA.ls ST_LITHUANIA c PDIFF_LITHUANIA
+EQ_LITHUANIA.makeresids RES_LITHUANIA
+freeze(FRZ_ST_LITHUANIA) ST_LITHUANIA.uroot(lag=1)
+FRZ_ST_LITHUANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\LITHUANIA_ADF.csv
+FRZ_ST_LITHUANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\LITHUANIA_ADF.pdf
+freeze(FRZ_PDIFF_LITHUANIA) PDIFF_LITHUANIA.uroot(lag=1)
+FRZ_PDIFF_LITHUANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\LITHUANIA_ADF.csv
+FRZ_PDIFF_LITHUANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\LITHUANIA_ADF.pdf
+freeze(FRZ_RES_LITHUANIA) RES_LITHUANIA.uroot(lag=1)
+FRZ_RES_LITHUANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\LITHUANIA_ADF.csv
+FRZ_RES_LITHUANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\LITHUANIA_ADF.pdf
+genr ST_LUXEMBOURG = log(LUXEMBOURG_ER)
+genr PDIFF_LUXEMBOURG = log(LUXEMBOURG_CPI) - PT_UNITED_STATES
+equation EQ_LUXEMBOURG.ls ST_LUXEMBOURG c PDIFF_LUXEMBOURG
+EQ_LUXEMBOURG.makeresids RES_LUXEMBOURG
+freeze(FRZ_ST_LUXEMBOURG) ST_LUXEMBOURG.uroot(lag=1)
+FRZ_ST_LUXEMBOURG.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\LUXEMBOURG_ADF.csv
+FRZ_ST_LUXEMBOURG.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\LUXEMBOURG_ADF.pdf
+freeze(FRZ_PDIFF_LUXEMBOURG) PDIFF_LUXEMBOURG.uroot(lag=1)
+FRZ_PDIFF_LUXEMBOURG.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\LUXEMBOURG_ADF.csv
+FRZ_PDIFF_LUXEMBOURG.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\LUXEMBOURG_ADF.pdf
+freeze(FRZ_RES_LUXEMBOURG) RES_LUXEMBOURG.uroot(lag=1)
+FRZ_RES_LUXEMBOURG.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\LUXEMBOURG_ADF.csv
+FRZ_RES_LUXEMBOURG.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\LUXEMBOURG_ADF.pdf
+genr ST_MADAGASCAR = log(MADAGASCAR_ER)
+genr PDIFF_MADAGASCAR = log(MADAGASCAR_CPI) - PT_UNITED_STATES
+equation EQ_MADAGASCAR.ls ST_MADAGASCAR c PDIFF_MADAGASCAR
+EQ_MADAGASCAR.makeresids RES_MADAGASCAR
+freeze(FRZ_ST_MADAGASCAR) ST_MADAGASCAR.uroot(lag=1)
+FRZ_ST_MADAGASCAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MADAGASCAR_ADF.csv
+FRZ_ST_MADAGASCAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MADAGASCAR_ADF.pdf
+freeze(FRZ_PDIFF_MADAGASCAR) PDIFF_MADAGASCAR.uroot(lag=1)
+FRZ_PDIFF_MADAGASCAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MADAGASCAR_ADF.csv
+FRZ_PDIFF_MADAGASCAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MADAGASCAR_ADF.pdf
+freeze(FRZ_RES_MADAGASCAR) RES_MADAGASCAR.uroot(lag=1)
+FRZ_RES_MADAGASCAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MADAGASCAR_ADF.csv
+FRZ_RES_MADAGASCAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MADAGASCAR_ADF.pdf
+genr ST_MALAWI = log(MALAWI_ER)
+genr PDIFF_MALAWI = log(MALAWI_CPI) - PT_UNITED_STATES
+equation EQ_MALAWI.ls ST_MALAWI c PDIFF_MALAWI
+EQ_MALAWI.makeresids RES_MALAWI
+freeze(FRZ_ST_MALAWI) ST_MALAWI.uroot(lag=1)
+FRZ_ST_MALAWI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MALAWI_ADF.csv
+FRZ_ST_MALAWI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MALAWI_ADF.pdf
+freeze(FRZ_PDIFF_MALAWI) PDIFF_MALAWI.uroot(lag=1)
+FRZ_PDIFF_MALAWI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MALAWI_ADF.csv
+FRZ_PDIFF_MALAWI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MALAWI_ADF.pdf
+freeze(FRZ_RES_MALAWI) RES_MALAWI.uroot(lag=1)
+FRZ_RES_MALAWI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MALAWI_ADF.csv
+FRZ_RES_MALAWI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MALAWI_ADF.pdf
+genr ST_MALAYSIA = log(MALAYSIA_ER)
+genr PDIFF_MALAYSIA = log(MALAYSIA_CPI) - PT_UNITED_STATES
+equation EQ_MALAYSIA.ls ST_MALAYSIA c PDIFF_MALAYSIA
+EQ_MALAYSIA.makeresids RES_MALAYSIA
+freeze(FRZ_ST_MALAYSIA) ST_MALAYSIA.uroot(lag=1)
+FRZ_ST_MALAYSIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MALAYSIA_ADF.csv
+FRZ_ST_MALAYSIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MALAYSIA_ADF.pdf
+freeze(FRZ_PDIFF_MALAYSIA) PDIFF_MALAYSIA.uroot(lag=1)
+FRZ_PDIFF_MALAYSIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MALAYSIA_ADF.csv
+FRZ_PDIFF_MALAYSIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MALAYSIA_ADF.pdf
+freeze(FRZ_RES_MALAYSIA) RES_MALAYSIA.uroot(lag=1)
+FRZ_RES_MALAYSIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MALAYSIA_ADF.csv
+FRZ_RES_MALAYSIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MALAYSIA_ADF.pdf
+genr ST_MALDIVES = log(MALDIVES_ER)
+genr PDIFF_MALDIVES = log(MALDIVES_CPI) - PT_UNITED_STATES
+equation EQ_MALDIVES.ls ST_MALDIVES c PDIFF_MALDIVES
+EQ_MALDIVES.makeresids RES_MALDIVES
+freeze(FRZ_ST_MALDIVES) ST_MALDIVES.uroot(lag=1)
+FRZ_ST_MALDIVES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MALDIVES_ADF.csv
+FRZ_ST_MALDIVES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MALDIVES_ADF.pdf
+freeze(FRZ_PDIFF_MALDIVES) PDIFF_MALDIVES.uroot(lag=1)
+FRZ_PDIFF_MALDIVES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MALDIVES_ADF.csv
+FRZ_PDIFF_MALDIVES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MALDIVES_ADF.pdf
+freeze(FRZ_RES_MALDIVES) RES_MALDIVES.uroot(lag=1)
+FRZ_RES_MALDIVES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MALDIVES_ADF.csv
+FRZ_RES_MALDIVES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MALDIVES_ADF.pdf
+genr ST_MALI = log(MALI_ER)
+genr PDIFF_MALI = log(MALI_CPI) - PT_UNITED_STATES
+equation EQ_MALI.ls ST_MALI c PDIFF_MALI
+EQ_MALI.makeresids RES_MALI
+freeze(FRZ_ST_MALI) ST_MALI.uroot(lag=1)
+FRZ_ST_MALI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MALI_ADF.csv
+FRZ_ST_MALI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MALI_ADF.pdf
+freeze(FRZ_PDIFF_MALI) PDIFF_MALI.uroot(lag=1)
+FRZ_PDIFF_MALI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MALI_ADF.csv
+FRZ_PDIFF_MALI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MALI_ADF.pdf
+freeze(FRZ_RES_MALI) RES_MALI.uroot(lag=1)
+FRZ_RES_MALI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MALI_ADF.csv
+FRZ_RES_MALI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MALI_ADF.pdf
+genr ST_MALTA = log(MALTA_ER)
+genr PDIFF_MALTA = log(MALTA_CPI) - PT_UNITED_STATES
+equation EQ_MALTA.ls ST_MALTA c PDIFF_MALTA
+EQ_MALTA.makeresids RES_MALTA
+freeze(FRZ_ST_MALTA) ST_MALTA.uroot(lag=1)
+FRZ_ST_MALTA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MALTA_ADF.csv
+FRZ_ST_MALTA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MALTA_ADF.pdf
+freeze(FRZ_PDIFF_MALTA) PDIFF_MALTA.uroot(lag=1)
+FRZ_PDIFF_MALTA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MALTA_ADF.csv
+FRZ_PDIFF_MALTA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MALTA_ADF.pdf
+freeze(FRZ_RES_MALTA) RES_MALTA.uroot(lag=1)
+FRZ_RES_MALTA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MALTA_ADF.csv
+FRZ_RES_MALTA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MALTA_ADF.pdf
+genr ST_MAURITANIA = log(MAURITANIA_ER)
+genr PDIFF_MAURITANIA = log(MAURITANIA_CPI) - PT_UNITED_STATES
+equation EQ_MAURITANIA.ls ST_MAURITANIA c PDIFF_MAURITANIA
+EQ_MAURITANIA.makeresids RES_MAURITANIA
+freeze(FRZ_ST_MAURITANIA) ST_MAURITANIA.uroot(lag=1)
+FRZ_ST_MAURITANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MAURITANIA_ADF.csv
+FRZ_ST_MAURITANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MAURITANIA_ADF.pdf
+freeze(FRZ_PDIFF_MAURITANIA) PDIFF_MAURITANIA.uroot(lag=1)
+FRZ_PDIFF_MAURITANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MAURITANIA_ADF.csv
+FRZ_PDIFF_MAURITANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MAURITANIA_ADF.pdf
+freeze(FRZ_RES_MAURITANIA) RES_MAURITANIA.uroot(lag=1)
+FRZ_RES_MAURITANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MAURITANIA_ADF.csv
+FRZ_RES_MAURITANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MAURITANIA_ADF.pdf
+genr ST_MAURITIUS = log(MAURITIUS_ER)
+genr PDIFF_MAURITIUS = log(MAURITIUS_CPI) - PT_UNITED_STATES
+equation EQ_MAURITIUS.ls ST_MAURITIUS c PDIFF_MAURITIUS
+EQ_MAURITIUS.makeresids RES_MAURITIUS
+freeze(FRZ_ST_MAURITIUS) ST_MAURITIUS.uroot(lag=1)
+FRZ_ST_MAURITIUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MAURITIUS_ADF.csv
+FRZ_ST_MAURITIUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MAURITIUS_ADF.pdf
+freeze(FRZ_PDIFF_MAURITIUS) PDIFF_MAURITIUS.uroot(lag=1)
+FRZ_PDIFF_MAURITIUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MAURITIUS_ADF.csv
+FRZ_PDIFF_MAURITIUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MAURITIUS_ADF.pdf
+freeze(FRZ_RES_MAURITIUS) RES_MAURITIUS.uroot(lag=1)
+FRZ_RES_MAURITIUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MAURITIUS_ADF.csv
+FRZ_RES_MAURITIUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MAURITIUS_ADF.pdf
+genr ST_MEXICO = log(MEXICO_ER)
+genr PDIFF_MEXICO = log(MEXICO_CPI) - PT_UNITED_STATES
+equation EQ_MEXICO.ls ST_MEXICO c PDIFF_MEXICO
+EQ_MEXICO.makeresids RES_MEXICO
+freeze(FRZ_ST_MEXICO) ST_MEXICO.uroot(lag=1)
+FRZ_ST_MEXICO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MEXICO_ADF.csv
+FRZ_ST_MEXICO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MEXICO_ADF.pdf
+freeze(FRZ_PDIFF_MEXICO) PDIFF_MEXICO.uroot(lag=1)
+FRZ_PDIFF_MEXICO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MEXICO_ADF.csv
+FRZ_PDIFF_MEXICO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MEXICO_ADF.pdf
+freeze(FRZ_RES_MEXICO) RES_MEXICO.uroot(lag=1)
+FRZ_RES_MEXICO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MEXICO_ADF.csv
+FRZ_RES_MEXICO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MEXICO_ADF.pdf
+genr ST_MONGOLIA = log(MONGOLIA_ER)
+genr PDIFF_MONGOLIA = log(MONGOLIA_CPI) - PT_UNITED_STATES
+equation EQ_MONGOLIA.ls ST_MONGOLIA c PDIFF_MONGOLIA
+EQ_MONGOLIA.makeresids RES_MONGOLIA
+freeze(FRZ_ST_MONGOLIA) ST_MONGOLIA.uroot(lag=1)
+FRZ_ST_MONGOLIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MONGOLIA_ADF.csv
+FRZ_ST_MONGOLIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MONGOLIA_ADF.pdf
+freeze(FRZ_PDIFF_MONGOLIA) PDIFF_MONGOLIA.uroot(lag=1)
+FRZ_PDIFF_MONGOLIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MONGOLIA_ADF.csv
+FRZ_PDIFF_MONGOLIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MONGOLIA_ADF.pdf
+freeze(FRZ_RES_MONGOLIA) RES_MONGOLIA.uroot(lag=1)
+FRZ_RES_MONGOLIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MONGOLIA_ADF.csv
+FRZ_RES_MONGOLIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MONGOLIA_ADF.pdf
+genr ST_MONTENEGRO = log(MONTENEGRO_ER)
+genr PDIFF_MONTENEGRO = log(MONTENEGRO_CPI) - PT_UNITED_STATES
+equation EQ_MONTENEGRO.ls ST_MONTENEGRO c PDIFF_MONTENEGRO
+EQ_MONTENEGRO.makeresids RES_MONTENEGRO
+freeze(FRZ_ST_MONTENEGRO) ST_MONTENEGRO.uroot(lag=1)
+FRZ_ST_MONTENEGRO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MONTENEGRO_ADF.csv
+FRZ_ST_MONTENEGRO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MONTENEGRO_ADF.pdf
+freeze(FRZ_PDIFF_MONTENEGRO) PDIFF_MONTENEGRO.uroot(lag=1)
+FRZ_PDIFF_MONTENEGRO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MONTENEGRO_ADF.csv
+FRZ_PDIFF_MONTENEGRO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MONTENEGRO_ADF.pdf
+freeze(FRZ_RES_MONTENEGRO) RES_MONTENEGRO.uroot(lag=1)
+FRZ_RES_MONTENEGRO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MONTENEGRO_ADF.csv
+FRZ_RES_MONTENEGRO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MONTENEGRO_ADF.pdf
+genr ST_MONTSERRAT = log(MONTSERRAT_ER)
+genr PDIFF_MONTSERRAT = log(MONTSERRAT_CPI) - PT_UNITED_STATES
+equation EQ_MONTSERRAT.ls ST_MONTSERRAT c PDIFF_MONTSERRAT
+EQ_MONTSERRAT.makeresids RES_MONTSERRAT
+freeze(FRZ_ST_MONTSERRAT) ST_MONTSERRAT.uroot(lag=1)
+FRZ_ST_MONTSERRAT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MONTSERRAT_ADF.csv
+FRZ_ST_MONTSERRAT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MONTSERRAT_ADF.pdf
+freeze(FRZ_PDIFF_MONTSERRAT) PDIFF_MONTSERRAT.uroot(lag=1)
+FRZ_PDIFF_MONTSERRAT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MONTSERRAT_ADF.csv
+FRZ_PDIFF_MONTSERRAT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MONTSERRAT_ADF.pdf
+freeze(FRZ_RES_MONTSERRAT) RES_MONTSERRAT.uroot(lag=1)
+FRZ_RES_MONTSERRAT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MONTSERRAT_ADF.csv
+FRZ_RES_MONTSERRAT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MONTSERRAT_ADF.pdf
+genr ST_MOROCCO = log(MOROCCO_ER)
+genr PDIFF_MOROCCO = log(MOROCCO_CPI) - PT_UNITED_STATES
+equation EQ_MOROCCO.ls ST_MOROCCO c PDIFF_MOROCCO
+EQ_MOROCCO.makeresids RES_MOROCCO
+freeze(FRZ_ST_MOROCCO) ST_MOROCCO.uroot(lag=1)
+FRZ_ST_MOROCCO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MOROCCO_ADF.csv
+FRZ_ST_MOROCCO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MOROCCO_ADF.pdf
+freeze(FRZ_PDIFF_MOROCCO) PDIFF_MOROCCO.uroot(lag=1)
+FRZ_PDIFF_MOROCCO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MOROCCO_ADF.csv
+FRZ_PDIFF_MOROCCO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MOROCCO_ADF.pdf
+freeze(FRZ_RES_MOROCCO) RES_MOROCCO.uroot(lag=1)
+FRZ_RES_MOROCCO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MOROCCO_ADF.csv
+FRZ_RES_MOROCCO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MOROCCO_ADF.pdf
+genr ST_MOZAMBIQUE = log(MOZAMBIQUE_ER)
+genr PDIFF_MOZAMBIQUE = log(MOZAMBIQUE_CPI) - PT_UNITED_STATES
+equation EQ_MOZAMBIQUE.ls ST_MOZAMBIQUE c PDIFF_MOZAMBIQUE
+EQ_MOZAMBIQUE.makeresids RES_MOZAMBIQUE
+freeze(FRZ_ST_MOZAMBIQUE) ST_MOZAMBIQUE.uroot(lag=1)
+FRZ_ST_MOZAMBIQUE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MOZAMBIQUE_ADF.csv
+FRZ_ST_MOZAMBIQUE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MOZAMBIQUE_ADF.pdf
+freeze(FRZ_PDIFF_MOZAMBIQUE) PDIFF_MOZAMBIQUE.uroot(lag=1)
+FRZ_PDIFF_MOZAMBIQUE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MOZAMBIQUE_ADF.csv
+FRZ_PDIFF_MOZAMBIQUE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MOZAMBIQUE_ADF.pdf
+freeze(FRZ_RES_MOZAMBIQUE) RES_MOZAMBIQUE.uroot(lag=1)
+FRZ_RES_MOZAMBIQUE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MOZAMBIQUE_ADF.csv
+FRZ_RES_MOZAMBIQUE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MOZAMBIQUE_ADF.pdf
+genr ST_MYANMAR = log(MYANMAR_ER)
+genr PDIFF_MYANMAR = log(MYANMAR_CPI) - PT_UNITED_STATES
+equation EQ_MYANMAR.ls ST_MYANMAR c PDIFF_MYANMAR
+EQ_MYANMAR.makeresids RES_MYANMAR
+freeze(FRZ_ST_MYANMAR) ST_MYANMAR.uroot(lag=1)
+FRZ_ST_MYANMAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\MYANMAR_ADF.csv
+FRZ_ST_MYANMAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\MYANMAR_ADF.pdf
+freeze(FRZ_PDIFF_MYANMAR) PDIFF_MYANMAR.uroot(lag=1)
+FRZ_PDIFF_MYANMAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\MYANMAR_ADF.csv
+FRZ_PDIFF_MYANMAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\MYANMAR_ADF.pdf
+freeze(FRZ_RES_MYANMAR) RES_MYANMAR.uroot(lag=1)
+FRZ_RES_MYANMAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\MYANMAR_ADF.csv
+FRZ_RES_MYANMAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\MYANMAR_ADF.pdf
+genr ST_NAMIBIA = log(NAMIBIA_ER)
+genr PDIFF_NAMIBIA = log(NAMIBIA_CPI) - PT_UNITED_STATES
+equation EQ_NAMIBIA.ls ST_NAMIBIA c PDIFF_NAMIBIA
+EQ_NAMIBIA.makeresids RES_NAMIBIA
+freeze(FRZ_ST_NAMIBIA) ST_NAMIBIA.uroot(lag=1)
+FRZ_ST_NAMIBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\NAMIBIA_ADF.csv
+FRZ_ST_NAMIBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\NAMIBIA_ADF.pdf
+freeze(FRZ_PDIFF_NAMIBIA) PDIFF_NAMIBIA.uroot(lag=1)
+FRZ_PDIFF_NAMIBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\NAMIBIA_ADF.csv
+FRZ_PDIFF_NAMIBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\NAMIBIA_ADF.pdf
+freeze(FRZ_RES_NAMIBIA) RES_NAMIBIA.uroot(lag=1)
+FRZ_RES_NAMIBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\NAMIBIA_ADF.csv
+FRZ_RES_NAMIBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\NAMIBIA_ADF.pdf
+genr ST_NEPAL = log(NEPAL_ER)
+genr PDIFF_NEPAL = log(NEPAL_CPI) - PT_UNITED_STATES
+equation EQ_NEPAL.ls ST_NEPAL c PDIFF_NEPAL
+EQ_NEPAL.makeresids RES_NEPAL
+freeze(FRZ_ST_NEPAL) ST_NEPAL.uroot(lag=1)
+FRZ_ST_NEPAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\NEPAL_ADF.csv
+FRZ_ST_NEPAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\NEPAL_ADF.pdf
+freeze(FRZ_PDIFF_NEPAL) PDIFF_NEPAL.uroot(lag=1)
+FRZ_PDIFF_NEPAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\NEPAL_ADF.csv
+FRZ_PDIFF_NEPAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\NEPAL_ADF.pdf
+freeze(FRZ_RES_NEPAL) RES_NEPAL.uroot(lag=1)
+FRZ_RES_NEPAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\NEPAL_ADF.csv
+FRZ_RES_NEPAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\NEPAL_ADF.pdf
+genr ST_NETHERLANDS = log(NETHERLANDS_ER)
+genr PDIFF_NETHERLANDS = log(NETHERLANDS_CPI) - PT_UNITED_STATES
+equation EQ_NETHERLANDS.ls ST_NETHERLANDS c PDIFF_NETHERLANDS
+EQ_NETHERLANDS.makeresids RES_NETHERLANDS
+freeze(FRZ_ST_NETHERLANDS) ST_NETHERLANDS.uroot(lag=1)
+FRZ_ST_NETHERLANDS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\NETHERLANDS_ADF.csv
+FRZ_ST_NETHERLANDS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\NETHERLANDS_ADF.pdf
+freeze(FRZ_PDIFF_NETHERLANDS) PDIFF_NETHERLANDS.uroot(lag=1)
+FRZ_PDIFF_NETHERLANDS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\NETHERLANDS_ADF.csv
+FRZ_PDIFF_NETHERLANDS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\NETHERLANDS_ADF.pdf
+freeze(FRZ_RES_NETHERLANDS) RES_NETHERLANDS.uroot(lag=1)
+FRZ_RES_NETHERLANDS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\NETHERLANDS_ADF.csv
+FRZ_RES_NETHERLANDS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\NETHERLANDS_ADF.pdf
+genr ST_NICARAGUA = log(NICARAGUA_ER)
+genr PDIFF_NICARAGUA = log(NICARAGUA_CPI) - PT_UNITED_STATES
+equation EQ_NICARAGUA.ls ST_NICARAGUA c PDIFF_NICARAGUA
+EQ_NICARAGUA.makeresids RES_NICARAGUA
+freeze(FRZ_ST_NICARAGUA) ST_NICARAGUA.uroot(lag=1)
+FRZ_ST_NICARAGUA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\NICARAGUA_ADF.csv
+FRZ_ST_NICARAGUA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\NICARAGUA_ADF.pdf
+freeze(FRZ_PDIFF_NICARAGUA) PDIFF_NICARAGUA.uroot(lag=1)
+FRZ_PDIFF_NICARAGUA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\NICARAGUA_ADF.csv
+FRZ_PDIFF_NICARAGUA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\NICARAGUA_ADF.pdf
+freeze(FRZ_RES_NICARAGUA) RES_NICARAGUA.uroot(lag=1)
+FRZ_RES_NICARAGUA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\NICARAGUA_ADF.csv
+FRZ_RES_NICARAGUA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\NICARAGUA_ADF.pdf
+genr ST_NIGER = log(NIGER_ER)
+genr PDIFF_NIGER = log(NIGER_CPI) - PT_UNITED_STATES
+equation EQ_NIGER.ls ST_NIGER c PDIFF_NIGER
+EQ_NIGER.makeresids RES_NIGER
+freeze(FRZ_ST_NIGER) ST_NIGER.uroot(lag=1)
+FRZ_ST_NIGER.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\NIGER_ADF.csv
+FRZ_ST_NIGER.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\NIGER_ADF.pdf
+freeze(FRZ_PDIFF_NIGER) PDIFF_NIGER.uroot(lag=1)
+FRZ_PDIFF_NIGER.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\NIGER_ADF.csv
+FRZ_PDIFF_NIGER.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\NIGER_ADF.pdf
+freeze(FRZ_RES_NIGER) RES_NIGER.uroot(lag=1)
+FRZ_RES_NIGER.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\NIGER_ADF.csv
+FRZ_RES_NIGER.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\NIGER_ADF.pdf
+genr ST_NIGERIA = log(NIGERIA_ER)
+genr PDIFF_NIGERIA = log(NIGERIA_CPI) - PT_UNITED_STATES
+equation EQ_NIGERIA.ls ST_NIGERIA c PDIFF_NIGERIA
+EQ_NIGERIA.makeresids RES_NIGERIA
+freeze(FRZ_ST_NIGERIA) ST_NIGERIA.uroot(lag=1)
+FRZ_ST_NIGERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\NIGERIA_ADF.csv
+FRZ_ST_NIGERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\NIGERIA_ADF.pdf
+freeze(FRZ_PDIFF_NIGERIA) PDIFF_NIGERIA.uroot(lag=1)
+FRZ_PDIFF_NIGERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\NIGERIA_ADF.csv
+FRZ_PDIFF_NIGERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\NIGERIA_ADF.pdf
+freeze(FRZ_RES_NIGERIA) RES_NIGERIA.uroot(lag=1)
+FRZ_RES_NIGERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\NIGERIA_ADF.csv
+FRZ_RES_NIGERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\NIGERIA_ADF.pdf
+genr ST_NORTH_MACEDONIA_REPUBLIC_OF = log(NORTH_MACEDONIA_REPUBLIC_OF_ER)
+genr PDIFF_NORTH_MACEDONIA_REPUBLIC_OF = log(NORTH_MACEDONIA_REPUBLIC_OF_CPI) - PT_UNITED_STATES
+equation EQ_NORTH_MACEDONIA_REPUBLIC_OF.ls ST_NORTH_MACEDONIA_REPUBLIC_OF c PDIFF_NORTH_MACEDONIA_REPUBLIC_OF
+EQ_NORTH_MACEDONIA_REPUBLIC_OF.makeresids RES_NORTH_MACEDONIA_REPUBLIC_OF
+freeze(FRZ_ST_NORTH_MACEDONIA_REPUBLIC_OF) ST_NORTH_MACEDONIA_REPUBLIC_OF.uroot(lag=1)
+FRZ_ST_NORTH_MACEDONIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\NORTH_MACEDONIA_REPUBLIC_OF_ADF.csv
+FRZ_ST_NORTH_MACEDONIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\NORTH_MACEDONIA_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_PDIFF_NORTH_MACEDONIA_REPUBLIC_OF) PDIFF_NORTH_MACEDONIA_REPUBLIC_OF.uroot(lag=1)
+FRZ_PDIFF_NORTH_MACEDONIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\NORTH_MACEDONIA_REPUBLIC_OF_ADF.csv
+FRZ_PDIFF_NORTH_MACEDONIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\NORTH_MACEDONIA_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_RES_NORTH_MACEDONIA_REPUBLIC_OF) RES_NORTH_MACEDONIA_REPUBLIC_OF.uroot(lag=1)
+FRZ_RES_NORTH_MACEDONIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\NORTH_MACEDONIA_REPUBLIC_OF_ADF.csv
+FRZ_RES_NORTH_MACEDONIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\NORTH_MACEDONIA_REPUBLIC_OF_ADF.pdf
+genr ST_NORWAY = log(NORWAY_ER)
+genr PDIFF_NORWAY = log(NORWAY_CPI) - PT_UNITED_STATES
+equation EQ_NORWAY.ls ST_NORWAY c PDIFF_NORWAY
+EQ_NORWAY.makeresids RES_NORWAY
+freeze(FRZ_ST_NORWAY) ST_NORWAY.uroot(lag=1)
+FRZ_ST_NORWAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\NORWAY_ADF.csv
+FRZ_ST_NORWAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\NORWAY_ADF.pdf
+freeze(FRZ_PDIFF_NORWAY) PDIFF_NORWAY.uroot(lag=1)
+FRZ_PDIFF_NORWAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\NORWAY_ADF.csv
+FRZ_PDIFF_NORWAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\NORWAY_ADF.pdf
+freeze(FRZ_RES_NORWAY) RES_NORWAY.uroot(lag=1)
+FRZ_RES_NORWAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\NORWAY_ADF.csv
+FRZ_RES_NORWAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\NORWAY_ADF.pdf
+genr ST_OMAN = log(OMAN_ER)
+genr PDIFF_OMAN = log(OMAN_CPI) - PT_UNITED_STATES
+equation EQ_OMAN.ls ST_OMAN c PDIFF_OMAN
+EQ_OMAN.makeresids RES_OMAN
+freeze(FRZ_ST_OMAN) ST_OMAN.uroot(lag=1)
+FRZ_ST_OMAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\OMAN_ADF.csv
+FRZ_ST_OMAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\OMAN_ADF.pdf
+freeze(FRZ_PDIFF_OMAN) PDIFF_OMAN.uroot(lag=1)
+FRZ_PDIFF_OMAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\OMAN_ADF.csv
+FRZ_PDIFF_OMAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\OMAN_ADF.pdf
+freeze(FRZ_RES_OMAN) RES_OMAN.uroot(lag=1)
+FRZ_RES_OMAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\OMAN_ADF.csv
+FRZ_RES_OMAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\OMAN_ADF.pdf
+genr ST_PAKISTAN = log(PAKISTAN_ER)
+genr PDIFF_PAKISTAN = log(PAKISTAN_CPI) - PT_UNITED_STATES
+equation EQ_PAKISTAN.ls ST_PAKISTAN c PDIFF_PAKISTAN
+EQ_PAKISTAN.makeresids RES_PAKISTAN
+freeze(FRZ_ST_PAKISTAN) ST_PAKISTAN.uroot(lag=1)
+FRZ_ST_PAKISTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\PAKISTAN_ADF.csv
+FRZ_ST_PAKISTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\PAKISTAN_ADF.pdf
+freeze(FRZ_PDIFF_PAKISTAN) PDIFF_PAKISTAN.uroot(lag=1)
+FRZ_PDIFF_PAKISTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\PAKISTAN_ADF.csv
+FRZ_PDIFF_PAKISTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\PAKISTAN_ADF.pdf
+freeze(FRZ_RES_PAKISTAN) RES_PAKISTAN.uroot(lag=1)
+FRZ_RES_PAKISTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\PAKISTAN_ADF.csv
+FRZ_RES_PAKISTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\PAKISTAN_ADF.pdf
+genr ST_PARAGUAY = log(PARAGUAY_ER)
+genr PDIFF_PARAGUAY = log(PARAGUAY_CPI) - PT_UNITED_STATES
+equation EQ_PARAGUAY.ls ST_PARAGUAY c PDIFF_PARAGUAY
+EQ_PARAGUAY.makeresids RES_PARAGUAY
+freeze(FRZ_ST_PARAGUAY) ST_PARAGUAY.uroot(lag=1)
+FRZ_ST_PARAGUAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\PARAGUAY_ADF.csv
+FRZ_ST_PARAGUAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\PARAGUAY_ADF.pdf
+freeze(FRZ_PDIFF_PARAGUAY) PDIFF_PARAGUAY.uroot(lag=1)
+FRZ_PDIFF_PARAGUAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\PARAGUAY_ADF.csv
+FRZ_PDIFF_PARAGUAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\PARAGUAY_ADF.pdf
+freeze(FRZ_RES_PARAGUAY) RES_PARAGUAY.uroot(lag=1)
+FRZ_RES_PARAGUAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\PARAGUAY_ADF.csv
+FRZ_RES_PARAGUAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\PARAGUAY_ADF.pdf
+genr ST_PERU = log(PERU_ER)
+genr PDIFF_PERU = log(PERU_CPI) - PT_UNITED_STATES
+equation EQ_PERU.ls ST_PERU c PDIFF_PERU
+EQ_PERU.makeresids RES_PERU
+freeze(FRZ_ST_PERU) ST_PERU.uroot(lag=1)
+FRZ_ST_PERU.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\PERU_ADF.csv
+FRZ_ST_PERU.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\PERU_ADF.pdf
+freeze(FRZ_PDIFF_PERU) PDIFF_PERU.uroot(lag=1)
+FRZ_PDIFF_PERU.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\PERU_ADF.csv
+FRZ_PDIFF_PERU.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\PERU_ADF.pdf
+freeze(FRZ_RES_PERU) RES_PERU.uroot(lag=1)
+FRZ_RES_PERU.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\PERU_ADF.csv
+FRZ_RES_PERU.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\PERU_ADF.pdf
+genr ST_PHILIPPINES = log(PHILIPPINES_ER)
+genr PDIFF_PHILIPPINES = log(PHILIPPINES_CPI) - PT_UNITED_STATES
+equation EQ_PHILIPPINES.ls ST_PHILIPPINES c PDIFF_PHILIPPINES
+EQ_PHILIPPINES.makeresids RES_PHILIPPINES
+freeze(FRZ_ST_PHILIPPINES) ST_PHILIPPINES.uroot(lag=1)
+FRZ_ST_PHILIPPINES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\PHILIPPINES_ADF.csv
+FRZ_ST_PHILIPPINES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\PHILIPPINES_ADF.pdf
+freeze(FRZ_PDIFF_PHILIPPINES) PDIFF_PHILIPPINES.uroot(lag=1)
+FRZ_PDIFF_PHILIPPINES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\PHILIPPINES_ADF.csv
+FRZ_PDIFF_PHILIPPINES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\PHILIPPINES_ADF.pdf
+freeze(FRZ_RES_PHILIPPINES) RES_PHILIPPINES.uroot(lag=1)
+FRZ_RES_PHILIPPINES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\PHILIPPINES_ADF.csv
+FRZ_RES_PHILIPPINES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\PHILIPPINES_ADF.pdf
+genr ST_POLAND = log(POLAND_ER)
+genr PDIFF_POLAND = log(POLAND_CPI) - PT_UNITED_STATES
+equation EQ_POLAND.ls ST_POLAND c PDIFF_POLAND
+EQ_POLAND.makeresids RES_POLAND
+freeze(FRZ_ST_POLAND) ST_POLAND.uroot(lag=1)
+FRZ_ST_POLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\POLAND_ADF.csv
+FRZ_ST_POLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\POLAND_ADF.pdf
+freeze(FRZ_PDIFF_POLAND) PDIFF_POLAND.uroot(lag=1)
+FRZ_PDIFF_POLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\POLAND_ADF.csv
+FRZ_PDIFF_POLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\POLAND_ADF.pdf
+freeze(FRZ_RES_POLAND) RES_POLAND.uroot(lag=1)
+FRZ_RES_POLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\POLAND_ADF.csv
+FRZ_RES_POLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\POLAND_ADF.pdf
+genr ST_PORTUGAL = log(PORTUGAL_ER)
+genr PDIFF_PORTUGAL = log(PORTUGAL_CPI) - PT_UNITED_STATES
+equation EQ_PORTUGAL.ls ST_PORTUGAL c PDIFF_PORTUGAL
+EQ_PORTUGAL.makeresids RES_PORTUGAL
+freeze(FRZ_ST_PORTUGAL) ST_PORTUGAL.uroot(lag=1)
+FRZ_ST_PORTUGAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\PORTUGAL_ADF.csv
+FRZ_ST_PORTUGAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\PORTUGAL_ADF.pdf
+freeze(FRZ_PDIFF_PORTUGAL) PDIFF_PORTUGAL.uroot(lag=1)
+FRZ_PDIFF_PORTUGAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\PORTUGAL_ADF.csv
+FRZ_PDIFF_PORTUGAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\PORTUGAL_ADF.pdf
+freeze(FRZ_RES_PORTUGAL) RES_PORTUGAL.uroot(lag=1)
+FRZ_RES_PORTUGAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\PORTUGAL_ADF.csv
+FRZ_RES_PORTUGAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\PORTUGAL_ADF.pdf
+genr ST_QATAR = log(QATAR_ER)
+genr PDIFF_QATAR = log(QATAR_CPI) - PT_UNITED_STATES
+equation EQ_QATAR.ls ST_QATAR c PDIFF_QATAR
+EQ_QATAR.makeresids RES_QATAR
+freeze(FRZ_ST_QATAR) ST_QATAR.uroot(lag=1)
+FRZ_ST_QATAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\QATAR_ADF.csv
+FRZ_ST_QATAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\QATAR_ADF.pdf
+freeze(FRZ_PDIFF_QATAR) PDIFF_QATAR.uroot(lag=1)
+FRZ_PDIFF_QATAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\QATAR_ADF.csv
+FRZ_PDIFF_QATAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\QATAR_ADF.pdf
+freeze(FRZ_RES_QATAR) RES_QATAR.uroot(lag=1)
+FRZ_RES_QATAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\QATAR_ADF.csv
+FRZ_RES_QATAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\QATAR_ADF.pdf
+genr ST_ROMANIA = log(ROMANIA_ER)
+genr PDIFF_ROMANIA = log(ROMANIA_CPI) - PT_UNITED_STATES
+equation EQ_ROMANIA.ls ST_ROMANIA c PDIFF_ROMANIA
+EQ_ROMANIA.makeresids RES_ROMANIA
+freeze(FRZ_ST_ROMANIA) ST_ROMANIA.uroot(lag=1)
+FRZ_ST_ROMANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ROMANIA_ADF.csv
+FRZ_ST_ROMANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ROMANIA_ADF.pdf
+freeze(FRZ_PDIFF_ROMANIA) PDIFF_ROMANIA.uroot(lag=1)
+FRZ_PDIFF_ROMANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ROMANIA_ADF.csv
+FRZ_PDIFF_ROMANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ROMANIA_ADF.pdf
+freeze(FRZ_RES_ROMANIA) RES_ROMANIA.uroot(lag=1)
+FRZ_RES_ROMANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ROMANIA_ADF.csv
+FRZ_RES_ROMANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ROMANIA_ADF.pdf
+genr ST_RUSSIAN_FEDERATION = log(RUSSIAN_FEDERATION_ER)
+genr PDIFF_RUSSIAN_FEDERATION = log(RUSSIAN_FEDERATION_CPI) - PT_UNITED_STATES
+equation EQ_RUSSIAN_FEDERATION.ls ST_RUSSIAN_FEDERATION c PDIFF_RUSSIAN_FEDERATION
+EQ_RUSSIAN_FEDERATION.makeresids RES_RUSSIAN_FEDERATION
+freeze(FRZ_ST_RUSSIAN_FEDERATION) ST_RUSSIAN_FEDERATION.uroot(lag=1)
+FRZ_ST_RUSSIAN_FEDERATION.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\RUSSIAN_FEDERATION_ADF.csv
+FRZ_ST_RUSSIAN_FEDERATION.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\RUSSIAN_FEDERATION_ADF.pdf
+freeze(FRZ_PDIFF_RUSSIAN_FEDERATION) PDIFF_RUSSIAN_FEDERATION.uroot(lag=1)
+FRZ_PDIFF_RUSSIAN_FEDERATION.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\RUSSIAN_FEDERATION_ADF.csv
+FRZ_PDIFF_RUSSIAN_FEDERATION.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\RUSSIAN_FEDERATION_ADF.pdf
+freeze(FRZ_RES_RUSSIAN_FEDERATION) RES_RUSSIAN_FEDERATION.uroot(lag=1)
+FRZ_RES_RUSSIAN_FEDERATION.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\RUSSIAN_FEDERATION_ADF.csv
+FRZ_RES_RUSSIAN_FEDERATION.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\RUSSIAN_FEDERATION_ADF.pdf
+genr ST_RWANDA = log(RWANDA_ER)
+genr PDIFF_RWANDA = log(RWANDA_CPI) - PT_UNITED_STATES
+equation EQ_RWANDA.ls ST_RWANDA c PDIFF_RWANDA
+EQ_RWANDA.makeresids RES_RWANDA
+freeze(FRZ_ST_RWANDA) ST_RWANDA.uroot(lag=1)
+FRZ_ST_RWANDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\RWANDA_ADF.csv
+FRZ_ST_RWANDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\RWANDA_ADF.pdf
+freeze(FRZ_PDIFF_RWANDA) PDIFF_RWANDA.uroot(lag=1)
+FRZ_PDIFF_RWANDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\RWANDA_ADF.csv
+FRZ_PDIFF_RWANDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\RWANDA_ADF.pdf
+freeze(FRZ_RES_RWANDA) RES_RWANDA.uroot(lag=1)
+FRZ_RES_RWANDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\RWANDA_ADF.csv
+FRZ_RES_RWANDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\RWANDA_ADF.pdf
+genr ST_SAMOA = log(SAMOA_ER)
+genr PDIFF_SAMOA = log(SAMOA_CPI) - PT_UNITED_STATES
+equation EQ_SAMOA.ls ST_SAMOA c PDIFF_SAMOA
+EQ_SAMOA.makeresids RES_SAMOA
+freeze(FRZ_ST_SAMOA) ST_SAMOA.uroot(lag=1)
+FRZ_ST_SAMOA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SAMOA_ADF.csv
+FRZ_ST_SAMOA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SAMOA_ADF.pdf
+freeze(FRZ_PDIFF_SAMOA) PDIFF_SAMOA.uroot(lag=1)
+FRZ_PDIFF_SAMOA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SAMOA_ADF.csv
+FRZ_PDIFF_SAMOA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SAMOA_ADF.pdf
+freeze(FRZ_RES_SAMOA) RES_SAMOA.uroot(lag=1)
+FRZ_RES_SAMOA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SAMOA_ADF.csv
+FRZ_RES_SAMOA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SAMOA_ADF.pdf
+genr ST_SAN_MARINO = log(SAN_MARINO_ER)
+genr PDIFF_SAN_MARINO = log(SAN_MARINO_CPI) - PT_UNITED_STATES
+equation EQ_SAN_MARINO.ls ST_SAN_MARINO c PDIFF_SAN_MARINO
+EQ_SAN_MARINO.makeresids RES_SAN_MARINO
+freeze(FRZ_ST_SAN_MARINO) ST_SAN_MARINO.uroot(lag=1)
+FRZ_ST_SAN_MARINO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SAN_MARINO_ADF.csv
+FRZ_ST_SAN_MARINO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SAN_MARINO_ADF.pdf
+freeze(FRZ_PDIFF_SAN_MARINO) PDIFF_SAN_MARINO.uroot(lag=1)
+FRZ_PDIFF_SAN_MARINO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SAN_MARINO_ADF.csv
+FRZ_PDIFF_SAN_MARINO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SAN_MARINO_ADF.pdf
+freeze(FRZ_RES_SAN_MARINO) RES_SAN_MARINO.uroot(lag=1)
+FRZ_RES_SAN_MARINO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SAN_MARINO_ADF.csv
+FRZ_RES_SAN_MARINO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SAN_MARINO_ADF.pdf
+genr ST_SAUDI_ARABIA = log(SAUDI_ARABIA_ER)
+genr PDIFF_SAUDI_ARABIA = log(SAUDI_ARABIA_CPI) - PT_UNITED_STATES
+equation EQ_SAUDI_ARABIA.ls ST_SAUDI_ARABIA c PDIFF_SAUDI_ARABIA
+EQ_SAUDI_ARABIA.makeresids RES_SAUDI_ARABIA
+freeze(FRZ_ST_SAUDI_ARABIA) ST_SAUDI_ARABIA.uroot(lag=1)
+FRZ_ST_SAUDI_ARABIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SAUDI_ARABIA_ADF.csv
+FRZ_ST_SAUDI_ARABIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SAUDI_ARABIA_ADF.pdf
+freeze(FRZ_PDIFF_SAUDI_ARABIA) PDIFF_SAUDI_ARABIA.uroot(lag=1)
+FRZ_PDIFF_SAUDI_ARABIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SAUDI_ARABIA_ADF.csv
+FRZ_PDIFF_SAUDI_ARABIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SAUDI_ARABIA_ADF.pdf
+freeze(FRZ_RES_SAUDI_ARABIA) RES_SAUDI_ARABIA.uroot(lag=1)
+FRZ_RES_SAUDI_ARABIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SAUDI_ARABIA_ADF.csv
+FRZ_RES_SAUDI_ARABIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SAUDI_ARABIA_ADF.pdf
+genr ST_SENEGAL = log(SENEGAL_ER)
+genr PDIFF_SENEGAL = log(SENEGAL_CPI) - PT_UNITED_STATES
+equation EQ_SENEGAL.ls ST_SENEGAL c PDIFF_SENEGAL
+EQ_SENEGAL.makeresids RES_SENEGAL
+freeze(FRZ_ST_SENEGAL) ST_SENEGAL.uroot(lag=1)
+FRZ_ST_SENEGAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SENEGAL_ADF.csv
+FRZ_ST_SENEGAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SENEGAL_ADF.pdf
+freeze(FRZ_PDIFF_SENEGAL) PDIFF_SENEGAL.uroot(lag=1)
+FRZ_PDIFF_SENEGAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SENEGAL_ADF.csv
+FRZ_PDIFF_SENEGAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SENEGAL_ADF.pdf
+freeze(FRZ_RES_SENEGAL) RES_SENEGAL.uroot(lag=1)
+FRZ_RES_SENEGAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SENEGAL_ADF.csv
+FRZ_RES_SENEGAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SENEGAL_ADF.pdf
+genr ST_SERBIA_REPUBLIC_OF = log(SERBIA_REPUBLIC_OF_ER)
+genr PDIFF_SERBIA_REPUBLIC_OF = log(SERBIA_REPUBLIC_OF_CPI) - PT_UNITED_STATES
+equation EQ_SERBIA_REPUBLIC_OF.ls ST_SERBIA_REPUBLIC_OF c PDIFF_SERBIA_REPUBLIC_OF
+EQ_SERBIA_REPUBLIC_OF.makeresids RES_SERBIA_REPUBLIC_OF
+freeze(FRZ_ST_SERBIA_REPUBLIC_OF) ST_SERBIA_REPUBLIC_OF.uroot(lag=1)
+FRZ_ST_SERBIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SERBIA_REPUBLIC_OF_ADF.csv
+FRZ_ST_SERBIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SERBIA_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_PDIFF_SERBIA_REPUBLIC_OF) PDIFF_SERBIA_REPUBLIC_OF.uroot(lag=1)
+FRZ_PDIFF_SERBIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SERBIA_REPUBLIC_OF_ADF.csv
+FRZ_PDIFF_SERBIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SERBIA_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_RES_SERBIA_REPUBLIC_OF) RES_SERBIA_REPUBLIC_OF.uroot(lag=1)
+FRZ_RES_SERBIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SERBIA_REPUBLIC_OF_ADF.csv
+FRZ_RES_SERBIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SERBIA_REPUBLIC_OF_ADF.pdf
+genr ST_SEYCHELLES = log(SEYCHELLES_ER)
+genr PDIFF_SEYCHELLES = log(SEYCHELLES_CPI) - PT_UNITED_STATES
+equation EQ_SEYCHELLES.ls ST_SEYCHELLES c PDIFF_SEYCHELLES
+EQ_SEYCHELLES.makeresids RES_SEYCHELLES
+freeze(FRZ_ST_SEYCHELLES) ST_SEYCHELLES.uroot(lag=1)
+FRZ_ST_SEYCHELLES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SEYCHELLES_ADF.csv
+FRZ_ST_SEYCHELLES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SEYCHELLES_ADF.pdf
+freeze(FRZ_PDIFF_SEYCHELLES) PDIFF_SEYCHELLES.uroot(lag=1)
+FRZ_PDIFF_SEYCHELLES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SEYCHELLES_ADF.csv
+FRZ_PDIFF_SEYCHELLES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SEYCHELLES_ADF.pdf
+freeze(FRZ_RES_SEYCHELLES) RES_SEYCHELLES.uroot(lag=1)
+FRZ_RES_SEYCHELLES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SEYCHELLES_ADF.csv
+FRZ_RES_SEYCHELLES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SEYCHELLES_ADF.pdf
+genr ST_SIERRA_LEONE = log(SIERRA_LEONE_ER)
+genr PDIFF_SIERRA_LEONE = log(SIERRA_LEONE_CPI) - PT_UNITED_STATES
+equation EQ_SIERRA_LEONE.ls ST_SIERRA_LEONE c PDIFF_SIERRA_LEONE
+EQ_SIERRA_LEONE.makeresids RES_SIERRA_LEONE
+freeze(FRZ_ST_SIERRA_LEONE) ST_SIERRA_LEONE.uroot(lag=1)
+FRZ_ST_SIERRA_LEONE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SIERRA_LEONE_ADF.csv
+FRZ_ST_SIERRA_LEONE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SIERRA_LEONE_ADF.pdf
+freeze(FRZ_PDIFF_SIERRA_LEONE) PDIFF_SIERRA_LEONE.uroot(lag=1)
+FRZ_PDIFF_SIERRA_LEONE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SIERRA_LEONE_ADF.csv
+FRZ_PDIFF_SIERRA_LEONE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SIERRA_LEONE_ADF.pdf
+freeze(FRZ_RES_SIERRA_LEONE) RES_SIERRA_LEONE.uroot(lag=1)
+FRZ_RES_SIERRA_LEONE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SIERRA_LEONE_ADF.csv
+FRZ_RES_SIERRA_LEONE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SIERRA_LEONE_ADF.pdf
+genr ST_SINGAPORE = log(SINGAPORE_ER)
+genr PDIFF_SINGAPORE = log(SINGAPORE_CPI) - PT_UNITED_STATES
+equation EQ_SINGAPORE.ls ST_SINGAPORE c PDIFF_SINGAPORE
+EQ_SINGAPORE.makeresids RES_SINGAPORE
+freeze(FRZ_ST_SINGAPORE) ST_SINGAPORE.uroot(lag=1)
+FRZ_ST_SINGAPORE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SINGAPORE_ADF.csv
+FRZ_ST_SINGAPORE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SINGAPORE_ADF.pdf
+freeze(FRZ_PDIFF_SINGAPORE) PDIFF_SINGAPORE.uroot(lag=1)
+FRZ_PDIFF_SINGAPORE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SINGAPORE_ADF.csv
+FRZ_PDIFF_SINGAPORE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SINGAPORE_ADF.pdf
+freeze(FRZ_RES_SINGAPORE) RES_SINGAPORE.uroot(lag=1)
+FRZ_RES_SINGAPORE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SINGAPORE_ADF.csv
+FRZ_RES_SINGAPORE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SINGAPORE_ADF.pdf
+genr ST_SLOVAK_REPUBLIC = log(SLOVAK_REPUBLIC_ER)
+genr PDIFF_SLOVAK_REPUBLIC = log(SLOVAK_REPUBLIC_CPI) - PT_UNITED_STATES
+equation EQ_SLOVAK_REPUBLIC.ls ST_SLOVAK_REPUBLIC c PDIFF_SLOVAK_REPUBLIC
+EQ_SLOVAK_REPUBLIC.makeresids RES_SLOVAK_REPUBLIC
+freeze(FRZ_ST_SLOVAK_REPUBLIC) ST_SLOVAK_REPUBLIC.uroot(lag=1)
+FRZ_ST_SLOVAK_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SLOVAK_REPUBLIC_ADF.csv
+FRZ_ST_SLOVAK_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SLOVAK_REPUBLIC_ADF.pdf
+freeze(FRZ_PDIFF_SLOVAK_REPUBLIC) PDIFF_SLOVAK_REPUBLIC.uroot(lag=1)
+FRZ_PDIFF_SLOVAK_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SLOVAK_REPUBLIC_ADF.csv
+FRZ_PDIFF_SLOVAK_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SLOVAK_REPUBLIC_ADF.pdf
+freeze(FRZ_RES_SLOVAK_REPUBLIC) RES_SLOVAK_REPUBLIC.uroot(lag=1)
+FRZ_RES_SLOVAK_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SLOVAK_REPUBLIC_ADF.csv
+FRZ_RES_SLOVAK_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SLOVAK_REPUBLIC_ADF.pdf
+genr ST_SLOVENIA = log(SLOVENIA_ER)
+genr PDIFF_SLOVENIA = log(SLOVENIA_CPI) - PT_UNITED_STATES
+equation EQ_SLOVENIA.ls ST_SLOVENIA c PDIFF_SLOVENIA
+EQ_SLOVENIA.makeresids RES_SLOVENIA
+freeze(FRZ_ST_SLOVENIA) ST_SLOVENIA.uroot(lag=1)
+FRZ_ST_SLOVENIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SLOVENIA_ADF.csv
+FRZ_ST_SLOVENIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SLOVENIA_ADF.pdf
+freeze(FRZ_PDIFF_SLOVENIA) PDIFF_SLOVENIA.uroot(lag=1)
+FRZ_PDIFF_SLOVENIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SLOVENIA_ADF.csv
+FRZ_PDIFF_SLOVENIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SLOVENIA_ADF.pdf
+freeze(FRZ_RES_SLOVENIA) RES_SLOVENIA.uroot(lag=1)
+FRZ_RES_SLOVENIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SLOVENIA_ADF.csv
+FRZ_RES_SLOVENIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SLOVENIA_ADF.pdf
+genr ST_SOLOMON_ISLANDS = log(SOLOMON_ISLANDS_ER)
+genr PDIFF_SOLOMON_ISLANDS = log(SOLOMON_ISLANDS_CPI) - PT_UNITED_STATES
+equation EQ_SOLOMON_ISLANDS.ls ST_SOLOMON_ISLANDS c PDIFF_SOLOMON_ISLANDS
+EQ_SOLOMON_ISLANDS.makeresids RES_SOLOMON_ISLANDS
+freeze(FRZ_ST_SOLOMON_ISLANDS) ST_SOLOMON_ISLANDS.uroot(lag=1)
+FRZ_ST_SOLOMON_ISLANDS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SOLOMON_ISLANDS_ADF.csv
+FRZ_ST_SOLOMON_ISLANDS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SOLOMON_ISLANDS_ADF.pdf
+freeze(FRZ_PDIFF_SOLOMON_ISLANDS) PDIFF_SOLOMON_ISLANDS.uroot(lag=1)
+FRZ_PDIFF_SOLOMON_ISLANDS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SOLOMON_ISLANDS_ADF.csv
+FRZ_PDIFF_SOLOMON_ISLANDS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SOLOMON_ISLANDS_ADF.pdf
+freeze(FRZ_RES_SOLOMON_ISLANDS) RES_SOLOMON_ISLANDS.uroot(lag=1)
+FRZ_RES_SOLOMON_ISLANDS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SOLOMON_ISLANDS_ADF.csv
+FRZ_RES_SOLOMON_ISLANDS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SOLOMON_ISLANDS_ADF.pdf
+genr ST_SOUTH_AFRICA = log(SOUTH_AFRICA_ER)
+genr PDIFF_SOUTH_AFRICA = log(SOUTH_AFRICA_CPI) - PT_UNITED_STATES
+equation EQ_SOUTH_AFRICA.ls ST_SOUTH_AFRICA c PDIFF_SOUTH_AFRICA
+EQ_SOUTH_AFRICA.makeresids RES_SOUTH_AFRICA
+freeze(FRZ_ST_SOUTH_AFRICA) ST_SOUTH_AFRICA.uroot(lag=1)
+FRZ_ST_SOUTH_AFRICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SOUTH_AFRICA_ADF.csv
+FRZ_ST_SOUTH_AFRICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SOUTH_AFRICA_ADF.pdf
+freeze(FRZ_PDIFF_SOUTH_AFRICA) PDIFF_SOUTH_AFRICA.uroot(lag=1)
+FRZ_PDIFF_SOUTH_AFRICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SOUTH_AFRICA_ADF.csv
+FRZ_PDIFF_SOUTH_AFRICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SOUTH_AFRICA_ADF.pdf
+freeze(FRZ_RES_SOUTH_AFRICA) RES_SOUTH_AFRICA.uroot(lag=1)
+FRZ_RES_SOUTH_AFRICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SOUTH_AFRICA_ADF.csv
+FRZ_RES_SOUTH_AFRICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SOUTH_AFRICA_ADF.pdf
+genr ST_SOUTH_SUDAN = log(SOUTH_SUDAN_ER)
+genr PDIFF_SOUTH_SUDAN = log(SOUTH_SUDAN_CPI) - PT_UNITED_STATES
+equation EQ_SOUTH_SUDAN.ls ST_SOUTH_SUDAN c PDIFF_SOUTH_SUDAN
+EQ_SOUTH_SUDAN.makeresids RES_SOUTH_SUDAN
+freeze(FRZ_ST_SOUTH_SUDAN) ST_SOUTH_SUDAN.uroot(lag=1)
+FRZ_ST_SOUTH_SUDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SOUTH_SUDAN_ADF.csv
+FRZ_ST_SOUTH_SUDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SOUTH_SUDAN_ADF.pdf
+freeze(FRZ_PDIFF_SOUTH_SUDAN) PDIFF_SOUTH_SUDAN.uroot(lag=1)
+FRZ_PDIFF_SOUTH_SUDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SOUTH_SUDAN_ADF.csv
+FRZ_PDIFF_SOUTH_SUDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SOUTH_SUDAN_ADF.pdf
+freeze(FRZ_RES_SOUTH_SUDAN) RES_SOUTH_SUDAN.uroot(lag=1)
+FRZ_RES_SOUTH_SUDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SOUTH_SUDAN_ADF.csv
+FRZ_RES_SOUTH_SUDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SOUTH_SUDAN_ADF.pdf
+genr ST_SPAIN = log(SPAIN_ER)
+genr PDIFF_SPAIN = log(SPAIN_CPI) - PT_UNITED_STATES
+equation EQ_SPAIN.ls ST_SPAIN c PDIFF_SPAIN
+EQ_SPAIN.makeresids RES_SPAIN
+freeze(FRZ_ST_SPAIN) ST_SPAIN.uroot(lag=1)
+FRZ_ST_SPAIN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SPAIN_ADF.csv
+FRZ_ST_SPAIN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SPAIN_ADF.pdf
+freeze(FRZ_PDIFF_SPAIN) PDIFF_SPAIN.uroot(lag=1)
+FRZ_PDIFF_SPAIN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SPAIN_ADF.csv
+FRZ_PDIFF_SPAIN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SPAIN_ADF.pdf
+freeze(FRZ_RES_SPAIN) RES_SPAIN.uroot(lag=1)
+FRZ_RES_SPAIN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SPAIN_ADF.csv
+FRZ_RES_SPAIN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SPAIN_ADF.pdf
+genr ST_SRI_LANKA = log(SRI_LANKA_ER)
+genr PDIFF_SRI_LANKA = log(SRI_LANKA_CPI) - PT_UNITED_STATES
+equation EQ_SRI_LANKA.ls ST_SRI_LANKA c PDIFF_SRI_LANKA
+EQ_SRI_LANKA.makeresids RES_SRI_LANKA
+freeze(FRZ_ST_SRI_LANKA) ST_SRI_LANKA.uroot(lag=1)
+FRZ_ST_SRI_LANKA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SRI_LANKA_ADF.csv
+FRZ_ST_SRI_LANKA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SRI_LANKA_ADF.pdf
+freeze(FRZ_PDIFF_SRI_LANKA) PDIFF_SRI_LANKA.uroot(lag=1)
+FRZ_PDIFF_SRI_LANKA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SRI_LANKA_ADF.csv
+FRZ_PDIFF_SRI_LANKA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SRI_LANKA_ADF.pdf
+freeze(FRZ_RES_SRI_LANKA) RES_SRI_LANKA.uroot(lag=1)
+FRZ_RES_SRI_LANKA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SRI_LANKA_ADF.csv
+FRZ_RES_SRI_LANKA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SRI_LANKA_ADF.pdf
+genr ST_ST_KITTS_AND_NEVIS = log(ST_KITTS_AND_NEVIS_ER)
+genr PDIFF_ST_KITTS_AND_NEVIS = log(ST_KITTS_AND_NEVIS_CPI) - PT_UNITED_STATES
+equation EQ_ST_KITTS_AND_NEVIS.ls ST_ST_KITTS_AND_NEVIS c PDIFF_ST_KITTS_AND_NEVIS
+EQ_ST_KITTS_AND_NEVIS.makeresids RES_ST_KITTS_AND_NEVIS
+freeze(FRZ_ST_ST_KITTS_AND_NEVIS) ST_ST_KITTS_AND_NEVIS.uroot(lag=1)
+FRZ_ST_ST_KITTS_AND_NEVIS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ST_KITTS_AND_NEVIS_ADF.csv
+FRZ_ST_ST_KITTS_AND_NEVIS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ST_KITTS_AND_NEVIS_ADF.pdf
+freeze(FRZ_PDIFF_ST_KITTS_AND_NEVIS) PDIFF_ST_KITTS_AND_NEVIS.uroot(lag=1)
+FRZ_PDIFF_ST_KITTS_AND_NEVIS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ST_KITTS_AND_NEVIS_ADF.csv
+FRZ_PDIFF_ST_KITTS_AND_NEVIS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ST_KITTS_AND_NEVIS_ADF.pdf
+freeze(FRZ_RES_ST_KITTS_AND_NEVIS) RES_ST_KITTS_AND_NEVIS.uroot(lag=1)
+FRZ_RES_ST_KITTS_AND_NEVIS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ST_KITTS_AND_NEVIS_ADF.csv
+FRZ_RES_ST_KITTS_AND_NEVIS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ST_KITTS_AND_NEVIS_ADF.pdf
+genr ST_ST_LUCIA = log(ST_LUCIA_ER)
+genr PDIFF_ST_LUCIA = log(ST_LUCIA_CPI) - PT_UNITED_STATES
+equation EQ_ST_LUCIA.ls ST_ST_LUCIA c PDIFF_ST_LUCIA
+EQ_ST_LUCIA.makeresids RES_ST_LUCIA
+freeze(FRZ_ST_ST_LUCIA) ST_ST_LUCIA.uroot(lag=1)
+FRZ_ST_ST_LUCIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ST_LUCIA_ADF.csv
+FRZ_ST_ST_LUCIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ST_LUCIA_ADF.pdf
+freeze(FRZ_PDIFF_ST_LUCIA) PDIFF_ST_LUCIA.uroot(lag=1)
+FRZ_PDIFF_ST_LUCIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ST_LUCIA_ADF.csv
+FRZ_PDIFF_ST_LUCIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ST_LUCIA_ADF.pdf
+freeze(FRZ_RES_ST_LUCIA) RES_ST_LUCIA.uroot(lag=1)
+FRZ_RES_ST_LUCIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ST_LUCIA_ADF.csv
+FRZ_RES_ST_LUCIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ST_LUCIA_ADF.pdf
+genr ST_ST_VINCENT_AND_THE_GRENADINES = log(ST_VINCENT_AND_THE_GRENADINES_ER)
+genr PDIFF_ST_VINCENT_AND_THE_GRENADINES = log(ST_VINCENT_AND_THE_GRENADINES_CPI) - PT_UNITED_STATES
+equation EQ_ST_VINCENT_AND_THE_GRENADINES.ls ST_ST_VINCENT_AND_THE_GRENADINES c PDIFF_ST_VINCENT_AND_THE_GRENADINES
+EQ_ST_VINCENT_AND_THE_GRENADINES.makeresids RES_ST_VINCENT_AND_THE_GRENADINES
+freeze(FRZ_ST_ST_VINCENT_AND_THE_GRENADINES) ST_ST_VINCENT_AND_THE_GRENADINES.uroot(lag=1)
+FRZ_ST_ST_VINCENT_AND_THE_GRENADINES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ST_VINCENT_AND_THE_GRENADINES_ADF.csv
+FRZ_ST_ST_VINCENT_AND_THE_GRENADINES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ST_VINCENT_AND_THE_GRENADINES_ADF.pdf
+freeze(FRZ_PDIFF_ST_VINCENT_AND_THE_GRENADINES) PDIFF_ST_VINCENT_AND_THE_GRENADINES.uroot(lag=1)
+FRZ_PDIFF_ST_VINCENT_AND_THE_GRENADINES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ST_VINCENT_AND_THE_GRENADINES_ADF.csv
+FRZ_PDIFF_ST_VINCENT_AND_THE_GRENADINES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ST_VINCENT_AND_THE_GRENADINES_ADF.pdf
+freeze(FRZ_RES_ST_VINCENT_AND_THE_GRENADINES) RES_ST_VINCENT_AND_THE_GRENADINES.uroot(lag=1)
+FRZ_RES_ST_VINCENT_AND_THE_GRENADINES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ST_VINCENT_AND_THE_GRENADINES_ADF.csv
+FRZ_RES_ST_VINCENT_AND_THE_GRENADINES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ST_VINCENT_AND_THE_GRENADINES_ADF.pdf
+genr ST_SUDAN = log(SUDAN_ER)
+genr PDIFF_SUDAN = log(SUDAN_CPI) - PT_UNITED_STATES
+equation EQ_SUDAN.ls ST_SUDAN c PDIFF_SUDAN
+EQ_SUDAN.makeresids RES_SUDAN
+freeze(FRZ_ST_SUDAN) ST_SUDAN.uroot(lag=1)
+FRZ_ST_SUDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SUDAN_ADF.csv
+FRZ_ST_SUDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SUDAN_ADF.pdf
+freeze(FRZ_PDIFF_SUDAN) PDIFF_SUDAN.uroot(lag=1)
+FRZ_PDIFF_SUDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SUDAN_ADF.csv
+FRZ_PDIFF_SUDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SUDAN_ADF.pdf
+freeze(FRZ_RES_SUDAN) RES_SUDAN.uroot(lag=1)
+FRZ_RES_SUDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SUDAN_ADF.csv
+FRZ_RES_SUDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SUDAN_ADF.pdf
+genr ST_SURINAME = log(SURINAME_ER)
+genr PDIFF_SURINAME = log(SURINAME_CPI) - PT_UNITED_STATES
+equation EQ_SURINAME.ls ST_SURINAME c PDIFF_SURINAME
+EQ_SURINAME.makeresids RES_SURINAME
+freeze(FRZ_ST_SURINAME) ST_SURINAME.uroot(lag=1)
+FRZ_ST_SURINAME.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SURINAME_ADF.csv
+FRZ_ST_SURINAME.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SURINAME_ADF.pdf
+freeze(FRZ_PDIFF_SURINAME) PDIFF_SURINAME.uroot(lag=1)
+FRZ_PDIFF_SURINAME.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SURINAME_ADF.csv
+FRZ_PDIFF_SURINAME.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SURINAME_ADF.pdf
+freeze(FRZ_RES_SURINAME) RES_SURINAME.uroot(lag=1)
+FRZ_RES_SURINAME.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SURINAME_ADF.csv
+FRZ_RES_SURINAME.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SURINAME_ADF.pdf
+genr ST_SWEDEN = log(SWEDEN_ER)
+genr PDIFF_SWEDEN = log(SWEDEN_CPI) - PT_UNITED_STATES
+equation EQ_SWEDEN.ls ST_SWEDEN c PDIFF_SWEDEN
+EQ_SWEDEN.makeresids RES_SWEDEN
+freeze(FRZ_ST_SWEDEN) ST_SWEDEN.uroot(lag=1)
+FRZ_ST_SWEDEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SWEDEN_ADF.csv
+FRZ_ST_SWEDEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SWEDEN_ADF.pdf
+freeze(FRZ_PDIFF_SWEDEN) PDIFF_SWEDEN.uroot(lag=1)
+FRZ_PDIFF_SWEDEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SWEDEN_ADF.csv
+FRZ_PDIFF_SWEDEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SWEDEN_ADF.pdf
+freeze(FRZ_RES_SWEDEN) RES_SWEDEN.uroot(lag=1)
+FRZ_RES_SWEDEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SWEDEN_ADF.csv
+FRZ_RES_SWEDEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SWEDEN_ADF.pdf
+genr ST_SWITZERLAND = log(SWITZERLAND_ER)
+genr PDIFF_SWITZERLAND = log(SWITZERLAND_CPI) - PT_UNITED_STATES
+equation EQ_SWITZERLAND.ls ST_SWITZERLAND c PDIFF_SWITZERLAND
+EQ_SWITZERLAND.makeresids RES_SWITZERLAND
+freeze(FRZ_ST_SWITZERLAND) ST_SWITZERLAND.uroot(lag=1)
+FRZ_ST_SWITZERLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SWITZERLAND_ADF.csv
+FRZ_ST_SWITZERLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SWITZERLAND_ADF.pdf
+freeze(FRZ_PDIFF_SWITZERLAND) PDIFF_SWITZERLAND.uroot(lag=1)
+FRZ_PDIFF_SWITZERLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SWITZERLAND_ADF.csv
+FRZ_PDIFF_SWITZERLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SWITZERLAND_ADF.pdf
+freeze(FRZ_RES_SWITZERLAND) RES_SWITZERLAND.uroot(lag=1)
+FRZ_RES_SWITZERLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SWITZERLAND_ADF.csv
+FRZ_RES_SWITZERLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SWITZERLAND_ADF.pdf
+genr ST_SYRIAN_ARAB_REPUBLIC = log(SYRIAN_ARAB_REPUBLIC_ER)
+genr PDIFF_SYRIAN_ARAB_REPUBLIC = log(SYRIAN_ARAB_REPUBLIC_CPI) - PT_UNITED_STATES
+equation EQ_SYRIAN_ARAB_REPUBLIC.ls ST_SYRIAN_ARAB_REPUBLIC c PDIFF_SYRIAN_ARAB_REPUBLIC
+EQ_SYRIAN_ARAB_REPUBLIC.makeresids RES_SYRIAN_ARAB_REPUBLIC
+freeze(FRZ_ST_SYRIAN_ARAB_REPUBLIC) ST_SYRIAN_ARAB_REPUBLIC.uroot(lag=1)
+FRZ_ST_SYRIAN_ARAB_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\SYRIAN_ARAB_REPUBLIC_ADF.csv
+FRZ_ST_SYRIAN_ARAB_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\SYRIAN_ARAB_REPUBLIC_ADF.pdf
+freeze(FRZ_PDIFF_SYRIAN_ARAB_REPUBLIC) PDIFF_SYRIAN_ARAB_REPUBLIC.uroot(lag=1)
+FRZ_PDIFF_SYRIAN_ARAB_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\SYRIAN_ARAB_REPUBLIC_ADF.csv
+FRZ_PDIFF_SYRIAN_ARAB_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\SYRIAN_ARAB_REPUBLIC_ADF.pdf
+freeze(FRZ_RES_SYRIAN_ARAB_REPUBLIC) RES_SYRIAN_ARAB_REPUBLIC.uroot(lag=1)
+FRZ_RES_SYRIAN_ARAB_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\SYRIAN_ARAB_REPUBLIC_ADF.csv
+FRZ_RES_SYRIAN_ARAB_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\SYRIAN_ARAB_REPUBLIC_ADF.pdf
+genr ST_TAJIKISTAN = log(TAJIKISTAN_ER)
+genr PDIFF_TAJIKISTAN = log(TAJIKISTAN_CPI) - PT_UNITED_STATES
+equation EQ_TAJIKISTAN.ls ST_TAJIKISTAN c PDIFF_TAJIKISTAN
+EQ_TAJIKISTAN.makeresids RES_TAJIKISTAN
+freeze(FRZ_ST_TAJIKISTAN) ST_TAJIKISTAN.uroot(lag=1)
+FRZ_ST_TAJIKISTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\TAJIKISTAN_ADF.csv
+FRZ_ST_TAJIKISTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\TAJIKISTAN_ADF.pdf
+freeze(FRZ_PDIFF_TAJIKISTAN) PDIFF_TAJIKISTAN.uroot(lag=1)
+FRZ_PDIFF_TAJIKISTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\TAJIKISTAN_ADF.csv
+FRZ_PDIFF_TAJIKISTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\TAJIKISTAN_ADF.pdf
+freeze(FRZ_RES_TAJIKISTAN) RES_TAJIKISTAN.uroot(lag=1)
+FRZ_RES_TAJIKISTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\TAJIKISTAN_ADF.csv
+FRZ_RES_TAJIKISTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\TAJIKISTAN_ADF.pdf
+genr ST_TANZANIA = log(TANZANIA_ER)
+genr PDIFF_TANZANIA = log(TANZANIA_CPI) - PT_UNITED_STATES
+equation EQ_TANZANIA.ls ST_TANZANIA c PDIFF_TANZANIA
+EQ_TANZANIA.makeresids RES_TANZANIA
+freeze(FRZ_ST_TANZANIA) ST_TANZANIA.uroot(lag=1)
+FRZ_ST_TANZANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\TANZANIA_ADF.csv
+FRZ_ST_TANZANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\TANZANIA_ADF.pdf
+freeze(FRZ_PDIFF_TANZANIA) PDIFF_TANZANIA.uroot(lag=1)
+FRZ_PDIFF_TANZANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\TANZANIA_ADF.csv
+FRZ_PDIFF_TANZANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\TANZANIA_ADF.pdf
+freeze(FRZ_RES_TANZANIA) RES_TANZANIA.uroot(lag=1)
+FRZ_RES_TANZANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\TANZANIA_ADF.csv
+FRZ_RES_TANZANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\TANZANIA_ADF.pdf
+genr ST_THAILAND = log(THAILAND_ER)
+genr PDIFF_THAILAND = log(THAILAND_CPI) - PT_UNITED_STATES
+equation EQ_THAILAND.ls ST_THAILAND c PDIFF_THAILAND
+EQ_THAILAND.makeresids RES_THAILAND
+freeze(FRZ_ST_THAILAND) ST_THAILAND.uroot(lag=1)
+FRZ_ST_THAILAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\THAILAND_ADF.csv
+FRZ_ST_THAILAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\THAILAND_ADF.pdf
+freeze(FRZ_PDIFF_THAILAND) PDIFF_THAILAND.uroot(lag=1)
+FRZ_PDIFF_THAILAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\THAILAND_ADF.csv
+FRZ_PDIFF_THAILAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\THAILAND_ADF.pdf
+freeze(FRZ_RES_THAILAND) RES_THAILAND.uroot(lag=1)
+FRZ_RES_THAILAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\THAILAND_ADF.csv
+FRZ_RES_THAILAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\THAILAND_ADF.pdf
+genr ST_TOGO = log(TOGO_ER)
+genr PDIFF_TOGO = log(TOGO_CPI) - PT_UNITED_STATES
+equation EQ_TOGO.ls ST_TOGO c PDIFF_TOGO
+EQ_TOGO.makeresids RES_TOGO
+freeze(FRZ_ST_TOGO) ST_TOGO.uroot(lag=1)
+FRZ_ST_TOGO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\TOGO_ADF.csv
+FRZ_ST_TOGO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\TOGO_ADF.pdf
+freeze(FRZ_PDIFF_TOGO) PDIFF_TOGO.uroot(lag=1)
+FRZ_PDIFF_TOGO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\TOGO_ADF.csv
+FRZ_PDIFF_TOGO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\TOGO_ADF.pdf
+freeze(FRZ_RES_TOGO) RES_TOGO.uroot(lag=1)
+FRZ_RES_TOGO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\TOGO_ADF.csv
+FRZ_RES_TOGO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\TOGO_ADF.pdf
+genr ST_TONGA = log(TONGA_ER)
+genr PDIFF_TONGA = log(TONGA_CPI) - PT_UNITED_STATES
+equation EQ_TONGA.ls ST_TONGA c PDIFF_TONGA
+EQ_TONGA.makeresids RES_TONGA
+freeze(FRZ_ST_TONGA) ST_TONGA.uroot(lag=1)
+FRZ_ST_TONGA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\TONGA_ADF.csv
+FRZ_ST_TONGA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\TONGA_ADF.pdf
+freeze(FRZ_PDIFF_TONGA) PDIFF_TONGA.uroot(lag=1)
+FRZ_PDIFF_TONGA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\TONGA_ADF.csv
+FRZ_PDIFF_TONGA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\TONGA_ADF.pdf
+freeze(FRZ_RES_TONGA) RES_TONGA.uroot(lag=1)
+FRZ_RES_TONGA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\TONGA_ADF.csv
+FRZ_RES_TONGA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\TONGA_ADF.pdf
+genr ST_TRINIDAD_AND_TOBAGO = log(TRINIDAD_AND_TOBAGO_ER)
+genr PDIFF_TRINIDAD_AND_TOBAGO = log(TRINIDAD_AND_TOBAGO_CPI) - PT_UNITED_STATES
+equation EQ_TRINIDAD_AND_TOBAGO.ls ST_TRINIDAD_AND_TOBAGO c PDIFF_TRINIDAD_AND_TOBAGO
+EQ_TRINIDAD_AND_TOBAGO.makeresids RES_TRINIDAD_AND_TOBAGO
+freeze(FRZ_ST_TRINIDAD_AND_TOBAGO) ST_TRINIDAD_AND_TOBAGO.uroot(lag=1)
+FRZ_ST_TRINIDAD_AND_TOBAGO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\TRINIDAD_AND_TOBAGO_ADF.csv
+FRZ_ST_TRINIDAD_AND_TOBAGO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\TRINIDAD_AND_TOBAGO_ADF.pdf
+freeze(FRZ_PDIFF_TRINIDAD_AND_TOBAGO) PDIFF_TRINIDAD_AND_TOBAGO.uroot(lag=1)
+FRZ_PDIFF_TRINIDAD_AND_TOBAGO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\TRINIDAD_AND_TOBAGO_ADF.csv
+FRZ_PDIFF_TRINIDAD_AND_TOBAGO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\TRINIDAD_AND_TOBAGO_ADF.pdf
+freeze(FRZ_RES_TRINIDAD_AND_TOBAGO) RES_TRINIDAD_AND_TOBAGO.uroot(lag=1)
+FRZ_RES_TRINIDAD_AND_TOBAGO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\TRINIDAD_AND_TOBAGO_ADF.csv
+FRZ_RES_TRINIDAD_AND_TOBAGO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\TRINIDAD_AND_TOBAGO_ADF.pdf
+genr ST_TUNISIA = log(TUNISIA_ER)
+genr PDIFF_TUNISIA = log(TUNISIA_CPI) - PT_UNITED_STATES
+equation EQ_TUNISIA.ls ST_TUNISIA c PDIFF_TUNISIA
+EQ_TUNISIA.makeresids RES_TUNISIA
+freeze(FRZ_ST_TUNISIA) ST_TUNISIA.uroot(lag=1)
+FRZ_ST_TUNISIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\TUNISIA_ADF.csv
+FRZ_ST_TUNISIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\TUNISIA_ADF.pdf
+freeze(FRZ_PDIFF_TUNISIA) PDIFF_TUNISIA.uroot(lag=1)
+FRZ_PDIFF_TUNISIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\TUNISIA_ADF.csv
+FRZ_PDIFF_TUNISIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\TUNISIA_ADF.pdf
+freeze(FRZ_RES_TUNISIA) RES_TUNISIA.uroot(lag=1)
+FRZ_RES_TUNISIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\TUNISIA_ADF.csv
+FRZ_RES_TUNISIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\TUNISIA_ADF.pdf
+genr ST_TURKEY = log(TURKEY_ER)
+genr PDIFF_TURKEY = log(TURKEY_CPI) - PT_UNITED_STATES
+equation EQ_TURKEY.ls ST_TURKEY c PDIFF_TURKEY
+EQ_TURKEY.makeresids RES_TURKEY
+freeze(FRZ_ST_TURKEY) ST_TURKEY.uroot(lag=1)
+FRZ_ST_TURKEY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\TURKEY_ADF.csv
+FRZ_ST_TURKEY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\TURKEY_ADF.pdf
+freeze(FRZ_PDIFF_TURKEY) PDIFF_TURKEY.uroot(lag=1)
+FRZ_PDIFF_TURKEY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\TURKEY_ADF.csv
+FRZ_PDIFF_TURKEY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\TURKEY_ADF.pdf
+freeze(FRZ_RES_TURKEY) RES_TURKEY.uroot(lag=1)
+FRZ_RES_TURKEY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\TURKEY_ADF.csv
+FRZ_RES_TURKEY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\TURKEY_ADF.pdf
+genr ST_UGANDA = log(UGANDA_ER)
+genr PDIFF_UGANDA = log(UGANDA_CPI) - PT_UNITED_STATES
+equation EQ_UGANDA.ls ST_UGANDA c PDIFF_UGANDA
+EQ_UGANDA.makeresids RES_UGANDA
+freeze(FRZ_ST_UGANDA) ST_UGANDA.uroot(lag=1)
+FRZ_ST_UGANDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\UGANDA_ADF.csv
+FRZ_ST_UGANDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\UGANDA_ADF.pdf
+freeze(FRZ_PDIFF_UGANDA) PDIFF_UGANDA.uroot(lag=1)
+FRZ_PDIFF_UGANDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\UGANDA_ADF.csv
+FRZ_PDIFF_UGANDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\UGANDA_ADF.pdf
+freeze(FRZ_RES_UGANDA) RES_UGANDA.uroot(lag=1)
+FRZ_RES_UGANDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\UGANDA_ADF.csv
+FRZ_RES_UGANDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\UGANDA_ADF.pdf
+genr ST_UKRAINE = log(UKRAINE_ER)
+genr PDIFF_UKRAINE = log(UKRAINE_CPI) - PT_UNITED_STATES
+equation EQ_UKRAINE.ls ST_UKRAINE c PDIFF_UKRAINE
+EQ_UKRAINE.makeresids RES_UKRAINE
+freeze(FRZ_ST_UKRAINE) ST_UKRAINE.uroot(lag=1)
+FRZ_ST_UKRAINE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\UKRAINE_ADF.csv
+FRZ_ST_UKRAINE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\UKRAINE_ADF.pdf
+freeze(FRZ_PDIFF_UKRAINE) PDIFF_UKRAINE.uroot(lag=1)
+FRZ_PDIFF_UKRAINE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\UKRAINE_ADF.csv
+FRZ_PDIFF_UKRAINE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\UKRAINE_ADF.pdf
+freeze(FRZ_RES_UKRAINE) RES_UKRAINE.uroot(lag=1)
+FRZ_RES_UKRAINE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\UKRAINE_ADF.csv
+FRZ_RES_UKRAINE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\UKRAINE_ADF.pdf
+genr ST_UNITED_ARAB_EMIRATES = log(UNITED_ARAB_EMIRATES_ER)
+genr PDIFF_UNITED_ARAB_EMIRATES = log(UNITED_ARAB_EMIRATES_CPI) - PT_UNITED_STATES
+equation EQ_UNITED_ARAB_EMIRATES.ls ST_UNITED_ARAB_EMIRATES c PDIFF_UNITED_ARAB_EMIRATES
+EQ_UNITED_ARAB_EMIRATES.makeresids RES_UNITED_ARAB_EMIRATES
+freeze(FRZ_ST_UNITED_ARAB_EMIRATES) ST_UNITED_ARAB_EMIRATES.uroot(lag=1)
+FRZ_ST_UNITED_ARAB_EMIRATES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\UNITED_ARAB_EMIRATES_ADF.csv
+FRZ_ST_UNITED_ARAB_EMIRATES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\UNITED_ARAB_EMIRATES_ADF.pdf
+freeze(FRZ_PDIFF_UNITED_ARAB_EMIRATES) PDIFF_UNITED_ARAB_EMIRATES.uroot(lag=1)
+FRZ_PDIFF_UNITED_ARAB_EMIRATES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\UNITED_ARAB_EMIRATES_ADF.csv
+FRZ_PDIFF_UNITED_ARAB_EMIRATES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\UNITED_ARAB_EMIRATES_ADF.pdf
+freeze(FRZ_RES_UNITED_ARAB_EMIRATES) RES_UNITED_ARAB_EMIRATES.uroot(lag=1)
+FRZ_RES_UNITED_ARAB_EMIRATES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\UNITED_ARAB_EMIRATES_ADF.csv
+FRZ_RES_UNITED_ARAB_EMIRATES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\UNITED_ARAB_EMIRATES_ADF.pdf
+genr ST_UNITED_KINGDOM = log(UNITED_KINGDOM_ER)
+genr PDIFF_UNITED_KINGDOM = log(UNITED_KINGDOM_CPI) - PT_UNITED_STATES
+equation EQ_UNITED_KINGDOM.ls ST_UNITED_KINGDOM c PDIFF_UNITED_KINGDOM
+EQ_UNITED_KINGDOM.makeresids RES_UNITED_KINGDOM
+freeze(FRZ_ST_UNITED_KINGDOM) ST_UNITED_KINGDOM.uroot(lag=1)
+FRZ_ST_UNITED_KINGDOM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\UNITED_KINGDOM_ADF.csv
+FRZ_ST_UNITED_KINGDOM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\UNITED_KINGDOM_ADF.pdf
+freeze(FRZ_PDIFF_UNITED_KINGDOM) PDIFF_UNITED_KINGDOM.uroot(lag=1)
+FRZ_PDIFF_UNITED_KINGDOM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\UNITED_KINGDOM_ADF.csv
+FRZ_PDIFF_UNITED_KINGDOM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\UNITED_KINGDOM_ADF.pdf
+freeze(FRZ_RES_UNITED_KINGDOM) RES_UNITED_KINGDOM.uroot(lag=1)
+FRZ_RES_UNITED_KINGDOM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\UNITED_KINGDOM_ADF.csv
+FRZ_RES_UNITED_KINGDOM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\UNITED_KINGDOM_ADF.pdf
+genr ST_URUGUAY = log(URUGUAY_ER)
+genr PDIFF_URUGUAY = log(URUGUAY_CPI) - PT_UNITED_STATES
+equation EQ_URUGUAY.ls ST_URUGUAY c PDIFF_URUGUAY
+EQ_URUGUAY.makeresids RES_URUGUAY
+freeze(FRZ_ST_URUGUAY) ST_URUGUAY.uroot(lag=1)
+FRZ_ST_URUGUAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\URUGUAY_ADF.csv
+FRZ_ST_URUGUAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\URUGUAY_ADF.pdf
+freeze(FRZ_PDIFF_URUGUAY) PDIFF_URUGUAY.uroot(lag=1)
+FRZ_PDIFF_URUGUAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\URUGUAY_ADF.csv
+FRZ_PDIFF_URUGUAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\URUGUAY_ADF.pdf
+freeze(FRZ_RES_URUGUAY) RES_URUGUAY.uroot(lag=1)
+FRZ_RES_URUGUAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\URUGUAY_ADF.csv
+FRZ_RES_URUGUAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\URUGUAY_ADF.pdf
+genr ST_VIETNAM = log(VIETNAM_ER)
+genr PDIFF_VIETNAM = log(VIETNAM_CPI) - PT_UNITED_STATES
+equation EQ_VIETNAM.ls ST_VIETNAM c PDIFF_VIETNAM
+EQ_VIETNAM.makeresids RES_VIETNAM
+freeze(FRZ_ST_VIETNAM) ST_VIETNAM.uroot(lag=1)
+FRZ_ST_VIETNAM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\VIETNAM_ADF.csv
+FRZ_ST_VIETNAM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\VIETNAM_ADF.pdf
+freeze(FRZ_PDIFF_VIETNAM) PDIFF_VIETNAM.uroot(lag=1)
+FRZ_PDIFF_VIETNAM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\VIETNAM_ADF.csv
+FRZ_PDIFF_VIETNAM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\VIETNAM_ADF.pdf
+freeze(FRZ_RES_VIETNAM) RES_VIETNAM.uroot(lag=1)
+FRZ_RES_VIETNAM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\VIETNAM_ADF.csv
+FRZ_RES_VIETNAM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\VIETNAM_ADF.pdf
+genr ST_YEMEN_REPUBLIC_OF = log(YEMEN_REPUBLIC_OF_ER)
+genr PDIFF_YEMEN_REPUBLIC_OF = log(YEMEN_REPUBLIC_OF_CPI) - PT_UNITED_STATES
+equation EQ_YEMEN_REPUBLIC_OF.ls ST_YEMEN_REPUBLIC_OF c PDIFF_YEMEN_REPUBLIC_OF
+EQ_YEMEN_REPUBLIC_OF.makeresids RES_YEMEN_REPUBLIC_OF
+freeze(FRZ_ST_YEMEN_REPUBLIC_OF) ST_YEMEN_REPUBLIC_OF.uroot(lag=1)
+FRZ_ST_YEMEN_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\YEMEN_REPUBLIC_OF_ADF.csv
+FRZ_ST_YEMEN_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\YEMEN_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_PDIFF_YEMEN_REPUBLIC_OF) PDIFF_YEMEN_REPUBLIC_OF.uroot(lag=1)
+FRZ_PDIFF_YEMEN_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\YEMEN_REPUBLIC_OF_ADF.csv
+FRZ_PDIFF_YEMEN_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\YEMEN_REPUBLIC_OF_ADF.pdf
+freeze(FRZ_RES_YEMEN_REPUBLIC_OF) RES_YEMEN_REPUBLIC_OF.uroot(lag=1)
+FRZ_RES_YEMEN_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\YEMEN_REPUBLIC_OF_ADF.csv
+FRZ_RES_YEMEN_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\YEMEN_REPUBLIC_OF_ADF.pdf
+genr ST_ZAMBIA = log(ZAMBIA_ER)
+genr PDIFF_ZAMBIA = log(ZAMBIA_CPI) - PT_UNITED_STATES
+equation EQ_ZAMBIA.ls ST_ZAMBIA c PDIFF_ZAMBIA
+EQ_ZAMBIA.makeresids RES_ZAMBIA
+freeze(FRZ_ST_ZAMBIA) ST_ZAMBIA.uroot(lag=1)
+FRZ_ST_ZAMBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\stt_result\ZAMBIA_ADF.csv
+FRZ_ST_ZAMBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\stt_result\ZAMBIA_ADF.pdf
+freeze(FRZ_PDIFF_ZAMBIA) PDIFF_ZAMBIA.uroot(lag=1)
+FRZ_PDIFF_ZAMBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\pdf_result\ZAMBIA_ADF.csv
+FRZ_PDIFF_ZAMBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\pdf_result\ZAMBIA_ADF.pdf
+freeze(FRZ_RES_ZAMBIA) RES_ZAMBIA.uroot(lag=1)
+FRZ_RES_ZAMBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\res_result\ZAMBIA_ADF.csv
+FRZ_RES_ZAMBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\res_result\ZAMBIA_ADF.pdf
