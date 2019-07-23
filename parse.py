@@ -167,10 +167,35 @@ panal_writer = csv.writer(panal_out)
 panal_row_0 = ["DATE", "COUNTRY", "CPI", "CPI_US", "ER"]
 panal_writer.writerow(panal_row_0)
 
+oecd_exceptions = ["Estonia", "Slovak Republic"]
+
+common_rol = set(rol_to_month.keys())
+for oecd_country in oecd_countries:
+  if oecd_country in oecd_exceptions:
+    continue
+  cpi_indices = cpi_dict[oecd_country].keys()
+  er_indices = er_dict[oecd_country].keys()
+  common_idx = set(cpi_indices) & set(er_indices)
+  # print(len(common_idx), len(cpi_indices), len(er_indices))
+  common_rol = common_rol & common_idx
+  common_rol_l = list(common_idx)
+  common_rol_l.sort()
+  # print(oecd_country, rol_to_month[common_rol_l[0]], rol_to_month[common_rol_l[-1]])
+common_rol_list = list(common_rol)
+common_rol_list.sort()
+common_mon = [rol_to_month[x] for x in common_rol_list]
+
+# print(common_mon[0], common_mon[-1])
+oecd_row_start = common_rol_list[0]
+oecd_row_end = common_rol_list[-1]
+print(rol_to_month[oecd_row_start], rol_to_month[oecd_row_end])
+
 for oecd_country in oecd_countries:
   if oecd_country == "United States":
     continue
-  for i in range(row_start, row_end + 1):
+  if oecd_country in oecd_exceptions:
+    continue
+  for i in range(oecd_row_start, oecd_row_end + 1):
     row = [rol_to_month[i]]
     row.append(parse_country_name(oecd_country))
     if i in cpi_dict[oecd_country]:
@@ -190,3 +215,4 @@ for oecd_country in oecd_countries:
       row.append("")
 
     panal_writer.writerow(row)
+
