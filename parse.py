@@ -216,3 +216,58 @@ for oecd_country in oecd_countries:
 
     panal_writer.writerow(row)
 
+
+# generate oecd real exchange rate
+rer_dict = {}
+
+for oecd_country in oecd_countries:
+  if oecd_country == "United States":
+    continue
+  if oecd_country in oecd_exceptions:
+    continue
+  rer_dict[oecd_country] = {}
+  for i in range(oecd_row_start, oecd_row_end + 1):
+    er = er_dict[oecd_country][i].replace(",", "")
+    pt = cpi_dict[oecd_country][i].replace(",", "")
+    pt_star = cpi_dict["United States"][i].replace(",", "")
+    rer_dict[oecd_country][i] = float(er) / float(pt) * float(pt_star)
+  rate = float(100) / rer_dict[oecd_country][oecd_row_end];
+  for i in range(oecd_row_start, oecd_row_end + 1):
+    rer_dict[oecd_country][i] *= rate
+
+
+rer_all_out = open('./rer/all_countries.csv', 'wb')
+rer_all_writer = csv.writer(rer_all_out)
+rer_all_row_0 = ["DATE"]
+for country in oecd_countries:
+  if country == "United States":
+    continue
+  if country in oecd_exceptions:
+    continue
+  rer_all_row_0.append(country)
+rer_all_writer.writerow(rer_all_row_0)
+
+for i in range(oecd_row_start, oecd_row_end + 1):
+  line = [rol_to_month[i]]
+  for country in oecd_countries:
+    if country == "United States":
+      continue
+    if country in oecd_exceptions:
+      continue
+    line.append(rer_dict[country][i])
+  rer_all_writer.writerow(line)
+
+
+for country in oecd_countries:
+  if country == "United States":
+    continue
+  if country in oecd_exceptions:
+    continue
+  rer_out = open('./rer/per_country/' + parse_country_name(country) + '.csv', 'wb')
+  rer_writer = csv.writer(rer_out)
+  rer_row_0 = ["DATE", country]
+  rer_writer.writerow(rer_row_0)
+  for i in range(oecd_row_start, oecd_row_end + 1):
+    line = [rol_to_month[i], rer_dict[country][i]]
+    rer_writer.writerow(line)
+  rer_out.close()
