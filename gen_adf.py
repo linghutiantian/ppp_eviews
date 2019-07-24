@@ -19,10 +19,10 @@ def gen_per_country(country, out):
   out.write(line)
   line = "if !gen_output  > 0 then\r\n"
   out.write(line)
-  line = "  FRZ_" + country + ".save(t=csv) \\\\192.168.0.67\\nas\\workspace\\ppp\\adf_result\\" + country + "_ADF.csv\r\n"
+  line = "  FRZ_" + country + ".save(t=csv) {%path}" + country + "_ADF.csv\r\n"
   # line = "FRZ_" + country + ".save(t=csv) \\\\Mac\\Home\\Desktop\\shazirangwojiandewenjianjia\\" + country + "_ADF.csv\r\n"
   out.write(line)
-  line = "  FRZ_" + country + ".save(t=pdf) \\\\192.168.0.67\\nas\\workspace\\ppp\\adf_result\\" + country + "_ADF.pdf\r\n"
+  line = "  FRZ_" + country + ".save(t=pdf) {%path}" + country + "_ADF.pdf\r\n"
   # line = "FRZ_" + country + ".save(t=pdf) \\\\Mac\\Home\\Desktop\\shazirangwojiandewenjianjia\\" + country + "_ADF.pdf\r\n"
   out.write(line)
   line = "endif\r\n"
