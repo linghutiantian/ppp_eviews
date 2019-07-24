@@ -66,7 +66,7 @@ print(total, ppp_count, ppp_dist)
 ppp_countries.sort()
 ppp_countries_str = ""
 for i in ppp_countries:
-  ppp_countries_str += (i + ", ")
+  ppp_countries_str += (i + "\n")
 print(ppp_countries_str)
 
 
