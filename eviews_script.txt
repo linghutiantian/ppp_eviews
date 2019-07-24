@@ -1,1057 +1,1411 @@
+!gen_output = 1
+%path = "\\192.168.0.67\nas\workspace\ppp\adf_result\"
 genr PT_UNITED_STATES = log(UNITED_STATES_CPI)
 genr ST_AFGHANISTAN_ISLAMIC_REPUBLIC_OF = log(AFGHANISTAN_ISLAMIC_REPUBLIC_OF_ER)
 genr PT_AFGHANISTAN_ISLAMIC_REPUBLIC_OF = log(AFGHANISTAN_ISLAMIC_REPUBLIC_OF_CPI)
 genr QT_AFGHANISTAN_ISLAMIC_REPUBLIC_OF = ST_AFGHANISTAN_ISLAMIC_REPUBLIC_OF - PT_AFGHANISTAN_ISLAMIC_REPUBLIC_OF + PT_UNITED_STATES
 freeze(FRZ_AFGHANISTAN_ISLAMIC_REPUBLIC_OF) QT_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.uroot(lag=1)
-FRZ_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\AFGHANISTAN_ISLAMIC_REPUBLIC_OF_ADF.csv
-FRZ_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\AFGHANISTAN_ISLAMIC_REPUBLIC_OF_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\AFGHANISTAN_ISLAMIC_REPUBLIC_OF_ADF.csv
+  FRZ_AFGHANISTAN_ISLAMIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\AFGHANISTAN_ISLAMIC_REPUBLIC_OF_ADF.pdf
+endif
 genr ST_ALBANIA = log(ALBANIA_ER)
 genr PT_ALBANIA = log(ALBANIA_CPI)
 genr QT_ALBANIA = ST_ALBANIA - PT_ALBANIA + PT_UNITED_STATES
 freeze(FRZ_ALBANIA) QT_ALBANIA.uroot(lag=1)
-FRZ_ALBANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ALBANIA_ADF.csv
-FRZ_ALBANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ALBANIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ALBANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ALBANIA_ADF.csv
+  FRZ_ALBANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ALBANIA_ADF.pdf
+endif
 genr ST_ALGERIA = log(ALGERIA_ER)
 genr PT_ALGERIA = log(ALGERIA_CPI)
 genr QT_ALGERIA = ST_ALGERIA - PT_ALGERIA + PT_UNITED_STATES
 freeze(FRZ_ALGERIA) QT_ALGERIA.uroot(lag=1)
-FRZ_ALGERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ALGERIA_ADF.csv
-FRZ_ALGERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ALGERIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ALGERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ALGERIA_ADF.csv
+  FRZ_ALGERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ALGERIA_ADF.pdf
+endif
 genr ST_ANGOLA = log(ANGOLA_ER)
 genr PT_ANGOLA = log(ANGOLA_CPI)
 genr QT_ANGOLA = ST_ANGOLA - PT_ANGOLA + PT_UNITED_STATES
 freeze(FRZ_ANGOLA) QT_ANGOLA.uroot(lag=1)
-FRZ_ANGOLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ANGOLA_ADF.csv
-FRZ_ANGOLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ANGOLA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ANGOLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ANGOLA_ADF.csv
+  FRZ_ANGOLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ANGOLA_ADF.pdf
+endif
 genr ST_ANGUILLA = log(ANGUILLA_ER)
 genr PT_ANGUILLA = log(ANGUILLA_CPI)
 genr QT_ANGUILLA = ST_ANGUILLA - PT_ANGUILLA + PT_UNITED_STATES
 freeze(FRZ_ANGUILLA) QT_ANGUILLA.uroot(lag=1)
-FRZ_ANGUILLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ANGUILLA_ADF.csv
-FRZ_ANGUILLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ANGUILLA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ANGUILLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ANGUILLA_ADF.csv
+  FRZ_ANGUILLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ANGUILLA_ADF.pdf
+endif
 genr ST_ANTIGUA_AND_BARBUDA = log(ANTIGUA_AND_BARBUDA_ER)
 genr PT_ANTIGUA_AND_BARBUDA = log(ANTIGUA_AND_BARBUDA_CPI)
 genr QT_ANTIGUA_AND_BARBUDA = ST_ANTIGUA_AND_BARBUDA - PT_ANTIGUA_AND_BARBUDA + PT_UNITED_STATES
 freeze(FRZ_ANTIGUA_AND_BARBUDA) QT_ANTIGUA_AND_BARBUDA.uroot(lag=1)
-FRZ_ANTIGUA_AND_BARBUDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ANTIGUA_AND_BARBUDA_ADF.csv
-FRZ_ANTIGUA_AND_BARBUDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ANTIGUA_AND_BARBUDA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ANTIGUA_AND_BARBUDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ANTIGUA_AND_BARBUDA_ADF.csv
+  FRZ_ANTIGUA_AND_BARBUDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ANTIGUA_AND_BARBUDA_ADF.pdf
+endif
 genr ST_ARGENTINA = log(ARGENTINA_ER)
 genr PT_ARGENTINA = log(ARGENTINA_CPI)
 genr QT_ARGENTINA = ST_ARGENTINA - PT_ARGENTINA + PT_UNITED_STATES
 freeze(FRZ_ARGENTINA) QT_ARGENTINA.uroot(lag=1)
-FRZ_ARGENTINA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ARGENTINA_ADF.csv
-FRZ_ARGENTINA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ARGENTINA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ARGENTINA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ARGENTINA_ADF.csv
+  FRZ_ARGENTINA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ARGENTINA_ADF.pdf
+endif
 genr ST_ARMENIA_REPUBLIC_OF = log(ARMENIA_REPUBLIC_OF_ER)
 genr PT_ARMENIA_REPUBLIC_OF = log(ARMENIA_REPUBLIC_OF_CPI)
 genr QT_ARMENIA_REPUBLIC_OF = ST_ARMENIA_REPUBLIC_OF - PT_ARMENIA_REPUBLIC_OF + PT_UNITED_STATES
 freeze(FRZ_ARMENIA_REPUBLIC_OF) QT_ARMENIA_REPUBLIC_OF.uroot(lag=1)
-FRZ_ARMENIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ARMENIA_REPUBLIC_OF_ADF.csv
-FRZ_ARMENIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ARMENIA_REPUBLIC_OF_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ARMENIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ARMENIA_REPUBLIC_OF_ADF.csv
+  FRZ_ARMENIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ARMENIA_REPUBLIC_OF_ADF.pdf
+endif
 genr ST_ARUBA = log(ARUBA_ER)
 genr PT_ARUBA = log(ARUBA_CPI)
 genr QT_ARUBA = ST_ARUBA - PT_ARUBA + PT_UNITED_STATES
 freeze(FRZ_ARUBA) QT_ARUBA.uroot(lag=1)
-FRZ_ARUBA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ARUBA_ADF.csv
-FRZ_ARUBA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ARUBA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ARUBA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ARUBA_ADF.csv
+  FRZ_ARUBA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ARUBA_ADF.pdf
+endif
 genr ST_AUSTRIA = log(AUSTRIA_ER)
 genr PT_AUSTRIA = log(AUSTRIA_CPI)
 genr QT_AUSTRIA = ST_AUSTRIA - PT_AUSTRIA + PT_UNITED_STATES
 freeze(FRZ_AUSTRIA) QT_AUSTRIA.uroot(lag=1)
-FRZ_AUSTRIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\AUSTRIA_ADF.csv
-FRZ_AUSTRIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\AUSTRIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_AUSTRIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\AUSTRIA_ADF.csv
+  FRZ_AUSTRIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\AUSTRIA_ADF.pdf
+endif
 genr ST_AZERBAIJAN_REPUBLIC_OF = log(AZERBAIJAN_REPUBLIC_OF_ER)
 genr PT_AZERBAIJAN_REPUBLIC_OF = log(AZERBAIJAN_REPUBLIC_OF_CPI)
 genr QT_AZERBAIJAN_REPUBLIC_OF = ST_AZERBAIJAN_REPUBLIC_OF - PT_AZERBAIJAN_REPUBLIC_OF + PT_UNITED_STATES
 freeze(FRZ_AZERBAIJAN_REPUBLIC_OF) QT_AZERBAIJAN_REPUBLIC_OF.uroot(lag=1)
-FRZ_AZERBAIJAN_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\AZERBAIJAN_REPUBLIC_OF_ADF.csv
-FRZ_AZERBAIJAN_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\AZERBAIJAN_REPUBLIC_OF_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_AZERBAIJAN_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\AZERBAIJAN_REPUBLIC_OF_ADF.csv
+  FRZ_AZERBAIJAN_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\AZERBAIJAN_REPUBLIC_OF_ADF.pdf
+endif
 genr ST_BAHAMAS_THE = log(BAHAMAS_THE_ER)
 genr PT_BAHAMAS_THE = log(BAHAMAS_THE_CPI)
 genr QT_BAHAMAS_THE = ST_BAHAMAS_THE - PT_BAHAMAS_THE + PT_UNITED_STATES
 freeze(FRZ_BAHAMAS_THE) QT_BAHAMAS_THE.uroot(lag=1)
-FRZ_BAHAMAS_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BAHAMAS_THE_ADF.csv
-FRZ_BAHAMAS_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BAHAMAS_THE_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BAHAMAS_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BAHAMAS_THE_ADF.csv
+  FRZ_BAHAMAS_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BAHAMAS_THE_ADF.pdf
+endif
 genr ST_BAHRAIN_KINGDOM_OF = log(BAHRAIN_KINGDOM_OF_ER)
 genr PT_BAHRAIN_KINGDOM_OF = log(BAHRAIN_KINGDOM_OF_CPI)
 genr QT_BAHRAIN_KINGDOM_OF = ST_BAHRAIN_KINGDOM_OF - PT_BAHRAIN_KINGDOM_OF + PT_UNITED_STATES
 freeze(FRZ_BAHRAIN_KINGDOM_OF) QT_BAHRAIN_KINGDOM_OF.uroot(lag=1)
-FRZ_BAHRAIN_KINGDOM_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BAHRAIN_KINGDOM_OF_ADF.csv
-FRZ_BAHRAIN_KINGDOM_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BAHRAIN_KINGDOM_OF_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BAHRAIN_KINGDOM_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BAHRAIN_KINGDOM_OF_ADF.csv
+  FRZ_BAHRAIN_KINGDOM_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BAHRAIN_KINGDOM_OF_ADF.pdf
+endif
 genr ST_BANGLADESH = log(BANGLADESH_ER)
 genr PT_BANGLADESH = log(BANGLADESH_CPI)
 genr QT_BANGLADESH = ST_BANGLADESH - PT_BANGLADESH + PT_UNITED_STATES
 freeze(FRZ_BANGLADESH) QT_BANGLADESH.uroot(lag=1)
-FRZ_BANGLADESH.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BANGLADESH_ADF.csv
-FRZ_BANGLADESH.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BANGLADESH_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BANGLADESH.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BANGLADESH_ADF.csv
+  FRZ_BANGLADESH.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BANGLADESH_ADF.pdf
+endif
 genr ST_BARBADOS = log(BARBADOS_ER)
 genr PT_BARBADOS = log(BARBADOS_CPI)
 genr QT_BARBADOS = ST_BARBADOS - PT_BARBADOS + PT_UNITED_STATES
 freeze(FRZ_BARBADOS) QT_BARBADOS.uroot(lag=1)
-FRZ_BARBADOS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BARBADOS_ADF.csv
-FRZ_BARBADOS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BARBADOS_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BARBADOS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BARBADOS_ADF.csv
+  FRZ_BARBADOS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BARBADOS_ADF.pdf
+endif
 genr ST_BELARUS = log(BELARUS_ER)
 genr PT_BELARUS = log(BELARUS_CPI)
 genr QT_BELARUS = ST_BELARUS - PT_BELARUS + PT_UNITED_STATES
 freeze(FRZ_BELARUS) QT_BELARUS.uroot(lag=1)
-FRZ_BELARUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BELARUS_ADF.csv
-FRZ_BELARUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BELARUS_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BELARUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BELARUS_ADF.csv
+  FRZ_BELARUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BELARUS_ADF.pdf
+endif
 genr ST_BELGIUM = log(BELGIUM_ER)
 genr PT_BELGIUM = log(BELGIUM_CPI)
 genr QT_BELGIUM = ST_BELGIUM - PT_BELGIUM + PT_UNITED_STATES
 freeze(FRZ_BELGIUM) QT_BELGIUM.uroot(lag=1)
-FRZ_BELGIUM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BELGIUM_ADF.csv
-FRZ_BELGIUM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BELGIUM_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BELGIUM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BELGIUM_ADF.csv
+  FRZ_BELGIUM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BELGIUM_ADF.pdf
+endif
 genr ST_BELIZE = log(BELIZE_ER)
 genr PT_BELIZE = log(BELIZE_CPI)
 genr QT_BELIZE = ST_BELIZE - PT_BELIZE + PT_UNITED_STATES
 freeze(FRZ_BELIZE) QT_BELIZE.uroot(lag=1)
-FRZ_BELIZE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BELIZE_ADF.csv
-FRZ_BELIZE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BELIZE_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BELIZE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BELIZE_ADF.csv
+  FRZ_BELIZE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BELIZE_ADF.pdf
+endif
 genr ST_BENIN = log(BENIN_ER)
 genr PT_BENIN = log(BENIN_CPI)
 genr QT_BENIN = ST_BENIN - PT_BENIN + PT_UNITED_STATES
 freeze(FRZ_BENIN) QT_BENIN.uroot(lag=1)
-FRZ_BENIN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BENIN_ADF.csv
-FRZ_BENIN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BENIN_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BENIN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BENIN_ADF.csv
+  FRZ_BENIN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BENIN_ADF.pdf
+endif
 genr ST_BHUTAN = log(BHUTAN_ER)
 genr PT_BHUTAN = log(BHUTAN_CPI)
 genr QT_BHUTAN = ST_BHUTAN - PT_BHUTAN + PT_UNITED_STATES
 freeze(FRZ_BHUTAN) QT_BHUTAN.uroot(lag=1)
-FRZ_BHUTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BHUTAN_ADF.csv
-FRZ_BHUTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BHUTAN_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BHUTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BHUTAN_ADF.csv
+  FRZ_BHUTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BHUTAN_ADF.pdf
+endif
 genr ST_BOLIVIA = log(BOLIVIA_ER)
 genr PT_BOLIVIA = log(BOLIVIA_CPI)
 genr QT_BOLIVIA = ST_BOLIVIA - PT_BOLIVIA + PT_UNITED_STATES
 freeze(FRZ_BOLIVIA) QT_BOLIVIA.uroot(lag=1)
-FRZ_BOLIVIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BOLIVIA_ADF.csv
-FRZ_BOLIVIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BOLIVIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BOLIVIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BOLIVIA_ADF.csv
+  FRZ_BOLIVIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BOLIVIA_ADF.pdf
+endif
 genr ST_BOSNIA_AND_HERZEGOVINA = log(BOSNIA_AND_HERZEGOVINA_ER)
 genr PT_BOSNIA_AND_HERZEGOVINA = log(BOSNIA_AND_HERZEGOVINA_CPI)
 genr QT_BOSNIA_AND_HERZEGOVINA = ST_BOSNIA_AND_HERZEGOVINA - PT_BOSNIA_AND_HERZEGOVINA + PT_UNITED_STATES
 freeze(FRZ_BOSNIA_AND_HERZEGOVINA) QT_BOSNIA_AND_HERZEGOVINA.uroot(lag=1)
-FRZ_BOSNIA_AND_HERZEGOVINA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BOSNIA_AND_HERZEGOVINA_ADF.csv
-FRZ_BOSNIA_AND_HERZEGOVINA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BOSNIA_AND_HERZEGOVINA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BOSNIA_AND_HERZEGOVINA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BOSNIA_AND_HERZEGOVINA_ADF.csv
+  FRZ_BOSNIA_AND_HERZEGOVINA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BOSNIA_AND_HERZEGOVINA_ADF.pdf
+endif
 genr ST_BOTSWANA = log(BOTSWANA_ER)
 genr PT_BOTSWANA = log(BOTSWANA_CPI)
 genr QT_BOTSWANA = ST_BOTSWANA - PT_BOTSWANA + PT_UNITED_STATES
 freeze(FRZ_BOTSWANA) QT_BOTSWANA.uroot(lag=1)
-FRZ_BOTSWANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BOTSWANA_ADF.csv
-FRZ_BOTSWANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BOTSWANA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BOTSWANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BOTSWANA_ADF.csv
+  FRZ_BOTSWANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BOTSWANA_ADF.pdf
+endif
 genr ST_BRAZIL = log(BRAZIL_ER)
 genr PT_BRAZIL = log(BRAZIL_CPI)
 genr QT_BRAZIL = ST_BRAZIL - PT_BRAZIL + PT_UNITED_STATES
 freeze(FRZ_BRAZIL) QT_BRAZIL.uroot(lag=1)
-FRZ_BRAZIL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BRAZIL_ADF.csv
-FRZ_BRAZIL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BRAZIL_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BRAZIL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BRAZIL_ADF.csv
+  FRZ_BRAZIL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BRAZIL_ADF.pdf
+endif
 genr ST_BRUNEI_DARUSSALAM = log(BRUNEI_DARUSSALAM_ER)
 genr PT_BRUNEI_DARUSSALAM = log(BRUNEI_DARUSSALAM_CPI)
 genr QT_BRUNEI_DARUSSALAM = ST_BRUNEI_DARUSSALAM - PT_BRUNEI_DARUSSALAM + PT_UNITED_STATES
 freeze(FRZ_BRUNEI_DARUSSALAM) QT_BRUNEI_DARUSSALAM.uroot(lag=1)
-FRZ_BRUNEI_DARUSSALAM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BRUNEI_DARUSSALAM_ADF.csv
-FRZ_BRUNEI_DARUSSALAM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BRUNEI_DARUSSALAM_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BRUNEI_DARUSSALAM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BRUNEI_DARUSSALAM_ADF.csv
+  FRZ_BRUNEI_DARUSSALAM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BRUNEI_DARUSSALAM_ADF.pdf
+endif
 genr ST_BULGARIA = log(BULGARIA_ER)
 genr PT_BULGARIA = log(BULGARIA_CPI)
 genr QT_BULGARIA = ST_BULGARIA - PT_BULGARIA + PT_UNITED_STATES
 freeze(FRZ_BULGARIA) QT_BULGARIA.uroot(lag=1)
-FRZ_BULGARIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BULGARIA_ADF.csv
-FRZ_BULGARIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BULGARIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BULGARIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BULGARIA_ADF.csv
+  FRZ_BULGARIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BULGARIA_ADF.pdf
+endif
 genr ST_BURKINA_FASO = log(BURKINA_FASO_ER)
 genr PT_BURKINA_FASO = log(BURKINA_FASO_CPI)
 genr QT_BURKINA_FASO = ST_BURKINA_FASO - PT_BURKINA_FASO + PT_UNITED_STATES
 freeze(FRZ_BURKINA_FASO) QT_BURKINA_FASO.uroot(lag=1)
-FRZ_BURKINA_FASO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BURKINA_FASO_ADF.csv
-FRZ_BURKINA_FASO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BURKINA_FASO_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BURKINA_FASO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BURKINA_FASO_ADF.csv
+  FRZ_BURKINA_FASO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BURKINA_FASO_ADF.pdf
+endif
 genr ST_BURUNDI = log(BURUNDI_ER)
 genr PT_BURUNDI = log(BURUNDI_CPI)
 genr QT_BURUNDI = ST_BURUNDI - PT_BURUNDI + PT_UNITED_STATES
 freeze(FRZ_BURUNDI) QT_BURUNDI.uroot(lag=1)
-FRZ_BURUNDI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BURUNDI_ADF.csv
-FRZ_BURUNDI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BURUNDI_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_BURUNDI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\BURUNDI_ADF.csv
+  FRZ_BURUNDI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\BURUNDI_ADF.pdf
+endif
 genr ST_CABO_VERDE = log(CABO_VERDE_ER)
 genr PT_CABO_VERDE = log(CABO_VERDE_CPI)
 genr QT_CABO_VERDE = ST_CABO_VERDE - PT_CABO_VERDE + PT_UNITED_STATES
 freeze(FRZ_CABO_VERDE) QT_CABO_VERDE.uroot(lag=1)
-FRZ_CABO_VERDE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CABO_VERDE_ADF.csv
-FRZ_CABO_VERDE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CABO_VERDE_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CABO_VERDE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CABO_VERDE_ADF.csv
+  FRZ_CABO_VERDE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CABO_VERDE_ADF.pdf
+endif
 genr ST_CAMBODIA = log(CAMBODIA_ER)
 genr PT_CAMBODIA = log(CAMBODIA_CPI)
 genr QT_CAMBODIA = ST_CAMBODIA - PT_CAMBODIA + PT_UNITED_STATES
 freeze(FRZ_CAMBODIA) QT_CAMBODIA.uroot(lag=1)
-FRZ_CAMBODIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CAMBODIA_ADF.csv
-FRZ_CAMBODIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CAMBODIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CAMBODIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CAMBODIA_ADF.csv
+  FRZ_CAMBODIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CAMBODIA_ADF.pdf
+endif
 genr ST_CAMEROON = log(CAMEROON_ER)
 genr PT_CAMEROON = log(CAMEROON_CPI)
 genr QT_CAMEROON = ST_CAMEROON - PT_CAMEROON + PT_UNITED_STATES
 freeze(FRZ_CAMEROON) QT_CAMEROON.uroot(lag=1)
-FRZ_CAMEROON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CAMEROON_ADF.csv
-FRZ_CAMEROON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CAMEROON_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CAMEROON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CAMEROON_ADF.csv
+  FRZ_CAMEROON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CAMEROON_ADF.pdf
+endif
 genr ST_CANADA = log(CANADA_ER)
 genr PT_CANADA = log(CANADA_CPI)
 genr QT_CANADA = ST_CANADA - PT_CANADA + PT_UNITED_STATES
 freeze(FRZ_CANADA) QT_CANADA.uroot(lag=1)
-FRZ_CANADA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CANADA_ADF.csv
-FRZ_CANADA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CANADA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CANADA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CANADA_ADF.csv
+  FRZ_CANADA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CANADA_ADF.pdf
+endif
 genr ST_CENTRAL_AFRICAN_REPUBLIC = log(CENTRAL_AFRICAN_REPUBLIC_ER)
 genr PT_CENTRAL_AFRICAN_REPUBLIC = log(CENTRAL_AFRICAN_REPUBLIC_CPI)
 genr QT_CENTRAL_AFRICAN_REPUBLIC = ST_CENTRAL_AFRICAN_REPUBLIC - PT_CENTRAL_AFRICAN_REPUBLIC + PT_UNITED_STATES
 freeze(FRZ_CENTRAL_AFRICAN_REPUBLIC) QT_CENTRAL_AFRICAN_REPUBLIC.uroot(lag=1)
-FRZ_CENTRAL_AFRICAN_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CENTRAL_AFRICAN_REPUBLIC_ADF.csv
-FRZ_CENTRAL_AFRICAN_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CENTRAL_AFRICAN_REPUBLIC_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CENTRAL_AFRICAN_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CENTRAL_AFRICAN_REPUBLIC_ADF.csv
+  FRZ_CENTRAL_AFRICAN_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CENTRAL_AFRICAN_REPUBLIC_ADF.pdf
+endif
 genr ST_CHAD = log(CHAD_ER)
 genr PT_CHAD = log(CHAD_CPI)
 genr QT_CHAD = ST_CHAD - PT_CHAD + PT_UNITED_STATES
 freeze(FRZ_CHAD) QT_CHAD.uroot(lag=1)
-FRZ_CHAD.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CHAD_ADF.csv
-FRZ_CHAD.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CHAD_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CHAD.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CHAD_ADF.csv
+  FRZ_CHAD.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CHAD_ADF.pdf
+endif
 genr ST_CHILE = log(CHILE_ER)
 genr PT_CHILE = log(CHILE_CPI)
 genr QT_CHILE = ST_CHILE - PT_CHILE + PT_UNITED_STATES
 freeze(FRZ_CHILE) QT_CHILE.uroot(lag=1)
-FRZ_CHILE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CHILE_ADF.csv
-FRZ_CHILE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CHILE_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CHILE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CHILE_ADF.csv
+  FRZ_CHILE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CHILE_ADF.pdf
+endif
 genr ST_CHINA_P_R_HONG_KONG = log(CHINA_P_R_HONG_KONG_ER)
 genr PT_CHINA_P_R_HONG_KONG = log(CHINA_P_R_HONG_KONG_CPI)
 genr QT_CHINA_P_R_HONG_KONG = ST_CHINA_P_R_HONG_KONG - PT_CHINA_P_R_HONG_KONG + PT_UNITED_STATES
 freeze(FRZ_CHINA_P_R_HONG_KONG) QT_CHINA_P_R_HONG_KONG.uroot(lag=1)
-FRZ_CHINA_P_R_HONG_KONG.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CHINA_P_R_HONG_KONG_ADF.csv
-FRZ_CHINA_P_R_HONG_KONG.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CHINA_P_R_HONG_KONG_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CHINA_P_R_HONG_KONG.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CHINA_P_R_HONG_KONG_ADF.csv
+  FRZ_CHINA_P_R_HONG_KONG.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CHINA_P_R_HONG_KONG_ADF.pdf
+endif
 genr ST_CHINA_P_R_MACAO = log(CHINA_P_R_MACAO_ER)
 genr PT_CHINA_P_R_MACAO = log(CHINA_P_R_MACAO_CPI)
 genr QT_CHINA_P_R_MACAO = ST_CHINA_P_R_MACAO - PT_CHINA_P_R_MACAO + PT_UNITED_STATES
 freeze(FRZ_CHINA_P_R_MACAO) QT_CHINA_P_R_MACAO.uroot(lag=1)
-FRZ_CHINA_P_R_MACAO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CHINA_P_R_MACAO_ADF.csv
-FRZ_CHINA_P_R_MACAO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CHINA_P_R_MACAO_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CHINA_P_R_MACAO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CHINA_P_R_MACAO_ADF.csv
+  FRZ_CHINA_P_R_MACAO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CHINA_P_R_MACAO_ADF.pdf
+endif
 genr ST_CHINA_P_R_MAINLAND = log(CHINA_P_R_MAINLAND_ER)
 genr PT_CHINA_P_R_MAINLAND = log(CHINA_P_R_MAINLAND_CPI)
 genr QT_CHINA_P_R_MAINLAND = ST_CHINA_P_R_MAINLAND - PT_CHINA_P_R_MAINLAND + PT_UNITED_STATES
 freeze(FRZ_CHINA_P_R_MAINLAND) QT_CHINA_P_R_MAINLAND.uroot(lag=1)
-FRZ_CHINA_P_R_MAINLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CHINA_P_R_MAINLAND_ADF.csv
-FRZ_CHINA_P_R_MAINLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CHINA_P_R_MAINLAND_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CHINA_P_R_MAINLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CHINA_P_R_MAINLAND_ADF.csv
+  FRZ_CHINA_P_R_MAINLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CHINA_P_R_MAINLAND_ADF.pdf
+endif
 genr ST_COLOMBIA = log(COLOMBIA_ER)
 genr PT_COLOMBIA = log(COLOMBIA_CPI)
 genr QT_COLOMBIA = ST_COLOMBIA - PT_COLOMBIA + PT_UNITED_STATES
 freeze(FRZ_COLOMBIA) QT_COLOMBIA.uroot(lag=1)
-FRZ_COLOMBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\COLOMBIA_ADF.csv
-FRZ_COLOMBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\COLOMBIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_COLOMBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\COLOMBIA_ADF.csv
+  FRZ_COLOMBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\COLOMBIA_ADF.pdf
+endif
 genr ST_COMOROS = log(COMOROS_ER)
 genr PT_COMOROS = log(COMOROS_CPI)
 genr QT_COMOROS = ST_COMOROS - PT_COMOROS + PT_UNITED_STATES
 freeze(FRZ_COMOROS) QT_COMOROS.uroot(lag=1)
-FRZ_COMOROS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\COMOROS_ADF.csv
-FRZ_COMOROS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\COMOROS_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_COMOROS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\COMOROS_ADF.csv
+  FRZ_COMOROS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\COMOROS_ADF.pdf
+endif
 genr ST_CONGO_DEMOCRATIC_REPUBLIC_OF = log(CONGO_DEMOCRATIC_REPUBLIC_OF_ER)
 genr PT_CONGO_DEMOCRATIC_REPUBLIC_OF = log(CONGO_DEMOCRATIC_REPUBLIC_OF_CPI)
 genr QT_CONGO_DEMOCRATIC_REPUBLIC_OF = ST_CONGO_DEMOCRATIC_REPUBLIC_OF - PT_CONGO_DEMOCRATIC_REPUBLIC_OF + PT_UNITED_STATES
 freeze(FRZ_CONGO_DEMOCRATIC_REPUBLIC_OF) QT_CONGO_DEMOCRATIC_REPUBLIC_OF.uroot(lag=1)
-FRZ_CONGO_DEMOCRATIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CONGO_DEMOCRATIC_REPUBLIC_OF_ADF.csv
-FRZ_CONGO_DEMOCRATIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CONGO_DEMOCRATIC_REPUBLIC_OF_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CONGO_DEMOCRATIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CONGO_DEMOCRATIC_REPUBLIC_OF_ADF.csv
+  FRZ_CONGO_DEMOCRATIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CONGO_DEMOCRATIC_REPUBLIC_OF_ADF.pdf
+endif
 genr ST_CONGO_REPUBLIC_OF = log(CONGO_REPUBLIC_OF_ER)
 genr PT_CONGO_REPUBLIC_OF = log(CONGO_REPUBLIC_OF_CPI)
 genr QT_CONGO_REPUBLIC_OF = ST_CONGO_REPUBLIC_OF - PT_CONGO_REPUBLIC_OF + PT_UNITED_STATES
 freeze(FRZ_CONGO_REPUBLIC_OF) QT_CONGO_REPUBLIC_OF.uroot(lag=1)
-FRZ_CONGO_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CONGO_REPUBLIC_OF_ADF.csv
-FRZ_CONGO_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CONGO_REPUBLIC_OF_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CONGO_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CONGO_REPUBLIC_OF_ADF.csv
+  FRZ_CONGO_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CONGO_REPUBLIC_OF_ADF.pdf
+endif
 genr ST_COSTA_RICA = log(COSTA_RICA_ER)
 genr PT_COSTA_RICA = log(COSTA_RICA_CPI)
 genr QT_COSTA_RICA = ST_COSTA_RICA - PT_COSTA_RICA + PT_UNITED_STATES
 freeze(FRZ_COSTA_RICA) QT_COSTA_RICA.uroot(lag=1)
-FRZ_COSTA_RICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\COSTA_RICA_ADF.csv
-FRZ_COSTA_RICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\COSTA_RICA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_COSTA_RICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\COSTA_RICA_ADF.csv
+  FRZ_COSTA_RICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\COSTA_RICA_ADF.pdf
+endif
 genr ST_CROATIA = log(CROATIA_ER)
 genr PT_CROATIA = log(CROATIA_CPI)
 genr QT_CROATIA = ST_CROATIA - PT_CROATIA + PT_UNITED_STATES
 freeze(FRZ_CROATIA) QT_CROATIA.uroot(lag=1)
-FRZ_CROATIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CROATIA_ADF.csv
-FRZ_CROATIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CROATIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CROATIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CROATIA_ADF.csv
+  FRZ_CROATIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CROATIA_ADF.pdf
+endif
 genr ST_CYPRUS = log(CYPRUS_ER)
 genr PT_CYPRUS = log(CYPRUS_CPI)
 genr QT_CYPRUS = ST_CYPRUS - PT_CYPRUS + PT_UNITED_STATES
 freeze(FRZ_CYPRUS) QT_CYPRUS.uroot(lag=1)
-FRZ_CYPRUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CYPRUS_ADF.csv
-FRZ_CYPRUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CYPRUS_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CYPRUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CYPRUS_ADF.csv
+  FRZ_CYPRUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CYPRUS_ADF.pdf
+endif
 genr ST_CZECH_REPUBLIC = log(CZECH_REPUBLIC_ER)
 genr PT_CZECH_REPUBLIC = log(CZECH_REPUBLIC_CPI)
 genr QT_CZECH_REPUBLIC = ST_CZECH_REPUBLIC - PT_CZECH_REPUBLIC + PT_UNITED_STATES
 freeze(FRZ_CZECH_REPUBLIC) QT_CZECH_REPUBLIC.uroot(lag=1)
-FRZ_CZECH_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CZECH_REPUBLIC_ADF.csv
-FRZ_CZECH_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CZECH_REPUBLIC_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_CZECH_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\CZECH_REPUBLIC_ADF.csv
+  FRZ_CZECH_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\CZECH_REPUBLIC_ADF.pdf
+endif
 genr ST_DENMARK = log(DENMARK_ER)
 genr PT_DENMARK = log(DENMARK_CPI)
 genr QT_DENMARK = ST_DENMARK - PT_DENMARK + PT_UNITED_STATES
 freeze(FRZ_DENMARK) QT_DENMARK.uroot(lag=1)
-FRZ_DENMARK.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\DENMARK_ADF.csv
-FRZ_DENMARK.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\DENMARK_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_DENMARK.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\DENMARK_ADF.csv
+  FRZ_DENMARK.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\DENMARK_ADF.pdf
+endif
 genr ST_DJIBOUTI = log(DJIBOUTI_ER)
 genr PT_DJIBOUTI = log(DJIBOUTI_CPI)
 genr QT_DJIBOUTI = ST_DJIBOUTI - PT_DJIBOUTI + PT_UNITED_STATES
 freeze(FRZ_DJIBOUTI) QT_DJIBOUTI.uroot(lag=1)
-FRZ_DJIBOUTI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\DJIBOUTI_ADF.csv
-FRZ_DJIBOUTI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\DJIBOUTI_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_DJIBOUTI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\DJIBOUTI_ADF.csv
+  FRZ_DJIBOUTI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\DJIBOUTI_ADF.pdf
+endif
 genr ST_DOMINICA = log(DOMINICA_ER)
 genr PT_DOMINICA = log(DOMINICA_CPI)
 genr QT_DOMINICA = ST_DOMINICA - PT_DOMINICA + PT_UNITED_STATES
 freeze(FRZ_DOMINICA) QT_DOMINICA.uroot(lag=1)
-FRZ_DOMINICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\DOMINICA_ADF.csv
-FRZ_DOMINICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\DOMINICA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_DOMINICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\DOMINICA_ADF.csv
+  FRZ_DOMINICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\DOMINICA_ADF.pdf
+endif
 genr ST_DOMINICAN_REPUBLIC = log(DOMINICAN_REPUBLIC_ER)
 genr PT_DOMINICAN_REPUBLIC = log(DOMINICAN_REPUBLIC_CPI)
 genr QT_DOMINICAN_REPUBLIC = ST_DOMINICAN_REPUBLIC - PT_DOMINICAN_REPUBLIC + PT_UNITED_STATES
 freeze(FRZ_DOMINICAN_REPUBLIC) QT_DOMINICAN_REPUBLIC.uroot(lag=1)
-FRZ_DOMINICAN_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\DOMINICAN_REPUBLIC_ADF.csv
-FRZ_DOMINICAN_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\DOMINICAN_REPUBLIC_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_DOMINICAN_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\DOMINICAN_REPUBLIC_ADF.csv
+  FRZ_DOMINICAN_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\DOMINICAN_REPUBLIC_ADF.pdf
+endif
 genr ST_ECUADOR = log(ECUADOR_ER)
 genr PT_ECUADOR = log(ECUADOR_CPI)
 genr QT_ECUADOR = ST_ECUADOR - PT_ECUADOR + PT_UNITED_STATES
 freeze(FRZ_ECUADOR) QT_ECUADOR.uroot(lag=1)
-FRZ_ECUADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ECUADOR_ADF.csv
-FRZ_ECUADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ECUADOR_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ECUADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ECUADOR_ADF.csv
+  FRZ_ECUADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ECUADOR_ADF.pdf
+endif
 genr ST_EGYPT = log(EGYPT_ER)
 genr PT_EGYPT = log(EGYPT_CPI)
 genr QT_EGYPT = ST_EGYPT - PT_EGYPT + PT_UNITED_STATES
 freeze(FRZ_EGYPT) QT_EGYPT.uroot(lag=1)
-FRZ_EGYPT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\EGYPT_ADF.csv
-FRZ_EGYPT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\EGYPT_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_EGYPT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\EGYPT_ADF.csv
+  FRZ_EGYPT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\EGYPT_ADF.pdf
+endif
 genr ST_EL_SALVADOR = log(EL_SALVADOR_ER)
 genr PT_EL_SALVADOR = log(EL_SALVADOR_CPI)
 genr QT_EL_SALVADOR = ST_EL_SALVADOR - PT_EL_SALVADOR + PT_UNITED_STATES
 freeze(FRZ_EL_SALVADOR) QT_EL_SALVADOR.uroot(lag=1)
-FRZ_EL_SALVADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\EL_SALVADOR_ADF.csv
-FRZ_EL_SALVADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\EL_SALVADOR_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_EL_SALVADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\EL_SALVADOR_ADF.csv
+  FRZ_EL_SALVADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\EL_SALVADOR_ADF.pdf
+endif
 genr ST_EQUATORIAL_GUINEA = log(EQUATORIAL_GUINEA_ER)
 genr PT_EQUATORIAL_GUINEA = log(EQUATORIAL_GUINEA_CPI)
 genr QT_EQUATORIAL_GUINEA = ST_EQUATORIAL_GUINEA - PT_EQUATORIAL_GUINEA + PT_UNITED_STATES
 freeze(FRZ_EQUATORIAL_GUINEA) QT_EQUATORIAL_GUINEA.uroot(lag=1)
-FRZ_EQUATORIAL_GUINEA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\EQUATORIAL_GUINEA_ADF.csv
-FRZ_EQUATORIAL_GUINEA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\EQUATORIAL_GUINEA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_EQUATORIAL_GUINEA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\EQUATORIAL_GUINEA_ADF.csv
+  FRZ_EQUATORIAL_GUINEA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\EQUATORIAL_GUINEA_ADF.pdf
+endif
 genr ST_ESTONIA = log(ESTONIA_ER)
 genr PT_ESTONIA = log(ESTONIA_CPI)
 genr QT_ESTONIA = ST_ESTONIA - PT_ESTONIA + PT_UNITED_STATES
 freeze(FRZ_ESTONIA) QT_ESTONIA.uroot(lag=1)
-FRZ_ESTONIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ESTONIA_ADF.csv
-FRZ_ESTONIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ESTONIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ESTONIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ESTONIA_ADF.csv
+  FRZ_ESTONIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ESTONIA_ADF.pdf
+endif
 genr ST_ETHIOPIA = log(ETHIOPIA_ER)
 genr PT_ETHIOPIA = log(ETHIOPIA_CPI)
 genr QT_ETHIOPIA = ST_ETHIOPIA - PT_ETHIOPIA + PT_UNITED_STATES
 freeze(FRZ_ETHIOPIA) QT_ETHIOPIA.uroot(lag=1)
-FRZ_ETHIOPIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ETHIOPIA_ADF.csv
-FRZ_ETHIOPIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ETHIOPIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ETHIOPIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ETHIOPIA_ADF.csv
+  FRZ_ETHIOPIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ETHIOPIA_ADF.pdf
+endif
 genr ST_FIJI = log(FIJI_ER)
 genr PT_FIJI = log(FIJI_CPI)
 genr QT_FIJI = ST_FIJI - PT_FIJI + PT_UNITED_STATES
 freeze(FRZ_FIJI) QT_FIJI.uroot(lag=1)
-FRZ_FIJI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\FIJI_ADF.csv
-FRZ_FIJI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\FIJI_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_FIJI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\FIJI_ADF.csv
+  FRZ_FIJI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\FIJI_ADF.pdf
+endif
 genr ST_FINLAND = log(FINLAND_ER)
 genr PT_FINLAND = log(FINLAND_CPI)
 genr QT_FINLAND = ST_FINLAND - PT_FINLAND + PT_UNITED_STATES
 freeze(FRZ_FINLAND) QT_FINLAND.uroot(lag=1)
-FRZ_FINLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\FINLAND_ADF.csv
-FRZ_FINLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\FINLAND_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_FINLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\FINLAND_ADF.csv
+  FRZ_FINLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\FINLAND_ADF.pdf
+endif
 genr ST_FRANCE = log(FRANCE_ER)
 genr PT_FRANCE = log(FRANCE_CPI)
 genr QT_FRANCE = ST_FRANCE - PT_FRANCE + PT_UNITED_STATES
 freeze(FRZ_FRANCE) QT_FRANCE.uroot(lag=1)
-FRZ_FRANCE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\FRANCE_ADF.csv
-FRZ_FRANCE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\FRANCE_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_FRANCE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\FRANCE_ADF.csv
+  FRZ_FRANCE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\FRANCE_ADF.pdf
+endif
 genr ST_FRENCH_TERRITORIES_NEW_CALEDONIA = log(FRENCH_TERRITORIES_NEW_CALEDONIA_ER)
 genr PT_FRENCH_TERRITORIES_NEW_CALEDONIA = log(FRENCH_TERRITORIES_NEW_CALEDONIA_CPI)
 genr QT_FRENCH_TERRITORIES_NEW_CALEDONIA = ST_FRENCH_TERRITORIES_NEW_CALEDONIA - PT_FRENCH_TERRITORIES_NEW_CALEDONIA + PT_UNITED_STATES
 freeze(FRZ_FRENCH_TERRITORIES_NEW_CALEDONIA) QT_FRENCH_TERRITORIES_NEW_CALEDONIA.uroot(lag=1)
-FRZ_FRENCH_TERRITORIES_NEW_CALEDONIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\FRENCH_TERRITORIES_NEW_CALEDONIA_ADF.csv
-FRZ_FRENCH_TERRITORIES_NEW_CALEDONIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\FRENCH_TERRITORIES_NEW_CALEDONIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_FRENCH_TERRITORIES_NEW_CALEDONIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\FRENCH_TERRITORIES_NEW_CALEDONIA_ADF.csv
+  FRZ_FRENCH_TERRITORIES_NEW_CALEDONIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\FRENCH_TERRITORIES_NEW_CALEDONIA_ADF.pdf
+endif
 genr ST_GABON = log(GABON_ER)
 genr PT_GABON = log(GABON_CPI)
 genr QT_GABON = ST_GABON - PT_GABON + PT_UNITED_STATES
 freeze(FRZ_GABON) QT_GABON.uroot(lag=1)
-FRZ_GABON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GABON_ADF.csv
-FRZ_GABON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GABON_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_GABON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GABON_ADF.csv
+  FRZ_GABON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GABON_ADF.pdf
+endif
 genr ST_GAMBIA_THE = log(GAMBIA_THE_ER)
 genr PT_GAMBIA_THE = log(GAMBIA_THE_CPI)
 genr QT_GAMBIA_THE = ST_GAMBIA_THE - PT_GAMBIA_THE + PT_UNITED_STATES
 freeze(FRZ_GAMBIA_THE) QT_GAMBIA_THE.uroot(lag=1)
-FRZ_GAMBIA_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GAMBIA_THE_ADF.csv
-FRZ_GAMBIA_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GAMBIA_THE_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_GAMBIA_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GAMBIA_THE_ADF.csv
+  FRZ_GAMBIA_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GAMBIA_THE_ADF.pdf
+endif
 genr ST_GEORGIA = log(GEORGIA_ER)
 genr PT_GEORGIA = log(GEORGIA_CPI)
 genr QT_GEORGIA = ST_GEORGIA - PT_GEORGIA + PT_UNITED_STATES
 freeze(FRZ_GEORGIA) QT_GEORGIA.uroot(lag=1)
-FRZ_GEORGIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GEORGIA_ADF.csv
-FRZ_GEORGIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GEORGIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_GEORGIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GEORGIA_ADF.csv
+  FRZ_GEORGIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GEORGIA_ADF.pdf
+endif
 genr ST_GERMANY = log(GERMANY_ER)
 genr PT_GERMANY = log(GERMANY_CPI)
 genr QT_GERMANY = ST_GERMANY - PT_GERMANY + PT_UNITED_STATES
 freeze(FRZ_GERMANY) QT_GERMANY.uroot(lag=1)
-FRZ_GERMANY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GERMANY_ADF.csv
-FRZ_GERMANY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GERMANY_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_GERMANY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GERMANY_ADF.csv
+  FRZ_GERMANY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GERMANY_ADF.pdf
+endif
 genr ST_GHANA = log(GHANA_ER)
 genr PT_GHANA = log(GHANA_CPI)
 genr QT_GHANA = ST_GHANA - PT_GHANA + PT_UNITED_STATES
 freeze(FRZ_GHANA) QT_GHANA.uroot(lag=1)
-FRZ_GHANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GHANA_ADF.csv
-FRZ_GHANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GHANA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_GHANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GHANA_ADF.csv
+  FRZ_GHANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GHANA_ADF.pdf
+endif
 genr ST_GREECE = log(GREECE_ER)
 genr PT_GREECE = log(GREECE_CPI)
 genr QT_GREECE = ST_GREECE - PT_GREECE + PT_UNITED_STATES
 freeze(FRZ_GREECE) QT_GREECE.uroot(lag=1)
-FRZ_GREECE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GREECE_ADF.csv
-FRZ_GREECE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GREECE_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_GREECE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GREECE_ADF.csv
+  FRZ_GREECE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GREECE_ADF.pdf
+endif
 genr ST_GRENADA = log(GRENADA_ER)
 genr PT_GRENADA = log(GRENADA_CPI)
 genr QT_GRENADA = ST_GRENADA - PT_GRENADA + PT_UNITED_STATES
 freeze(FRZ_GRENADA) QT_GRENADA.uroot(lag=1)
-FRZ_GRENADA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GRENADA_ADF.csv
-FRZ_GRENADA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GRENADA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_GRENADA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GRENADA_ADF.csv
+  FRZ_GRENADA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GRENADA_ADF.pdf
+endif
 genr ST_GUATEMALA = log(GUATEMALA_ER)
 genr PT_GUATEMALA = log(GUATEMALA_CPI)
 genr QT_GUATEMALA = ST_GUATEMALA - PT_GUATEMALA + PT_UNITED_STATES
 freeze(FRZ_GUATEMALA) QT_GUATEMALA.uroot(lag=1)
-FRZ_GUATEMALA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GUATEMALA_ADF.csv
-FRZ_GUATEMALA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GUATEMALA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_GUATEMALA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GUATEMALA_ADF.csv
+  FRZ_GUATEMALA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GUATEMALA_ADF.pdf
+endif
 genr ST_GUINEA = log(GUINEA_ER)
 genr PT_GUINEA = log(GUINEA_CPI)
 genr QT_GUINEA = ST_GUINEA - PT_GUINEA + PT_UNITED_STATES
 freeze(FRZ_GUINEA) QT_GUINEA.uroot(lag=1)
-FRZ_GUINEA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GUINEA_ADF.csv
-FRZ_GUINEA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GUINEA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_GUINEA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GUINEA_ADF.csv
+  FRZ_GUINEA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GUINEA_ADF.pdf
+endif
 genr ST_GUINEA_BISSAU = log(GUINEA_BISSAU_ER)
 genr PT_GUINEA_BISSAU = log(GUINEA_BISSAU_CPI)
 genr QT_GUINEA_BISSAU = ST_GUINEA_BISSAU - PT_GUINEA_BISSAU + PT_UNITED_STATES
 freeze(FRZ_GUINEA_BISSAU) QT_GUINEA_BISSAU.uroot(lag=1)
-FRZ_GUINEA_BISSAU.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GUINEA_BISSAU_ADF.csv
-FRZ_GUINEA_BISSAU.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GUINEA_BISSAU_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_GUINEA_BISSAU.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GUINEA_BISSAU_ADF.csv
+  FRZ_GUINEA_BISSAU.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GUINEA_BISSAU_ADF.pdf
+endif
 genr ST_GUYANA = log(GUYANA_ER)
 genr PT_GUYANA = log(GUYANA_CPI)
 genr QT_GUYANA = ST_GUYANA - PT_GUYANA + PT_UNITED_STATES
 freeze(FRZ_GUYANA) QT_GUYANA.uroot(lag=1)
-FRZ_GUYANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GUYANA_ADF.csv
-FRZ_GUYANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GUYANA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_GUYANA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\GUYANA_ADF.csv
+  FRZ_GUYANA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\GUYANA_ADF.pdf
+endif
 genr ST_HAITI = log(HAITI_ER)
 genr PT_HAITI = log(HAITI_CPI)
 genr QT_HAITI = ST_HAITI - PT_HAITI + PT_UNITED_STATES
 freeze(FRZ_HAITI) QT_HAITI.uroot(lag=1)
-FRZ_HAITI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\HAITI_ADF.csv
-FRZ_HAITI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\HAITI_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_HAITI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\HAITI_ADF.csv
+  FRZ_HAITI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\HAITI_ADF.pdf
+endif
 genr ST_HONDURAS = log(HONDURAS_ER)
 genr PT_HONDURAS = log(HONDURAS_CPI)
 genr QT_HONDURAS = ST_HONDURAS - PT_HONDURAS + PT_UNITED_STATES
 freeze(FRZ_HONDURAS) QT_HONDURAS.uroot(lag=1)
-FRZ_HONDURAS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\HONDURAS_ADF.csv
-FRZ_HONDURAS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\HONDURAS_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_HONDURAS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\HONDURAS_ADF.csv
+  FRZ_HONDURAS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\HONDURAS_ADF.pdf
+endif
 genr ST_HUNGARY = log(HUNGARY_ER)
 genr PT_HUNGARY = log(HUNGARY_CPI)
 genr QT_HUNGARY = ST_HUNGARY - PT_HUNGARY + PT_UNITED_STATES
 freeze(FRZ_HUNGARY) QT_HUNGARY.uroot(lag=1)
-FRZ_HUNGARY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\HUNGARY_ADF.csv
-FRZ_HUNGARY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\HUNGARY_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_HUNGARY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\HUNGARY_ADF.csv
+  FRZ_HUNGARY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\HUNGARY_ADF.pdf
+endif
 genr ST_ICELAND = log(ICELAND_ER)
 genr PT_ICELAND = log(ICELAND_CPI)
 genr QT_ICELAND = ST_ICELAND - PT_ICELAND + PT_UNITED_STATES
 freeze(FRZ_ICELAND) QT_ICELAND.uroot(lag=1)
-FRZ_ICELAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ICELAND_ADF.csv
-FRZ_ICELAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ICELAND_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ICELAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ICELAND_ADF.csv
+  FRZ_ICELAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ICELAND_ADF.pdf
+endif
 genr ST_INDIA = log(INDIA_ER)
 genr PT_INDIA = log(INDIA_CPI)
 genr QT_INDIA = ST_INDIA - PT_INDIA + PT_UNITED_STATES
 freeze(FRZ_INDIA) QT_INDIA.uroot(lag=1)
-FRZ_INDIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\INDIA_ADF.csv
-FRZ_INDIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\INDIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_INDIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\INDIA_ADF.csv
+  FRZ_INDIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\INDIA_ADF.pdf
+endif
 genr ST_INDONESIA = log(INDONESIA_ER)
 genr PT_INDONESIA = log(INDONESIA_CPI)
 genr QT_INDONESIA = ST_INDONESIA - PT_INDONESIA + PT_UNITED_STATES
 freeze(FRZ_INDONESIA) QT_INDONESIA.uroot(lag=1)
-FRZ_INDONESIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\INDONESIA_ADF.csv
-FRZ_INDONESIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\INDONESIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_INDONESIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\INDONESIA_ADF.csv
+  FRZ_INDONESIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\INDONESIA_ADF.pdf
+endif
 genr ST_IRAN_ISLAMIC_REPUBLIC_OF = log(IRAN_ISLAMIC_REPUBLIC_OF_ER)
 genr PT_IRAN_ISLAMIC_REPUBLIC_OF = log(IRAN_ISLAMIC_REPUBLIC_OF_CPI)
 genr QT_IRAN_ISLAMIC_REPUBLIC_OF = ST_IRAN_ISLAMIC_REPUBLIC_OF - PT_IRAN_ISLAMIC_REPUBLIC_OF + PT_UNITED_STATES
 freeze(FRZ_IRAN_ISLAMIC_REPUBLIC_OF) QT_IRAN_ISLAMIC_REPUBLIC_OF.uroot(lag=1)
-FRZ_IRAN_ISLAMIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\IRAN_ISLAMIC_REPUBLIC_OF_ADF.csv
-FRZ_IRAN_ISLAMIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\IRAN_ISLAMIC_REPUBLIC_OF_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_IRAN_ISLAMIC_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\IRAN_ISLAMIC_REPUBLIC_OF_ADF.csv
+  FRZ_IRAN_ISLAMIC_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\IRAN_ISLAMIC_REPUBLIC_OF_ADF.pdf
+endif
 genr ST_IRAQ = log(IRAQ_ER)
 genr PT_IRAQ = log(IRAQ_CPI)
 genr QT_IRAQ = ST_IRAQ - PT_IRAQ + PT_UNITED_STATES
 freeze(FRZ_IRAQ) QT_IRAQ.uroot(lag=1)
-FRZ_IRAQ.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\IRAQ_ADF.csv
-FRZ_IRAQ.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\IRAQ_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_IRAQ.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\IRAQ_ADF.csv
+  FRZ_IRAQ.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\IRAQ_ADF.pdf
+endif
 genr ST_IRELAND = log(IRELAND_ER)
 genr PT_IRELAND = log(IRELAND_CPI)
 genr QT_IRELAND = ST_IRELAND - PT_IRELAND + PT_UNITED_STATES
 freeze(FRZ_IRELAND) QT_IRELAND.uroot(lag=1)
-FRZ_IRELAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\IRELAND_ADF.csv
-FRZ_IRELAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\IRELAND_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_IRELAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\IRELAND_ADF.csv
+  FRZ_IRELAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\IRELAND_ADF.pdf
+endif
 genr ST_ISRAEL = log(ISRAEL_ER)
 genr PT_ISRAEL = log(ISRAEL_CPI)
 genr QT_ISRAEL = ST_ISRAEL - PT_ISRAEL + PT_UNITED_STATES
 freeze(FRZ_ISRAEL) QT_ISRAEL.uroot(lag=1)
-FRZ_ISRAEL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ISRAEL_ADF.csv
-FRZ_ISRAEL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ISRAEL_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ISRAEL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ISRAEL_ADF.csv
+  FRZ_ISRAEL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ISRAEL_ADF.pdf
+endif
 genr ST_ITALY = log(ITALY_ER)
 genr PT_ITALY = log(ITALY_CPI)
 genr QT_ITALY = ST_ITALY - PT_ITALY + PT_UNITED_STATES
 freeze(FRZ_ITALY) QT_ITALY.uroot(lag=1)
-FRZ_ITALY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ITALY_ADF.csv
-FRZ_ITALY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ITALY_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ITALY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ITALY_ADF.csv
+  FRZ_ITALY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ITALY_ADF.pdf
+endif
 genr ST_JAMAICA = log(JAMAICA_ER)
 genr PT_JAMAICA = log(JAMAICA_CPI)
 genr QT_JAMAICA = ST_JAMAICA - PT_JAMAICA + PT_UNITED_STATES
 freeze(FRZ_JAMAICA) QT_JAMAICA.uroot(lag=1)
-FRZ_JAMAICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\JAMAICA_ADF.csv
-FRZ_JAMAICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\JAMAICA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_JAMAICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\JAMAICA_ADF.csv
+  FRZ_JAMAICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\JAMAICA_ADF.pdf
+endif
 genr ST_JAPAN = log(JAPAN_ER)
 genr PT_JAPAN = log(JAPAN_CPI)
 genr QT_JAPAN = ST_JAPAN - PT_JAPAN + PT_UNITED_STATES
 freeze(FRZ_JAPAN) QT_JAPAN.uroot(lag=1)
-FRZ_JAPAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\JAPAN_ADF.csv
-FRZ_JAPAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\JAPAN_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_JAPAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\JAPAN_ADF.csv
+  FRZ_JAPAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\JAPAN_ADF.pdf
+endif
 genr ST_JORDAN = log(JORDAN_ER)
 genr PT_JORDAN = log(JORDAN_CPI)
 genr QT_JORDAN = ST_JORDAN - PT_JORDAN + PT_UNITED_STATES
 freeze(FRZ_JORDAN) QT_JORDAN.uroot(lag=1)
-FRZ_JORDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\JORDAN_ADF.csv
-FRZ_JORDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\JORDAN_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_JORDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\JORDAN_ADF.csv
+  FRZ_JORDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\JORDAN_ADF.pdf
+endif
 genr ST_KAZAKHSTAN = log(KAZAKHSTAN_ER)
 genr PT_KAZAKHSTAN = log(KAZAKHSTAN_CPI)
 genr QT_KAZAKHSTAN = ST_KAZAKHSTAN - PT_KAZAKHSTAN + PT_UNITED_STATES
 freeze(FRZ_KAZAKHSTAN) QT_KAZAKHSTAN.uroot(lag=1)
-FRZ_KAZAKHSTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KAZAKHSTAN_ADF.csv
-FRZ_KAZAKHSTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KAZAKHSTAN_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_KAZAKHSTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KAZAKHSTAN_ADF.csv
+  FRZ_KAZAKHSTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KAZAKHSTAN_ADF.pdf
+endif
 genr ST_KENYA = log(KENYA_ER)
 genr PT_KENYA = log(KENYA_CPI)
 genr QT_KENYA = ST_KENYA - PT_KENYA + PT_UNITED_STATES
 freeze(FRZ_KENYA) QT_KENYA.uroot(lag=1)
-FRZ_KENYA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KENYA_ADF.csv
-FRZ_KENYA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KENYA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_KENYA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KENYA_ADF.csv
+  FRZ_KENYA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KENYA_ADF.pdf
+endif
 genr ST_KIRIBATI = log(KIRIBATI_ER)
 genr PT_KIRIBATI = log(KIRIBATI_CPI)
 genr QT_KIRIBATI = ST_KIRIBATI - PT_KIRIBATI + PT_UNITED_STATES
 freeze(FRZ_KIRIBATI) QT_KIRIBATI.uroot(lag=1)
-FRZ_KIRIBATI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KIRIBATI_ADF.csv
-FRZ_KIRIBATI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KIRIBATI_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_KIRIBATI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KIRIBATI_ADF.csv
+  FRZ_KIRIBATI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KIRIBATI_ADF.pdf
+endif
 genr ST_KOREA_REPUBLIC_OF = log(KOREA_REPUBLIC_OF_ER)
 genr PT_KOREA_REPUBLIC_OF = log(KOREA_REPUBLIC_OF_CPI)
 genr QT_KOREA_REPUBLIC_OF = ST_KOREA_REPUBLIC_OF - PT_KOREA_REPUBLIC_OF + PT_UNITED_STATES
 freeze(FRZ_KOREA_REPUBLIC_OF) QT_KOREA_REPUBLIC_OF.uroot(lag=1)
-FRZ_KOREA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KOREA_REPUBLIC_OF_ADF.csv
-FRZ_KOREA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KOREA_REPUBLIC_OF_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_KOREA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KOREA_REPUBLIC_OF_ADF.csv
+  FRZ_KOREA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KOREA_REPUBLIC_OF_ADF.pdf
+endif
 genr ST_KOSOVO_REPUBLIC_OF = log(KOSOVO_REPUBLIC_OF_ER)
 genr PT_KOSOVO_REPUBLIC_OF = log(KOSOVO_REPUBLIC_OF_CPI)
 genr QT_KOSOVO_REPUBLIC_OF = ST_KOSOVO_REPUBLIC_OF - PT_KOSOVO_REPUBLIC_OF + PT_UNITED_STATES
 freeze(FRZ_KOSOVO_REPUBLIC_OF) QT_KOSOVO_REPUBLIC_OF.uroot(lag=1)
-FRZ_KOSOVO_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KOSOVO_REPUBLIC_OF_ADF.csv
-FRZ_KOSOVO_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KOSOVO_REPUBLIC_OF_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_KOSOVO_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KOSOVO_REPUBLIC_OF_ADF.csv
+  FRZ_KOSOVO_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KOSOVO_REPUBLIC_OF_ADF.pdf
+endif
 genr ST_KUWAIT = log(KUWAIT_ER)
 genr PT_KUWAIT = log(KUWAIT_CPI)
 genr QT_KUWAIT = ST_KUWAIT - PT_KUWAIT + PT_UNITED_STATES
 freeze(FRZ_KUWAIT) QT_KUWAIT.uroot(lag=1)
-FRZ_KUWAIT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KUWAIT_ADF.csv
-FRZ_KUWAIT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KUWAIT_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_KUWAIT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KUWAIT_ADF.csv
+  FRZ_KUWAIT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KUWAIT_ADF.pdf
+endif
 genr ST_KYRGYZ_REPUBLIC = log(KYRGYZ_REPUBLIC_ER)
 genr PT_KYRGYZ_REPUBLIC = log(KYRGYZ_REPUBLIC_CPI)
 genr QT_KYRGYZ_REPUBLIC = ST_KYRGYZ_REPUBLIC - PT_KYRGYZ_REPUBLIC + PT_UNITED_STATES
 freeze(FRZ_KYRGYZ_REPUBLIC) QT_KYRGYZ_REPUBLIC.uroot(lag=1)
-FRZ_KYRGYZ_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KYRGYZ_REPUBLIC_ADF.csv
-FRZ_KYRGYZ_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KYRGYZ_REPUBLIC_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_KYRGYZ_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\KYRGYZ_REPUBLIC_ADF.csv
+  FRZ_KYRGYZ_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\KYRGYZ_REPUBLIC_ADF.pdf
+endif
 genr ST_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC = log(LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_ER)
 genr PT_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC = log(LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_CPI)
 genr QT_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC = ST_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC - PT_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC + PT_UNITED_STATES
 freeze(FRZ_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC) QT_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.uroot(lag=1)
-FRZ_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_ADF.csv
-FRZ_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_ADF.csv
+  FRZ_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC_ADF.pdf
+endif
 genr ST_LATVIA = log(LATVIA_ER)
 genr PT_LATVIA = log(LATVIA_CPI)
 genr QT_LATVIA = ST_LATVIA - PT_LATVIA + PT_UNITED_STATES
 freeze(FRZ_LATVIA) QT_LATVIA.uroot(lag=1)
-FRZ_LATVIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LATVIA_ADF.csv
-FRZ_LATVIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LATVIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_LATVIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LATVIA_ADF.csv
+  FRZ_LATVIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LATVIA_ADF.pdf
+endif
 genr ST_LEBANON = log(LEBANON_ER)
 genr PT_LEBANON = log(LEBANON_CPI)
 genr QT_LEBANON = ST_LEBANON - PT_LEBANON + PT_UNITED_STATES
 freeze(FRZ_LEBANON) QT_LEBANON.uroot(lag=1)
-FRZ_LEBANON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LEBANON_ADF.csv
-FRZ_LEBANON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LEBANON_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_LEBANON.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LEBANON_ADF.csv
+  FRZ_LEBANON.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LEBANON_ADF.pdf
+endif
 genr ST_LESOTHO = log(LESOTHO_ER)
 genr PT_LESOTHO = log(LESOTHO_CPI)
 genr QT_LESOTHO = ST_LESOTHO - PT_LESOTHO + PT_UNITED_STATES
 freeze(FRZ_LESOTHO) QT_LESOTHO.uroot(lag=1)
-FRZ_LESOTHO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LESOTHO_ADF.csv
-FRZ_LESOTHO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LESOTHO_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_LESOTHO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LESOTHO_ADF.csv
+  FRZ_LESOTHO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LESOTHO_ADF.pdf
+endif
 genr ST_LIBERIA = log(LIBERIA_ER)
 genr PT_LIBERIA = log(LIBERIA_CPI)
 genr QT_LIBERIA = ST_LIBERIA - PT_LIBERIA + PT_UNITED_STATES
 freeze(FRZ_LIBERIA) QT_LIBERIA.uroot(lag=1)
-FRZ_LIBERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LIBERIA_ADF.csv
-FRZ_LIBERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LIBERIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_LIBERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LIBERIA_ADF.csv
+  FRZ_LIBERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LIBERIA_ADF.pdf
+endif
 genr ST_LIBYA = log(LIBYA_ER)
 genr PT_LIBYA = log(LIBYA_CPI)
 genr QT_LIBYA = ST_LIBYA - PT_LIBYA + PT_UNITED_STATES
 freeze(FRZ_LIBYA) QT_LIBYA.uroot(lag=1)
-FRZ_LIBYA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LIBYA_ADF.csv
-FRZ_LIBYA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LIBYA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_LIBYA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LIBYA_ADF.csv
+  FRZ_LIBYA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LIBYA_ADF.pdf
+endif
 genr ST_LITHUANIA = log(LITHUANIA_ER)
 genr PT_LITHUANIA = log(LITHUANIA_CPI)
 genr QT_LITHUANIA = ST_LITHUANIA - PT_LITHUANIA + PT_UNITED_STATES
 freeze(FRZ_LITHUANIA) QT_LITHUANIA.uroot(lag=1)
-FRZ_LITHUANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LITHUANIA_ADF.csv
-FRZ_LITHUANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LITHUANIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_LITHUANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LITHUANIA_ADF.csv
+  FRZ_LITHUANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LITHUANIA_ADF.pdf
+endif
 genr ST_LUXEMBOURG = log(LUXEMBOURG_ER)
 genr PT_LUXEMBOURG = log(LUXEMBOURG_CPI)
 genr QT_LUXEMBOURG = ST_LUXEMBOURG - PT_LUXEMBOURG + PT_UNITED_STATES
 freeze(FRZ_LUXEMBOURG) QT_LUXEMBOURG.uroot(lag=1)
-FRZ_LUXEMBOURG.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LUXEMBOURG_ADF.csv
-FRZ_LUXEMBOURG.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LUXEMBOURG_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_LUXEMBOURG.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\LUXEMBOURG_ADF.csv
+  FRZ_LUXEMBOURG.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\LUXEMBOURG_ADF.pdf
+endif
 genr ST_MADAGASCAR = log(MADAGASCAR_ER)
 genr PT_MADAGASCAR = log(MADAGASCAR_CPI)
 genr QT_MADAGASCAR = ST_MADAGASCAR - PT_MADAGASCAR + PT_UNITED_STATES
 freeze(FRZ_MADAGASCAR) QT_MADAGASCAR.uroot(lag=1)
-FRZ_MADAGASCAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MADAGASCAR_ADF.csv
-FRZ_MADAGASCAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MADAGASCAR_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MADAGASCAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MADAGASCAR_ADF.csv
+  FRZ_MADAGASCAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MADAGASCAR_ADF.pdf
+endif
 genr ST_MALAWI = log(MALAWI_ER)
 genr PT_MALAWI = log(MALAWI_CPI)
 genr QT_MALAWI = ST_MALAWI - PT_MALAWI + PT_UNITED_STATES
 freeze(FRZ_MALAWI) QT_MALAWI.uroot(lag=1)
-FRZ_MALAWI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MALAWI_ADF.csv
-FRZ_MALAWI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MALAWI_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MALAWI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MALAWI_ADF.csv
+  FRZ_MALAWI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MALAWI_ADF.pdf
+endif
 genr ST_MALAYSIA = log(MALAYSIA_ER)
 genr PT_MALAYSIA = log(MALAYSIA_CPI)
 genr QT_MALAYSIA = ST_MALAYSIA - PT_MALAYSIA + PT_UNITED_STATES
 freeze(FRZ_MALAYSIA) QT_MALAYSIA.uroot(lag=1)
-FRZ_MALAYSIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MALAYSIA_ADF.csv
-FRZ_MALAYSIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MALAYSIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MALAYSIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MALAYSIA_ADF.csv
+  FRZ_MALAYSIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MALAYSIA_ADF.pdf
+endif
 genr ST_MALDIVES = log(MALDIVES_ER)
 genr PT_MALDIVES = log(MALDIVES_CPI)
 genr QT_MALDIVES = ST_MALDIVES - PT_MALDIVES + PT_UNITED_STATES
 freeze(FRZ_MALDIVES) QT_MALDIVES.uroot(lag=1)
-FRZ_MALDIVES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MALDIVES_ADF.csv
-FRZ_MALDIVES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MALDIVES_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MALDIVES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MALDIVES_ADF.csv
+  FRZ_MALDIVES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MALDIVES_ADF.pdf
+endif
 genr ST_MALI = log(MALI_ER)
 genr PT_MALI = log(MALI_CPI)
 genr QT_MALI = ST_MALI - PT_MALI + PT_UNITED_STATES
 freeze(FRZ_MALI) QT_MALI.uroot(lag=1)
-FRZ_MALI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MALI_ADF.csv
-FRZ_MALI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MALI_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MALI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MALI_ADF.csv
+  FRZ_MALI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MALI_ADF.pdf
+endif
 genr ST_MALTA = log(MALTA_ER)
 genr PT_MALTA = log(MALTA_CPI)
 genr QT_MALTA = ST_MALTA - PT_MALTA + PT_UNITED_STATES
 freeze(FRZ_MALTA) QT_MALTA.uroot(lag=1)
-FRZ_MALTA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MALTA_ADF.csv
-FRZ_MALTA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MALTA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MALTA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MALTA_ADF.csv
+  FRZ_MALTA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MALTA_ADF.pdf
+endif
 genr ST_MAURITANIA = log(MAURITANIA_ER)
 genr PT_MAURITANIA = log(MAURITANIA_CPI)
 genr QT_MAURITANIA = ST_MAURITANIA - PT_MAURITANIA + PT_UNITED_STATES
 freeze(FRZ_MAURITANIA) QT_MAURITANIA.uroot(lag=1)
-FRZ_MAURITANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MAURITANIA_ADF.csv
-FRZ_MAURITANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MAURITANIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MAURITANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MAURITANIA_ADF.csv
+  FRZ_MAURITANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MAURITANIA_ADF.pdf
+endif
 genr ST_MAURITIUS = log(MAURITIUS_ER)
 genr PT_MAURITIUS = log(MAURITIUS_CPI)
 genr QT_MAURITIUS = ST_MAURITIUS - PT_MAURITIUS + PT_UNITED_STATES
 freeze(FRZ_MAURITIUS) QT_MAURITIUS.uroot(lag=1)
-FRZ_MAURITIUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MAURITIUS_ADF.csv
-FRZ_MAURITIUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MAURITIUS_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MAURITIUS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MAURITIUS_ADF.csv
+  FRZ_MAURITIUS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MAURITIUS_ADF.pdf
+endif
 genr ST_MEXICO = log(MEXICO_ER)
 genr PT_MEXICO = log(MEXICO_CPI)
 genr QT_MEXICO = ST_MEXICO - PT_MEXICO + PT_UNITED_STATES
 freeze(FRZ_MEXICO) QT_MEXICO.uroot(lag=1)
-FRZ_MEXICO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MEXICO_ADF.csv
-FRZ_MEXICO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MEXICO_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MEXICO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MEXICO_ADF.csv
+  FRZ_MEXICO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MEXICO_ADF.pdf
+endif
 genr ST_MONGOLIA = log(MONGOLIA_ER)
 genr PT_MONGOLIA = log(MONGOLIA_CPI)
 genr QT_MONGOLIA = ST_MONGOLIA - PT_MONGOLIA + PT_UNITED_STATES
 freeze(FRZ_MONGOLIA) QT_MONGOLIA.uroot(lag=1)
-FRZ_MONGOLIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MONGOLIA_ADF.csv
-FRZ_MONGOLIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MONGOLIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MONGOLIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MONGOLIA_ADF.csv
+  FRZ_MONGOLIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MONGOLIA_ADF.pdf
+endif
 genr ST_MONTENEGRO = log(MONTENEGRO_ER)
 genr PT_MONTENEGRO = log(MONTENEGRO_CPI)
 genr QT_MONTENEGRO = ST_MONTENEGRO - PT_MONTENEGRO + PT_UNITED_STATES
 freeze(FRZ_MONTENEGRO) QT_MONTENEGRO.uroot(lag=1)
-FRZ_MONTENEGRO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MONTENEGRO_ADF.csv
-FRZ_MONTENEGRO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MONTENEGRO_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MONTENEGRO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MONTENEGRO_ADF.csv
+  FRZ_MONTENEGRO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MONTENEGRO_ADF.pdf
+endif
 genr ST_MONTSERRAT = log(MONTSERRAT_ER)
 genr PT_MONTSERRAT = log(MONTSERRAT_CPI)
 genr QT_MONTSERRAT = ST_MONTSERRAT - PT_MONTSERRAT + PT_UNITED_STATES
 freeze(FRZ_MONTSERRAT) QT_MONTSERRAT.uroot(lag=1)
-FRZ_MONTSERRAT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MONTSERRAT_ADF.csv
-FRZ_MONTSERRAT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MONTSERRAT_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MONTSERRAT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MONTSERRAT_ADF.csv
+  FRZ_MONTSERRAT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MONTSERRAT_ADF.pdf
+endif
 genr ST_MOROCCO = log(MOROCCO_ER)
 genr PT_MOROCCO = log(MOROCCO_CPI)
 genr QT_MOROCCO = ST_MOROCCO - PT_MOROCCO + PT_UNITED_STATES
 freeze(FRZ_MOROCCO) QT_MOROCCO.uroot(lag=1)
-FRZ_MOROCCO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MOROCCO_ADF.csv
-FRZ_MOROCCO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MOROCCO_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MOROCCO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MOROCCO_ADF.csv
+  FRZ_MOROCCO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MOROCCO_ADF.pdf
+endif
 genr ST_MOZAMBIQUE = log(MOZAMBIQUE_ER)
 genr PT_MOZAMBIQUE = log(MOZAMBIQUE_CPI)
 genr QT_MOZAMBIQUE = ST_MOZAMBIQUE - PT_MOZAMBIQUE + PT_UNITED_STATES
 freeze(FRZ_MOZAMBIQUE) QT_MOZAMBIQUE.uroot(lag=1)
-FRZ_MOZAMBIQUE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MOZAMBIQUE_ADF.csv
-FRZ_MOZAMBIQUE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MOZAMBIQUE_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MOZAMBIQUE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MOZAMBIQUE_ADF.csv
+  FRZ_MOZAMBIQUE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MOZAMBIQUE_ADF.pdf
+endif
 genr ST_MYANMAR = log(MYANMAR_ER)
 genr PT_MYANMAR = log(MYANMAR_CPI)
 genr QT_MYANMAR = ST_MYANMAR - PT_MYANMAR + PT_UNITED_STATES
 freeze(FRZ_MYANMAR) QT_MYANMAR.uroot(lag=1)
-FRZ_MYANMAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MYANMAR_ADF.csv
-FRZ_MYANMAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MYANMAR_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_MYANMAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\MYANMAR_ADF.csv
+  FRZ_MYANMAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\MYANMAR_ADF.pdf
+endif
 genr ST_NAMIBIA = log(NAMIBIA_ER)
 genr PT_NAMIBIA = log(NAMIBIA_CPI)
 genr QT_NAMIBIA = ST_NAMIBIA - PT_NAMIBIA + PT_UNITED_STATES
 freeze(FRZ_NAMIBIA) QT_NAMIBIA.uroot(lag=1)
-FRZ_NAMIBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NAMIBIA_ADF.csv
-FRZ_NAMIBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NAMIBIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_NAMIBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NAMIBIA_ADF.csv
+  FRZ_NAMIBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NAMIBIA_ADF.pdf
+endif
 genr ST_NEPAL = log(NEPAL_ER)
 genr PT_NEPAL = log(NEPAL_CPI)
 genr QT_NEPAL = ST_NEPAL - PT_NEPAL + PT_UNITED_STATES
 freeze(FRZ_NEPAL) QT_NEPAL.uroot(lag=1)
-FRZ_NEPAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NEPAL_ADF.csv
-FRZ_NEPAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NEPAL_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_NEPAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NEPAL_ADF.csv
+  FRZ_NEPAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NEPAL_ADF.pdf
+endif
 genr ST_NETHERLANDS = log(NETHERLANDS_ER)
 genr PT_NETHERLANDS = log(NETHERLANDS_CPI)
 genr QT_NETHERLANDS = ST_NETHERLANDS - PT_NETHERLANDS + PT_UNITED_STATES
 freeze(FRZ_NETHERLANDS) QT_NETHERLANDS.uroot(lag=1)
-FRZ_NETHERLANDS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NETHERLANDS_ADF.csv
-FRZ_NETHERLANDS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NETHERLANDS_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_NETHERLANDS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NETHERLANDS_ADF.csv
+  FRZ_NETHERLANDS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NETHERLANDS_ADF.pdf
+endif
 genr ST_NICARAGUA = log(NICARAGUA_ER)
 genr PT_NICARAGUA = log(NICARAGUA_CPI)
 genr QT_NICARAGUA = ST_NICARAGUA - PT_NICARAGUA + PT_UNITED_STATES
 freeze(FRZ_NICARAGUA) QT_NICARAGUA.uroot(lag=1)
-FRZ_NICARAGUA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NICARAGUA_ADF.csv
-FRZ_NICARAGUA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NICARAGUA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_NICARAGUA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NICARAGUA_ADF.csv
+  FRZ_NICARAGUA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NICARAGUA_ADF.pdf
+endif
 genr ST_NIGER = log(NIGER_ER)
 genr PT_NIGER = log(NIGER_CPI)
 genr QT_NIGER = ST_NIGER - PT_NIGER + PT_UNITED_STATES
 freeze(FRZ_NIGER) QT_NIGER.uroot(lag=1)
-FRZ_NIGER.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NIGER_ADF.csv
-FRZ_NIGER.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NIGER_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_NIGER.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NIGER_ADF.csv
+  FRZ_NIGER.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NIGER_ADF.pdf
+endif
 genr ST_NIGERIA = log(NIGERIA_ER)
 genr PT_NIGERIA = log(NIGERIA_CPI)
 genr QT_NIGERIA = ST_NIGERIA - PT_NIGERIA + PT_UNITED_STATES
 freeze(FRZ_NIGERIA) QT_NIGERIA.uroot(lag=1)
-FRZ_NIGERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NIGERIA_ADF.csv
-FRZ_NIGERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NIGERIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_NIGERIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NIGERIA_ADF.csv
+  FRZ_NIGERIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NIGERIA_ADF.pdf
+endif
 genr ST_NORTH_MACEDONIA_REPUBLIC_OF = log(NORTH_MACEDONIA_REPUBLIC_OF_ER)
 genr PT_NORTH_MACEDONIA_REPUBLIC_OF = log(NORTH_MACEDONIA_REPUBLIC_OF_CPI)
 genr QT_NORTH_MACEDONIA_REPUBLIC_OF = ST_NORTH_MACEDONIA_REPUBLIC_OF - PT_NORTH_MACEDONIA_REPUBLIC_OF + PT_UNITED_STATES
 freeze(FRZ_NORTH_MACEDONIA_REPUBLIC_OF) QT_NORTH_MACEDONIA_REPUBLIC_OF.uroot(lag=1)
-FRZ_NORTH_MACEDONIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NORTH_MACEDONIA_REPUBLIC_OF_ADF.csv
-FRZ_NORTH_MACEDONIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NORTH_MACEDONIA_REPUBLIC_OF_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_NORTH_MACEDONIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NORTH_MACEDONIA_REPUBLIC_OF_ADF.csv
+  FRZ_NORTH_MACEDONIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NORTH_MACEDONIA_REPUBLIC_OF_ADF.pdf
+endif
 genr ST_NORWAY = log(NORWAY_ER)
 genr PT_NORWAY = log(NORWAY_CPI)
 genr QT_NORWAY = ST_NORWAY - PT_NORWAY + PT_UNITED_STATES
 freeze(FRZ_NORWAY) QT_NORWAY.uroot(lag=1)
-FRZ_NORWAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NORWAY_ADF.csv
-FRZ_NORWAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NORWAY_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_NORWAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\NORWAY_ADF.csv
+  FRZ_NORWAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\NORWAY_ADF.pdf
+endif
 genr ST_OMAN = log(OMAN_ER)
 genr PT_OMAN = log(OMAN_CPI)
 genr QT_OMAN = ST_OMAN - PT_OMAN + PT_UNITED_STATES
 freeze(FRZ_OMAN) QT_OMAN.uroot(lag=1)
-FRZ_OMAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\OMAN_ADF.csv
-FRZ_OMAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\OMAN_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_OMAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\OMAN_ADF.csv
+  FRZ_OMAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\OMAN_ADF.pdf
+endif
 genr ST_PAKISTAN = log(PAKISTAN_ER)
 genr PT_PAKISTAN = log(PAKISTAN_CPI)
 genr QT_PAKISTAN = ST_PAKISTAN - PT_PAKISTAN + PT_UNITED_STATES
 freeze(FRZ_PAKISTAN) QT_PAKISTAN.uroot(lag=1)
-FRZ_PAKISTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\PAKISTAN_ADF.csv
-FRZ_PAKISTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\PAKISTAN_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_PAKISTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\PAKISTAN_ADF.csv
+  FRZ_PAKISTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\PAKISTAN_ADF.pdf
+endif
 genr ST_PANAMA = log(PANAMA_ER)
 genr PT_PANAMA = log(PANAMA_CPI)
 genr QT_PANAMA = ST_PANAMA - PT_PANAMA + PT_UNITED_STATES
 freeze(FRZ_PANAMA) QT_PANAMA.uroot(lag=1)
-FRZ_PANAMA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\PANAMA_ADF.csv
-FRZ_PANAMA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\PANAMA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_PANAMA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\PANAMA_ADF.csv
+  FRZ_PANAMA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\PANAMA_ADF.pdf
+endif
 genr ST_PARAGUAY = log(PARAGUAY_ER)
 genr PT_PARAGUAY = log(PARAGUAY_CPI)
 genr QT_PARAGUAY = ST_PARAGUAY - PT_PARAGUAY + PT_UNITED_STATES
 freeze(FRZ_PARAGUAY) QT_PARAGUAY.uroot(lag=1)
-FRZ_PARAGUAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\PARAGUAY_ADF.csv
-FRZ_PARAGUAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\PARAGUAY_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_PARAGUAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\PARAGUAY_ADF.csv
+  FRZ_PARAGUAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\PARAGUAY_ADF.pdf
+endif
 genr ST_PERU = log(PERU_ER)
 genr PT_PERU = log(PERU_CPI)
 genr QT_PERU = ST_PERU - PT_PERU + PT_UNITED_STATES
 freeze(FRZ_PERU) QT_PERU.uroot(lag=1)
-FRZ_PERU.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\PERU_ADF.csv
-FRZ_PERU.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\PERU_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_PERU.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\PERU_ADF.csv
+  FRZ_PERU.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\PERU_ADF.pdf
+endif
 genr ST_PHILIPPINES = log(PHILIPPINES_ER)
 genr PT_PHILIPPINES = log(PHILIPPINES_CPI)
 genr QT_PHILIPPINES = ST_PHILIPPINES - PT_PHILIPPINES + PT_UNITED_STATES
 freeze(FRZ_PHILIPPINES) QT_PHILIPPINES.uroot(lag=1)
-FRZ_PHILIPPINES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\PHILIPPINES_ADF.csv
-FRZ_PHILIPPINES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\PHILIPPINES_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_PHILIPPINES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\PHILIPPINES_ADF.csv
+  FRZ_PHILIPPINES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\PHILIPPINES_ADF.pdf
+endif
 genr ST_POLAND = log(POLAND_ER)
 genr PT_POLAND = log(POLAND_CPI)
 genr QT_POLAND = ST_POLAND - PT_POLAND + PT_UNITED_STATES
 freeze(FRZ_POLAND) QT_POLAND.uroot(lag=1)
-FRZ_POLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\POLAND_ADF.csv
-FRZ_POLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\POLAND_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_POLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\POLAND_ADF.csv
+  FRZ_POLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\POLAND_ADF.pdf
+endif
 genr ST_PORTUGAL = log(PORTUGAL_ER)
 genr PT_PORTUGAL = log(PORTUGAL_CPI)
 genr QT_PORTUGAL = ST_PORTUGAL - PT_PORTUGAL + PT_UNITED_STATES
 freeze(FRZ_PORTUGAL) QT_PORTUGAL.uroot(lag=1)
-FRZ_PORTUGAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\PORTUGAL_ADF.csv
-FRZ_PORTUGAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\PORTUGAL_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_PORTUGAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\PORTUGAL_ADF.csv
+  FRZ_PORTUGAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\PORTUGAL_ADF.pdf
+endif
 genr ST_QATAR = log(QATAR_ER)
 genr PT_QATAR = log(QATAR_CPI)
 genr QT_QATAR = ST_QATAR - PT_QATAR + PT_UNITED_STATES
 freeze(FRZ_QATAR) QT_QATAR.uroot(lag=1)
-FRZ_QATAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\QATAR_ADF.csv
-FRZ_QATAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\QATAR_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_QATAR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\QATAR_ADF.csv
+  FRZ_QATAR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\QATAR_ADF.pdf
+endif
 genr ST_ROMANIA = log(ROMANIA_ER)
 genr PT_ROMANIA = log(ROMANIA_CPI)
 genr QT_ROMANIA = ST_ROMANIA - PT_ROMANIA + PT_UNITED_STATES
 freeze(FRZ_ROMANIA) QT_ROMANIA.uroot(lag=1)
-FRZ_ROMANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ROMANIA_ADF.csv
-FRZ_ROMANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ROMANIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ROMANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ROMANIA_ADF.csv
+  FRZ_ROMANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ROMANIA_ADF.pdf
+endif
 genr ST_RUSSIAN_FEDERATION = log(RUSSIAN_FEDERATION_ER)
 genr PT_RUSSIAN_FEDERATION = log(RUSSIAN_FEDERATION_CPI)
 genr QT_RUSSIAN_FEDERATION = ST_RUSSIAN_FEDERATION - PT_RUSSIAN_FEDERATION + PT_UNITED_STATES
 freeze(FRZ_RUSSIAN_FEDERATION) QT_RUSSIAN_FEDERATION.uroot(lag=1)
-FRZ_RUSSIAN_FEDERATION.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\RUSSIAN_FEDERATION_ADF.csv
-FRZ_RUSSIAN_FEDERATION.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\RUSSIAN_FEDERATION_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_RUSSIAN_FEDERATION.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\RUSSIAN_FEDERATION_ADF.csv
+  FRZ_RUSSIAN_FEDERATION.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\RUSSIAN_FEDERATION_ADF.pdf
+endif
 genr ST_RWANDA = log(RWANDA_ER)
 genr PT_RWANDA = log(RWANDA_CPI)
 genr QT_RWANDA = ST_RWANDA - PT_RWANDA + PT_UNITED_STATES
 freeze(FRZ_RWANDA) QT_RWANDA.uroot(lag=1)
-FRZ_RWANDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\RWANDA_ADF.csv
-FRZ_RWANDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\RWANDA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_RWANDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\RWANDA_ADF.csv
+  FRZ_RWANDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\RWANDA_ADF.pdf
+endif
 genr ST_SAMOA = log(SAMOA_ER)
 genr PT_SAMOA = log(SAMOA_CPI)
 genr QT_SAMOA = ST_SAMOA - PT_SAMOA + PT_UNITED_STATES
 freeze(FRZ_SAMOA) QT_SAMOA.uroot(lag=1)
-FRZ_SAMOA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SAMOA_ADF.csv
-FRZ_SAMOA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SAMOA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SAMOA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SAMOA_ADF.csv
+  FRZ_SAMOA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SAMOA_ADF.pdf
+endif
 genr ST_SAN_MARINO = log(SAN_MARINO_ER)
 genr PT_SAN_MARINO = log(SAN_MARINO_CPI)
 genr QT_SAN_MARINO = ST_SAN_MARINO - PT_SAN_MARINO + PT_UNITED_STATES
 freeze(FRZ_SAN_MARINO) QT_SAN_MARINO.uroot(lag=1)
-FRZ_SAN_MARINO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SAN_MARINO_ADF.csv
-FRZ_SAN_MARINO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SAN_MARINO_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SAN_MARINO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SAN_MARINO_ADF.csv
+  FRZ_SAN_MARINO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SAN_MARINO_ADF.pdf
+endif
 genr ST_SAUDI_ARABIA = log(SAUDI_ARABIA_ER)
 genr PT_SAUDI_ARABIA = log(SAUDI_ARABIA_CPI)
 genr QT_SAUDI_ARABIA = ST_SAUDI_ARABIA - PT_SAUDI_ARABIA + PT_UNITED_STATES
 freeze(FRZ_SAUDI_ARABIA) QT_SAUDI_ARABIA.uroot(lag=1)
-FRZ_SAUDI_ARABIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SAUDI_ARABIA_ADF.csv
-FRZ_SAUDI_ARABIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SAUDI_ARABIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SAUDI_ARABIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SAUDI_ARABIA_ADF.csv
+  FRZ_SAUDI_ARABIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SAUDI_ARABIA_ADF.pdf
+endif
 genr ST_SENEGAL = log(SENEGAL_ER)
 genr PT_SENEGAL = log(SENEGAL_CPI)
 genr QT_SENEGAL = ST_SENEGAL - PT_SENEGAL + PT_UNITED_STATES
 freeze(FRZ_SENEGAL) QT_SENEGAL.uroot(lag=1)
-FRZ_SENEGAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SENEGAL_ADF.csv
-FRZ_SENEGAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SENEGAL_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SENEGAL.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SENEGAL_ADF.csv
+  FRZ_SENEGAL.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SENEGAL_ADF.pdf
+endif
 genr ST_SERBIA_REPUBLIC_OF = log(SERBIA_REPUBLIC_OF_ER)
 genr PT_SERBIA_REPUBLIC_OF = log(SERBIA_REPUBLIC_OF_CPI)
 genr QT_SERBIA_REPUBLIC_OF = ST_SERBIA_REPUBLIC_OF - PT_SERBIA_REPUBLIC_OF + PT_UNITED_STATES
 freeze(FRZ_SERBIA_REPUBLIC_OF) QT_SERBIA_REPUBLIC_OF.uroot(lag=1)
-FRZ_SERBIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SERBIA_REPUBLIC_OF_ADF.csv
-FRZ_SERBIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SERBIA_REPUBLIC_OF_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SERBIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SERBIA_REPUBLIC_OF_ADF.csv
+  FRZ_SERBIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SERBIA_REPUBLIC_OF_ADF.pdf
+endif
 genr ST_SEYCHELLES = log(SEYCHELLES_ER)
 genr PT_SEYCHELLES = log(SEYCHELLES_CPI)
 genr QT_SEYCHELLES = ST_SEYCHELLES - PT_SEYCHELLES + PT_UNITED_STATES
 freeze(FRZ_SEYCHELLES) QT_SEYCHELLES.uroot(lag=1)
-FRZ_SEYCHELLES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SEYCHELLES_ADF.csv
-FRZ_SEYCHELLES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SEYCHELLES_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SEYCHELLES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SEYCHELLES_ADF.csv
+  FRZ_SEYCHELLES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SEYCHELLES_ADF.pdf
+endif
 genr ST_SIERRA_LEONE = log(SIERRA_LEONE_ER)
 genr PT_SIERRA_LEONE = log(SIERRA_LEONE_CPI)
 genr QT_SIERRA_LEONE = ST_SIERRA_LEONE - PT_SIERRA_LEONE + PT_UNITED_STATES
 freeze(FRZ_SIERRA_LEONE) QT_SIERRA_LEONE.uroot(lag=1)
-FRZ_SIERRA_LEONE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SIERRA_LEONE_ADF.csv
-FRZ_SIERRA_LEONE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SIERRA_LEONE_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SIERRA_LEONE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SIERRA_LEONE_ADF.csv
+  FRZ_SIERRA_LEONE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SIERRA_LEONE_ADF.pdf
+endif
 genr ST_SINGAPORE = log(SINGAPORE_ER)
 genr PT_SINGAPORE = log(SINGAPORE_CPI)
 genr QT_SINGAPORE = ST_SINGAPORE - PT_SINGAPORE + PT_UNITED_STATES
 freeze(FRZ_SINGAPORE) QT_SINGAPORE.uroot(lag=1)
-FRZ_SINGAPORE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SINGAPORE_ADF.csv
-FRZ_SINGAPORE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SINGAPORE_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SINGAPORE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SINGAPORE_ADF.csv
+  FRZ_SINGAPORE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SINGAPORE_ADF.pdf
+endif
 genr ST_SINT_MAARTEN = log(SINT_MAARTEN_ER)
 genr PT_SINT_MAARTEN = log(SINT_MAARTEN_CPI)
 genr QT_SINT_MAARTEN = ST_SINT_MAARTEN - PT_SINT_MAARTEN + PT_UNITED_STATES
 freeze(FRZ_SINT_MAARTEN) QT_SINT_MAARTEN.uroot(lag=1)
-FRZ_SINT_MAARTEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SINT_MAARTEN_ADF.csv
-FRZ_SINT_MAARTEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SINT_MAARTEN_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SINT_MAARTEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SINT_MAARTEN_ADF.csv
+  FRZ_SINT_MAARTEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SINT_MAARTEN_ADF.pdf
+endif
 genr ST_SLOVAK_REPUBLIC = log(SLOVAK_REPUBLIC_ER)
 genr PT_SLOVAK_REPUBLIC = log(SLOVAK_REPUBLIC_CPI)
 genr QT_SLOVAK_REPUBLIC = ST_SLOVAK_REPUBLIC - PT_SLOVAK_REPUBLIC + PT_UNITED_STATES
 freeze(FRZ_SLOVAK_REPUBLIC) QT_SLOVAK_REPUBLIC.uroot(lag=1)
-FRZ_SLOVAK_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SLOVAK_REPUBLIC_ADF.csv
-FRZ_SLOVAK_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SLOVAK_REPUBLIC_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SLOVAK_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SLOVAK_REPUBLIC_ADF.csv
+  FRZ_SLOVAK_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SLOVAK_REPUBLIC_ADF.pdf
+endif
 genr ST_SLOVENIA = log(SLOVENIA_ER)
 genr PT_SLOVENIA = log(SLOVENIA_CPI)
 genr QT_SLOVENIA = ST_SLOVENIA - PT_SLOVENIA + PT_UNITED_STATES
 freeze(FRZ_SLOVENIA) QT_SLOVENIA.uroot(lag=1)
-FRZ_SLOVENIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SLOVENIA_ADF.csv
-FRZ_SLOVENIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SLOVENIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SLOVENIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SLOVENIA_ADF.csv
+  FRZ_SLOVENIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SLOVENIA_ADF.pdf
+endif
 genr ST_SOLOMON_ISLANDS = log(SOLOMON_ISLANDS_ER)
 genr PT_SOLOMON_ISLANDS = log(SOLOMON_ISLANDS_CPI)
 genr QT_SOLOMON_ISLANDS = ST_SOLOMON_ISLANDS - PT_SOLOMON_ISLANDS + PT_UNITED_STATES
 freeze(FRZ_SOLOMON_ISLANDS) QT_SOLOMON_ISLANDS.uroot(lag=1)
-FRZ_SOLOMON_ISLANDS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SOLOMON_ISLANDS_ADF.csv
-FRZ_SOLOMON_ISLANDS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SOLOMON_ISLANDS_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SOLOMON_ISLANDS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SOLOMON_ISLANDS_ADF.csv
+  FRZ_SOLOMON_ISLANDS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SOLOMON_ISLANDS_ADF.pdf
+endif
 genr ST_SOUTH_AFRICA = log(SOUTH_AFRICA_ER)
 genr PT_SOUTH_AFRICA = log(SOUTH_AFRICA_CPI)
 genr QT_SOUTH_AFRICA = ST_SOUTH_AFRICA - PT_SOUTH_AFRICA + PT_UNITED_STATES
 freeze(FRZ_SOUTH_AFRICA) QT_SOUTH_AFRICA.uroot(lag=1)
-FRZ_SOUTH_AFRICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SOUTH_AFRICA_ADF.csv
-FRZ_SOUTH_AFRICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SOUTH_AFRICA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SOUTH_AFRICA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SOUTH_AFRICA_ADF.csv
+  FRZ_SOUTH_AFRICA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SOUTH_AFRICA_ADF.pdf
+endif
 genr ST_SOUTH_SUDAN = log(SOUTH_SUDAN_ER)
 genr PT_SOUTH_SUDAN = log(SOUTH_SUDAN_CPI)
 genr QT_SOUTH_SUDAN = ST_SOUTH_SUDAN - PT_SOUTH_SUDAN + PT_UNITED_STATES
 freeze(FRZ_SOUTH_SUDAN) QT_SOUTH_SUDAN.uroot(lag=1)
-FRZ_SOUTH_SUDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SOUTH_SUDAN_ADF.csv
-FRZ_SOUTH_SUDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SOUTH_SUDAN_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SOUTH_SUDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SOUTH_SUDAN_ADF.csv
+  FRZ_SOUTH_SUDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SOUTH_SUDAN_ADF.pdf
+endif
 genr ST_SPAIN = log(SPAIN_ER)
 genr PT_SPAIN = log(SPAIN_CPI)
 genr QT_SPAIN = ST_SPAIN - PT_SPAIN + PT_UNITED_STATES
 freeze(FRZ_SPAIN) QT_SPAIN.uroot(lag=1)
-FRZ_SPAIN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SPAIN_ADF.csv
-FRZ_SPAIN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SPAIN_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SPAIN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SPAIN_ADF.csv
+  FRZ_SPAIN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SPAIN_ADF.pdf
+endif
 genr ST_SRI_LANKA = log(SRI_LANKA_ER)
 genr PT_SRI_LANKA = log(SRI_LANKA_CPI)
 genr QT_SRI_LANKA = ST_SRI_LANKA - PT_SRI_LANKA + PT_UNITED_STATES
 freeze(FRZ_SRI_LANKA) QT_SRI_LANKA.uroot(lag=1)
-FRZ_SRI_LANKA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SRI_LANKA_ADF.csv
-FRZ_SRI_LANKA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SRI_LANKA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SRI_LANKA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SRI_LANKA_ADF.csv
+  FRZ_SRI_LANKA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SRI_LANKA_ADF.pdf
+endif
 genr ST_ST_KITTS_AND_NEVIS = log(ST_KITTS_AND_NEVIS_ER)
 genr PT_ST_KITTS_AND_NEVIS = log(ST_KITTS_AND_NEVIS_CPI)
 genr QT_ST_KITTS_AND_NEVIS = ST_ST_KITTS_AND_NEVIS - PT_ST_KITTS_AND_NEVIS + PT_UNITED_STATES
 freeze(FRZ_ST_KITTS_AND_NEVIS) QT_ST_KITTS_AND_NEVIS.uroot(lag=1)
-FRZ_ST_KITTS_AND_NEVIS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ST_KITTS_AND_NEVIS_ADF.csv
-FRZ_ST_KITTS_AND_NEVIS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ST_KITTS_AND_NEVIS_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ST_KITTS_AND_NEVIS.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ST_KITTS_AND_NEVIS_ADF.csv
+  FRZ_ST_KITTS_AND_NEVIS.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ST_KITTS_AND_NEVIS_ADF.pdf
+endif
 genr ST_ST_LUCIA = log(ST_LUCIA_ER)
 genr PT_ST_LUCIA = log(ST_LUCIA_CPI)
 genr QT_ST_LUCIA = ST_ST_LUCIA - PT_ST_LUCIA + PT_UNITED_STATES
 freeze(FRZ_ST_LUCIA) QT_ST_LUCIA.uroot(lag=1)
-FRZ_ST_LUCIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ST_LUCIA_ADF.csv
-FRZ_ST_LUCIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ST_LUCIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ST_LUCIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ST_LUCIA_ADF.csv
+  FRZ_ST_LUCIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ST_LUCIA_ADF.pdf
+endif
 genr ST_ST_VINCENT_AND_THE_GRENADINES = log(ST_VINCENT_AND_THE_GRENADINES_ER)
 genr PT_ST_VINCENT_AND_THE_GRENADINES = log(ST_VINCENT_AND_THE_GRENADINES_CPI)
 genr QT_ST_VINCENT_AND_THE_GRENADINES = ST_ST_VINCENT_AND_THE_GRENADINES - PT_ST_VINCENT_AND_THE_GRENADINES + PT_UNITED_STATES
 freeze(FRZ_ST_VINCENT_AND_THE_GRENADINES) QT_ST_VINCENT_AND_THE_GRENADINES.uroot(lag=1)
-FRZ_ST_VINCENT_AND_THE_GRENADINES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ST_VINCENT_AND_THE_GRENADINES_ADF.csv
-FRZ_ST_VINCENT_AND_THE_GRENADINES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ST_VINCENT_AND_THE_GRENADINES_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ST_VINCENT_AND_THE_GRENADINES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ST_VINCENT_AND_THE_GRENADINES_ADF.csv
+  FRZ_ST_VINCENT_AND_THE_GRENADINES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ST_VINCENT_AND_THE_GRENADINES_ADF.pdf
+endif
 genr ST_SUDAN = log(SUDAN_ER)
 genr PT_SUDAN = log(SUDAN_CPI)
 genr QT_SUDAN = ST_SUDAN - PT_SUDAN + PT_UNITED_STATES
 freeze(FRZ_SUDAN) QT_SUDAN.uroot(lag=1)
-FRZ_SUDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SUDAN_ADF.csv
-FRZ_SUDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SUDAN_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SUDAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SUDAN_ADF.csv
+  FRZ_SUDAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SUDAN_ADF.pdf
+endif
 genr ST_SURINAME = log(SURINAME_ER)
 genr PT_SURINAME = log(SURINAME_CPI)
 genr QT_SURINAME = ST_SURINAME - PT_SURINAME + PT_UNITED_STATES
 freeze(FRZ_SURINAME) QT_SURINAME.uroot(lag=1)
-FRZ_SURINAME.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SURINAME_ADF.csv
-FRZ_SURINAME.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SURINAME_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SURINAME.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SURINAME_ADF.csv
+  FRZ_SURINAME.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SURINAME_ADF.pdf
+endif
 genr ST_SWEDEN = log(SWEDEN_ER)
 genr PT_SWEDEN = log(SWEDEN_CPI)
 genr QT_SWEDEN = ST_SWEDEN - PT_SWEDEN + PT_UNITED_STATES
 freeze(FRZ_SWEDEN) QT_SWEDEN.uroot(lag=1)
-FRZ_SWEDEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SWEDEN_ADF.csv
-FRZ_SWEDEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SWEDEN_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SWEDEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SWEDEN_ADF.csv
+  FRZ_SWEDEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SWEDEN_ADF.pdf
+endif
 genr ST_SWITZERLAND = log(SWITZERLAND_ER)
 genr PT_SWITZERLAND = log(SWITZERLAND_CPI)
 genr QT_SWITZERLAND = ST_SWITZERLAND - PT_SWITZERLAND + PT_UNITED_STATES
 freeze(FRZ_SWITZERLAND) QT_SWITZERLAND.uroot(lag=1)
-FRZ_SWITZERLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SWITZERLAND_ADF.csv
-FRZ_SWITZERLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SWITZERLAND_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SWITZERLAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SWITZERLAND_ADF.csv
+  FRZ_SWITZERLAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SWITZERLAND_ADF.pdf
+endif
 genr ST_SYRIAN_ARAB_REPUBLIC = log(SYRIAN_ARAB_REPUBLIC_ER)
 genr PT_SYRIAN_ARAB_REPUBLIC = log(SYRIAN_ARAB_REPUBLIC_CPI)
 genr QT_SYRIAN_ARAB_REPUBLIC = ST_SYRIAN_ARAB_REPUBLIC - PT_SYRIAN_ARAB_REPUBLIC + PT_UNITED_STATES
 freeze(FRZ_SYRIAN_ARAB_REPUBLIC) QT_SYRIAN_ARAB_REPUBLIC.uroot(lag=1)
-FRZ_SYRIAN_ARAB_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SYRIAN_ARAB_REPUBLIC_ADF.csv
-FRZ_SYRIAN_ARAB_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SYRIAN_ARAB_REPUBLIC_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_SYRIAN_ARAB_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\SYRIAN_ARAB_REPUBLIC_ADF.csv
+  FRZ_SYRIAN_ARAB_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\SYRIAN_ARAB_REPUBLIC_ADF.pdf
+endif
 genr ST_TAJIKISTAN = log(TAJIKISTAN_ER)
 genr PT_TAJIKISTAN = log(TAJIKISTAN_CPI)
 genr QT_TAJIKISTAN = ST_TAJIKISTAN - PT_TAJIKISTAN + PT_UNITED_STATES
 freeze(FRZ_TAJIKISTAN) QT_TAJIKISTAN.uroot(lag=1)
-FRZ_TAJIKISTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TAJIKISTAN_ADF.csv
-FRZ_TAJIKISTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TAJIKISTAN_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_TAJIKISTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TAJIKISTAN_ADF.csv
+  FRZ_TAJIKISTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TAJIKISTAN_ADF.pdf
+endif
 genr ST_TANZANIA = log(TANZANIA_ER)
 genr PT_TANZANIA = log(TANZANIA_CPI)
 genr QT_TANZANIA = ST_TANZANIA - PT_TANZANIA + PT_UNITED_STATES
 freeze(FRZ_TANZANIA) QT_TANZANIA.uroot(lag=1)
-FRZ_TANZANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TANZANIA_ADF.csv
-FRZ_TANZANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TANZANIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_TANZANIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TANZANIA_ADF.csv
+  FRZ_TANZANIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TANZANIA_ADF.pdf
+endif
 genr ST_THAILAND = log(THAILAND_ER)
 genr PT_THAILAND = log(THAILAND_CPI)
 genr QT_THAILAND = ST_THAILAND - PT_THAILAND + PT_UNITED_STATES
 freeze(FRZ_THAILAND) QT_THAILAND.uroot(lag=1)
-FRZ_THAILAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\THAILAND_ADF.csv
-FRZ_THAILAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\THAILAND_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_THAILAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\THAILAND_ADF.csv
+  FRZ_THAILAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\THAILAND_ADF.pdf
+endif
 genr ST_TIMOR_LESTE_DEM_REP_OF = log(TIMOR_LESTE_DEM_REP_OF_ER)
 genr PT_TIMOR_LESTE_DEM_REP_OF = log(TIMOR_LESTE_DEM_REP_OF_CPI)
 genr QT_TIMOR_LESTE_DEM_REP_OF = ST_TIMOR_LESTE_DEM_REP_OF - PT_TIMOR_LESTE_DEM_REP_OF + PT_UNITED_STATES
 freeze(FRZ_TIMOR_LESTE_DEM_REP_OF) QT_TIMOR_LESTE_DEM_REP_OF.uroot(lag=1)
-FRZ_TIMOR_LESTE_DEM_REP_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TIMOR_LESTE_DEM_REP_OF_ADF.csv
-FRZ_TIMOR_LESTE_DEM_REP_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TIMOR_LESTE_DEM_REP_OF_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_TIMOR_LESTE_DEM_REP_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TIMOR_LESTE_DEM_REP_OF_ADF.csv
+  FRZ_TIMOR_LESTE_DEM_REP_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TIMOR_LESTE_DEM_REP_OF_ADF.pdf
+endif
 genr ST_TOGO = log(TOGO_ER)
 genr PT_TOGO = log(TOGO_CPI)
 genr QT_TOGO = ST_TOGO - PT_TOGO + PT_UNITED_STATES
 freeze(FRZ_TOGO) QT_TOGO.uroot(lag=1)
-FRZ_TOGO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TOGO_ADF.csv
-FRZ_TOGO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TOGO_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_TOGO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TOGO_ADF.csv
+  FRZ_TOGO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TOGO_ADF.pdf
+endif
 genr ST_TONGA = log(TONGA_ER)
 genr PT_TONGA = log(TONGA_CPI)
 genr QT_TONGA = ST_TONGA - PT_TONGA + PT_UNITED_STATES
 freeze(FRZ_TONGA) QT_TONGA.uroot(lag=1)
-FRZ_TONGA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TONGA_ADF.csv
-FRZ_TONGA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TONGA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_TONGA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TONGA_ADF.csv
+  FRZ_TONGA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TONGA_ADF.pdf
+endif
 genr ST_TRINIDAD_AND_TOBAGO = log(TRINIDAD_AND_TOBAGO_ER)
 genr PT_TRINIDAD_AND_TOBAGO = log(TRINIDAD_AND_TOBAGO_CPI)
 genr QT_TRINIDAD_AND_TOBAGO = ST_TRINIDAD_AND_TOBAGO - PT_TRINIDAD_AND_TOBAGO + PT_UNITED_STATES
 freeze(FRZ_TRINIDAD_AND_TOBAGO) QT_TRINIDAD_AND_TOBAGO.uroot(lag=1)
-FRZ_TRINIDAD_AND_TOBAGO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TRINIDAD_AND_TOBAGO_ADF.csv
-FRZ_TRINIDAD_AND_TOBAGO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TRINIDAD_AND_TOBAGO_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_TRINIDAD_AND_TOBAGO.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TRINIDAD_AND_TOBAGO_ADF.csv
+  FRZ_TRINIDAD_AND_TOBAGO.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TRINIDAD_AND_TOBAGO_ADF.pdf
+endif
 genr ST_TUNISIA = log(TUNISIA_ER)
 genr PT_TUNISIA = log(TUNISIA_CPI)
 genr QT_TUNISIA = ST_TUNISIA - PT_TUNISIA + PT_UNITED_STATES
 freeze(FRZ_TUNISIA) QT_TUNISIA.uroot(lag=1)
-FRZ_TUNISIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TUNISIA_ADF.csv
-FRZ_TUNISIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TUNISIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_TUNISIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TUNISIA_ADF.csv
+  FRZ_TUNISIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TUNISIA_ADF.pdf
+endif
 genr ST_TURKEY = log(TURKEY_ER)
 genr PT_TURKEY = log(TURKEY_CPI)
 genr QT_TURKEY = ST_TURKEY - PT_TURKEY + PT_UNITED_STATES
 freeze(FRZ_TURKEY) QT_TURKEY.uroot(lag=1)
-FRZ_TURKEY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TURKEY_ADF.csv
-FRZ_TURKEY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TURKEY_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_TURKEY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\TURKEY_ADF.csv
+  FRZ_TURKEY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\TURKEY_ADF.pdf
+endif
 genr ST_UGANDA = log(UGANDA_ER)
 genr PT_UGANDA = log(UGANDA_CPI)
 genr QT_UGANDA = ST_UGANDA - PT_UGANDA + PT_UNITED_STATES
 freeze(FRZ_UGANDA) QT_UGANDA.uroot(lag=1)
-FRZ_UGANDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\UGANDA_ADF.csv
-FRZ_UGANDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\UGANDA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_UGANDA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\UGANDA_ADF.csv
+  FRZ_UGANDA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\UGANDA_ADF.pdf
+endif
 genr ST_UKRAINE = log(UKRAINE_ER)
 genr PT_UKRAINE = log(UKRAINE_CPI)
 genr QT_UKRAINE = ST_UKRAINE - PT_UKRAINE + PT_UNITED_STATES
 freeze(FRZ_UKRAINE) QT_UKRAINE.uroot(lag=1)
-FRZ_UKRAINE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\UKRAINE_ADF.csv
-FRZ_UKRAINE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\UKRAINE_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_UKRAINE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\UKRAINE_ADF.csv
+  FRZ_UKRAINE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\UKRAINE_ADF.pdf
+endif
 genr ST_UNITED_ARAB_EMIRATES = log(UNITED_ARAB_EMIRATES_ER)
 genr PT_UNITED_ARAB_EMIRATES = log(UNITED_ARAB_EMIRATES_CPI)
 genr QT_UNITED_ARAB_EMIRATES = ST_UNITED_ARAB_EMIRATES - PT_UNITED_ARAB_EMIRATES + PT_UNITED_STATES
 freeze(FRZ_UNITED_ARAB_EMIRATES) QT_UNITED_ARAB_EMIRATES.uroot(lag=1)
-FRZ_UNITED_ARAB_EMIRATES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\UNITED_ARAB_EMIRATES_ADF.csv
-FRZ_UNITED_ARAB_EMIRATES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\UNITED_ARAB_EMIRATES_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_UNITED_ARAB_EMIRATES.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\UNITED_ARAB_EMIRATES_ADF.csv
+  FRZ_UNITED_ARAB_EMIRATES.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\UNITED_ARAB_EMIRATES_ADF.pdf
+endif
 genr ST_UNITED_KINGDOM = log(UNITED_KINGDOM_ER)
 genr PT_UNITED_KINGDOM = log(UNITED_KINGDOM_CPI)
 genr QT_UNITED_KINGDOM = ST_UNITED_KINGDOM - PT_UNITED_KINGDOM + PT_UNITED_STATES
 freeze(FRZ_UNITED_KINGDOM) QT_UNITED_KINGDOM.uroot(lag=1)
-FRZ_UNITED_KINGDOM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\UNITED_KINGDOM_ADF.csv
-FRZ_UNITED_KINGDOM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\UNITED_KINGDOM_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_UNITED_KINGDOM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\UNITED_KINGDOM_ADF.csv
+  FRZ_UNITED_KINGDOM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\UNITED_KINGDOM_ADF.pdf
+endif
 genr ST_URUGUAY = log(URUGUAY_ER)
 genr PT_URUGUAY = log(URUGUAY_CPI)
 genr QT_URUGUAY = ST_URUGUAY - PT_URUGUAY + PT_UNITED_STATES
 freeze(FRZ_URUGUAY) QT_URUGUAY.uroot(lag=1)
-FRZ_URUGUAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\URUGUAY_ADF.csv
-FRZ_URUGUAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\URUGUAY_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_URUGUAY.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\URUGUAY_ADF.csv
+  FRZ_URUGUAY.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\URUGUAY_ADF.pdf
+endif
 genr ST_VIETNAM = log(VIETNAM_ER)
 genr PT_VIETNAM = log(VIETNAM_CPI)
 genr QT_VIETNAM = ST_VIETNAM - PT_VIETNAM + PT_UNITED_STATES
 freeze(FRZ_VIETNAM) QT_VIETNAM.uroot(lag=1)
-FRZ_VIETNAM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\VIETNAM_ADF.csv
-FRZ_VIETNAM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\VIETNAM_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_VIETNAM.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\VIETNAM_ADF.csv
+  FRZ_VIETNAM.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\VIETNAM_ADF.pdf
+endif
 genr ST_YEMEN_REPUBLIC_OF = log(YEMEN_REPUBLIC_OF_ER)
 genr PT_YEMEN_REPUBLIC_OF = log(YEMEN_REPUBLIC_OF_CPI)
 genr QT_YEMEN_REPUBLIC_OF = ST_YEMEN_REPUBLIC_OF - PT_YEMEN_REPUBLIC_OF + PT_UNITED_STATES
 freeze(FRZ_YEMEN_REPUBLIC_OF) QT_YEMEN_REPUBLIC_OF.uroot(lag=1)
-FRZ_YEMEN_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\YEMEN_REPUBLIC_OF_ADF.csv
-FRZ_YEMEN_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\YEMEN_REPUBLIC_OF_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_YEMEN_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\YEMEN_REPUBLIC_OF_ADF.csv
+  FRZ_YEMEN_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\YEMEN_REPUBLIC_OF_ADF.pdf
+endif
 genr ST_ZAMBIA = log(ZAMBIA_ER)
 genr PT_ZAMBIA = log(ZAMBIA_CPI)
 genr QT_ZAMBIA = ST_ZAMBIA - PT_ZAMBIA + PT_UNITED_STATES
 freeze(FRZ_ZAMBIA) QT_ZAMBIA.uroot(lag=1)
-FRZ_ZAMBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ZAMBIA_ADF.csv
-FRZ_ZAMBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ZAMBIA_ADF.pdf
+if !gen_output  > 0 then
+  FRZ_ZAMBIA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\adf_result\ZAMBIA_ADF.csv
+  FRZ_ZAMBIA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\adf_result\ZAMBIA_ADF.pdf
+endif

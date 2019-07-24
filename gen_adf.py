@@ -17,11 +17,15 @@ def gen_per_country(country, out):
   out.write(line)
   line = "freeze(FRZ_" + country + ") QT_" + country + ".uroot(lag=1)\r\n"
   out.write(line)
-  line = "FRZ_" + country + ".save(t=csv) \\\\192.168.0.67\\nas\\workspace\\ppp\\adf_result\\" + country + "_ADF.csv\r\n"
+  line = "if !gen_output  > 0 then\r\n"
+  out.write(line)
+  line = "  FRZ_" + country + ".save(t=csv) \\\\192.168.0.67\\nas\\workspace\\ppp\\adf_result\\" + country + "_ADF.csv\r\n"
   # line = "FRZ_" + country + ".save(t=csv) \\\\Mac\\Home\\Desktop\\shazirangwojiandewenjianjia\\" + country + "_ADF.csv\r\n"
   out.write(line)
-  line = "FRZ_" + country + ".save(t=pdf) \\\\192.168.0.67\\nas\\workspace\\ppp\\adf_result\\" + country + "_ADF.pdf\r\n"
+  line = "  FRZ_" + country + ".save(t=pdf) \\\\192.168.0.67\\nas\\workspace\\ppp\\adf_result\\" + country + "_ADF.pdf\r\n"
   # line = "FRZ_" + country + ".save(t=pdf) \\\\Mac\\Home\\Desktop\\shazirangwojiandewenjianjia\\" + country + "_ADF.pdf\r\n"
+  out.write(line)
+  line = "endif\r\n"
   out.write(line)
 
 countries = [parse_country_name(x) for x in countries_original[0]]
@@ -29,6 +33,12 @@ print(countries, len(countries))
 
 
 out = open("eviews_script.txt", "w")
+
+line = "!gen_output = 1\r\n"
+out.write(line)
+
+line = "%path = \"\\\\192.168.0.67\\nas\\workspace\\ppp\\adf_result\\\"\r\n"
+out.write(line)
 
 line = "genr PT_UNITED_STATES = log(UNITED_STATES_CPI)\r\n"
 out.write(line)
