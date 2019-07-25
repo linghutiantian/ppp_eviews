@@ -44,15 +44,15 @@ def parse_country_name(name):
 
 er_dict = {}
 cpi_dict = {}
-rol_to_month = {}
-month_to_rol = {}
+row_to_month = {}
+month_to_row = {}
 
 for idx, row in enumerate(exchange_rates):
   if idx == 0:
     continue
   for col, val in enumerate(row):
-    rol_to_month[idx] = row[0]
-    month_to_rol[row[0]] = idx
+    row_to_month[idx] = row[0]
+    month_to_row[row[0]] = idx
     if val == "...":
       continue
     if er_idx_to_country.get(col):
@@ -126,12 +126,12 @@ for country in filter_country_final:
 writer.writerow(row_0)
 
 
-row_start = month_to_rol["1960M01"]
-row_end = month_to_rol["2018M12"]
+row_start = month_to_row["1960M01"]
+row_end = month_to_row["2018M12"]
 
 bad_country = []
 for i in range(row_start, row_end + 1):
-  row = [rol_to_month[i]]
+  row = [row_to_month[i]]
   for country in filter_country_final:
     if i not in er_dict[country]:
       row.append("")
@@ -169,7 +169,7 @@ panal_writer.writerow(panal_row_0)
 
 oecd_exceptions = ["Estonia", "Slovak Republic"]
 
-common_rol = set(rol_to_month.keys())
+common_row = set(row_to_month.keys())
 for oecd_country in oecd_countries:
   if oecd_country in oecd_exceptions:
     continue
@@ -177,18 +177,18 @@ for oecd_country in oecd_countries:
   er_indices = er_dict[oecd_country].keys()
   common_idx = set(cpi_indices) & set(er_indices)
   # print(len(common_idx), len(cpi_indices), len(er_indices))
-  common_rol = common_rol & common_idx
-  common_rol_l = list(common_idx)
-  common_rol_l.sort()
-  # print(oecd_country, rol_to_month[common_rol_l[0]], rol_to_month[common_rol_l[-1]])
-common_rol_list = list(common_rol)
-common_rol_list.sort()
-common_mon = [rol_to_month[x] for x in common_rol_list]
+  common_row = common_row & common_idx
+  common_row_l = list(common_idx)
+  common_row_l.sort()
+  # print(oecd_country, row_to_month[common_row_l[0]], row_to_month[common_row_l[-1]])
+common_row_list = list(common_row)
+common_row_list.sort()
+common_mon = [row_to_month[x] for x in common_row_list]
 
 # print(common_mon[0], common_mon[-1])
-oecd_row_start = common_rol_list[0]
-oecd_row_end = common_rol_list[-1]
-print(rol_to_month[oecd_row_start], rol_to_month[oecd_row_end])
+oecd_row_start = common_row_list[0]
+oecd_row_end = common_row_list[-1]
+print(row_to_month[oecd_row_start], row_to_month[oecd_row_end])
 
 for oecd_country in oecd_countries:
   if oecd_country == "United States":
@@ -196,7 +196,7 @@ for oecd_country in oecd_countries:
   if oecd_country in oecd_exceptions:
     continue
   for i in range(oecd_row_start, oecd_row_end + 1):
-    row = [rol_to_month[i]]
+    row = [row_to_month[i]]
     row.append(parse_country_name(oecd_country))
     if i in cpi_dict[oecd_country]:
       row.append(cpi_dict[oecd_country][i])
@@ -248,7 +248,7 @@ for country in oecd_countries:
 rer_all_writer.writerow(rer_all_row_0)
 
 for i in range(oecd_row_start, oecd_row_end + 1):
-  line = [rol_to_month[i]]
+  line = [row_to_month[i]]
   for country in oecd_countries:
     if country == "United States":
       continue
@@ -268,6 +268,6 @@ for country in oecd_countries:
   rer_row_0 = ["DATE", country]
   rer_writer.writerow(rer_row_0)
   for i in range(oecd_row_start, oecd_row_end + 1):
-    line = [rol_to_month[i], rer_dict[country][i]]
+    line = [row_to_month[i], rer_dict[country][i]]
     rer_writer.writerow(line)
   rer_out.close()
