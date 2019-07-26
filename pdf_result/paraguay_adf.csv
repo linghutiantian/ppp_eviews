@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_PARAGUAY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.880464, 0.3409
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_PARAGUAY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_PARAGUAY(-1),-0.010290,0.005472,-1.880464,0.0618
+D(PDIFF_PARAGUAY(-1)),0.150016,0.076692,1.956079,0.0522
+C,-0.000643,0.001731,-0.371263,0.7109
+,,,,
+R-squared,0.046667,    Mean dependent var,,0.002759
+Adjusted R-squared,0.034969,    S.D. dependent var,,0.009083
+S.E. of regression,0.008923,    Akaike info criterion,,-6.582544
+Sum squared resid,0.012977,    Schwarz criterion,,-6.526303
+Log likelihood,549.3511,    Hannan-Quinn criter.,,-6.559715
+F-statistic,3.989501,    Durbin-Watson stat,,2.026770
+Prob(F-statistic),0.020345,,,
+,,,,

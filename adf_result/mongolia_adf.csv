@@ -1,0 +1,35 @@
+Null Hypothesis: QT_MONGOLIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.094335, 0.2473
+Test critical values:,1% level,,-3.473096,
+,5% level,,-2.880211,
+,10% level,,-2.576805,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_MONGOLIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2006M03 2018M12,,,,
+Included observations: 154 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_MONGOLIA(-1),-0.027260,0.013016,-2.094335,0.0379
+D(QT_MONGOLIA(-1)),0.371287,0.074586,4.977939,0.0000
+C,0.197946,0.094821,2.087583,0.0385
+,,,,
+R-squared,0.160524,    Mean dependent var,,-0.001049
+Adjusted R-squared,0.149405,    S.D. dependent var,,0.024739
+S.E. of regression,0.022816,    Akaike info criterion,,-4.703390
+Sum squared resid,0.078608,    Schwarz criterion,,-4.644229
+Log likelihood,365.1610,    Hannan-Quinn criter.,,-4.679359
+F-statistic,14.43702,    Durbin-Watson stat,,1.986692
+Prob(F-statistic),0.000002,,,
+,,,,

@@ -1,0 +1,33 @@
+Null Hypothesis: RES_JORDAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.239825, 0.1932
+Test critical values:,1% level,,-3.473096,
+,5% level,,-2.880211,
+,10% level,,-2.576805,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_JORDAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2006M03 2018M12,,,,
+Included observations: 154 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_JORDAN(-1),-0.020299,0.009063,-2.239825,0.0266
+D(RES_JORDAN(-1)),0.193776,0.078276,2.475552,0.0144
+C,-5.72E-18,2.98E-18,-1.916879,0.0571
+,,,,
+R-squared,0.071918,    Mean dependent var,,1.10E-18
+Adjusted R-squared,0.059625,    S.D. dependent var,,5.77E-18
+S.E. of regression,5.60E-18,    Sum squared resid,,4.73E-33
+F-statistic,5.850529,    Durbin-Watson stat,,2.012486
+Prob(F-statistic),0.003571,,,
+,,,,

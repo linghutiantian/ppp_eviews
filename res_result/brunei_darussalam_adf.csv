@@ -1,0 +1,35 @@
+Null Hypothesis: RES_BRUNEI_DARUSSALAM has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.824362, 0.0583
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_BRUNEI_DARUSSALAM),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_BRUNEI_DARUSSALAM(-1),-0.074316,0.026312,-2.824362,0.0057
+D(RES_BRUNEI_DARUSSALAM(-1)),0.337769,0.090179,3.745557,0.0003
+C,-0.000681,0.001163,-0.585393,0.5596
+,,,,
+R-squared,0.166018,    Mean dependent var,,-0.000855
+Adjusted R-squared,0.149824,    S.D. dependent var,,0.012968
+S.E. of regression,0.011957,    Akaike info criterion,,-5.987035
+Sum squared resid,0.014727,    Schwarz criterion,,-5.911655
+Log likelihood,320.3129,    Hannan-Quinn criter.,,-5.956483
+F-statistic,10.25195,    Durbin-Watson stat,,1.999115
+Prob(F-statistic),0.000087,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_TOGO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.848532, 0.3565
+Test critical values:,1% level,,-3.455193,
+,5% level,,-2.872370,
+,10% level,,-2.572615,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_TOGO),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1997M03 2018M12,,,,
+Included observations: 262 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_TOGO(-1),-0.019923,0.010778,-1.848532,0.0657
+D(QT_TOGO(-1)),0.246462,0.060174,4.095826,0.0001
+C,0.128044,0.069269,1.848493,0.0657
+,,,,
+R-squared,0.068269,    Mean dependent var,,8.13E-05
+Adjusted R-squared,0.061074,    S.D. dependent var,,0.026804
+S.E. of regression,0.025973,    Akaike info criterion,,-4.452139
+Sum squared resid,0.174720,    Schwarz criterion,,-4.411280
+Log likelihood,586.2302,    Hannan-Quinn criter.,,-4.435716
+F-statistic,9.488632,    Durbin-Watson stat,,1.924959
+Prob(F-statistic),0.000105,,,
+,,,,

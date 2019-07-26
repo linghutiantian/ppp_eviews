@@ -1,0 +1,35 @@
+Null Hypothesis: RES_ARMENIA_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.654136, 0.0856
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_ARMENIA_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_ARMENIA_REPUBLIC_OF(-1),-0.073222,0.027588,-2.654136,0.0092
+D(RES_ARMENIA_REPUBLIC_OF(-1)),0.468607,0.088828,5.275444,0.0000
+C,-0.000131,0.001974,-0.066504,0.9471
+,,,,
+R-squared,0.230152,    Mean dependent var,,0.000247
+Adjusted R-squared,0.215204,    S.D. dependent var,,0.022929
+S.E. of regression,0.020312,    Akaike info criterion,,-4.927296
+Sum squared resid,0.042496,    Schwarz criterion,,-4.851916
+Log likelihood,264.1467,    Hannan-Quinn criter.,,-4.896744
+F-statistic,15.39634,    Durbin-Watson stat,,2.034637
+Prob(F-statistic),0.000001,,,
+,,,,

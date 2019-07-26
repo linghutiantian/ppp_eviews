@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SINT_MAARTEN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.793757, 0.0634
+Test critical values:,1% level,,-3.509281,
+,5% level,,-2.895924,
+,10% level,,-2.585172,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SINT_MAARTEN),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M12 2017M12,,,,
+Included observations: 85 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SINT_MAARTEN(-1),-0.072674,0.026013,-2.793757,0.0065
+D(QT_SINT_MAARTEN(-1)),0.387985,0.097239,3.990021,0.0001
+C,0.031640,0.011458,2.761381,0.0071
+,,,,
+R-squared,0.231373,    Mean dependent var,,-0.000580
+Adjusted R-squared,0.212626,    S.D. dependent var,,0.003531
+S.E. of regression,0.003133,    Akaike info criterion,,-8.658776
+Sum squared resid,0.000805,    Schwarz criterion,,-8.572565
+Log likelihood,370.9980,    Hannan-Quinn criter.,,-8.624099
+F-statistic,12.34185,    Durbin-Watson stat,,1.846692
+Prob(F-statistic),0.000021,,,
+,,,,

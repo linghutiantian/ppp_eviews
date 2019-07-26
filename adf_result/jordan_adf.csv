@@ -1,0 +1,35 @@
+Null Hypothesis: QT_JORDAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.239825, 0.1932
+Test critical values:,1% level,,-3.473096,
+,5% level,,-2.880211,
+,10% level,,-2.576805,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_JORDAN),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2006M03 2018M12,,,,
+Included observations: 154 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_JORDAN(-1),-0.020299,0.009063,-2.239825,0.0266
+D(QT_JORDAN(-1)),0.193776,0.078276,2.475552,0.0144
+C,-0.008407,0.003265,-2.574569,0.0110
+,,,,
+R-squared,0.071918,    Mean dependent var,,-0.001542
+Adjusted R-squared,0.059625,    S.D. dependent var,,0.008061
+S.E. of regression,0.007817,    Akaike info criterion,,-6.845658
+Sum squared resid,0.009228,    Schwarz criterion,,-6.786497
+Log likelihood,530.1157,    Hannan-Quinn criter.,,-6.821627
+F-statistic,5.850529,    Durbin-Watson stat,,2.012486
+Prob(F-statistic),0.003571,,,
+,,,,

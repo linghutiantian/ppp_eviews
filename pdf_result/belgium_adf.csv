@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_BELGIUM has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.458908, 0.8962
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_BELGIUM),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_BELGIUM(-1),-0.000724,0.001578,-0.458908,0.6464
+D(PDIFF_BELGIUM(-1)),0.289616,0.036092,8.024297,0.0000
+C,-0.000112,0.000143,-0.785348,0.4325
+,,,,
+R-squared,0.083937,    Mean dependent var,,-0.000193
+Adjusted R-squared,0.081330,    S.D. dependent var,,0.003694
+S.E. of regression,0.003541,    Akaike info criterion,,-8.444596
+Sum squared resid,0.008815,    Schwarz criterion,,-8.425221
+Log likelihood,2983.942,    Hannan-Quinn criter.,,-8.437109
+F-statistic,32.20707,    Durbin-Watson stat,,2.018429
+Prob(F-statistic),0.000000,,,
+,,,,

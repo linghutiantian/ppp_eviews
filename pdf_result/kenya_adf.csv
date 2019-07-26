@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_KENYA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.753950, 0.8278
+Test critical values:,1% level,,-3.487046,
+,5% level,,-2.886290,
+,10% level,,-2.580046,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_KENYA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2009M04 2018M12,,,,
+Included observations: 117 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_KENYA(-1),-0.002707,0.003591,-0.753950,0.4524
+D(PDIFF_KENYA(-1)),0.412349,0.085341,4.831783,0.0000
+C,0.003232,0.001262,2.561579,0.0117
+,,,,
+R-squared,0.176905,    Mean dependent var,,0.004138
+Adjusted R-squared,0.162465,    S.D. dependent var,,0.006674
+S.E. of regression,0.006108,    Akaike info criterion,,-7.333103
+Sum squared resid,0.004253,    Schwarz criterion,,-7.262278
+Log likelihood,431.9865,    Hannan-Quinn criter.,,-7.304349
+F-statistic,12.25086,    Durbin-Watson stat,,1.881451
+Prob(F-statistic),0.000015,,,
+,,,,

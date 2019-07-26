@@ -1,0 +1,35 @@
+Null Hypothesis: ST_NAMIBIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.074842, 0.9637
+Test critical values:,1% level,,-3.439558,
+,5% level,,-2.865494,
+,10% level,,-2.568932,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_NAMIBIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1961M04 2018M12,,,,
+Included observations: 693 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_NAMIBIA(-1),7.97E-05,0.001065,0.074842,0.9404
+D(ST_NAMIBIA(-1)),0.298825,0.036362,8.218057,0.0000
+C,0.002939,0.001504,1.953527,0.0512
+,,,,
+R-squared,0.089388,    Mean dependent var,,0.004301
+Adjusted R-squared,0.086749,    S.D. dependent var,,0.031290
+S.E. of regression,0.029902,    Akaike info criterion,,-4.177484
+Sum squared resid,0.616936,    Schwarz criterion,,-4.157826
+Log likelihood,1450.498,    Hannan-Quinn criter.,,-4.169882
+F-statistic,33.86610,    Durbin-Watson stat,,1.982516
+Prob(F-statistic),0.000000,,,
+,,,,

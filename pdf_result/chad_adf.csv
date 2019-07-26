@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_CHAD has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.787611, 0.3839
+Test critical values:,1% level,,-3.520307,
+,5% level,,-2.900670,
+,10% level,,-2.587691,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_CHAD),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2017M04,,,,
+Included observations: 75 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_CHAD(-1),-0.070064,0.039194,-1.787611,0.0780
+D(PDIFF_CHAD(-1)),0.132956,0.116543,1.140834,0.2577
+C,0.011941,0.006902,1.730107,0.0879
+,,,,
+R-squared,0.051655,    Mean dependent var,,0.000509
+Adjusted R-squared,0.025313,    S.D. dependent var,,0.022083
+S.E. of regression,0.021801,    Akaike info criterion,,-4.774499
+Sum squared resid,0.034222,    Schwarz criterion,,-4.681800
+Log likelihood,182.0437,    Hannan-Quinn criter.,,-4.737485
+F-statistic,1.960885,    Durbin-Watson stat,,2.017976
+Prob(F-statistic),0.148177,,,
+,,,,

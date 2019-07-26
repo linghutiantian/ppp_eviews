@@ -1,0 +1,36 @@
+Null Hypothesis: RES_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.346264, 0.6073
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_LAO_PEOPLE_S_DEMOCRATIC_REPUB,,,,
+        LIC),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC(-1),-0.013306,0.009884,-1.346264,0.1801
+D(RES_LAO_PEOPLE_S_DEMOCRATIC_REPUBLIC(-1)),0.477781,0.069271,6.897268,0.0000
+C,0.000100,0.000542,0.184860,0.8536
+,,,,
+R-squared,0.227431,    Mean dependent var,,0.000218
+Adjusted R-squared,0.217951,    S.D. dependent var,,0.007894
+S.E. of regression,0.006981,    Akaike info criterion,,-7.073285
+Sum squared resid,0.007944,    Schwarz criterion,,-7.017044
+Log likelihood,590.0827,    Hannan-Quinn criter.,,-7.050457
+F-statistic,23.99213,    Durbin-Watson stat,,2.027336
+Prob(F-statistic),0.000000,,,
+,,,,

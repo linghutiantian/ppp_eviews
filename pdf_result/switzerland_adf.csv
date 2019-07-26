@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_SWITZERLAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 1.446405, 0.9992
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_SWITZERLAND),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_SWITZERLAND(-1),0.000862,0.000596,1.446405,0.1485
+D(PDIFF_SWITZERLAND(-1)),0.224185,0.036808,6.090674,0.0000
+C,-0.001076,0.000257,-4.181587,0.0000
+,,,,
+R-squared,0.055300,    Mean dependent var,,-0.001022
+Adjusted R-squared,0.052612,    S.D. dependent var,,0.004337
+S.E. of regression,0.004222,    Akaike info criterion,,-8.092954
+Sum squared resid,0.012529,    Schwarz criterion,,-8.073579
+Log likelihood,2859.813,    Hannan-Quinn criter.,,-8.085468
+F-statistic,20.57579,    Durbin-Watson stat,,2.052108
+Prob(F-statistic),0.000000,,,
+,,,,

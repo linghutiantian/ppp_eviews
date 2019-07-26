@@ -1,0 +1,35 @@
+Null Hypothesis: RES_LESOTHO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.330240, 0.1638
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_LESOTHO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_LESOTHO(-1),-0.050971,0.021874,-2.330240,0.0210
+D(RES_LESOTHO(-1)),0.238917,0.075953,3.145581,0.0020
+C,0.000130,0.002761,0.047108,0.9625
+,,,,
+R-squared,0.076420,    Mean dependent var,,0.000221
+Adjusted R-squared,0.065088,    S.D. dependent var,,0.036790
+S.E. of regression,0.035573,    Akaike info criterion,,-3.816561
+Sum squared resid,0.206265,    Schwarz criterion,,-3.760320
+Log likelihood,319.7746,    Hannan-Quinn criter.,,-3.793732
+F-statistic,6.743562,    Durbin-Watson stat,,1.920525
+Prob(F-statistic),0.001535,,,
+,,,,

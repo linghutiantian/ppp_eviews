@@ -1,0 +1,35 @@
+Null Hypothesis: ST_LIBERIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.497784, 0.5344
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_LIBERIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_LIBERIA(-1),-0.004781,0.003192,-1.497784,0.1346
+D(ST_LIBERIA(-1)),0.003235,0.037671,0.085886,0.9316
+C,0.021614,0.011142,1.939897,0.0528
+,,,,
+R-squared,0.003184,    Mean dependent var,,0.007166
+Adjusted R-squared,0.000348,    S.D. dependent var,,0.147658
+S.E. of regression,0.147632,    Akaike info criterion,,-0.983946
+Sum squared resid,15.32206,    Schwarz criterion,,-0.964571
+Log likelihood,350.3330,    Hannan-Quinn criter.,,-0.976459
+F-statistic,1.122604,    Durbin-Watson stat,,1.999996
+Prob(F-statistic),0.326014,,,
+,,,,

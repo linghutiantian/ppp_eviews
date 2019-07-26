@@ -1,0 +1,35 @@
+Null Hypothesis: ST_BARBADOS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.896560, 0.0462
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_BARBADOS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_BARBADOS(-1),-0.015649,0.005402,-2.896560,0.0039
+D(ST_BARBADOS(-1)),0.128481,0.037238,3.450265,0.0006
+C,0.010703,0.003640,2.940653,0.0034
+,,,,
+R-squared,0.026954,    Mean dependent var,,0.000222
+Adjusted R-squared,0.024186,    S.D. dependent var,,0.007844
+S.E. of regression,0.007748,    Akaike info criterion,,-6.878495
+Sum squared resid,0.042203,    Schwarz criterion,,-6.859119
+Log likelihood,2431.109,    Hannan-Quinn criter.,,-6.871008
+F-statistic,9.736960,    Durbin-Watson stat,,1.992906
+Prob(F-statistic),0.000067,,,
+,,,,

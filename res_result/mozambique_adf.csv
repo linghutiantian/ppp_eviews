@@ -1,0 +1,35 @@
+Null Hypothesis: RES_MOZAMBIQUE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.749772, 0.8301
+Test critical values:,1% level,,-3.467205,
+,5% level,,-2.877636,
+,10% level,,-2.575430,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_MOZAMBIQUE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2004M03 2018M12,,,,
+Included observations: 178 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_MOZAMBIQUE(-1),-0.005425,0.007235,-0.749772,0.4544
+D(RES_MOZAMBIQUE(-1)),0.384898,0.070029,5.496264,0.0000
+C,0.003326,0.002525,1.317455,0.1894
+,,,,
+R-squared,0.147582,    Mean dependent var,,0.005418
+Adjusted R-squared,0.137840,    S.D. dependent var,,0.035863
+S.E. of regression,0.033300,    Akaike info criterion,,-3.949829
+Sum squared resid,0.194052,    Schwarz criterion,,-3.896203
+Log likelihood,354.5348,    Hannan-Quinn criter.,,-3.928082
+F-statistic,15.14919,    Durbin-Watson stat,,2.018823
+Prob(F-statistic),0.000001,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_LIBERIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 1.000447, 0.9965
+Test critical values:,1% level,,-3.472813,
+,5% level,,-2.880088,
+,10% level,,-2.576739,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_LIBERIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2006M02 2018M12,,,,
+Included observations: 155 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_LIBERIA(-1),0.005428,0.005425,1.000447,0.3187
+D(PDIFF_LIBERIA(-1)),0.041895,0.081791,0.512220,0.6092
+C,0.011418,0.004697,2.431013,0.0162
+,,,,
+R-squared,0.009403,    Mean dependent var,,0.007380
+Adjusted R-squared,-0.003631,    S.D. dependent var,,0.018301
+S.E. of regression,0.018334,    Akaike info criterion,,-5.140929
+Sum squared resid,0.051094,    Schwarz criterion,,-5.082024
+Log likelihood,401.4220,    Hannan-Quinn criter.,,-5.117004
+F-statistic,0.721447,    Durbin-Watson stat,,1.994416
+Prob(F-statistic),0.487705,,,
+,,,,

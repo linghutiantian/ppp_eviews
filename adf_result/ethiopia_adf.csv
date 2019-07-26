@@ -1,0 +1,35 @@
+Null Hypothesis: QT_ETHIOPIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.172411, 0.6865
+Test critical values:,1% level,,-3.461178,
+,5% level,,-2.874997,
+,10% level,,-2.574019,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_ETHIOPIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2001M02 2018M09,,,,
+Included observations: 212 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_ETHIOPIA(-1),-0.006883,0.005871,-1.172411,0.2424
+D(QT_ETHIOPIA(-1)),0.396677,0.063222,6.274357,0.0000
+C,0.019238,0.017733,1.084895,0.2792
+,,,,
+R-squared,0.162175,    Mean dependent var,,-0.002506
+Adjusted R-squared,0.154158,    S.D. dependent var,,0.021938
+S.E. of regression,0.020176,    Akaike info criterion,,-4.954563
+Sum squared resid,0.085081,    Schwarz criterion,,-4.907064
+Log likelihood,528.1837,    Hannan-Quinn criter.,,-4.935365
+F-statistic,20.22776,    Durbin-Watson stat,,2.066747
+Prob(F-statistic),0.000000,,,
+,,,,

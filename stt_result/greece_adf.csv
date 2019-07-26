@@ -1,0 +1,35 @@
+Null Hypothesis: ST_GREECE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.815067, 0.8138
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_GREECE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_GREECE(-1),-0.000635,0.000779,-0.815067,0.4153
+D(ST_GREECE(-1)),0.301627,0.035941,8.392234,0.0000
+C,0.005250,0.003733,1.406488,0.1600
+,,,,
+R-squared,0.092011,    Mean dependent var,,0.003258
+Adjusted R-squared,0.089428,    S.D. dependent var,,0.021311
+S.E. of regression,0.020336,    Akaike info criterion,,-4.948648
+Sum squared resid,0.290716,    Schwarz criterion,,-4.929273
+Log likelihood,1749.873,    Hannan-Quinn criter.,,-4.941162
+F-statistic,35.61926,    Durbin-Watson stat,,1.992564
+Prob(F-statistic),0.000000,,,
+,,,,

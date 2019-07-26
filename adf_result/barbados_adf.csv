@@ -1,0 +1,35 @@
+Null Hypothesis: QT_BARBADOS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.834869, 0.0569
+Test critical values:,1% level,,-3.495021,
+,5% level,,-2.889753,
+,10% level,,-2.581890,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_BARBADOS),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M09,,,,
+Included observations: 103 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_BARBADOS(-1),-0.061642,0.021744,-2.834869,0.0055
+D(QT_BARBADOS(-1)),0.161795,0.094828,1.706199,0.0911
+C,0.015101,0.005710,2.644779,0.0095
+,,,,
+R-squared,0.103805,    Mean dependent var,,-0.001194
+Adjusted R-squared,0.085881,    S.D. dependent var,,0.007211
+S.E. of regression,0.006895,    Akaike info criterion,,-7.087487
+Sum squared resid,0.004753,    Schwarz criterion,,-7.010747
+Log likelihood,368.0056,    Hannan-Quinn criter.,,-7.056405
+F-statistic,5.791431,    Durbin-Watson stat,,2.064101
+Prob(F-statistic),0.004170,,,
+,,,,

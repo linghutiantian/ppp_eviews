@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_SUDAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.405713, 0.9018
+Test critical values:,1% level,,-3.527045,
+,5% level,,-2.903566,
+,10% level,,-2.589227,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_SUDAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2010M03 2015M12,,,,
+Included observations: 70 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_SUDAN(-1),-0.002151,0.005302,-0.405713,0.6862
+D(PDIFF_SUDAN(-1)),0.460141,0.107994,4.260810,0.0001
+C,0.011912,0.005704,2.088467,0.0406
+,,,,
+R-squared,0.213528,    Mean dependent var,,0.018192
+Adjusted R-squared,0.190051,    S.D. dependent var,,0.021200
+S.E. of regression,0.019080,    Akaike info criterion,,-5.038457
+Sum squared resid,0.024391,    Schwarz criterion,,-4.942093
+Log likelihood,179.3460,    Hannan-Quinn criter.,,-5.000180
+F-statistic,9.095292,    Durbin-Watson stat,,1.828205
+Prob(F-statistic),0.000320,,,
+,,,,

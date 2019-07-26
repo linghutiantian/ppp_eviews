@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_DENMARK has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.249727, 0.0177
+Test critical values:,1% level,,-3.440634,
+,5% level,,-2.865969,
+,10% level,,-2.569187,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_DENMARK),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1967M03 2018M12,,,,
+Included observations: 622 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_DENMARK(-1),-0.008174,0.002515,-3.249727,0.0012
+D(PDIFF_DENMARK(-1)),0.071337,0.039819,1.791532,0.0737
+C,-0.000298,0.000284,-1.049409,0.2944
+,,,,
+R-squared,0.023239,    Mean dependent var,,0.000326
+Adjusted R-squared,0.020083,    S.D. dependent var,,0.005449
+S.E. of regression,0.005394,    Akaike info criterion,,-7.602308
+Sum squared resid,0.018009,    Schwarz criterion,,-7.580927
+Log likelihood,2367.318,    Hannan-Quinn criter.,,-7.593998
+F-statistic,7.363540,    Durbin-Watson stat,,2.002882
+Prob(F-statistic),0.000691,,,
+,,,,

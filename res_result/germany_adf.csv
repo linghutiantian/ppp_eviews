@@ -1,0 +1,35 @@
+Null Hypothesis: RES_GERMANY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.679662, 0.0781
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_GERMANY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_GERMANY(-1),-0.014356,0.005357,-2.679662,0.0075
+D(RES_GERMANY(-1)),0.263647,0.036348,7.253335,0.0000
+C,-9.47E-05,0.000878,-0.107886,0.9141
+,,,,
+R-squared,0.075442,    Mean dependent var,,-0.000109
+Adjusted R-squared,0.072812,    S.D. dependent var,,0.024217
+S.E. of regression,0.023319,    Akaike info criterion,,-4.674881
+Sum squared resid,0.382265,    Schwarz criterion,,-4.655506
+Log likelihood,1653.233,    Hannan-Quinn criter.,,-4.667395
+F-statistic,28.68167,    Durbin-Watson stat,,1.991230
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: ST_FIJI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.699027, 0.8447
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_FIJI),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_FIJI(-1),-0.001306,0.001868,-0.699027,0.4848
+D(ST_FIJI(-1)),0.194469,0.037006,5.255011,0.0000
+C,0.001435,0.000822,1.745711,0.0813
+,,,,
+R-squared,0.038177,    Mean dependent var,,0.001405
+Adjusted R-squared,0.035440,    S.D. dependent var,,0.018861
+S.E. of regression,0.018524,    Akaike info criterion,,-5.135305
+Sum squared resid,0.241215,    Schwarz criterion,,-5.115930
+Log likelihood,1815.763,    Hannan-Quinn criter.,,-5.127818
+F-statistic,13.95173,    Durbin-Watson stat,,1.983823
+Prob(F-statistic),0.000001,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_CAMBODIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.149596, 0.2261
+Test critical values:,1% level,,-3.494378,
+,5% level,,-2.889474,
+,10% level,,-2.581741,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_CAMBODIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M10,,,,
+Included observations: 104 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_CAMBODIA(-1),-0.028644,0.013325,-2.149596,0.0340
+D(QT_CAMBODIA(-1)),0.283364,0.093132,3.042601,0.0030
+C,0.226436,0.105791,2.140412,0.0347
+,,,,
+R-squared,0.128304,    Mean dependent var,,-0.001351
+Adjusted R-squared,0.111043,    S.D. dependent var,,0.006056
+S.E. of regression,0.005710,    Akaike info criterion,,-7.464794
+Sum squared resid,0.003293,    Schwarz criterion,,-7.388514
+Log likelihood,391.1693,    Hannan-Quinn criter.,,-7.433891
+F-statistic,7.433052,    Durbin-Watson stat,,1.930250
+Prob(F-statistic),0.000974,,,
+,,,,

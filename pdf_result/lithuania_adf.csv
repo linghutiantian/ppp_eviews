@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_LITHUANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-11.48639, 0.0000
+Test critical values:,1% level,,-3.450812,
+,5% level,,-2.870444,
+,10% level,,-2.571584,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_LITHUANIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1992M08 2018M12,,,,
+Included observations: 317 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_LITHUANIA(-1),-0.051280,0.004464,-11.48639,0.0000
+D(PDIFF_LITHUANIA(-1)),0.302039,0.049326,6.123306,0.0000
+C,-0.006183,0.001070,-5.776767,0.0000
+,,,,
+R-squared,0.816774,    Mean dependent var,,0.009176
+Adjusted R-squared,0.815607,    S.D. dependent var,,0.034319
+S.E. of regression,0.014737,    Akaike info criterion,,-5.587506
+Sum squared resid,0.068193,    Schwarz criterion,,-5.551933
+Log likelihood,888.6197,    Hannan-Quinn criter.,,-5.573296
+F-statistic,699.8674,    Durbin-Watson stat,,1.805476
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: RES_CZECH_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.498596, 0.5332
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_CZECH_REPUBLIC),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_CZECH_REPUBLIC(-1),-0.010152,0.006774,-1.498596,0.1350
+D(RES_CZECH_REPUBLIC(-1)),0.312305,0.054213,5.760734,0.0000
+C,-8.80E-05,0.001551,-0.056763,0.9548
+,,,,
+R-squared,0.100972,    Mean dependent var,,-0.000114
+Adjusted R-squared,0.095115,    S.D. dependent var,,0.028705
+S.E. of regression,0.027306,    Akaike info criterion,,-4.353814
+Sum squared resid,0.228899,    Schwarz criterion,,-4.317654
+Log likelihood,677.8412,    Hannan-Quinn criter.,,-4.339359
+F-statistic,17.23994,    Durbin-Watson stat,,1.974067
+Prob(F-statistic),0.000000,,,
+,,,,

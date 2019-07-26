@@ -1,0 +1,35 @@
+Null Hypothesis: QT_ECUADOR has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.248250, 0.6528
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_ECUADOR),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_ECUADOR(-1),-0.004595,0.003682,-1.248250,0.2137
+D(QT_ECUADOR(-1)),0.498591,0.067376,7.400105,0.0000
+C,0.000139,0.000635,0.218802,0.8271
+,,,,
+R-squared,0.260360,    Mean dependent var,,-0.001069
+Adjusted R-squared,0.251285,    S.D. dependent var,,0.004473
+S.E. of regression,0.003871,    Akaike info criterion,,-8.252907
+Sum squared resid,0.002442,    Schwarz criterion,,-8.196666
+Log likelihood,687.9913,    Hannan-Quinn criter.,,-8.230078
+F-statistic,28.68877,    Durbin-Watson stat,,2.011241
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_GUATEMALA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.190036, 0.6784
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_GUATEMALA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_GUATEMALA(-1),-0.006282,0.005278,-1.190036,0.2358
+D(QT_GUATEMALA(-1)),0.350921,0.072930,4.811736,0.0000
+C,0.011305,0.010771,1.049588,0.2955
+,,,,
+R-squared,0.132588,    Mean dependent var,,-0.002323
+Adjusted R-squared,0.121944,    S.D. dependent var,,0.008710
+S.E. of regression,0.008162,    Akaike info criterion,,-6.760759
+Sum squared resid,0.010859,    Schwarz criterion,,-6.704519
+Log likelihood,564.1430,    Hannan-Quinn criter.,,-6.737931
+F-statistic,12.45760,    Durbin-Watson stat,,1.894793
+Prob(F-statistic),0.000009,,,
+,,,,

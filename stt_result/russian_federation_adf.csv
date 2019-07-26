@@ -1,0 +1,35 @@
+Null Hypothesis: ST_RUSSIAN_FEDERATION has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-5.650076, 0.0000
+Test critical values:,1% level,,-3.450812,
+,5% level,,-2.870444,
+,10% level,,-2.571584,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_RUSSIAN_FEDERATION),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1992M08 2018M12,,,,
+Included observations: 317 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_RUSSIAN_FEDERATION(-1),-0.022320,0.003950,-5.650076,0.0000
+D(ST_RUSSIAN_FEDERATION(-1)),0.150884,0.054393,2.773932,0.0059
+C,0.081264,0.012734,6.381657,0.0000
+,,,,
+R-squared,0.147650,    Mean dependent var,,0.018868
+Adjusted R-squared,0.142221,    S.D. dependent var,,0.085624
+S.E. of regression,0.079302,    Akaike info criterion,,-2.221697
+Sum squared resid,1.974667,    Schwarz criterion,,-2.186124
+Log likelihood,355.1390,    Hannan-Quinn criter.,,-2.207488
+F-statistic,27.19663,    Durbin-Watson stat,,1.984911
+Prob(F-statistic),0.000000,,,
+,,,,

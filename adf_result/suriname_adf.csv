@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SURINAME has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.953900, 0.7687
+Test critical values:,1% level,,-3.470934,
+,5% level,,-2.879267,
+,10% level,,-2.576301,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SURINAME),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 162 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SURINAME(-1),-0.017411,0.018252,-0.953900,0.3416
+D(QT_SURINAME(-1)),0.084725,0.079983,1.059277,0.2911
+C,0.023624,0.021913,1.078050,0.2826
+,,,,
+R-squared,0.010853,    Mean dependent var,,0.003902
+Adjusted R-squared,-0.001590,    S.D. dependent var,,0.080766
+S.E. of regression,0.080830,    Akaike info criterion,,-2.174587
+Sum squared resid,1.038830,    Schwarz criterion,,-2.117409
+Log likelihood,179.1415,    Hannan-Quinn criter.,,-2.151372
+F-statistic,0.872245,    Durbin-Watson stat,,2.023924
+Prob(F-statistic),0.420002,,,
+,,,,

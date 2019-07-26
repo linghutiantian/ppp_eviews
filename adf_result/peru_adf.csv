@@ -1,0 +1,35 @@
+Null Hypothesis: QT_PERU has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.989372, 0.7550
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_PERU),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_PERU(-1),-0.017204,0.017389,-0.989372,0.3248
+D(QT_PERU(-1)),0.290066,0.095207,3.046689,0.0029
+C,0.017903,0.017744,1.008935,0.3154
+,,,,
+R-squared,0.085414,    Mean dependent var,,0.000523
+Adjusted R-squared,0.067655,    S.D. dependent var,,0.010544
+S.E. of regression,0.010181,    Akaike info criterion,,-6.308721
+Sum squared resid,0.010676,    Schwarz criterion,,-6.233341
+Log likelihood,337.3622,    Hannan-Quinn criter.,,-6.278169
+F-statistic,4.809616,    Durbin-Watson stat,,1.891132
+Prob(F-statistic),0.010071,,,
+,,,,

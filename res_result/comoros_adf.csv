@@ -1,0 +1,35 @@
+Null Hypothesis: RES_COMOROS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.575255, 0.1041
+Test critical values:,1% level,,-3.552666,
+,5% level,,-2.914517,
+,10% level,,-2.595033,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_COMOROS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2014M10,,,,
+Included observations: 56 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_COMOROS(-1),-0.232134,0.090140,-2.575255,0.0128
+D(RES_COMOROS(-1)),0.103640,0.132970,0.779425,0.4392
+C,0.001077,0.003103,0.347233,0.7298
+,,,,
+R-squared,0.111218,    Mean dependent var,,0.001135
+Adjusted R-squared,0.077679,    S.D. dependent var,,0.024133
+S.E. of regression,0.023177,    Akaike info criterion,,-4.639262
+Sum squared resid,0.028469,    Schwarz criterion,,-4.530761
+Log likelihood,132.8993,    Hannan-Quinn criter.,,-4.597197
+F-statistic,3.316071,    Durbin-Watson stat,,1.978515
+Prob(F-statistic),0.043962,,,
+,,,,

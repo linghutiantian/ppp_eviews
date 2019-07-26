@@ -1,0 +1,35 @@
+Null Hypothesis: ST_GHANA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.787003, 0.3868
+Test critical values:,1% level,,-3.446362,
+,5% level,,-2.868493,
+,10% level,,-2.570539,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_GHANA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1985M06 2018M12,,,,
+Included observations: 403 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_GHANA(-1),-0.002449,0.001370,-1.787003,0.0747
+D(ST_GHANA(-1)),0.002498,0.049886,0.050074,0.9601
+C,0.012696,0.003000,4.231485,0.0000
+,,,,
+R-squared,0.007981,    Mean dependent var,,0.015325
+Adjusted R-squared,0.003021,    S.D. dependent var,,0.051053
+S.E. of regression,0.050975,    Akaike info criterion,,-3.107531
+Sum squared resid,1.039396,    Schwarz criterion,,-3.077762
+Log likelihood,629.1675,    Hannan-Quinn criter.,,-3.095746
+F-statistic,1.609004,    Durbin-Watson stat,,2.000717
+Prob(F-statistic),0.201379,,,
+,,,,

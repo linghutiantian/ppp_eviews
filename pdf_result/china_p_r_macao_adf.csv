@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_CHINA_P_R_MACAO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.861942, 0.9949
+Test critical values:,1% level,,-3.458470,
+,5% level,,-2.873809,
+,10% level,,-2.573384,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_CHINA_P_R_MACAO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1999M09 2018M12,,,,
+Included observations: 232 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_CHINA_P_R_MACAO(-1),0.002741,0.003180,0.861942,0.3896
+D(PDIFF_CHINA_P_R_MACAO(-1)),0.272391,0.063842,4.266657,0.0000
+C,0.001020,0.000709,1.438339,0.1517
+,,,,
+R-squared,0.081288,    Mean dependent var,,0.000658
+Adjusted R-squared,0.073264,    S.D. dependent var,,0.005537
+S.E. of regression,0.005330,    Akaike info criterion,,-7.618066
+Sum squared resid,0.006506,    Schwarz criterion,,-7.573496
+Log likelihood,886.6957,    Hannan-Quinn criter.,,-7.600092
+F-statistic,10.13100,    Durbin-Watson stat,,2.056441
+Prob(F-statistic),0.000061,,,
+,,,,

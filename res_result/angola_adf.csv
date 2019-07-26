@@ -1,0 +1,35 @@
+Null Hypothesis: RES_ANGOLA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.126529, 0.9670
+Test critical values:,1% level,,-3.462737,
+,5% level,,-2.875680,
+,10% level,,-2.574385,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_ANGOLA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2002M03 2018M12,,,,
+Included observations: 202 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_ANGOLA(-1),0.001293,0.010219,0.126529,0.8994
+D(RES_ANGOLA(-1)),0.365454,0.068302,5.350555,0.0000
+C,0.001775,0.001591,1.115221,0.2661
+,,,,
+R-squared,0.135456,    Mean dependent var,,0.002894
+Adjusted R-squared,0.126767,    S.D. dependent var,,0.023975
+S.E. of regression,0.022404,    Akaike info criterion,,-4.744443
+Sum squared resid,0.099883,    Schwarz criterion,,-4.695310
+Log likelihood,482.1887,    Hannan-Quinn criter.,,-4.724564
+F-statistic,15.58958,    Durbin-Watson stat,,2.036911
+Prob(F-statistic),0.000001,,,
+,,,,

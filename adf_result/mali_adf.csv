@@ -1,0 +1,35 @@
+Null Hypothesis: QT_MALI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.905514, 0.7831
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_MALI),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_MALI(-1),-0.019223,0.021229,-0.905514,0.3673
+D(QT_MALI(-1)),0.235393,0.095736,2.458786,0.0156
+C,0.122193,0.132569,0.921735,0.3588
+,,,,
+R-squared,0.058012,    Mean dependent var,,0.002869
+Adjusted R-squared,0.039721,    S.D. dependent var,,0.023473
+S.E. of regression,0.023003,    Akaike info criterion,,-4.678530
+Sum squared resid,0.054499,    Schwarz criterion,,-4.603150
+Log likelihood,250.9621,    Hannan-Quinn criter.,,-4.647978
+F-statistic,3.171628,    Durbin-Watson stat,,2.047410
+Prob(F-statistic),0.046061,,,
+,,,,

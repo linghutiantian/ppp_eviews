@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_CANADA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.063528, 0.7316
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_CANADA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_CANADA(-1),-0.003066,0.002883,-1.063528,0.2879
+D(PDIFF_CANADA(-1)),-0.020195,0.037691,-0.535812,0.5923
+C,0.000574,0.000546,1.051127,0.2936
+,,,,
+R-squared,0.002077,    Mean dependent var,,1.01E-05
+Adjusted R-squared,-0.000762,    S.D. dependent var,,0.003476
+S.E. of regression,0.003477,    Akaike info criterion,,-8.481091
+Sum squared resid,0.008499,    Schwarz criterion,,-8.461716
+Log likelihood,2996.825,    Hannan-Quinn criter.,,-8.473604
+F-statistic,0.731671,    Durbin-Watson stat,,1.999118
+Prob(F-statistic),0.481470,,,
+,,,,

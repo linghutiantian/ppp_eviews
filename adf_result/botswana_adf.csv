@@ -1,0 +1,35 @@
+Null Hypothesis: QT_BOTSWANA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.996132, 0.7526
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_BOTSWANA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_BOTSWANA(-1),-0.018695,0.018767,-0.996132,0.3215
+D(QT_BOTSWANA(-1)),0.159384,0.097095,1.641522,0.1037
+C,0.046079,0.045077,1.022214,0.3091
+,,,,
+R-squared,0.031682,    Mean dependent var,,0.001487
+Adjusted R-squared,0.012880,    S.D. dependent var,,0.023099
+S.E. of regression,0.022950,    Akaike info criterion,,-4.683128
+Sum squared resid,0.054249,    Schwarz criterion,,-4.607748
+Log likelihood,251.2058,    Hannan-Quinn criter.,,-4.652576
+F-statistic,1.685008,    Durbin-Watson stat,,1.991869
+Prob(F-statistic),0.190514,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_TUNISIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.508176, 0.9866
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_TUNISIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_TUNISIA(-1),0.004764,0.009375,0.508176,0.6120
+D(QT_TUNISIA(-1)),0.219143,0.077681,2.821051,0.0054
+C,-0.000516,0.006223,-0.082981,0.9340
+,,,,
+R-squared,0.052852,    Mean dependent var,,0.003319
+Adjusted R-squared,0.041231,    S.D. dependent var,,0.017664
+S.E. of regression,0.017296,    Akaike info criterion,,-5.258788
+Sum squared resid,0.048761,    Schwarz criterion,,-5.202547
+Log likelihood,439.4794,    Hannan-Quinn criter.,,-5.235959
+F-statistic,4.547843,    Durbin-Watson stat,,1.978586
+Prob(F-statistic),0.011968,,,
+,,,,

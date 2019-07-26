@@ -1,0 +1,35 @@
+Null Hypothesis: QT_AFGHANISTAN_ISLAMIC_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.735641, 0.4115
+Test critical values:,1% level,,-3.470179,
+,5% level,,-2.878937,
+,10% level,,-2.576124,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_AFGHANISTAN_ISLAMIC_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M11,,,,
+Included observations: 165 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_AFGHANISTAN_ISLAMIC_REPUBLIC_OF(-1),-0.019075,0.010990,-1.735641,0.0845
+D(QT_AFGHANISTAN_ISLAMIC_REPUBLIC_OF(-1)),0.320942,0.074057,4.333689,0.0000
+C,0.079782,0.046170,1.728019,0.0859
+,,,,
+R-squared,0.115760,    Mean dependent var,,-0.000429
+Adjusted R-squared,0.104843,    S.D. dependent var,,0.016980
+S.E. of regression,0.016065,    Akaike info criterion,,-5.406335
+Sum squared resid,0.041810,    Schwarz criterion,,-5.349863
+Log likelihood,449.0226,    Hannan-Quinn criter.,,-5.383411
+F-statistic,10.60404,    Durbin-Watson stat,,1.944358
+Prob(F-statistic),0.000047,,,
+,,,,

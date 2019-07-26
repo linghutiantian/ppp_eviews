@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SERBIA_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.068979, 0.0312
+Test critical values:,1% level,,-3.476805,
+,5% level,,-2.881830,
+,10% level,,-2.577668,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SERBIA_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2007M03 2018M12,,,,
+Included observations: 142 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SERBIA_REPUBLIC_OF(-1),-0.070037,0.022821,-3.068979,0.0026
+D(RES_SERBIA_REPUBLIC_OF(-1)),0.425240,0.075911,5.601795,0.0000
+C,-0.000628,0.002204,-0.284893,0.7762
+,,,,
+R-squared,0.211018,    Mean dependent var,,-0.000872
+Adjusted R-squared,0.199666,    S.D. dependent var,,0.029339
+S.E. of regression,0.026247,    Akaike info criterion,,-4.421596
+Sum squared resid,0.095761,    Schwarz criterion,,-4.359149
+Log likelihood,316.9333,    Hannan-Quinn criter.,,-4.396220
+F-statistic,18.58819,    Durbin-Watson stat,,2.040576
+Prob(F-statistic),0.000000,,,
+,,,,

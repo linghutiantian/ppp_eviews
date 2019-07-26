@@ -1,0 +1,35 @@
+Null Hypothesis: ST_INDONESIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.591049, 0.4866
+Test critical values:,1% level,,-3.440634,
+,5% level,,-2.865969,
+,10% level,,-2.569187,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_INDONESIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1967M03 2018M12,,,,
+Included observations: 622 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_INDONESIA(-1),-0.002238,0.001407,-1.591049,0.1121
+D(ST_INDONESIA(-1)),0.281688,0.038489,7.318633,0.0000
+C,0.022671,0.011053,2.051211,0.0407
+,,,,
+R-squared,0.084195,    Mean dependent var,,0.007495
+Adjusted R-squared,0.081236,    S.D. dependent var,,0.050227
+S.E. of regression,0.048143,    Akaike info criterion,,-3.224457
+Sum squared resid,1.434706,    Schwarz criterion,,-3.203076
+Log likelihood,1005.806,    Hannan-Quinn criter.,,-3.216147
+F-statistic,28.45393,    Durbin-Watson stat,,1.958736
+Prob(F-statistic),0.000000,,,
+,,,,

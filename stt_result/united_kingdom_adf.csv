@@ -1,0 +1,35 @@
+Null Hypothesis: ST_UNITED_KINGDOM has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.733750, 0.4138
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_UNITED_KINGDOM),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_UNITED_KINGDOM(-1),-0.006231,0.003594,-1.733750,0.0834
+D(ST_UNITED_KINGDOM(-1)),0.252386,0.036490,6.916492,0.0000
+C,-0.003010,0.002375,-1.267438,0.2054
+,,,,
+R-squared,0.066216,    Mean dependent var,,0.001113
+Adjusted R-squared,0.063559,    S.D. dependent var,,0.023095
+S.E. of regression,0.022349,    Akaike info criterion,,-4.759810
+Sum squared resid,0.351140,    Schwarz criterion,,-4.740435
+Log likelihood,1683.213,    Hannan-Quinn criter.,,-4.752323
+F-statistic,24.92521,    Durbin-Watson stat,,1.983851
+Prob(F-statistic),0.000000,,,
+,,,,

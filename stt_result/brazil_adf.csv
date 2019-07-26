@@ -1,0 +1,35 @@
+Null Hypothesis: ST_BRAZIL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-8.619690, 0.0000
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_BRAZIL),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_BRAZIL(-1),-0.037684,0.004372,-8.619690,0.0000
+D(ST_BRAZIL(-1)),0.353480,0.048935,7.223507,0.0000
+C,0.032079,0.004477,7.165240,0.0000
+,,,,
+R-squared,0.454393,    Mean dependent var,,0.019229
+Adjusted R-squared,0.450838,    S.D. dependent var,,0.081675
+S.E. of regression,0.060526,    Akaike info criterion,,-2.761872
+Sum squared resid,1.124646,    Schwarz criterion,,-2.725712
+Log likelihood,431.0902,    Hannan-Quinn criter.,,-2.747417
+F-statistic,127.8378,    Durbin-Watson stat,,2.261575
+Prob(F-statistic),0.000000,,,
+,,,,

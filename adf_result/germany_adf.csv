@@ -1,0 +1,35 @@
+Null Hypothesis: QT_GERMANY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.689203, 0.0764
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_GERMANY),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_GERMANY(-1),-0.012943,0.004813,-2.689203,0.0073
+D(QT_GERMANY(-1)),0.269923,0.036223,7.451647,0.0000
+C,0.007159,0.002900,2.468302,0.0138
+,,,,
+R-squared,0.079728,    Mean dependent var,,-0.000378
+Adjusted R-squared,0.077110,    S.D. dependent var,,0.024015
+S.E. of regression,0.023070,    Akaike info criterion,,-4.696302
+Sum squared resid,0.374164,    Schwarz criterion,,-4.676927
+Log likelihood,1660.795,    Hannan-Quinn criter.,,-4.688815
+F-statistic,30.45221,    Durbin-Watson stat,,1.986258
+Prob(F-statistic),0.000000,,,
+,,,,

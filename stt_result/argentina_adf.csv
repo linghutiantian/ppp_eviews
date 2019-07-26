@@ -1,0 +1,35 @@
+Null Hypothesis: ST_ARGENTINA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-4.697193, 0.0001
+Test critical values:,1% level,,-3.448570,
+,5% level,,-2.869465,
+,10% level,,-2.571060,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_ARGENTINA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1989M06 2018M12,,,,
+Included observations: 355 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_ARGENTINA(-1),-0.019394,0.004129,-4.697193,0.0000
+D(ST_ARGENTINA(-1)),0.399011,0.047393,8.419142,0.0000
+C,0.030345,0.006056,5.010452,0.0000
+,,,,
+R-squared,0.248207,    Mean dependent var,,0.023199
+Adjusted R-squared,0.243936,    S.D. dependent var,,0.100838
+S.E. of regression,0.087680,    Akaike info criterion,,-2.021826
+Sum squared resid,2.706113,    Schwarz criterion,,-1.989104
+Log likelihood,361.8741,    Hannan-Quinn criter.,,-2.008808
+F-statistic,58.10710,    Durbin-Watson stat,,1.831576
+Prob(F-statistic),0.000000,,,
+,,,,

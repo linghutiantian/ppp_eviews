@@ -1,0 +1,35 @@
+Null Hypothesis: QT_DJIBOUTI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.931261, 0.0451
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_DJIBOUTI),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_DJIBOUTI(-1),-0.150508,0.051346,-2.931261,0.0042
+D(QT_DJIBOUTI(-1)),-0.118107,0.095887,-1.231730,0.2209
+C,0.790281,0.269726,2.929936,0.0042
+,,,,
+R-squared,0.107673,    Mean dependent var,,-0.000307
+Adjusted R-squared,0.090347,    S.D. dependent var,,0.010340
+S.E. of regression,0.009862,    Akaike info criterion,,-6.372402
+Sum squared resid,0.010017,    Schwarz criterion,,-6.297022
+Log likelihood,340.7373,    Hannan-Quinn criter.,,-6.341850
+F-statistic,6.214296,    Durbin-Watson stat,,2.036452
+Prob(F-statistic),0.002831,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: RES_ALGERIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.789872, 0.3846
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_ALGERIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_ALGERIA(-1),-0.031372,0.017527,-1.789872,0.0753
+D(RES_ALGERIA(-1)),0.240334,0.076225,3.152967,0.0019
+C,0.000109,0.001279,0.085578,0.9319
+,,,,
+R-squared,0.068391,    Mean dependent var,,0.000157
+Adjusted R-squared,0.056961,    S.D. dependent var,,0.016970
+S.E. of regression,0.016479,    Akaike info criterion,,-5.355498
+Sum squared resid,0.044266,    Schwarz criterion,,-5.299257
+Log likelihood,447.5063,    Hannan-Quinn criter.,,-5.332669
+F-statistic,5.983100,    Durbin-Watson stat,,1.995240
+Prob(F-statistic),0.003108,,,
+,,,,

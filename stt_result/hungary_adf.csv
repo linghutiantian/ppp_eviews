@@ -1,0 +1,35 @@
+Null Hypothesis: ST_HUNGARY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.105055, 0.9660
+Test critical values:,1% level,,-3.440841,
+,5% level,,-2.866060,
+,10% level,,-2.569236,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_HUNGARY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1968M03 2018M12,,,,
+Included observations: 610 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_HUNGARY(-1),0.000133,0.001262,0.105055,0.9164
+D(ST_HUNGARY(-1)),0.272927,0.039095,6.981122,0.0000
+C,0.001240,0.005902,0.210056,0.8337
+,,,,
+R-squared,0.074619,    Mean dependent var,,0.002547
+Adjusted R-squared,0.071570,    S.D. dependent var,,0.024676
+S.E. of regression,0.023777,    Akaike info criterion,,-4.635289
+Sum squared resid,0.343165,    Schwarz criterion,,-4.613584
+Log likelihood,1416.763,    Hannan-Quinn criter.,,-4.626846
+F-statistic,24.47310,    Durbin-Watson stat,,1.985052
+Prob(F-statistic),0.000000,,,
+,,,,

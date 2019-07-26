@@ -1,0 +1,35 @@
+Null Hypothesis: ST_SYRIAN_ARAB_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 2.133735, 0.9999
+Test critical values:,1% level,,-3.439424,
+,5% level,,-2.865435,
+,10% level,,-2.568900,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_SYRIAN_ARAB_REPUBLIC),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M09,,,,
+Included observations: 703 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_SYRIAN_ARAB_REPUBLIC(-1),0.004406,0.002065,2.133735,0.0332
+D(ST_SYRIAN_ARAB_REPUBLIC(-1)),0.013284,0.038026,0.349332,0.7269
+C,-0.003238,0.005323,-0.608220,0.5432
+,,,,
+R-squared,0.007057,    Mean dependent var,,0.006833
+Adjusted R-squared,0.004220,    S.D. dependent var,,0.068933
+S.E. of regression,0.068788,    Akaike info criterion,,-2.511320
+Sum squared resid,3.312241,    Schwarz criterion,,-2.491880
+Log likelihood,885.7290,    Hannan-Quinn criter.,,-2.503807
+F-statistic,2.487373,    Durbin-Watson stat,,2.000093
+Prob(F-statistic),0.083863,,,
+,,,,

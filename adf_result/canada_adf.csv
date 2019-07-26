@@ -1,0 +1,35 @@
+Null Hypothesis: QT_CANADA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.963056, 0.3034
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_CANADA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_CANADA(-1),-0.008654,0.004408,-1.963056,0.0500
+D(QT_CANADA(-1)),0.207077,0.036909,5.610523,0.0000
+C,0.000214,0.000518,0.412498,0.6801
+,,,,
+R-squared,0.046384,    Mean dependent var,,0.000477
+Adjusted R-squared,0.043671,    S.D. dependent var,,0.013865
+S.E. of regression,0.013559,    Akaike info criterion,,-5.759274
+Sum squared resid,0.129246,    Schwarz criterion,,-5.739899
+Log likelihood,2036.024,    Hannan-Quinn criter.,,-5.751788
+F-statistic,17.09699,    Durbin-Watson stat,,1.988803
+Prob(F-statistic),0.000000,,,
+,,,,

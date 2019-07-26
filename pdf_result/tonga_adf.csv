@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_TONGA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.234997, 0.6587
+Test critical values:,1% level,,-3.470679,
+,5% level,,-2.879155,
+,10% level,,-2.576241,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_TONGA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2005M03 2018M09,,,,
+Included observations: 163 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_TONGA(-1),-0.015683,0.012699,-1.234997,0.2186
+D(PDIFF_TONGA(-1)),0.103732,0.078531,1.320905,0.1884
+C,0.000990,0.000980,1.009929,0.3141
+,,,,
+R-squared,0.018733,    Mean dependent var,,0.001599
+Adjusted R-squared,0.006467,    S.D. dependent var,,0.011510
+S.E. of regression,0.011472,    Akaike info criterion,,-6.079510
+Sum squared resid,0.021059,    Schwarz criterion,,-6.022570
+Log likelihood,498.4800,    Hannan-Quinn criter.,,-6.056393
+F-statistic,1.527239,    Durbin-Watson stat,,1.956253
+Prob(F-statistic),0.220283,,,
+,,,,

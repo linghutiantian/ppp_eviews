@@ -1,0 +1,35 @@
+Null Hypothesis: QT_ICELAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.824339, 0.0554
+Test critical values:,1% level,,-3.440841,
+,5% level,,-2.866060,
+,10% level,,-2.569236,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_ICELAND),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 610 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_ICELAND(-1),-0.022454,0.007950,-2.824339,0.0049
+D(QT_ICELAND(-1)),0.057074,0.026800,2.129639,0.0336
+C,0.097842,0.034761,2.814665,0.0050
+,,,,
+R-squared,0.018433,    Mean dependent var,,-0.000210
+Adjusted R-squared,0.015199,    S.D. dependent var,,0.031127
+S.E. of regression,0.030890,    Akaike info criterion,,-4.111878
+Sum squared resid,0.579186,    Schwarz criterion,,-4.090173
+Log likelihood,1257.123,    Hannan-Quinn criter.,,-4.103435
+F-statistic,5.699522,    Durbin-Watson stat,,1.833294
+Prob(F-statistic),0.003529,,,
+,,,,

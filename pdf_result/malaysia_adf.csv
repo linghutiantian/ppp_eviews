@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_MALAYSIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.643465, 0.4587
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_MALAYSIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_MALAYSIA(-1),-0.020411,0.012420,-1.643465,0.1017
+D(PDIFF_MALAYSIA(-1)),0.289459,0.064255,4.504835,0.0000
+C,0.000226,0.000321,0.703501,0.4825
+,,,,
+R-squared,0.088484,    Mean dependent var,,8.01E-05
+Adjusted R-squared,0.080309,    S.D. dependent var,,0.004810
+S.E. of regression,0.004613,    Akaike info criterion,,-7.906876
+Sum squared resid,0.004745,    Schwarz criterion,,-7.861470
+Log likelihood,896.4769,    Hannan-Quinn criter.,,-7.888552
+F-statistic,10.82369,    Durbin-Watson stat,,1.925771
+Prob(F-statistic),0.000033,,,
+,,,,

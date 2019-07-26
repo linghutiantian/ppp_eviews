@@ -1,0 +1,35 @@
+Null Hypothesis: QT_TANZANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.660588, 0.4483
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_TANZANIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_TANZANIA(-1),-0.026537,0.015981,-1.660588,0.0998
+D(QT_TANZANIA(-1)),0.527402,0.084234,6.261154,0.0000
+C,0.204317,0.122820,1.663547,0.0992
+,,,,
+R-squared,0.280040,    Mean dependent var,,0.000778
+Adjusted R-squared,0.266060,    S.D. dependent var,,0.015009
+S.E. of regression,0.012858,    Akaike info criterion,,-5.841754
+Sum squared resid,0.017030,    Schwarz criterion,,-5.766373
+Log likelihood,312.6130,    Hannan-Quinn criter.,,-5.811202
+F-statistic,20.03172,    Durbin-Watson stat,,1.906464
+Prob(F-statistic),0.000000,,,
+,,,,

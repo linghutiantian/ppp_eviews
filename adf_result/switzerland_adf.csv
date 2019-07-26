@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SWITZERLAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.040058, 0.2697
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SWITZERLAND),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SWITZERLAND(-1),-0.006370,0.003123,-2.040058,0.0417
+D(QT_SWITZERLAND(-1)),0.241614,0.036508,6.618158,0.0000
+C,0.001074,0.001320,0.813686,0.4161
+,,,,
+R-squared,0.063404,    Mean dependent var,,-0.001081
+Adjusted R-squared,0.060739,    S.D. dependent var,,0.025639
+S.E. of regression,0.024848,    Akaike info criterion,,-4.547862
+Sum squared resid,0.434039,    Schwarz criterion,,-4.528486
+Log likelihood,1608.395,    Hannan-Quinn criter.,,-4.540375
+F-statistic,23.79521,    Durbin-Watson stat,,1.981621
+Prob(F-statistic),0.000000,,,
+,,,,

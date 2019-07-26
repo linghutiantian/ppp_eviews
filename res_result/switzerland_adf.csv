@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SWITZERLAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.490568, 0.1182
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SWITZERLAND),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SWITZERLAND(-1),-0.012086,0.004853,-2.490568,0.0130
+D(RES_SWITZERLAND(-1)),0.235694,0.036597,6.440278,0.0000
+C,-0.000181,0.000956,-0.189344,0.8499
+,,,,
+R-squared,0.061493,    Mean dependent var,,-0.000221
+Adjusted R-squared,0.058823,    S.D. dependent var,,0.026191
+S.E. of regression,0.025409,    Akaike info criterion,,-4.503203
+Sum squared resid,0.453861,    Schwarz criterion,,-4.483828
+Log likelihood,1592.631,    Hannan-Quinn criter.,,-4.495717
+F-statistic,23.03111,    Durbin-Watson stat,,1.989340
+Prob(F-statistic),0.000000,,,
+,,,,

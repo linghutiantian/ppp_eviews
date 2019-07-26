@@ -1,0 +1,35 @@
+Null Hypothesis: RES_IRELAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.562834, 0.1015
+Test critical values:,1% level,,-3.442795,
+,5% level,,-2.866922,
+,10% level,,-2.569697,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_IRELAND),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1976M01 2018M12,,,,
+Included observations: 516 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_IRELAND(-1),-0.020316,0.007927,-2.562834,0.0107
+D(RES_IRELAND(-1)),0.218252,0.043105,5.063208,0.0000
+C,0.000113,0.001110,0.101726,0.9190
+,,,,
+R-squared,0.055293,    Mean dependent var,,0.000133
+Adjusted R-squared,0.051610,    S.D. dependent var,,0.025883
+S.E. of regression,0.025206,    Akaike info criterion,,-4.517673
+Sum squared resid,0.325930,    Schwarz criterion,,-4.492987
+Log likelihood,1168.560,    Hannan-Quinn criter.,,-4.507999
+F-statistic,15.01289,    Durbin-Watson stat,,1.975336
+Prob(F-statistic),0.000000,,,
+,,,,

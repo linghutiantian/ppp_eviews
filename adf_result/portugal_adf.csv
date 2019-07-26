@@ -1,0 +1,35 @@
+Null Hypothesis: QT_PORTUGAL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.035636, 0.2716
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_PORTUGAL),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_PORTUGAL(-1),-0.006877,0.003378,-2.035636,0.0422
+D(QT_PORTUGAL(-1)),0.230832,0.036614,6.304491,0.0000
+C,0.036348,0.018185,1.998784,0.0460
+,,,,
+R-squared,0.058056,    Mean dependent var,,-0.000811
+Adjusted R-squared,0.055377,    S.D. dependent var,,0.024595
+S.E. of regression,0.023904,    Akaike info criterion,,-4.625304
+Sum squared resid,0.401694,    Schwarz criterion,,-4.605929
+Log likelihood,1635.732,    Hannan-Quinn criter.,,-4.617817
+F-statistic,21.66459,    Durbin-Watson stat,,1.981222
+Prob(F-statistic),0.000000,,,
+,,,,

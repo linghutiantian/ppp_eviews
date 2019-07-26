@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SURINAME has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.225004, 0.9315
+Test critical values:,1% level,,-3.470934,
+,5% level,,-2.879267,
+,10% level,,-2.576301,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SURINAME),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 162 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SURINAME(-1),-0.002733,0.012146,-0.225004,0.8223
+D(RES_SURINAME(-1)),0.178738,0.079161,2.257914,0.0253
+C,0.004158,0.004111,1.011560,0.3133
+,,,,
+R-squared,0.031206,    Mean dependent var,,0.005106
+Adjusted R-squared,0.019019,    S.D. dependent var,,0.052499
+S.E. of regression,0.051997,    Akaike info criterion,,-3.056916
+Sum squared resid,0.429887,    Schwarz criterion,,-2.999738
+Log likelihood,250.6102,    Hannan-Quinn criter.,,-3.033701
+F-statistic,2.560748,    Durbin-Watson stat,,2.050356
+Prob(F-statistic),0.080430,,,
+,,,,

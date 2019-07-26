@@ -1,0 +1,35 @@
+Null Hypothesis: RES_TURKEY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.523909, 0.1107
+Test critical values:,1% level,,-3.450411,
+,5% level,,-2.870274,
+,10% level,,-2.571493,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_TURKEY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1992M02 2018M12,,,,
+Included observations: 323 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_TURKEY(-1),-0.040681,0.016118,-2.523909,0.0121
+D(RES_TURKEY(-1)),0.046281,0.055785,0.829636,0.4074
+C,0.000228,0.003202,0.071332,0.9432
+,,,,
+R-squared,0.020154,    Mean dependent var,,0.000330
+Adjusted R-squared,0.014030,    S.D. dependent var,,0.057950
+S.E. of regression,0.057542,    Akaike info criterion,,-2.863373
+Sum squared resid,1.059531,    Schwarz criterion,,-2.828286
+Log likelihood,465.4347,    Hannan-Quinn criter.,,-2.849367
+F-statistic,3.290896,    Durbin-Watson stat,,2.012487
+Prob(F-statistic),0.038484,,,
+,,,,

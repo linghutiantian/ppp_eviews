@@ -1,0 +1,35 @@
+Null Hypothesis: QT_NIGERIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.324354, 0.1663
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_NIGERIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_NIGERIA(-1),-0.058645,0.025231,-2.324354,0.0221
+D(QT_NIGERIA(-1)),0.412898,0.089149,4.631568,0.0000
+C,0.283805,0.122371,2.319207,0.0224
+,,,,
+R-squared,0.192734,    Mean dependent var,,-0.000935
+Adjusted R-squared,0.177058,    S.D. dependent var,,0.032155
+S.E. of regression,0.029170,    Akaike info criterion,,-4.203473
+Sum squared resid,0.087640,    Schwarz criterion,,-4.128093
+Log likelihood,225.7841,    Hannan-Quinn criter.,,-4.172921
+F-statistic,12.29554,    Durbin-Watson stat,,1.837037
+Prob(F-statistic),0.000016,,,
+,,,,

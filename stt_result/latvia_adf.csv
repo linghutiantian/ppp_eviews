@@ -1,0 +1,35 @@
+Null Hypothesis: ST_LATVIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.528344, 0.1099
+Test critical values:,1% level,,-3.455289,
+,5% level,,-2.872413,
+,10% level,,-2.572638,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_LATVIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1992M04 2013M12,,,,
+Included observations: 261 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_LATVIA(-1),-0.041700,0.016493,-2.528344,0.0121
+D(ST_LATVIA(-1)),0.150992,0.060278,2.504935,0.0129
+C,-0.023937,0.009625,-2.486967,0.0135
+,,,,
+R-squared,0.041253,    Mean dependent var,,-4.25E-19
+Adjusted R-squared,0.033821,    S.D. dependent var,,0.027163
+S.E. of regression,0.026700,    Akaike info criterion,,-4.396864
+Sum squared resid,0.183928,    Schwarz criterion,,-4.355893
+Log likelihood,576.7908,    Hannan-Quinn criter.,,-4.380395
+F-statistic,5.550678,    Durbin-Watson stat,,1.567718
+Prob(F-statistic),0.004363,,,
+,,,,

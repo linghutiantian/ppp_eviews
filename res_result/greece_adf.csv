@@ -1,0 +1,35 @@
+Null Hypothesis: RES_GREECE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.763141, 0.0642
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_GREECE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_GREECE(-1),-0.016790,0.006076,-2.763141,0.0059
+D(RES_GREECE(-1)),0.236224,0.036660,6.443597,0.0000
+C,9.83E-05,0.000861,0.114152,0.9091
+,,,,
+R-squared,0.062008,    Mean dependent var,,0.000135
+Adjusted R-squared,0.059340,    S.D. dependent var,,0.023584
+S.E. of regression,0.022874,    Akaike info criterion,,-4.713394
+Sum squared resid,0.367823,    Schwarz criterion,,-4.694019
+Log likelihood,1666.828,    Hannan-Quinn criter.,,-4.705908
+F-statistic,23.23672,    Durbin-Watson stat,,1.959882
+Prob(F-statistic),0.000000,,,
+,,,,

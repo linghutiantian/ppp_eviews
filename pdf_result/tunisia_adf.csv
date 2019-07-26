@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_TUNISIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 1.378367, 0.9989
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_TUNISIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_TUNISIA(-1),0.005377,0.003901,1.378367,0.1700
+D(PDIFF_TUNISIA(-1)),0.419280,0.072174,5.809263,0.0000
+C,0.002084,0.000807,2.583221,0.0107
+,,,,
+R-squared,0.205507,    Mean dependent var,,0.001943
+Adjusted R-squared,0.195759,    S.D. dependent var,,0.005234
+S.E. of regression,0.004694,    Akaike info criterion,,-7.867223
+Sum squared resid,0.003591,    Schwarz criterion,,-7.810982
+Log likelihood,655.9795,    Hannan-Quinn criter.,,-7.844394
+F-statistic,21.08118,    Durbin-Watson stat,,1.836696
+Prob(F-statistic),0.000000,,,
+,,,,

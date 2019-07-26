@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_ALBANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.641523, 0.0061
+Test critical values:,1% level,,-3.476805,
+,5% level,,-2.881830,
+,10% level,,-2.577668,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_ALBANIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2007M03 2018M12,,,,
+Included observations: 142 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_ALBANIA(-1),-0.088312,0.024251,-3.641523,0.0004
+D(PDIFF_ALBANIA(-1)),0.546986,0.071703,7.628511,0.0000
+C,-0.009255,0.002676,-3.459201,0.0007
+,,,,
+R-squared,0.315398,    Mean dependent var,,0.000308
+Adjusted R-squared,0.305547,    S.D. dependent var,,0.009110
+S.E. of regression,0.007592,    Akaike info criterion,,-6.902575
+Sum squared resid,0.008011,    Schwarz criterion,,-6.840128
+Log likelihood,493.0828,    Hannan-Quinn criter.,,-6.877199
+F-statistic,32.01880,    Durbin-Watson stat,,1.961482
+Prob(F-statistic),0.000000,,,
+,,,,

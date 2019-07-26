@@ -1,0 +1,35 @@
+Null Hypothesis: QT_PAKISTAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.895370, 0.7863
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_PAKISTAN),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_PAKISTAN(-1),-0.027222,0.030403,-0.895370,0.3727
+D(QT_PAKISTAN(-1)),0.223357,0.100819,2.215424,0.0289
+C,0.110855,0.123306,0.899022,0.3707
+,,,,
+R-squared,0.047717,    Mean dependent var,,0.000489
+Adjusted R-squared,0.029226,    S.D. dependent var,,0.014319
+S.E. of regression,0.014108,    Akaike info criterion,,-5.656204
+Sum squared resid,0.020502,    Schwarz criterion,,-5.580824
+Log likelihood,302.7788,    Hannan-Quinn criter.,,-5.625652
+F-statistic,2.580556,    Durbin-Watson stat,,1.893778
+Prob(F-statistic),0.080622,,,
+,,,,

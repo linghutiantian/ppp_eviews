@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_RWANDA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.713505, 0.4227
+Test critical values:,1% level,,-3.467205,
+,5% level,,-2.877636,
+,10% level,,-2.575430,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_RWANDA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2004M03 2018M12,,,,
+Included observations: 178 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_RWANDA(-1),-0.008146,0.004754,-1.713505,0.0884
+D(PDIFF_RWANDA(-1)),0.340517,0.070515,4.829030,0.0000
+C,0.000695,0.001342,0.517776,0.6053
+,,,,
+R-squared,0.136939,    Mean dependent var,,0.003514
+Adjusted R-squared,0.127076,    S.D. dependent var,,0.013595
+S.E. of regression,0.012702,    Akaike info criterion,,-5.877447
+Sum squared resid,0.028233,    Schwarz criterion,,-5.823821
+Log likelihood,526.0928,    Hannan-Quinn criter.,,-5.855700
+F-statistic,13.88338,    Durbin-Watson stat,,1.858381
+Prob(F-statistic),0.000003,,,
+,,,,

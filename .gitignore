@@ -1,10 +1,10 @@
-adf_result
-final_unit_root_data_2.csv
-adf_output.xlsx
-# final_panal_data.csv
-
-pdf_result
-res_result
-stt_result
-.*
+# adf_result
+# final_unit_root_data_2.csv
+# adf_output.xlsx
+# # final_panal_data.csv
+# 
+# pdf_result
+# res_result
+# stt_result
+# .*
 !/.gitignore

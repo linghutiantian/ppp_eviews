@@ -1,0 +1,35 @@
+Null Hypothesis: ST_BAHRAIN_KINGDOM_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.675910, 0.0788
+Test critical values:,1% level,,-3.440435,
+,5% level,,-2.865881,
+,10% level,,-2.569140,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_BAHRAIN_KINGDOM_OF),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1966M03 2018M12,,,,
+Included observations: 634 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_BAHRAIN_KINGDOM_OF(-1),-0.005901,0.002205,-2.675910,0.0076
+D(ST_BAHRAIN_KINGDOM_OF(-1)),0.400238,0.036240,11.04406,0.0000
+C,-0.005734,0.002068,-2.773209,0.0057
+,,,,
+R-squared,0.174219,    Mean dependent var,,-0.000368
+Adjusted R-squared,0.171601,    S.D. dependent var,,0.004557
+S.E. of regression,0.004148,    Akaike info criterion,,-8.127787
+Sum squared resid,0.010856,    Schwarz criterion,,-8.106721
+Log likelihood,2579.509,    Hannan-Quinn criter.,,-8.119607
+F-statistic,66.56241,    Durbin-Watson stat,,1.833071
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_JAPAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 1.667545, 0.9996
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_JAPAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_JAPAN(-1),0.001445,0.000866,1.667545,0.0959
+D(PDIFF_JAPAN(-1)),0.162195,0.037297,4.348711,0.0000
+C,-0.001017,0.000394,-2.578342,0.0101
+,,,,
+R-squared,0.032245,    Mean dependent var,,-0.000598
+Adjusted R-squared,0.029492,    S.D. dependent var,,0.006478
+S.E. of regression,0.006381,    Akaike info criterion,,-7.266649
+Sum squared resid,0.028627,    Schwarz criterion,,-7.247274
+Log likelihood,2568.127,    Hannan-Quinn criter.,,-7.259163
+F-statistic,11.71184,    Durbin-Watson stat,,1.965768
+Prob(F-statistic),0.000010,,,
+,,,,

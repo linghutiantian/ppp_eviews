@@ -1,0 +1,35 @@
+Null Hypothesis: QT_BULGARIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.879878, 0.3416
+Test critical values:,1% level,,-3.453072,
+,5% level,,-2.871438,
+,10% level,,-2.572116,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_BULGARIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1995M03 2018M12,,,,
+Included observations: 286 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_BULGARIA(-1),-0.016928,0.009005,-1.879878,0.0612
+D(QT_BULGARIA(-1)),0.138833,0.058571,2.370316,0.0184
+C,-0.059753,0.030942,-1.931132,0.0545
+,,,,
+R-squared,0.030014,    Mean dependent var,,-0.002098
+Adjusted R-squared,0.023159,    S.D. dependent var,,0.045875
+S.E. of regression,0.045341,    Akaike info criterion,,-3.338786
+Sum squared resid,0.581788,    Schwarz criterion,,-3.300436
+Log likelihood,480.4464,    Hannan-Quinn criter.,,-3.323414
+F-statistic,4.378340,    Durbin-Watson stat,,2.009602
+Prob(F-statistic),0.013407,,,
+,,,,

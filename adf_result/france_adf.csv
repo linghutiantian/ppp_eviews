@@ -1,0 +1,35 @@
+Null Hypothesis: QT_FRANCE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.881542, 0.0480
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_FRANCE),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_FRANCE(-1),-0.016751,0.005813,-2.881542,0.0041
+D(QT_FRANCE(-1)),0.270912,0.036285,7.466298,0.0000
+C,0.028989,0.010116,2.865815,0.0043
+,,,,
+R-squared,0.079968,    Mean dependent var,,-7.87E-05
+Adjusted R-squared,0.077350,    S.D. dependent var,,0.023025
+S.E. of regression,0.022117,    Akaike info criterion,,-4.780735
+Sum squared resid,0.343869,    Schwarz criterion,,-4.761359
+Log likelihood,1690.599,    Hannan-Quinn criter.,,-4.773248
+F-statistic,30.55180,    Durbin-Watson stat,,1.977439
+Prob(F-statistic),0.000000,,,
+,,,,

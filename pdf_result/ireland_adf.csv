@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_IRELAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-6.310522, 0.0000
+Test critical values:,1% level,,-3.442795,
+,5% level,,-2.866922,
+,10% level,,-2.569697,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_IRELAND),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1976M01 2018M12,,,,
+Included observations: 516 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_IRELAND(-1),-0.021700,0.003439,-6.310522,0.0000
+D(PDIFF_IRELAND(-1)),-0.277907,0.041665,-6.669970,0.0000
+C,-0.000740,0.000480,-1.542158,0.1237
+,,,,
+R-squared,0.126198,    Mean dependent var,,0.000792
+Adjusted R-squared,0.122792,    S.D. dependent var,,0.009546
+S.E. of regression,0.008941,    Akaike info criterion,,-6.590520
+Sum squared resid,0.041011,    Schwarz criterion,,-6.565833
+Log likelihood,1703.354,    Hannan-Quinn criter.,,-6.580846
+F-statistic,37.04484,    Durbin-Watson stat,,2.094505
+Prob(F-statistic),0.000000,,,
+,,,,

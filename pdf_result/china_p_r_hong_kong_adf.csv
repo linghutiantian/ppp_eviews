@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_CHINA_P_R_HONG_KONG has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.630525, 0.8594
+Test critical values:,1% level,,-3.469214,
+,5% level,,-2.878515,
+,10% level,,-2.575899,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_CHINA_P_R_HONG_KONG),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2004M12 2018M12,,,,
+Included observations: 169 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_CHINA_P_R_HONG_KONG(-1),-0.007915,0.012553,-0.630525,0.5292
+D(PDIFF_CHINA_P_R_HONG_KONG(-1)),0.049652,0.078031,0.636314,0.5254
+C,-0.000518,0.002069,-0.250453,0.8025
+,,,,
+R-squared,0.004329,    Mean dependent var,,0.000728
+Adjusted R-squared,-0.007667,    S.D. dependent var,,0.009680
+S.E. of regression,0.009717,    Akaike info criterion,,-6.412323
+Sum squared resid,0.015673,    Schwarz criterion,,-6.356763
+Log likelihood,544.8413,    Hannan-Quinn criter.,,-6.389775
+F-statistic,0.360881,    Durbin-Watson stat,,1.989954
+Prob(F-statistic),0.697608,,,
+,,,,

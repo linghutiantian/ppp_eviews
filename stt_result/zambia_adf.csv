@@ -1,0 +1,35 @@
+Null Hypothesis: ST_ZAMBIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.891400, 0.0470
+Test critical values:,1% level,,-3.442254,
+,5% level,,-2.866683,
+,10% level,,-2.569570,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_ZAMBIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 539 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_ZAMBIA(-1),-0.004773,0.001651,-2.891400,0.0040
+D(ST_ZAMBIA(-1)),-0.052830,0.042960,-1.229751,0.2193
+C,0.013925,0.003215,4.331717,0.0000
+,,,,
+R-squared,0.017164,    Mean dependent var,,0.013140
+Adjusted R-squared,0.013497,    S.D. dependent var,,0.073961
+S.E. of regression,0.073460,    Akaike info criterion,,-2.378596
+Sum squared resid,2.892469,    Schwarz criterion,,-2.354720
+Log likelihood,644.0317,    Hannan-Quinn criter.,,-2.369258
+F-statistic,4.680377,    Durbin-Watson stat,,1.997189
+Prob(F-statistic),0.009658,,,
+,,,,

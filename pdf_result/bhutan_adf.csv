@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_BHUTAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.363855, 0.1556
+Test critical values:,1% level,,-3.525618,
+,5% level,,-2.902953,
+,10% level,,-2.588902,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_BHUTAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2013M02 2018M12,,,,
+Included observations: 71 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_BHUTAN(-1),-0.031727,0.013422,-2.363855,0.0209
+D(PDIFF_BHUTAN(-1)),0.128162,0.115176,1.112749,0.2697
+C,0.005808,0.001693,3.430245,0.0010
+,,,,
+R-squared,0.116908,    Mean dependent var,,0.002943
+Adjusted R-squared,0.090935,    S.D. dependent var,,0.006628
+S.E. of regression,0.006320,    Akaike info criterion,,-7.249005
+Sum squared resid,0.002716,    Schwarz criterion,,-7.153399
+Log likelihood,260.3397,    Hannan-Quinn criter.,,-7.210985
+F-statistic,4.501101,    Durbin-Watson stat,,1.846504
+Prob(F-statistic),0.014595,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_NIGER has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.510245, 0.5247
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_NIGER),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_NIGER(-1),-0.032026,0.021206,-1.510245,0.1340
+D(QT_NIGER(-1)),0.245207,0.093746,2.615651,0.0102
+C,0.205394,0.135087,1.520461,0.1315
+,,,,
+R-squared,0.076416,    Mean dependent var,,0.001975
+Adjusted R-squared,0.058482,    S.D. dependent var,,0.022958
+S.E. of regression,0.022276,    Akaike info criterion,,-4.742702
+Sum squared resid,0.051112,    Schwarz criterion,,-4.667322
+Log likelihood,254.3632,    Hannan-Quinn criter.,,-4.712150
+F-statistic,4.261023,    Durbin-Watson stat,,2.014946
+Prob(F-statistic),0.016674,,,
+,,,,

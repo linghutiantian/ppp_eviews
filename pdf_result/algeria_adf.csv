@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_ALGERIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.314097, 0.9784
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_ALGERIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_ALGERIA(-1),0.001891,0.006020,0.314097,0.7538
+D(PDIFF_ALGERIA(-1)),0.078781,0.078843,0.999214,0.3192
+C,0.001092,0.002287,0.477278,0.6338
+,,,,
+R-squared,0.007258,    Mean dependent var,,0.001933
+Adjusted R-squared,-0.004923,    S.D. dependent var,,0.009300
+S.E. of regression,0.009323,    Akaike info criterion,,-6.494829
+Sum squared resid,0.014167,    Schwarz criterion,,-6.438588
+Log likelihood,542.0708,    Hannan-Quinn criter.,,-6.472001
+F-statistic,0.595866,    Durbin-Watson stat,,1.986013
+Prob(F-statistic),0.552281,,,
+,,,,

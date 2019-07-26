@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SAMOA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.712618, 0.4230
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SAMOA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SAMOA(-1),-0.022592,0.013192,-1.712618,0.0887
+D(QT_SAMOA(-1)),0.102069,0.077349,1.319590,0.1888
+C,0.022499,0.013820,1.627938,0.1055
+,,,,
+R-squared,0.026787,    Mean dependent var,,-0.001126
+Adjusted R-squared,0.014845,    S.D. dependent var,,0.020100
+S.E. of regression,0.019950,    Akaike info criterion,,-4.973256
+Sum squared resid,0.064875,    Schwarz criterion,,-4.917016
+Log likelihood,415.7803,    Hannan-Quinn criter.,,-4.950428
+F-statistic,2.243193,    Durbin-Watson stat,,1.981791
+Prob(F-statistic),0.109385,,,
+,,,,

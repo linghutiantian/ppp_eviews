@@ -1,0 +1,35 @@
+Null Hypothesis: ST_IRAQ has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.074617, 0.2552
+Test critical values:,1% level,,-3.439450,
+,5% level,,-2.865446,
+,10% level,,-2.568907,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_IRAQ),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 701 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_IRAQ(-1),-0.007726,0.003724,-2.074617,0.0384
+D(ST_IRAQ(-1)),-0.001792,0.037742,-0.047468,0.9622
+C,0.055758,0.024899,2.239377,0.0254
+,,,,
+R-squared,0.006140,    Mean dependent var,,0.011118
+Adjusted R-squared,0.003292,    S.D. dependent var,,0.332900
+S.E. of regression,0.332352,    Akaike info criterion,,0.639026
+Sum squared resid,77.09954,    Schwarz criterion,,0.658509
+Log likelihood,-220.9785,    Hannan-Quinn criter.,,0.646557
+F-statistic,2.156060,    Durbin-Watson stat,,2.002719
+Prob(F-statistic),0.116551,,,
+,,,,

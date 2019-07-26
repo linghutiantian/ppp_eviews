@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_MAURITIUS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.250562, 0.6526
+Test critical values:,1% level,,-3.458470,
+,5% level,,-2.873809,
+,10% level,,-2.573384,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_MAURITIUS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1999M09 2018M12,,,,
+Included observations: 232 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_MAURITIUS(-1),-0.003805,0.003042,-1.250562,0.2124
+D(PDIFF_MAURITIUS(-1)),0.324412,0.062293,5.207885,0.0000
+C,0.000142,0.001018,0.139471,0.8892
+,,,,
+R-squared,0.113297,    Mean dependent var,,0.001882
+Adjusted R-squared,0.105553,    S.D. dependent var,,0.007566
+S.E. of regression,0.007155,    Akaike info criterion,,-7.029130
+Sum squared resid,0.011724,    Schwarz criterion,,-6.984560
+Log likelihood,818.3790,    Hannan-Quinn criter.,,-7.011155
+F-statistic,14.63000,    Durbin-Watson stat,,1.926748
+Prob(F-statistic),0.000001,,,
+,,,,

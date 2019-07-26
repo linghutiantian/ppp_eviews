@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_HONDURAS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.409508, 0.0116
+Test critical values:,1% level,,-3.459101,
+,5% level,,-2.874086,
+,10% level,,-2.573533,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_HONDURAS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M02 2018M12,,,,
+Included observations: 227 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_HONDURAS(-1),-0.003956,0.001160,-3.409508,0.0008
+D(PDIFF_HONDURAS(-1)),0.176296,0.065436,2.694178,0.0076
+C,0.005615,0.000941,5.967211,0.0000
+,,,,
+R-squared,0.100396,    Mean dependent var,,0.003394
+Adjusted R-squared,0.092363,    S.D. dependent var,,0.003973
+S.E. of regression,0.003785,    Akaike info criterion,,-8.302337
+Sum squared resid,0.003209,    Schwarz criterion,,-8.257073
+Log likelihood,945.3152,    Hannan-Quinn criter.,,-8.284072
+F-statistic,12.49918,    Durbin-Watson stat,,1.962137
+Prob(F-statistic),0.000007,,,
+,,,,

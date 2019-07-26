@@ -1,0 +1,35 @@
+Null Hypothesis: QT_HAITI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.638038, 0.4595
+Test critical values:,1% level,,-3.496346,
+,5% level,,-2.890327,
+,10% level,,-2.582196,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_HAITI),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M07,,,,
+Included observations: 101 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_HAITI(-1),-0.051218,0.031268,-1.638038,0.1046
+D(QT_HAITI(-1)),0.135953,0.098077,1.386189,0.1688
+C,0.160519,0.098188,1.634807,0.1053
+,,,,
+R-squared,0.038694,    Mean dependent var,,-0.000372
+Adjusted R-squared,0.019075,    S.D. dependent var,,0.016459
+S.E. of regression,0.016301,    Akaike info criterion,,-5.365910
+Sum squared resid,0.026041,    Schwarz criterion,,-5.288233
+Log likelihood,273.9785,    Hannan-Quinn criter.,,-5.334464
+F-statistic,1.972311,    Durbin-Watson stat,,1.890664
+Prob(F-statistic),0.144619,,,
+,,,,

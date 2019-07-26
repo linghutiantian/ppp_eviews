@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_SINGAPORE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.247871, 0.6530
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_SINGAPORE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_SINGAPORE(-1),-0.018444,0.014780,-1.247871,0.2139
+D(PDIFF_SINGAPORE(-1)),0.057563,0.078326,0.734917,0.4634
+C,-0.002311,0.001887,-1.224692,0.2225
+,,,,
+R-squared,0.011735,    Mean dependent var,,-3.89E-05
+Adjusted R-squared,-0.000391,    S.D. dependent var,,0.006285
+S.E. of regression,0.006286,    Akaike info criterion,,-7.282977
+Sum squared resid,0.006441,    Schwarz criterion,,-7.226736
+Log likelihood,607.4871,    Hannan-Quinn criter.,,-7.260149
+F-statistic,0.967734,    Durbin-Watson stat,,1.973781
+Prob(F-statistic),0.382115,,,
+,,,,

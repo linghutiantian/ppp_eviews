@@ -1,0 +1,35 @@
+Null Hypothesis: QT_CENTRAL_AFRICAN_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.921841, 0.9953
+Test critical values:,1% level,,-3.524233,
+,5% level,,-2.902358,
+,10% level,,-2.588587,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_CENTRAL_AFRICAN_REPUBLIC),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2016M02,,,,
+Included observations: 72 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_CENTRAL_AFRICAN_REPUBLIC(-1),0.021917,0.023775,0.921841,0.3598
+D(QT_CENTRAL_AFRICAN_REPUBLIC(-1)),0.213340,0.120672,1.767931,0.0815
+C,-0.117815,0.121424,-0.970282,0.3353
+,,,,
+R-squared,0.076583,    Mean dependent var,,-0.007430
+Adjusted R-squared,0.049817,    S.D. dependent var,,0.030436
+S.E. of regression,0.029668,    Akaike info criterion,,-4.156715
+Sum squared resid,0.060734,    Schwarz criterion,,-4.061853
+Log likelihood,152.6417,    Hannan-Quinn criter.,,-4.118950
+F-statistic,2.861231,    Durbin-Watson stat,,1.977336
+Prob(F-statistic),0.064007,,,
+,,,,

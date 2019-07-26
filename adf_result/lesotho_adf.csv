@@ -1,0 +1,35 @@
+Null Hypothesis: QT_LESOTHO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.808141, 0.3756
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_LESOTHO),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_LESOTHO(-1),-0.031466,0.017403,-1.808141,0.0724
+D(QT_LESOTHO(-1)),0.245619,0.075904,3.235933,0.0015
+C,0.070161,0.038007,1.846018,0.0667
+,,,,
+R-squared,0.071505,    Mean dependent var,,0.002145
+Adjusted R-squared,0.060113,    S.D. dependent var,,0.036954
+S.E. of regression,0.035826,    Akaike info criterion,,-3.802390
+Sum squared resid,0.209209,    Schwarz criterion,,-3.746149
+Log likelihood,318.5984,    Hannan-Quinn criter.,,-3.779561
+F-statistic,6.276470,    Durbin-Watson stat,,1.914975
+Prob(F-statistic),0.002366,,,
+,,,,

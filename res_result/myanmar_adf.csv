@@ -1,0 +1,35 @@
+Null Hypothesis: RES_MYANMAR has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.640248, 0.4586
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_MYANMAR),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_MYANMAR(-1),-0.046118,0.028117,-1.640248,0.1040
+D(RES_MYANMAR(-1)),0.050180,0.098117,0.511425,0.6101
+C,0.007217,0.048311,0.149396,0.8815
+,,,,
+R-squared,0.026256,    Mean dependent var,,0.006204
+Adjusted R-squared,0.007348,    S.D. dependent var,,0.499146
+S.E. of regression,0.497309,    Akaike info criterion,,1.468682
+Sum squared resid,25.47353,    Schwarz criterion,,1.544062
+Log likelihood,-74.84012,    Hannan-Quinn criter.,,1.499234
+F-statistic,1.388631,    Durbin-Watson stat,,2.003829
+Prob(F-statistic),0.254046,,,
+,,,,

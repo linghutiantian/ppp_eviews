@@ -1,0 +1,35 @@
+Null Hypothesis: QT_ARGENTINA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.306311, 0.9097
+Test critical values:,1% level,,-3.752946,
+,5% level,,-2.998064,
+,10% level,,-2.638752,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_ARGENTINA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2017M02 2018M12,,,,
+Included observations: 23 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_ARGENTINA(-1),-0.028268,0.092286,-0.306311,0.7625
+D(QT_ARGENTINA(-1)),0.042626,0.237007,0.179851,0.8591
+C,0.094798,0.267705,0.354112,0.7270
+,,,,
+R-squared,0.004991,    Mean dependent var,,0.013134
+Adjusted R-squared,-0.094510,    S.D. dependent var,,0.061013
+S.E. of regression,0.063831,    Akaike info criterion,,-2.544032
+Sum squared resid,0.081489,    Schwarz criterion,,-2.395924
+Log likelihood,32.25637,    Hannan-Quinn criter.,,-2.506784
+F-statistic,0.050157,    Durbin-Watson stat,,1.970289
+Prob(F-statistic),0.951199,,,
+,,,,

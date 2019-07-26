@@ -1,0 +1,35 @@
+Null Hypothesis: RES_ARGENTINA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.634572, 0.1008
+Test critical values:,1% level,,-3.752946,
+,5% level,,-2.998064,
+,10% level,,-2.638752,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_ARGENTINA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2017M02 2018M12,,,,
+Included observations: 23 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_ARGENTINA(-1),-0.435228,0.165199,-2.634572,0.0159
+D(RES_ARGENTINA(-1)),0.151126,0.203549,0.742457,0.4664
+C,-0.007738,0.011324,-0.683327,0.5022
+,,,,
+R-squared,0.257979,    Mean dependent var,,-0.007069
+Adjusted R-squared,0.183777,    S.D. dependent var,,0.059715
+S.E. of regression,0.053949,    Akaike info criterion,,-2.880443
+Sum squared resid,0.058210,    Schwarz criterion,,-2.732335
+Log likelihood,36.12510,    Hannan-Quinn criter.,,-2.843194
+F-statistic,3.476711,    Durbin-Watson stat,,1.994365
+Prob(F-statistic),0.050601,,,
+,,,,

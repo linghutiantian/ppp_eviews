@@ -1,0 +1,35 @@
+Null Hypothesis: RES_MADAGASCAR has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.883419, 0.0488
+Test critical values:,1% level,,-3.457984,
+,5% level,,-2.873596,
+,10% level,,-2.573270,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_MADAGASCAR),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1999M05 2018M12,,,,
+Included observations: 236 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_MADAGASCAR(-1),-0.045964,0.015941,-2.883419,0.0043
+D(RES_MADAGASCAR(-1)),0.375117,0.060932,6.156361,0.0000
+C,0.000172,0.001862,0.092449,0.9264
+,,,,
+R-squared,0.152439,    Mean dependent var,,0.000502
+Adjusted R-squared,0.145164,    S.D. dependent var,,0.030932
+S.E. of regression,0.028599,    Akaike info criterion,,-4.258258
+Sum squared resid,0.190572,    Schwarz criterion,,-4.214226
+Log likelihood,505.4744,    Hannan-Quinn criter.,,-4.240508
+F-statistic,20.95321,    Durbin-Watson stat,,1.959606
+Prob(F-statistic),0.000000,,,
+,,,,

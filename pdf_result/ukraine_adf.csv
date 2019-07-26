@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_UKRAINE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.060593, 0.9507
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_UKRAINE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_UKRAINE(-1),-0.000144,0.002375,-0.060593,0.9518
+D(PDIFF_UKRAINE(-1)),0.622896,0.061553,10.11966,0.0000
+C,0.003304,0.001138,2.902271,0.0042
+,,,,
+R-squared,0.387814,    Mean dependent var,,0.008661
+Adjusted R-squared,0.380302,    S.D. dependent var,,0.016494
+S.E. of regression,0.012984,    Akaike info criterion,,-5.832248
+Sum squared resid,0.027480,    Schwarz criterion,,-5.776007
+Log likelihood,487.0765,    Hannan-Quinn criter.,,-5.809419
+F-statistic,51.62941,    Durbin-Watson stat,,1.838550
+Prob(F-statistic),0.000000,,,
+,,,,

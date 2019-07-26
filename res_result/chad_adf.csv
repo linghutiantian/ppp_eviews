@@ -1,0 +1,35 @@
+Null Hypothesis: RES_CHAD has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.091195, 0.7155
+Test critical values:,1% level,,-3.520307,
+,5% level,,-2.900670,
+,10% level,,-2.587691,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_CHAD),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2017M04,,,,
+Included observations: 75 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_CHAD(-1),-0.033026,0.030266,-1.091195,0.2788
+D(RES_CHAD(-1)),0.230534,0.113289,2.034926,0.0455
+C,0.001785,0.002594,0.688103,0.4936
+,,,,
+R-squared,0.062011,    Mean dependent var,,0.002701
+Adjusted R-squared,0.035956,    S.D. dependent var,,0.022576
+S.E. of regression,0.022167,    Akaike info criterion,,-4.741277
+Sum squared resid,0.035378,    Schwarz criterion,,-4.648577
+Log likelihood,180.7979,    Hannan-Quinn criter.,,-4.704263
+F-statistic,2.379989,    Durbin-Watson stat,,2.009628
+Prob(F-statistic),0.099797,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SOLOMON_ISLANDS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.726608, 0.4117
+Test critical values:,1% level,,-3.574446,
+,5% level,,-2.923780,
+,10% level,,-2.599925,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SOLOMON_ISLANDS),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2014M03 2018M02,,,,
+Included observations: 48 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SOLOMON_ISLANDS(-1),-0.076201,0.044133,-1.726608,0.0911
+D(QT_SOLOMON_ISLANDS(-1)),0.097529,0.143750,0.678461,0.5010
+C,0.029401,0.016498,1.782105,0.0815
+,,,,
+R-squared,0.066627,    Mean dependent var,,0.001168
+Adjusted R-squared,0.025144,    S.D. dependent var,,0.012842
+S.E. of regression,0.012680,    Akaike info criterion,,-5.837165
+Sum squared resid,0.007235,    Schwarz criterion,,-5.720215
+Log likelihood,143.0920,    Hannan-Quinn criter.,,-5.792969
+F-statistic,1.606115,    Durbin-Watson stat,,2.010039
+Prob(F-statistic),0.211955,,,
+,,,,

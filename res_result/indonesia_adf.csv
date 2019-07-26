@@ -1,0 +1,35 @@
+Null Hypothesis: RES_INDONESIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.406550, 0.1403
+Test critical values:,1% level,,-3.440841,
+,5% level,,-2.866060,
+,10% level,,-2.569236,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_INDONESIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1968M03 2018M12,,,,
+Included observations: 610 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_INDONESIA(-1),-0.016211,0.006736,-2.406550,0.0164
+D(RES_INDONESIA(-1)),0.144079,0.040109,3.592161,0.0004
+C,-0.000455,0.002070,-0.219855,0.8261
+,,,,
+R-squared,0.027878,    Mean dependent var,,-0.000538
+Adjusted R-squared,0.024675,    S.D. dependent var,,0.051770
+S.E. of regression,0.051128,    Akaike info criterion,,-3.104077
+Sum squared resid,1.586720,    Schwarz criterion,,-3.082371
+Log likelihood,949.7435,    Hannan-Quinn criter.,,-3.095634
+F-statistic,8.703500,    Durbin-Watson stat,,1.984979
+Prob(F-statistic),0.000188,,,
+,,,,

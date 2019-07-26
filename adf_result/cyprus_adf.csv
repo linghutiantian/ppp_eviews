@@ -1,0 +1,35 @@
+Null Hypothesis: QT_CYPRUS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.606822, 0.4752
+Test critical values:,1% level,,-3.501445,
+,5% level,,-2.892536,
+,10% level,,-2.583371,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_CYPRUS),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2000M03 2007M12,,,,
+Included observations: 94 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_CYPRUS(-1),-0.049709,0.030936,-1.606822,0.1116
+D(QT_CYPRUS(-1)),0.107952,0.103351,1.044521,0.2990
+C,-0.044116,0.027256,-1.618602,0.1090
+,,,,
+R-squared,0.034403,    Mean dependent var,,-0.000916
+Adjusted R-squared,0.013181,    S.D. dependent var,,0.042720
+S.E. of regression,0.042437,    Akaike info criterion,,-3.450176
+Sum squared resid,0.163885,    Schwarz criterion,,-3.369007
+Log likelihood,165.1583,    Hannan-Quinn criter.,,-3.417390
+F-statistic,1.621112,    Durbin-Watson stat,,2.001556
+Prob(F-statistic),0.203335,,,
+,,,,

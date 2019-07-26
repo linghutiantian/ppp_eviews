@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_BELARUS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.531148, 0.8808
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_BELARUS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_BELARUS(-1),-0.000743,0.001399,-0.531148,0.5960
+D(PDIFF_BELARUS(-1)),0.745490,0.052129,14.30096,0.0000
+C,0.002061,0.001867,1.103577,0.2714
+,,,,
+R-squared,0.556680,    Mean dependent var,,0.011044
+Adjusted R-squared,0.551240,    S.D. dependent var,,0.018916
+S.E. of regression,0.012672,    Akaike info criterion,,-5.880930
+Sum squared resid,0.026175,    Schwarz criterion,,-5.824689
+Log likelihood,491.1172,    Hannan-Quinn criter.,,-5.858102
+F-statistic,102.3400,    Durbin-Watson stat,,1.972349
+Prob(F-statistic),0.000000,,,
+,,,,

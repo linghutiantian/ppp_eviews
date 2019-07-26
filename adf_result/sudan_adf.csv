@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SUDAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.562613, 0.4962
+Test critical values:,1% level,,-3.527045,
+,5% level,,-2.903566,
+,10% level,,-2.589227,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SUDAN),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2015M12,,,,
+Included observations: 70 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SUDAN(-1),-0.089540,0.057301,-1.562613,0.1229
+D(QT_SUDAN(-1)),0.053190,0.124828,0.426105,0.6714
+C,0.034470,0.025261,1.364564,0.1770
+,,,,
+R-squared,0.035163,    Mean dependent var,,-0.003967
+Adjusted R-squared,0.006362,    S.D. dependent var,,0.048064
+S.E. of regression,0.047911,    Akaike info criterion,,-3.197032
+Sum squared resid,0.153796,    Schwarz criterion,,-3.100668
+Log likelihood,114.8961,    Hannan-Quinn criter.,,-3.158755
+F-statistic,1.220888,    Durbin-Watson stat,,2.000646
+Prob(F-statistic),0.301445,,,
+,,,,

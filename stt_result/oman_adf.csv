@@ -1,0 +1,35 @@
+Null Hypothesis: ST_OMAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.386129, 0.1460
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_OMAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_OMAN(-1),-0.014166,0.005937,-2.386129,0.0173
+D(ST_OMAN(-1)),0.108116,0.037483,2.884389,0.0040
+C,-0.013900,0.005861,-2.371680,0.0180
+,,,,
+R-squared,0.018193,    Mean dependent var,,7.66E-05
+Adjusted R-squared,0.015400,    S.D. dependent var,,0.007469
+S.E. of regression,0.007412,    Akaike info criterion,,-6.967315
+Sum squared resid,0.038617,    Schwarz criterion,,-6.947940
+Log likelihood,2462.462,    Hannan-Quinn criter.,,-6.959828
+F-statistic,6.513400,    Durbin-Watson stat,,1.999414
+Prob(F-statistic),0.001575,,,
+,,,,

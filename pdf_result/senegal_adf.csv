@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_SENEGAL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.251877, 0.0184
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_SENEGAL),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_SENEGAL(-1),-0.062957,0.019360,-3.251877,0.0013
+D(PDIFF_SENEGAL(-1)),0.342306,0.063065,5.427784,0.0000
+C,-0.001632,0.000738,-2.209514,0.0282
+,,,,
+R-squared,0.136760,    Mean dependent var,,-0.000386
+Adjusted R-squared,0.129018,    S.D. dependent var,,0.009686
+S.E. of regression,0.009040,    Akaike info criterion,,-6.561221
+Sum squared resid,0.018222,    Schwarz criterion,,-6.515816
+Log likelihood,744.4180,    Hannan-Quinn criter.,,-6.542898
+F-statistic,17.66449,    Durbin-Watson stat,,2.054429
+Prob(F-statistic),0.000000,,,
+,,,,

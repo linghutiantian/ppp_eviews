@@ -1,0 +1,35 @@
+Null Hypothesis: RES_BRAZIL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.843196, 0.3592
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_BRAZIL),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_BRAZIL(-1),-0.021989,0.011930,-1.843196,0.0663
+D(RES_BRAZIL(-1)),0.016550,0.055673,0.297267,0.7665
+C,6.61E-05,0.003080,0.021444,0.9829
+,,,,
+R-squared,0.010993,    Mean dependent var,,9.41E-05
+Adjusted R-squared,0.004550,    S.D. dependent var,,0.054355
+S.E. of regression,0.054231,    Akaike info criterion,,-2.981498
+Sum squared resid,0.902887,    Schwarz criterion,,-2.945337
+Log likelihood,465.1321,    Hannan-Quinn criter.,,-2.967042
+F-statistic,1.706190,    Durbin-Watson stat,,2.047811
+Prob(F-statistic),0.183273,,,
+,,,,

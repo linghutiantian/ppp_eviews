@@ -1,0 +1,35 @@
+Null Hypothesis: RES_LIBYA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.230186, 0.1985
+Test critical values:,1% level,,-3.565430,
+,5% level,,-2.919952,
+,10% level,,-2.597905,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_LIBYA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2014M05,,,,
+Included observations: 51 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_LIBYA(-1),-0.181407,0.081342,-2.230186,0.0304
+D(RES_LIBYA(-1)),0.121101,0.137048,0.883645,0.3813
+C,-9.82E-05,0.001558,-0.062989,0.9500
+,,,,
+R-squared,0.095164,    Mean dependent var,,-0.000151
+Adjusted R-squared,0.057462,    S.D. dependent var,,0.011456
+S.E. of regression,0.011122,    Akaike info criterion,,-6.102704
+Sum squared resid,0.005938,    Schwarz criterion,,-5.989067
+Log likelihood,158.6189,    Hannan-Quinn criter.,,-6.059280
+F-statistic,2.524136,    Durbin-Watson stat,,2.023784
+Prob(F-statistic),0.090715,,,
+,,,,

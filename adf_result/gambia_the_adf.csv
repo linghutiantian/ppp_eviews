@@ -1,0 +1,35 @@
+Null Hypothesis: QT_GAMBIA_THE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.247901, 0.1910
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_GAMBIA_THE),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_GAMBIA_THE(-1),-0.089650,0.039882,-2.247901,0.0267
+D(QT_GAMBIA_THE(-1)),-0.204753,0.094865,-2.158374,0.0332
+C,0.294166,0.129717,2.267751,0.0254
+,,,,
+R-squared,0.102522,    Mean dependent var,,0.002155
+Adjusted R-squared,0.085096,    S.D. dependent var,,0.041672
+S.E. of regression,0.039860,    Akaike info criterion,,-3.578994
+Sum squared resid,0.163648,    Schwarz criterion,,-3.503614
+Log likelihood,192.6867,    Hannan-Quinn criter.,,-3.548442
+F-statistic,5.883040,    Durbin-Watson stat,,2.057766
+Prob(F-statistic),0.003808,,,
+,,,,

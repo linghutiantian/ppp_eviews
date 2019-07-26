@@ -1,0 +1,35 @@
+Null Hypothesis: QT_MOROCCO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.230824, 0.6601
+Test critical values:,1% level,,-3.476805,
+,5% level,,-2.881830,
+,10% level,,-2.577668,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_MOROCCO),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2007M03 2018M12,,,,
+Included observations: 142 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_MOROCCO(-1),-0.021473,0.017446,-1.230824,0.2205
+D(QT_MOROCCO(-1)),0.174300,0.083910,2.077229,0.0396
+C,0.045983,0.036654,1.254492,0.2118
+,,,,
+R-squared,0.036573,    Mean dependent var,,0.001085
+Adjusted R-squared,0.022711,    S.D. dependent var,,0.019417
+S.E. of regression,0.019196,    Akaike info criterion,,-5.047374
+Sum squared resid,0.051217,    Schwarz criterion,,-4.984927
+Log likelihood,361.3635,    Hannan-Quinn criter.,,-5.021998
+F-statistic,2.638311,    Durbin-Watson stat,,1.989688
+Prob(F-statistic),0.075060,,,
+,,,,

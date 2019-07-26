@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_SOLOMON_ISLANDS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.947936, 0.3083
+Test critical values:,1% level,,-3.574446,
+,5% level,,-2.923780,
+,10% level,,-2.599925,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_SOLOMON_ISLANDS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2014M03 2018M02,,,,
+Included observations: 48 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_SOLOMON_ISLANDS(-1),-0.147631,0.075788,-1.947936,0.0577
+D(PDIFF_SOLOMON_ISLANDS(-1)),0.110564,0.143831,0.768706,0.4461
+C,0.248010,0.127363,1.947276,0.0578
+,,,,
+R-squared,0.079177,    Mean dependent var,,-6.58E-05
+Adjusted R-squared,0.038251,    S.D. dependent var,,0.009934
+S.E. of regression,0.009742,    Akaike info criterion,,-6.364326
+Sum squared resid,0.004271,    Schwarz criterion,,-6.247376
+Log likelihood,155.7438,    Hannan-Quinn criter.,,-6.320131
+F-statistic,1.934657,    Durbin-Watson stat,,1.980054
+Prob(F-statistic),0.156303,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: RES_ROMANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.896277, 0.3337
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_ROMANIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_ROMANIA(-1),-0.021436,0.011304,-1.896277,0.0592
+D(RES_ROMANIA(-1)),0.332275,0.063136,5.262877,0.0000
+C,0.001030,0.001600,0.643425,0.5206
+,,,,
+R-squared,0.117770,    Mean dependent var,,0.001572
+Adjusted R-squared,0.109857,    S.D. dependent var,,0.025447
+S.E. of regression,0.024008,    Akaike info criterion,,-4.607664
+Sum squared resid,0.128535,    Schwarz criterion,,-4.562259
+Log likelihood,523.6660,    Hannan-Quinn criter.,,-4.589340
+F-statistic,14.88421,    Durbin-Watson stat,,1.961407
+Prob(F-statistic),0.000001,,,
+,,,,

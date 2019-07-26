@@ -1,0 +1,35 @@
+Null Hypothesis: RES_CAMEROON has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.698452, 0.0776
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_CAMEROON),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_CAMEROON(-1),-0.117528,0.043554,-2.698452,0.0081
+D(RES_CAMEROON(-1)),0.194047,0.095849,2.024508,0.0455
+C,0.000576,0.002610,0.220793,0.8257
+,,,,
+R-squared,0.083252,    Mean dependent var,,0.000870
+Adjusted R-squared,0.065451,    S.D. dependent var,,0.027745
+S.E. of regression,0.026822,    Akaike info criterion,,-4.371287
+Sum squared resid,0.074101,    Schwarz criterion,,-4.295907
+Log likelihood,234.6782,    Hannan-Quinn criter.,,-4.340735
+F-statistic,4.676833,    Durbin-Watson stat,,2.070805
+Prob(F-statistic),0.011373,,,
+,,,,

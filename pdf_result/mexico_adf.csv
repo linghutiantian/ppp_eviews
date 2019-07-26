@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_MEXICO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.637011, 0.4630
+Test critical values:,1% level,,-3.441056,
+,5% level,,-2.866155,
+,10% level,,-2.569286,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_MEXICO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1969M03 2018M12,,,,
+Included observations: 598 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_MEXICO(-1),-0.000231,0.000141,-1.637011,0.1022
+D(PDIFF_MEXICO(-1)),0.871942,0.019887,43.84397,0.0000
+C,0.000896,0.000573,1.562511,0.1187
+,,,,
+R-squared,0.772371,    Mean dependent var,,0.011940
+Adjusted R-squared,0.771606,    S.D. dependent var,,0.019732
+S.E. of regression,0.009430,    Akaike info criterion,,-6.484803
+Sum squared resid,0.052912,    Schwarz criterion,,-6.462761
+Log likelihood,1941.956,    Hannan-Quinn criter.,,-6.476221
+F-statistic,1009.452,    Durbin-Watson stat,,2.050081
+Prob(F-statistic),0.000000,,,
+,,,,

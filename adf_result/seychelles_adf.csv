@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SEYCHELLES has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-4.108836, 0.0013
+Test critical values:,1% level,,-3.476805,
+,5% level,,-2.881830,
+,10% level,,-2.577668,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SEYCHELLES),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2007M03 2018M12,,,,
+Included observations: 142 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SEYCHELLES(-1),-0.170068,0.041391,-4.108836,0.0001
+D(QT_SEYCHELLES(-1)),0.250147,0.080884,3.092656,0.0024
+C,0.450983,0.109558,4.116369,0.0001
+,,,,
+R-squared,0.135524,    Mean dependent var,,0.001289
+Adjusted R-squared,0.123086,    S.D. dependent var,,0.042017
+S.E. of regression,0.039347,    Akaike info criterion,,-3.611917
+Sum squared resid,0.215193,    Schwarz criterion,,-3.549470
+Log likelihood,259.4461,    Hannan-Quinn criter.,,-3.586541
+F-statistic,10.89555,    Durbin-Watson stat,,2.044231
+Prob(F-statistic),0.000040,,,
+,,,,

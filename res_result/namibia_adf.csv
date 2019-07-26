@@ -1,0 +1,35 @@
+Null Hypothesis: RES_NAMIBIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.123967, 0.2358
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_NAMIBIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_NAMIBIA(-1),-0.070410,0.033150,-2.123967,0.0361
+D(RES_NAMIBIA(-1)),0.231640,0.096170,2.408652,0.0178
+C,-0.001000,0.003117,-0.320931,0.7489
+,,,,
+R-squared,0.077933,    Mean dependent var,,-0.001323
+Adjusted R-squared,0.060029,    S.D. dependent var,,0.033077
+S.E. of regression,0.032068,    Akaike info criterion,,-4.013994
+Sum squared resid,0.105924,    Schwarz criterion,,-3.938614
+Log likelihood,215.7417,    Hannan-Quinn criter.,,-3.983442
+F-statistic,4.352786,    Durbin-Watson stat,,1.950225
+Prob(F-statistic),0.015320,,,
+,,,,

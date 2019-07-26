@@ -1,0 +1,35 @@
+Null Hypothesis: ST_MOROCCO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.027150, 0.7451
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_MOROCCO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_MOROCCO(-1),-0.002059,0.002004,-1.027150,0.3047
+D(ST_MOROCCO(-1)),0.298496,0.035994,8.292979,0.0000
+C,0.004634,0.003952,1.172459,0.2414
+,,,,
+R-squared,0.089876,    Mean dependent var,,0.000897
+Adjusted R-squared,0.087287,    S.D. dependent var,,0.018190
+S.E. of regression,0.017378,    Akaike info criterion,,-5.263033
+Sum squared resid,0.212292,    Schwarz criterion,,-5.243658
+Log likelihood,1860.851,    Hannan-Quinn criter.,,-5.255546
+F-statistic,34.71120,    Durbin-Watson stat,,1.983856
+Prob(F-statistic),0.000000,,,
+,,,,

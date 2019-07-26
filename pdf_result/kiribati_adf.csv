@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_KIRIBATI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.621011, 0.4687
+Test critical values:,1% level,,-3.486551,
+,5% level,,-2.886074,
+,10% level,,-2.579931,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_KIRIBATI),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2006M03 2015M12,,,,
+Included observations: 118 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_KIRIBATI(-1),-0.034389,0.021214,-1.621011,0.1078
+D(PDIFF_KIRIBATI(-1)),0.149007,0.091727,1.624468,0.1070
+C,0.005880,0.003673,1.600853,0.1122
+,,,,
+R-squared,0.040196,    Mean dependent var,,0.000411
+Adjusted R-squared,0.023504,    S.D. dependent var,,0.015018
+S.E. of regression,0.014840,    Akaike info criterion,,-5.557873
+Sum squared resid,0.025326,    Schwarz criterion,,-5.487432
+Log likelihood,330.9145,    Hannan-Quinn criter.,,-5.529272
+F-statistic,2.408051,    Durbin-Watson stat,,2.020787
+Prob(F-statistic),0.094515,,,
+,,,,

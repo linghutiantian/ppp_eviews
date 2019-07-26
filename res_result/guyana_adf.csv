@@ -1,0 +1,35 @@
+Null Hypothesis: RES_GUYANA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.772747, 0.8237
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_GUYANA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_GUYANA(-1),-0.017438,0.022566,-0.772747,0.4408
+D(RES_GUYANA(-1)),-0.038439,0.079580,-0.483015,0.6297
+C,8.86E-05,0.000138,0.640391,0.5228
+,,,,
+R-squared,0.006341,    Mean dependent var,,8.63E-05
+Adjusted R-squared,-0.005851,    S.D. dependent var,,0.001774
+S.E. of regression,0.001779,    Akaike info criterion,,-9.807758
+Sum squared resid,0.000516,    Schwarz criterion,,-9.751518
+Log likelihood,817.0439,    Hannan-Quinn criter.,,-9.784930
+F-statistic,0.520074,    Durbin-Watson stat,,2.016639
+Prob(F-statistic),0.595460,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_MONGOLIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.705996, 0.4262
+Test critical values:,1% level,,-3.473096,
+,5% level,,-2.880211,
+,10% level,,-2.576805,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_MONGOLIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2006M03 2018M12,,,,
+Included observations: 154 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_MONGOLIA(-1),-0.004541,0.002662,-1.705996,0.0901
+D(PDIFF_MONGOLIA(-1)),0.429359,0.072926,5.887570,0.0000
+C,0.003858,0.000927,4.159702,0.0001
+,,,,
+R-squared,0.216215,    Mean dependent var,,0.006107
+Adjusted R-squared,0.205834,    S.D. dependent var,,0.010709
+S.E. of regression,0.009543,    Akaike info criterion,,-6.446683
+Sum squared resid,0.013752,    Schwarz criterion,,-6.387521
+Log likelihood,499.3946,    Hannan-Quinn criter.,,-6.422652
+F-statistic,20.82749,    Durbin-Watson stat,,1.878367
+Prob(F-statistic),0.000000,,,
+,,,,

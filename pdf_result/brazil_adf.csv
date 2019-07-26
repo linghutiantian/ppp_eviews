@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_BRAZIL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.392752, 0.1443
+Test critical values:,1% level,,-3.444128,
+,5% level,,-2.867509,
+,10% level,,-2.570012,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_BRAZIL),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1980M02 2018M12,,,,
+Included observations: 467 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_BRAZIL(-1),-0.000407,0.000170,-2.392752,0.0171
+D(PDIFF_BRAZIL(-1)),0.926562,0.016837,55.03276,0.0000
+C,0.002784,0.001689,1.648272,0.1000
+,,,,
+R-squared,0.889091,    Mean dependent var,,0.055661
+Adjusted R-squared,0.888613,    S.D. dependent var,,0.093628
+S.E. of regression,0.031248,    Akaike info criterion,,-4.087326
+Sum squared resid,0.453064,    Schwarz criterion,,-4.060690
+Log likelihood,957.3907,    Hannan-Quinn criter.,,-4.076844
+F-statistic,1859.814,    Durbin-Watson stat,,1.697456
+Prob(F-statistic),0.000000,,,
+,,,,

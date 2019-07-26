@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_BRUNEI_DARUSSALAM has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.791923, 0.8171
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_BRUNEI_DARUSSALAM),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_BRUNEI_DARUSSALAM(-1),-0.009768,0.012335,-0.791923,0.4302
+D(PDIFF_BRUNEI_DARUSSALAM(-1)),-0.186813,0.096666,-1.932565,0.0560
+C,-0.002494,0.001075,-2.320335,0.0223
+,,,,
+R-squared,0.042232,    Mean dependent var,,-0.001481
+Adjusted R-squared,0.023635,    S.D. dependent var,,0.005603
+S.E. of regression,0.005536,    Akaike info criterion,,-7.527018
+Sum squared resid,0.003157,    Schwarz criterion,,-7.451638
+Log likelihood,401.9320,    Hannan-Quinn criter.,,-7.496466
+F-statistic,2.270865,    Durbin-Watson stat,,2.045457
+Prob(F-statistic),0.108368,,,
+,,,,

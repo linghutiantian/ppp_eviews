@@ -1,0 +1,35 @@
+Null Hypothesis: ST_URUGUAY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.338668, 0.0137
+Test critical values:,1% level,,-3.443388,
+,5% level,,-2.867183,
+,10% level,,-2.569837,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_URUGUAY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1977M12 2018M12,,,,
+Included observations: 493 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_URUGUAY(-1),-0.003285,0.000984,-3.338668,0.0009
+D(ST_URUGUAY(-1)),0.023143,0.045014,0.514127,0.6074
+C,0.019001,0.002996,6.342683,0.0000
+,,,,
+R-squared,0.024017,    Mean dependent var,,0.016384
+Adjusted R-squared,0.020034,    S.D. dependent var,,0.061228
+S.E. of regression,0.060612,    Akaike info criterion,,-2.762586
+Sum squared resid,1.800160,    Schwarz criterion,,-2.737025
+Log likelihood,683.9775,    Hannan-Quinn criter.,,-2.752550
+F-statistic,6.029053,    Durbin-Watson stat,,2.002748
+Prob(F-statistic),0.002590,,,
+,,,,

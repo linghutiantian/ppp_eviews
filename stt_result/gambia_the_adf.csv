@@ -1,0 +1,35 @@
+Null Hypothesis: ST_GAMBIA_THE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.432870, 0.9842
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_GAMBIA_THE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_GAMBIA_THE(-1),0.000484,0.001118,0.432870,0.6652
+D(ST_GAMBIA_THE(-1)),0.106655,0.037545,2.840766,0.0046
+C,0.003271,0.002510,1.302758,0.1931
+,,,,
+R-squared,0.011820,    Mean dependent var,,0.004698
+Adjusted R-squared,0.009009,    S.D. dependent var,,0.035170
+S.E. of regression,0.035011,    Akaike info criterion,,-3.862047
+Sum squared resid,0.861735,    Schwarz criterion,,-3.842672
+Log likelihood,1366.303,    Hannan-Quinn criter.,,-3.854561
+F-statistic,4.204592,    Durbin-Watson stat,,2.020209
+Prob(F-statistic),0.015304,,,
+,,,,

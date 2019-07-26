@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SINGAPORE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.588724, 0.4861
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SINGAPORE),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SINGAPORE(-1),-0.014574,0.009173,-1.588724,0.1141
+D(QT_SINGAPORE(-1)),0.200135,0.076284,2.623554,0.0095
+C,0.005714,0.004261,1.340903,0.1818
+,,,,
+R-squared,0.054605,    Mean dependent var,,-0.001045
+Adjusted R-squared,0.043005,    S.D. dependent var,,0.013796
+S.E. of regression,0.013496,    Akaike info criterion,,-5.754997
+Sum squared resid,0.029687,    Schwarz criterion,,-5.698757
+Log likelihood,480.6648,    Hannan-Quinn criter.,,-5.732169
+F-statistic,4.707359,    Durbin-Watson stat,,1.964488
+Prob(F-statistic),0.010292,,,
+,,,,

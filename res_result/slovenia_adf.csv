@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SLOVENIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.029269, 0.2742
+Test critical values:,1% level,,-3.466377,
+,5% level,,-2.877274,
+,10% level,,-2.575236,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SLOVENIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1992M01 2007M02,,,,
+Included observations: 182 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SLOVENIA(-1),-0.034463,0.016983,-2.029269,0.0439
+D(RES_SLOVENIA(-1)),0.280729,0.070486,3.982735,0.0001
+C,-0.000874,0.002022,-0.432351,0.6660
+,,,,
+R-squared,0.093399,    Mean dependent var,,-0.001347
+Adjusted R-squared,0.083269,    S.D. dependent var,,0.028437
+S.E. of regression,0.027227,    Akaike info criterion,,-4.352871
+Sum squared resid,0.132694,    Schwarz criterion,,-4.300058
+Log likelihood,399.1112,    Hannan-Quinn criter.,,-4.331461
+F-statistic,9.220395,    Durbin-Watson stat,,1.943396
+Prob(F-statistic),0.000154,,,
+,,,,

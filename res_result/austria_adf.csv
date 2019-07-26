@@ -1,0 +1,35 @@
+Null Hypothesis: RES_AUSTRIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.829846, 0.0546
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_AUSTRIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_AUSTRIA(-1),-0.014683,0.005189,-2.829846,0.0048
+D(RES_AUSTRIA(-1)),0.253063,0.036392,6.953857,0.0000
+C,-0.000302,0.000920,-0.328054,0.7430
+,,,,
+R-squared,0.071819,    Mean dependent var,,-0.000385
+Adjusted R-squared,0.069178,    S.D. dependent var,,0.025326
+S.E. of regression,0.024434,    Akaike info criterion,,-4.581424
+Sum squared resid,0.419713,    Schwarz criterion,,-4.562049
+Log likelihood,1620.243,    Hannan-Quinn criter.,,-4.573938
+F-statistic,27.19750,    Durbin-Watson stat,,1.970487
+Prob(F-statistic),0.000000,,,
+,,,,

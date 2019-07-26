@@ -1,0 +1,35 @@
+Null Hypothesis: QT_NICARAGUA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.567634, 0.4969
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_NICARAGUA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_NICARAGUA(-1),-0.015348,0.009791,-1.567634,0.1189
+D(QT_NICARAGUA(-1)),0.417419,0.071072,5.873214,0.0000
+C,0.042380,0.027075,1.565319,0.1194
+,,,,
+R-squared,0.181317,    Mean dependent var,,-8.44E-05
+Adjusted R-squared,0.171272,    S.D. dependent var,,0.006419
+S.E. of regression,0.005844,    Akaike info criterion,,-7.428996
+Sum squared resid,0.005566,    Schwarz criterion,,-7.372755
+Log likelihood,619.6067,    Hannan-Quinn criter.,,-7.406167
+F-statistic,18.05013,    Durbin-Watson stat,,1.981441
+Prob(F-statistic),0.000000,,,
+,,,,

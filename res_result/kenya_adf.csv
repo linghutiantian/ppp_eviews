@@ -1,0 +1,35 @@
+Null Hypothesis: RES_KENYA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.378429, 0.0137
+Test critical values:,1% level,,-3.487046,
+,5% level,,-2.886290,
+,10% level,,-2.580046,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_KENYA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2009M04 2018M12,,,,
+Included observations: 117 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_KENYA(-1),-0.121019,0.035821,-3.378429,0.0010
+D(RES_KENYA(-1)),0.381479,0.086313,4.419709,0.0000
+C,-0.000317,0.001433,-0.221332,0.8252
+,,,,
+R-squared,0.185585,    Mean dependent var,,-0.000424
+Adjusted R-squared,0.171297,    S.D. dependent var,,0.017027
+S.E. of regression,0.015500,    Akaike info criterion,,-5.470628
+Sum squared resid,0.027389,    Schwarz criterion,,-5.399803
+Log likelihood,323.0317,    Hannan-Quinn criter.,,-5.441874
+F-statistic,12.98886,    Durbin-Watson stat,,1.961852
+Prob(F-statistic),0.000008,,,
+,,,,

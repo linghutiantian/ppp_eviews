@@ -1,5 +1,10 @@
 import csv
 import re
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import matplotlib.cbook as cbook
+
 
 exception = ["Moldova", "Guadeloupe", "Zimbabwe"]
 
@@ -97,7 +102,7 @@ filter_country_final = []
 for country in filter_country:
   er_idx = set(er_dict[country].keys())
   cpi_idx = set(cpi_dict[country].keys())
-  if len(er_idx & cpi_idx) < 10:
+  if len(er_idx & cpi_idx) < 12:
     print("no intersection:", country)
   else:
     filter_country_final.append(country)
@@ -298,3 +303,6 @@ for row in row_to_month.keys():
   line = [row_to_month[row], data_count[row]]
   month_count_writer.writerow(line)
 month_count_out.close()
+
+# plot real exchange rate
+

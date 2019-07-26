@@ -1,0 +1,35 @@
+Null Hypothesis: RES_UGANDA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.883070, 0.3391
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_UGANDA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_UGANDA(-1),-0.051747,0.027480,-1.883070,0.0625
+D(RES_UGANDA(-1)),0.273074,0.094564,2.887702,0.0047
+C,0.000495,0.002276,0.217332,0.8284
+,,,,
+R-squared,0.092346,    Mean dependent var,,0.000811
+Adjusted R-squared,0.074721,    S.D. dependent var,,0.024331
+S.E. of regression,0.023404,    Akaike info criterion,,-4.643893
+Sum squared resid,0.056420,    Schwarz criterion,,-4.568512
+Log likelihood,249.1263,    Hannan-Quinn criter.,,-4.613341
+F-statistic,5.239666,    Durbin-Watson stat,,2.080717
+Prob(F-statistic),0.006806,,,
+,,,,

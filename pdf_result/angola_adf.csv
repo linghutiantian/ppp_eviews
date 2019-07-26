@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_ANGOLA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.205537, 0.2050
+Test critical values:,1% level,,-3.462737,
+,5% level,,-2.875680,
+,10% level,,-2.574385,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_ANGOLA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2002M03 2018M12,,,,
+Included observations: 202 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_ANGOLA(-1),-0.002246,0.001018,-2.205537,0.0286
+D(PDIFF_ANGOLA(-1)),0.789887,0.042044,18.78698,0.0000
+C,0.001995,0.000824,2.422162,0.0163
+,,,,
+R-squared,0.730369,    Mean dependent var,,0.015337
+Adjusted R-squared,0.727660,    S.D. dependent var,,0.015816
+S.E. of regression,0.008254,    Akaike info criterion,,-6.741596
+Sum squared resid,0.013556,    Schwarz criterion,,-6.692464
+Log likelihood,683.9012,    Hannan-Quinn criter.,,-6.721717
+F-statistic,269.5234,    Durbin-Watson stat,,2.365124
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_LATVIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-8.633678, 0.0000
+Test critical values:,1% level,,-3.455289,
+,5% level,,-2.872413,
+,10% level,,-2.572638,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_LATVIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1992M04 2013M12,,,,
+Included observations: 261 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_LATVIA(-1),-0.039695,0.004598,-8.633678,0.0000
+D(QT_LATVIA(-1)),-0.083974,0.050589,-1.659928,0.0981
+C,-0.017185,0.002131,-8.063746,0.0000
+,,,,
+R-squared,0.243808,    Mean dependent var,,-0.008626
+Adjusted R-squared,0.237946,    S.D. dependent var,,0.032287
+S.E. of regression,0.028185,    Akaike info criterion,,-4.288640
+Sum squared resid,0.204951,    Schwarz criterion,,-4.247669
+Log likelihood,562.6675,    Hannan-Quinn criter.,,-4.272171
+F-statistic,41.59154,    Durbin-Watson stat,,1.503773
+Prob(F-statistic),0.000000,,,
+,,,,

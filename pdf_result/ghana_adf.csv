@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_GHANA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.451004, 0.9842
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_GHANA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_GHANA(-1),0.001618,0.003587,0.451004,0.6529
+D(PDIFF_GHANA(-1)),0.220053,0.096230,2.286750,0.0243
+C,0.005976,0.001455,4.107027,0.0001
+,,,,
+R-squared,0.051894,    Mean dependent var,,0.008107
+Adjusted R-squared,0.033484,    S.D. dependent var,,0.010562
+S.E. of regression,0.010383,    Akaike info criterion,,-6.269355
+Sum squared resid,0.011105,    Schwarz criterion,,-6.193975
+Log likelihood,335.2758,    Hannan-Quinn criter.,,-6.238803
+F-statistic,2.818800,    Durbin-Watson stat,,1.929563
+Prob(F-statistic),0.064289,,,
+,,,,

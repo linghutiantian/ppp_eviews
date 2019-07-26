@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_IRAQ has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.832965, 0.8001
+Test critical values:,1% level,,-3.581152,
+,5% level,,-2.926622,
+,10% level,,-2.601424,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_IRAQ),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2015M03 2018M12,,,,
+Included observations: 46 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_IRAQ(-1),-0.038814,0.046597,-0.832965,0.4095
+D(PDIFF_IRAQ(-1)),0.127142,0.151886,0.837090,0.4072
+C,-0.003532,0.003280,-1.076581,0.2877
+,,,,
+R-squared,0.026857,    Mean dependent var,,-0.001020
+Adjusted R-squared,-0.018405,    S.D. dependent var,,0.005987
+S.E. of regression,0.006042,    Akaike info criterion,,-7.317261
+Sum squared resid,0.001570,    Schwarz criterion,,-7.198002
+Log likelihood,171.2970,    Hannan-Quinn criter.,,-7.272586
+F-statistic,0.593365,    Durbin-Watson stat,,1.940537
+Prob(F-statistic),0.556925,,,
+,,,,

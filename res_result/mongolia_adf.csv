@@ -1,0 +1,35 @@
+Null Hypothesis: RES_MONGOLIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.522970, 0.5195
+Test critical values:,1% level,,-3.473096,
+,5% level,,-2.880211,
+,10% level,,-2.576805,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_MONGOLIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2006M03 2018M12,,,,
+Included observations: 154 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_MONGOLIA(-1),-0.021282,0.013974,-1.522970,0.1299
+D(RES_MONGOLIA(-1)),0.370705,0.075704,4.896751,0.0000
+C,0.000123,0.001790,0.068899,0.9452
+,,,,
+R-squared,0.142646,    Mean dependent var,,0.000184
+Adjusted R-squared,0.131290,    S.D. dependent var,,0.023824
+S.E. of regression,0.022205,    Akaike info criterion,,-4.757739
+Sum squared resid,0.074450,    Schwarz criterion,,-4.698577
+Log likelihood,369.3459,    Hannan-Quinn criter.,,-4.733708
+F-statistic,12.56165,    Durbin-Watson stat,,1.993424
+Prob(F-statistic),0.000009,,,
+,,,,

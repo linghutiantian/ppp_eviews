@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_ISRAEL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.186383, 0.0213
+Test critical values:,1% level,,-3.441280,
+,5% level,,-2.866254,
+,10% level,,-2.569339,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_ISRAEL),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1970M03 2018M12,,,,
+Included observations: 586 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_ISRAEL(-1),-0.000794,0.000249,-3.186383,0.0015
+D(PDIFF_ISRAEL(-1)),0.767927,0.026258,29.24573,0.0000
+C,0.001710,0.001042,1.640342,0.1015
+,,,,
+R-squared,0.636556,    Mean dependent var,,0.015898
+Adjusted R-squared,0.635309,    S.D. dependent var,,0.033207
+S.E. of regression,0.020054,    Akaike info criterion,,-4.975707
+Sum squared resid,0.234452,    Schwarz criterion,,-4.953318
+Log likelihood,1460.882,    Hannan-Quinn criter.,,-4.966982
+F-statistic,510.5485,    Durbin-Watson stat,,2.265683
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: ST_AZERBAIJAN_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.063993, 0.9625
+Test critical values:,1% level,,-3.452991,
+,5% level,,-2.871402,
+,10% level,,-2.572097,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_AZERBAIJAN_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1995M02 2018M12,,,,
+Included observations: 287 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_AZERBAIJAN_REPUBLIC_OF(-1),0.000367,0.005731,0.063993,0.9490
+D(ST_AZERBAIJAN_REPUBLIC_OF(-1)),0.347677,0.054037,6.434078,0.0000
+C,0.001465,0.001394,1.050673,0.2943
+,,,,
+R-squared,0.130066,    Mean dependent var,,0.002415
+Adjusted R-squared,0.123940,    S.D. dependent var,,0.023961
+S.E. of regression,0.022427,    Akaike info criterion,,-4.746719
+Sum squared resid,0.142841,    Schwarz criterion,,-4.708467
+Log likelihood,684.1542,    Hannan-Quinn criter.,,-4.731388
+F-statistic,21.23085,    Durbin-Watson stat,,1.898094
+Prob(F-statistic),0.000000,,,
+,,,,

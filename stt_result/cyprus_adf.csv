@@ -1,0 +1,35 @@
+Null Hypothesis: ST_CYPRUS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.847101, 0.3576
+Test critical values:,1% level,,-3.441513,
+,5% level,,-2.866356,
+,10% level,,-2.569395,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_CYPRUS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2007M12,,,,
+Included observations: 574 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_CYPRUS(-1),-0.008680,0.004699,-1.847101,0.0652
+D(ST_CYPRUS(-1)),0.205108,0.040919,5.012484,0.0000
+C,-0.006927,0.003917,-1.768475,0.0775
+,,,,
+R-squared,0.046250,    Mean dependent var,,0.000184
+Adjusted R-squared,0.042910,    S.D. dependent var,,0.020146
+S.E. of regression,0.019709,    Akaike info criterion,,-5.010297
+Sum squared resid,0.221796,    Schwarz criterion,,-4.987548
+Log likelihood,1440.955,    Hannan-Quinn criter.,,-5.001424
+F-statistic,13.84476,    Durbin-Watson stat,,1.993595
+Prob(F-statistic),0.000001,,,
+,,,,

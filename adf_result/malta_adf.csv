@@ -1,0 +1,35 @@
+Null Hypothesis: QT_MALTA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.014595, 0.9507
+Test critical values:,1% level,,-3.639407,
+,5% level,,-2.951125,
+,10% level,,-2.614300,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_MALTA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2007M12,,,,
+Included observations: 34 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_MALTA(-1),-0.001213,0.083137,-0.014595,0.9884
+D(QT_MALTA(-1)),0.073394,0.200730,0.365636,0.7171
+C,-0.004280,0.081407,-0.052570,0.9584
+,,,,
+R-squared,0.005202,    Mean dependent var,,-0.003332
+Adjusted R-squared,-0.058978,    S.D. dependent var,,0.021959
+S.E. of regression,0.022597,    Akaike info criterion,,-4.657859
+Sum squared resid,0.015830,    Schwarz criterion,,-4.523180
+Log likelihood,82.18361,    Hannan-Quinn criter.,,-4.611930
+F-statistic,0.081057,    Durbin-Watson stat,,2.002822
+Prob(F-statistic),0.922336,,,
+,,,,

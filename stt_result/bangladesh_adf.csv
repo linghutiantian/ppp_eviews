@@ -1,0 +1,35 @@
+Null Hypothesis: ST_BANGLADESH has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.699364, 0.0747
+Test critical values:,1% level,,-3.441736,
+,5% level,,-2.866455,
+,10% level,,-2.569447,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_BANGLADESH),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1972M02 2018M12,,,,
+Included observations: 563 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_BANGLADESH(-1),-0.003988,0.001478,-2.699364,0.0072
+D(ST_BANGLADESH(-1)),0.078273,0.041931,1.866730,0.0625
+C,0.018334,0.005435,3.373339,0.0008
+,,,,
+R-squared,0.020387,    Mean dependent var,,0.004294
+Adjusted R-squared,0.016888,    S.D. dependent var,,0.023924
+S.E. of regression,0.023721,    Akaike info criterion,,-4.639595
+Sum squared resid,0.315105,    Schwarz criterion,,-4.616505
+Log likelihood,1309.046,    Hannan-Quinn criter.,,-4.630581
+F-statistic,5.827043,    Durbin-Watson stat,,2.004087
+Prob(F-statistic),0.003128,,,
+,,,,

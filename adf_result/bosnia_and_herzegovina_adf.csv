@@ -1,0 +1,35 @@
+Null Hypothesis: QT_BOSNIA_AND_HERZEGOVINA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.473902, 0.5443
+Test critical values:,1% level,,-3.472534,
+,5% level,,-2.879966,
+,10% level,,-2.576674,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_BOSNIA_AND_HERZEGOVINA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M02,,,,
+Included observations: 156 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_BOSNIA_AND_HERZEGOVINA(-1),-0.023312,0.015817,-1.473902,0.1426
+D(QT_BOSNIA_AND_HERZEGOVINA(-1)),0.223004,0.079220,2.814984,0.0055
+C,0.010924,0.007359,1.484491,0.1397
+,,,,
+R-squared,0.057122,    Mean dependent var,,0.000600
+Adjusted R-squared,0.044797,    S.D. dependent var,,0.023529
+S.E. of regression,0.022996,    Akaike info criterion,,-4.687972
+Sum squared resid,0.080907,    Schwarz criterion,,-4.629321
+Log likelihood,368.6618,    Hannan-Quinn criter.,,-4.664151
+F-statistic,4.634592,    Durbin-Watson stat,,1.999198
+Prob(F-statistic),0.011113,,,
+,,,,

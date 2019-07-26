@@ -1,0 +1,35 @@
+Null Hypothesis: RES_JAMAICA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.909797, 0.3274
+Test critical values:,1% level,,-3.462737,
+,5% level,,-2.875680,
+,10% level,,-2.574385,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_JAMAICA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2002M03 2018M12,,,,
+Included observations: 202 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_JAMAICA(-1),-0.028524,0.014936,-1.909797,0.0576
+D(RES_JAMAICA(-1)),0.255836,0.068770,3.720149,0.0003
+C,0.000393,0.000999,0.393426,0.6944
+,,,,
+R-squared,0.074973,    Mean dependent var,,0.000512
+Adjusted R-squared,0.065676,    S.D. dependent var,,0.014681
+S.E. of regression,0.014190,    Akaike info criterion,,-5.657774
+Sum squared resid,0.040072,    Schwarz criterion,,-5.608641
+Log likelihood,574.4352,    Hannan-Quinn criter.,,-5.637895
+F-statistic,8.064403,    Durbin-Watson stat,,2.065595
+Prob(F-statistic),0.000429,,,
+,,,,

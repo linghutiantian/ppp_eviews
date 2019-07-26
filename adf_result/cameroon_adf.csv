@@ -1,0 +1,35 @@
+Null Hypothesis: QT_CAMEROON has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.642592, 0.4574
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_CAMEROON),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_CAMEROON(-1),-0.040993,0.024956,-1.642592,0.1035
+D(QT_CAMEROON(-1)),0.215606,0.094026,2.293034,0.0239
+C,0.259027,0.157016,1.649683,0.1021
+,,,,
+R-squared,0.065560,    Mean dependent var,,0.001537
+Adjusted R-squared,0.047416,    S.D. dependent var,,0.020829
+S.E. of regression,0.020329,    Akaike info criterion,,-4.925606
+Sum squared resid,0.042568,    Schwarz criterion,,-4.850226
+Log likelihood,264.0571,    Hannan-Quinn criter.,,-4.895054
+F-statistic,3.613239,    Durbin-Watson stat,,2.018104
+Prob(F-statistic),0.030436,,,
+,,,,

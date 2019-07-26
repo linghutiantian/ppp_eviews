@@ -1,0 +1,35 @@
+Null Hypothesis: RES_FIJI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.860991, 0.0528
+Test critical values:,1% level,,-3.481217,
+,5% level,,-2.883753,
+,10% level,,-2.578694,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_FIJI),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2008M03 2018M12,,,,
+Included observations: 130 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_FIJI(-1),-0.071996,0.025165,-2.860991,0.0049
+D(RES_FIJI(-1)),0.307250,0.082869,3.707651,0.0003
+C,0.000869,0.001680,0.517213,0.6059
+,,,,
+R-squared,0.134749,    Mean dependent var,,0.001130
+Adjusted R-squared,0.121123,    S.D. dependent var,,0.020402
+S.E. of regression,0.019126,    Akaike info criterion,,-5.052703
+Sum squared resid,0.046458,    Schwarz criterion,,-4.986529
+Log likelihood,331.4257,    Hannan-Quinn criter.,,-5.025814
+F-statistic,9.889087,    Durbin-Watson stat,,2.073347
+Prob(F-statistic),0.000102,,,
+,,,,

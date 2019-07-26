@@ -1,0 +1,35 @@
+Null Hypothesis: QT_ROMANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.743413, 0.4080
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_ROMANIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_ROMANIA(-1),-0.013336,0.007650,-1.743413,0.0826
+D(QT_ROMANIA(-1)),0.278961,0.063913,4.364673,0.0000
+C,0.018247,0.011111,1.642292,0.1019
+,,,,
+R-squared,0.089426,    Mean dependent var,,-0.001258
+Adjusted R-squared,0.081259,    S.D. dependent var,,0.025257
+S.E. of regression,0.024209,    Akaike info criterion,,-4.590969
+Sum squared resid,0.130699,    Schwarz criterion,,-4.545563
+Log likelihood,521.7794,    Hannan-Quinn criter.,,-4.572645
+F-statistic,10.95024,    Durbin-Watson stat,,1.954236
+Prob(F-statistic),0.000029,,,
+,,,,

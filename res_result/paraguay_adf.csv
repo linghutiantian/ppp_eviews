@@ -1,0 +1,35 @@
+Null Hypothesis: RES_PARAGUAY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.830073, 0.3649
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_PARAGUAY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_PARAGUAY(-1),-0.027758,0.015168,-1.830073,0.0691
+D(RES_PARAGUAY(-1)),0.303521,0.074563,4.070670,0.0001
+C,-0.000130,0.001934,-0.067311,0.9464
+,,,,
+R-squared,0.102547,    Mean dependent var,,-7.77E-05
+Adjusted R-squared,0.091536,    S.D. dependent var,,0.026134
+S.E. of regression,0.024909,    Akaike info criterion,,-4.529237
+Sum squared resid,0.101138,    Schwarz criterion,,-4.472996
+Log likelihood,378.9267,    Hannan-Quinn criter.,,-4.506408
+F-statistic,9.312591,    Durbin-Watson stat,,2.014930
+Prob(F-statistic),0.000148,,,
+,,,,

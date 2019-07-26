@@ -1,0 +1,35 @@
+Null Hypothesis: RES_MAURITANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.531628, 0.1109
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_MAURITANIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_MAURITANIA(-1),-0.065631,0.025924,-2.531628,0.0129
+D(RES_MAURITANIA(-1)),0.479235,0.087063,5.504476,0.0000
+C,0.000128,0.001040,0.122625,0.9026
+,,,,
+R-squared,0.242587,    Mean dependent var,,0.000303
+Adjusted R-squared,0.227880,    S.D. dependent var,,0.012184
+S.E. of regression,0.010706,    Akaike info criterion,,-6.208146
+Sum squared resid,0.011806,    Schwarz criterion,,-6.132766
+Log likelihood,332.0318,    Hannan-Quinn criter.,,-6.177594
+F-statistic,16.49460,    Durbin-Watson stat,,1.956378
+Prob(F-statistic),0.000001,,,
+,,,,

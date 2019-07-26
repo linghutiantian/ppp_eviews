@@ -1,0 +1,35 @@
+Null Hypothesis: QT_ST_VINCENT_AND_THE_GRENADINES has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.569938, 0.4962
+Test critical values:,1% level,,-3.461030,
+,5% level,,-2.874932,
+,10% level,,-2.573985,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_ST_VINCENT_AND_THE_GRENADINES),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2001M03 2018M11,,,,
+Included observations: 213 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_ST_VINCENT_AND_THE_GRENADINES(-1),-0.019849,0.012643,-1.569938,0.1179
+D(QT_ST_VINCENT_AND_THE_GRENADINES(-1)),0.092728,0.068309,1.357473,0.1761
+C,0.020324,0.013034,1.559287,0.1204
+,,,,
+R-squared,0.018492,    Mean dependent var,,-0.000128
+Adjusted R-squared,0.009144,    S.D. dependent var,,0.007676
+S.E. of regression,0.007641,    Akaike info criterion,,-6.896540
+Sum squared resid,0.012261,    Schwarz criterion,,-6.849198
+Log likelihood,737.4815,    Hannan-Quinn criter.,,-6.877408
+F-statistic,1.978255,    Durbin-Watson stat,,1.974902
+Prob(F-statistic),0.140880,,,
+,,,,

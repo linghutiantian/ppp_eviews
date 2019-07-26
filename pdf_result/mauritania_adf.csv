@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_MAURITANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.571166, 0.4937
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_MAURITANIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_MAURITANIA(-1),-0.014073,0.008957,-1.571166,0.1192
+D(PDIFF_MAURITANIA(-1)),0.535027,0.081671,6.551047,0.0000
+C,-0.000902,0.001110,-0.812772,0.4182
+,,,,
+R-squared,0.317023,    Mean dependent var,,0.001545
+Adjusted R-squared,0.303761,    S.D. dependent var,,0.005306
+S.E. of regression,0.004427,    Akaike info criterion,,-7.974080
+Sum squared resid,0.002019,    Schwarz criterion,,-7.898700
+Log likelihood,425.6263,    Hannan-Quinn criter.,,-7.943528
+F-statistic,23.90515,    Durbin-Watson stat,,1.863431
+Prob(F-statistic),0.000000,,,
+,,,,

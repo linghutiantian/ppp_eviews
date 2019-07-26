@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_AUSTRIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.368276, 0.9118
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_AUSTRIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_AUSTRIA(-1),-0.000513,0.001393,-0.368276,0.7128
+D(PDIFF_AUSTRIA(-1)),0.172990,0.037177,4.653182,0.0000
+C,-0.000256,0.000228,-1.124293,0.2613
+,,,,
+R-squared,0.029950,    Mean dependent var,,-0.000354
+Adjusted R-squared,0.027190,    S.D. dependent var,,0.005559
+S.E. of regression,0.005483,    Akaike info criterion,,-7.569983
+Sum squared resid,0.021137,    Schwarz criterion,,-7.550608
+Log likelihood,2675.204,    Hannan-Quinn criter.,,-7.562496
+F-statistic,10.85249,    Durbin-Watson stat,,1.974632
+Prob(F-statistic),0.000023,,,
+,,,,

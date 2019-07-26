@@ -1,0 +1,35 @@
+Null Hypothesis: ST_ST_KITTS_AND_NEVIS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.011969, 0.2818
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_ST_KITTS_AND_NEVIS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_ST_KITTS_AND_NEVIS(-1),-0.003585,0.001782,-2.011969,0.0446
+D(ST_ST_KITTS_AND_NEVIS(-1)),0.239100,0.036514,6.548247,0.0000
+C,0.003688,0.001618,2.278539,0.0230
+,,,,
+R-squared,0.063691,    Mean dependent var,,0.000647
+Adjusted R-squared,0.061028,    S.D. dependent var,,0.008407
+S.E. of regression,0.008147,    Akaike info criterion,,-6.778118
+Sum squared resid,0.046660,    Schwarz criterion,,-6.758743
+Log likelihood,2395.676,    Hannan-Quinn criter.,,-6.770632
+F-statistic,23.91042,    Durbin-Watson stat,,2.015861
+Prob(F-statistic),0.000000,,,
+,,,,

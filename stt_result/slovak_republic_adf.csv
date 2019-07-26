@@ -1,0 +1,35 @@
+Null Hypothesis: ST_SLOVAK_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.413497, 0.9031
+Test critical values:,1% level,,-3.464827,
+,5% level,,-2.876595,
+,10% level,,-2.574874,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_SLOVAK_REPUBLIC),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1993M03 2008M12,,,,
+Included observations: 190 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_SLOVAK_REPUBLIC(-1),-0.003439,0.008318,-0.413497,0.6797
+D(ST_SLOVAK_REPUBLIC(-1)),0.316299,0.070572,4.481939,0.0000
+C,0.011085,0.029296,0.378359,0.7056
+,,,,
+R-squared,0.097013,    Mean dependent var,,-0.001324
+Adjusted R-squared,0.087356,    S.D. dependent var,,0.025927
+S.E. of regression,0.024768,    Akaike info criterion,,-4.542836
+Sum squared resid,0.114719,    Schwarz criterion,,-4.491567
+Log likelihood,434.5694,    Hannan-Quinn criter.,,-4.522068
+F-statistic,10.04526,    Durbin-Watson stat,,1.883093
+Prob(F-statistic),0.000072,,,
+,,,,

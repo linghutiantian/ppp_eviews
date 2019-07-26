@@ -1,0 +1,35 @@
+Null Hypothesis: ST_ALBANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-4.196872, 0.0008
+Test critical values:,1% level,,-3.450474,
+,5% level,,-2.870302,
+,10% level,,-2.571508,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_ALBANIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1992M03 2018M12,,,,
+Included observations: 322 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_ALBANIA(-1),-0.061717,0.014706,-4.196872,0.0000
+D(ST_ALBANIA(-1)),0.021838,0.054554,0.400298,0.6892
+C,0.292578,0.069208,4.227507,0.0000
+,,,,
+R-squared,0.052467,    Mean dependent var,,0.002404
+Adjusted R-squared,0.046527,    S.D. dependent var,,0.053121
+S.E. of regression,0.051871,    Akaike info criterion,,-3.070842
+Sum squared resid,0.858301,    Schwarz criterion,,-3.035675
+Log likelihood,497.4055,    Hannan-Quinn criter.,,-3.056802
+F-statistic,8.831938,    Durbin-Watson stat,,2.001676
+Prob(F-statistic),0.000185,,,
+,,,,

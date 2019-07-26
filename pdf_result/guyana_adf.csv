@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_GUYANA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.037001, 0.0336
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_GUYANA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_GUYANA(-1),-0.027602,0.009088,-3.037001,0.0028
+D(PDIFF_GUYANA(-1)),-0.000730,0.075275,-0.009694,0.9923
+C,0.000973,0.000677,1.436835,0.1527
+,,,,
+R-squared,0.053827,    Mean dependent var,,0.001334
+Adjusted R-squared,0.042217,    S.D. dependent var,,0.008714
+S.E. of regression,0.008528,    Akaike info criterion,,-6.673098
+Sum squared resid,0.011854,    Schwarz criterion,,-6.616857
+Log likelihood,556.8671,    Hannan-Quinn criter.,,-6.650269
+F-statistic,4.636437,    Durbin-Watson stat,,2.037659
+Prob(F-statistic),0.011006,,,
+,,,,

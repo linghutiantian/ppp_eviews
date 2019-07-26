@@ -1,0 +1,35 @@
+Null Hypothesis: ST_BOLIVIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-8.812802, 0.0000
+Test critical values:,1% level,,-3.446083,
+,5% level,,-2.868370,
+,10% level,,-2.570474,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_BOLIVIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1984M11 2018M12,,,,
+Included observations: 410 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_BOLIVIA(-1),-0.065825,0.007469,-8.812802,0.0000
+D(ST_BOLIVIA(-1)),-0.049797,0.046715,-1.065994,0.2871
+C,0.117622,0.013522,8.698363,0.0000
+,,,,
+R-squared,0.162201,    Mean dependent var,,0.015947
+Adjusted R-squared,0.158084,    S.D. dependent var,,0.151609
+S.E. of regression,0.139111,    Akaike info criterion,,-1.099804
+Sum squared resid,7.876173,    Schwarz criterion,,-1.070417
+Log likelihood,228.4598,    Hannan-Quinn criter.,,-1.088178
+F-statistic,39.39824,    Durbin-Watson stat,,2.030638
+Prob(F-statistic),0.000000,,,
+,,,,

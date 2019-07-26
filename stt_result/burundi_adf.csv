@@ -1,0 +1,35 @@
+Null Hypothesis: ST_BURUNDI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.315377, 0.9790
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_BURUNDI),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_BURUNDI(-1),0.000284,0.000901,0.315377,0.7526
+D(ST_BURUNDI(-1)),0.103939,0.037537,2.768960,0.0058
+C,0.002988,0.005077,0.588440,0.5564
+,,,,
+R-squared,0.011044,    Mean dependent var,,0.005080
+Adjusted R-squared,0.008230,    S.D. dependent var,,0.029252
+S.E. of regression,0.029132,    Akaike info criterion,,-4.229747
+Sum squared resid,0.596601,    Schwarz criterion,,-4.210372
+Log likelihood,1496.101,    Hannan-Quinn criter.,,-4.222260
+F-statistic,3.925142,    Durbin-Watson stat,,1.996679
+Prob(F-statistic),0.020173,,,
+,,,,

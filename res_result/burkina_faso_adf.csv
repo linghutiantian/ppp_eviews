@@ -1,0 +1,35 @@
+Null Hypothesis: RES_BURKINA_FASO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.496213, 0.1193
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_BURKINA_FASO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_BURKINA_FASO(-1),-0.078523,0.031457,-2.496213,0.0141
+D(RES_BURKINA_FASO(-1)),0.331640,0.091183,3.637084,0.0004
+C,0.000389,0.002521,0.154345,0.8776
+,,,,
+R-squared,0.142977,    Mean dependent var,,0.000640
+Adjusted R-squared,0.126336,    S.D. dependent var,,0.027751
+S.E. of regression,0.025939,    Akaike info criterion,,-4.438235
+Sum squared resid,0.069302,    Schwarz criterion,,-4.362854
+Log likelihood,238.2264,    Hannan-Quinn criter.,,-4.407683
+F-statistic,8.591760,    Durbin-Watson stat,,1.883115
+Prob(F-statistic),0.000354,,,
+,,,,

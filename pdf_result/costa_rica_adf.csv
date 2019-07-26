@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_COSTA_RICA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.558275, 0.0074
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_COSTA_RICA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_COSTA_RICA(-1),-0.004872,0.001369,-3.558275,0.0005
+D(PDIFF_COSTA_RICA(-1)),0.368787,0.061770,5.970373,0.0000
+C,0.000579,0.000613,0.944418,0.3460
+,,,,
+R-squared,0.237575,    Mean dependent var,,0.003807
+Adjusted R-squared,0.230737,    S.D. dependent var,,0.006337
+S.E. of regression,0.005558,    Akaike info criterion,,-7.533812
+Sum squared resid,0.006890,    Schwarz criterion,,-7.488407
+Log likelihood,854.3208,    Hannan-Quinn criter.,,-7.515488
+F-statistic,34.74396,    Durbin-Watson stat,,1.863961
+Prob(F-statistic),0.000000,,,
+,,,,

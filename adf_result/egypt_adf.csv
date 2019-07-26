@@ -1,0 +1,35 @@
+Null Hypothesis: QT_EGYPT has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.819643, 0.3692
+Test critical values:,1% level,,-3.493747,
+,5% level,,-2.889200,
+,10% level,,-2.581596,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_EGYPT),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M11,,,,
+Included observations: 105 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_EGYPT(-1),-0.054801,0.030117,-1.819643,0.0717
+D(QT_EGYPT(-1)),0.210684,0.097216,2.167178,0.0325
+C,0.097703,0.052942,1.845476,0.0679
+,,,,
+R-squared,0.063169,    Mean dependent var,,0.002291
+Adjusted R-squared,0.044800,    S.D. dependent var,,0.056973
+S.E. of regression,0.055682,    Akaike info criterion,,-2.910168
+Sum squared resid,0.316248,    Schwarz criterion,,-2.834341
+Log likelihood,155.7838,    Hannan-Quinn criter.,,-2.879441
+F-statistic,3.438875,    Durbin-Watson stat,,1.952515
+Prob(F-statistic),0.035868,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: RES_CENTRAL_AFRICAN_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.844634, 0.0572
+Test critical values:,1% level,,-3.524233,
+,5% level,,-2.902358,
+,10% level,,-2.588587,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_CENTRAL_AFRICAN_REPUBLIC),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2016M02,,,,
+Included observations: 72 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_CENTRAL_AFRICAN_REPUBLIC(-1),-0.174585,0.061373,-2.844634,0.0058
+D(RES_CENTRAL_AFRICAN_REPUBLIC(-1)),0.271694,0.113282,2.398386,0.0192
+C,-0.000228,0.002582,-0.088196,0.9300
+,,,,
+R-squared,0.139489,    Mean dependent var,,-0.000240
+Adjusted R-squared,0.114547,    S.D. dependent var,,0.023261
+S.E. of regression,0.021888,    Akaike info criterion,,-4.764939
+Sum squared resid,0.033058,    Schwarz criterion,,-4.670078
+Log likelihood,174.5378,    Hannan-Quinn criter.,,-4.727174
+F-statistic,5.592479,    Durbin-Watson stat,,1.992638
+Prob(F-statistic),0.005612,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_UGANDA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.733545, 0.4116
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_UGANDA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_UGANDA(-1),-0.040997,0.023649,-1.733545,0.0860
+D(QT_UGANDA(-1)),0.301017,0.093381,3.223530,0.0017
+C,0.316976,0.182066,1.740996,0.0847
+,,,,
+R-squared,0.106313,    Mean dependent var,,0.002052
+Adjusted R-squared,0.088960,    S.D. dependent var,,0.023395
+S.E. of regression,0.022331,    Akaike info criterion,,-4.737825
+Sum squared resid,0.051362,    Schwarz criterion,,-4.662444
+Log likelihood,254.1047,    Hannan-Quinn criter.,,-4.707273
+F-statistic,6.126425,    Durbin-Watson stat,,2.059357
+Prob(F-statistic),0.003062,,,
+,,,,

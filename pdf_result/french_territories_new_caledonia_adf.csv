@@ -1,0 +1,36 @@
+Null Hypothesis: PDIFF_FRENCH_TERRITORIES_NEW_CALEDONIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.386321, 0.1487
+Test critical values:,1% level,,-3.511262,
+,5% level,,-2.896779,
+,10% level,,-2.585626,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_FRENCH_TERRITORIES_NEW_CALED,,,,
+        ONIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2017M01,,,,
+Included observations: 83 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_FRENCH_TERRITORIES_NEW_CALEDONIA(-1),-0.092342,0.038697,-2.386321,0.0194
+D(PDIFF_FRENCH_TERRITORIES_NEW_CALEDONIA(-1)),0.375928,0.103878,3.618933,0.0005
+C,-0.002264,0.000955,-2.370167,0.0202
+,,,,
+R-squared,0.168275,    Mean dependent var,,-0.000340
+Adjusted R-squared,0.147481,    S.D. dependent var,,0.004272
+S.E. of regression,0.003944,    Akaike info criterion,,-8.197728
+Sum squared resid,0.001244,    Schwarz criterion,,-8.110300
+Log likelihood,343.2057,    Hannan-Quinn criter.,,-8.162604
+F-statistic,8.092796,    Durbin-Watson stat,,1.789257
+Prob(F-statistic),0.000630,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: ST_ETHIOPIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 1.331263, 0.9988
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_ETHIOPIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_ETHIOPIA(-1),0.002076,0.001560,1.331263,0.1835
+D(ST_ETHIOPIA(-1)),0.017503,0.037823,0.462770,0.6437
+C,0.000268,0.002668,0.100611,0.9199
+,,,,
+R-squared,0.003006,    Mean dependent var,,0.003431
+Adjusted R-squared,0.000170,    S.D. dependent var,,0.034882
+S.E. of regression,0.034879,    Akaike info criterion,,-3.869623
+Sum squared resid,0.855231,    Schwarz criterion,,-3.850248
+Log likelihood,1368.977,    Hannan-Quinn criter.,,-3.862137
+F-statistic,1.059788,    Durbin-Watson stat,,1.999809
+Prob(F-statistic),0.347082,,,
+,,,,

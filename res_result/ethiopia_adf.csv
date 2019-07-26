@@ -1,0 +1,35 @@
+Null Hypothesis: RES_ETHIOPIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.917508, 0.3238
+Test critical values:,1% level,,-3.461178,
+,5% level,,-2.874997,
+,10% level,,-2.574019,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_ETHIOPIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2001M02 2018M09,,,,
+Included observations: 212 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_ETHIOPIA(-1),-0.025597,0.013349,-1.917508,0.0565
+D(RES_ETHIOPIA(-1)),0.334950,0.065329,5.127134,0.0000
+C,0.000240,0.001203,0.199264,0.8422
+,,,,
+R-squared,0.118294,    Mean dependent var,,0.000365
+Adjusted R-squared,0.109857,    S.D. dependent var,,0.018568
+S.E. of regression,0.017519,    Akaike info criterion,,-5.237068
+Sum squared resid,0.064142,    Schwarz criterion,,-5.189569
+Log likelihood,558.1292,    Hannan-Quinn criter.,,-5.217870
+F-statistic,14.02025,    Durbin-Watson stat,,2.055662
+Prob(F-statistic),0.000002,,,
+,,,,

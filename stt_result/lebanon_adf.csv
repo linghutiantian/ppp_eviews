@@ -1,0 +1,35 @@
+Null Hypothesis: ST_LEBANON has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.627550, 0.8617
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_LEBANON),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_LEBANON(-1),-0.000359,0.000572,-0.627550,0.5305
+D(ST_LEBANON(-1)),0.491913,0.032826,14.98527,0.0000
+C,0.006042,0.003089,1.955955,0.0509
+,,,,
+R-squared,0.242506,    Mean dependent var,,0.008723
+Adjusted R-squared,0.240351,    S.D. dependent var,,0.051475
+S.E. of regression,0.044865,    Akaike info criterion,,-3.366090
+Sum squared resid,1.415028,    Schwarz criterion,,-3.346715
+Log likelihood,1191.230,    Hannan-Quinn criter.,,-3.358603
+F-statistic,112.5303,    Durbin-Watson stat,,1.906599
+Prob(F-statistic),0.000000,,,
+,,,,

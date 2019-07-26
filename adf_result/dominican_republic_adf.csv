@@ -1,0 +1,35 @@
+Null Hypothesis: QT_DOMINICAN_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.499148, 0.1169
+Test critical values:,1% level,,-3.457747,
+,5% level,,-2.873492,
+,10% level,,-2.573215,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_DOMINICAN_REPUBLIC),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1999M03 2018M12,,,,
+Included observations: 238 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_DOMINICAN_REPUBLIC(-1),-0.039863,0.015951,-2.499148,0.0131
+D(QT_DOMINICAN_REPUBLIC(-1)),0.265610,0.062898,4.222883,0.0000
+C,0.148201,0.059258,2.500961,0.0131
+,,,,
+R-squared,0.084464,    Mean dependent var,,0.000261
+Adjusted R-squared,0.076672,    S.D. dependent var,,0.028961
+S.E. of regression,0.027828,    Akaike info criterion,,-4.312991
+Sum squared resid,0.181989,    Schwarz criterion,,-4.269223
+Log likelihood,516.2459,    Hannan-Quinn criter.,,-4.295352
+F-statistic,10.84009,    Durbin-Watson stat,,2.014568
+Prob(F-statistic),0.000031,,,
+,,,,

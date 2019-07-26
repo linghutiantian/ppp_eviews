@@ -1,0 +1,35 @@
+Null Hypothesis: RES_TONGA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.317866, 0.6207
+Test critical values:,1% level,,-3.470679,
+,5% level,,-2.879155,
+,10% level,,-2.576241,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_TONGA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2005M03 2018M09,,,,
+Included observations: 163 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_TONGA(-1),-0.016750,0.012710,-1.317866,0.1894
+D(RES_TONGA(-1)),0.397069,0.073032,5.436940,0.0000
+C,0.000566,0.001124,0.503436,0.6154
+,,,,
+R-squared,0.157735,    Mean dependent var,,0.000906
+Adjusted R-squared,0.147206,    S.D. dependent var,,0.015519
+S.E. of regression,0.014331,    Akaike info criterion,,-5.634506
+Sum squared resid,0.032862,    Schwarz criterion,,-5.577566
+Log likelihood,462.2122,    Hannan-Quinn criter.,,-5.611389
+F-statistic,14.98194,    Durbin-Watson stat,,2.015632
+Prob(F-statistic),0.000001,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SRI_LANKA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.354845, 0.1571
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SRI_LANKA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SRI_LANKA(-1),-0.099533,0.042267,-2.354845,0.0204
+D(RES_SRI_LANKA(-1)),0.417017,0.095320,4.374896,0.0000
+C,0.000450,0.001505,0.298956,0.7656
+,,,,
+R-squared,0.164197,    Mean dependent var,,0.000899
+Adjusted R-squared,0.147968,    S.D. dependent var,,0.016740
+S.E. of regression,0.015452,    Akaike info criterion,,-5.474287
+Sum squared resid,0.024592,    Schwarz criterion,,-5.398906
+Log likelihood,293.1372,    Hannan-Quinn criter.,,-5.443735
+F-statistic,10.11737,    Durbin-Watson stat,,1.823348
+Prob(F-statistic),0.000097,,,
+,,,,

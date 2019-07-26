@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_BURUNDI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.576500, 0.4930
+Test critical values:,1% level,,-3.457747,
+,5% level,,-2.873492,
+,10% level,,-2.573215,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_BURUNDI),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1999M03 2018M12,,,,
+Included observations: 238 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_BURUNDI(-1),-0.004593,0.002914,-1.576500,0.1163
+D(PDIFF_BURUNDI(-1)),0.045534,0.064046,0.710952,0.4778
+C,0.002517,0.002165,1.162607,0.2462
+,,,,
+R-squared,0.012942,    Mean dependent var,,0.005582
+Adjusted R-squared,0.004541,    S.D. dependent var,,0.018401
+S.E. of regression,0.018359,    Akaike info criterion,,-5.144830
+Sum squared resid,0.079210,    Schwarz criterion,,-5.101062
+Log likelihood,615.2348,    Hannan-Quinn criter.,,-5.127191
+F-statistic,1.540567,    Durbin-Watson stat,,2.006024
+Prob(F-statistic),0.216415,,,
+,,,,

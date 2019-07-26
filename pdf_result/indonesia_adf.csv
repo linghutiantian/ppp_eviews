@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_INDONESIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.405563, 0.5805
+Test critical values:,1% level,,-3.440841,
+,5% level,,-2.866060,
+,10% level,,-2.569236,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_INDONESIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1968M03 2018M12,,,,
+Included observations: 610 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_INDONESIA(-1),-0.001033,0.000735,-1.405563,0.1604
+D(PDIFF_INDONESIA(-1)),0.094980,0.039594,2.398833,0.0167
+C,0.003430,0.001183,2.900291,0.0039
+,,,,
+R-squared,0.013255,    Mean dependent var,,0.005260
+Adjusted R-squared,0.010004,    S.D. dependent var,,0.017506
+S.E. of regression,0.017418,    Akaike info criterion,,-5.257701
+Sum squared resid,0.184159,    Schwarz criterion,,-5.235995
+Log likelihood,1606.599,    Hannan-Quinn criter.,,-5.249258
+F-statistic,4.076996,    Durbin-Watson stat,,2.026320
+Prob(F-statistic),0.017425,,,
+,,,,

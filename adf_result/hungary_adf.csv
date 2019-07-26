@@ -1,0 +1,35 @@
+Null Hypothesis: QT_HUNGARY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.220917, 0.6668
+Test critical values:,1% level,,-3.444158,
+,5% level,,-2.867522,
+,10% level,,-2.570019,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_HUNGARY),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1980M03 2018M12,,,,
+Included observations: 466 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_HUNGARY(-1),-0.004997,0.004093,-1.220917,0.2227
+D(QT_HUNGARY(-1)),0.211985,0.045413,4.667910,0.0000
+C,0.027275,0.022768,1.197939,0.2316
+,,,,
+R-squared,0.046976,    Mean dependent var,,-0.000609
+Adjusted R-squared,0.042859,    S.D. dependent var,,0.027349
+S.E. of regression,0.026756,    Akaike info criterion,,-4.397694
+Sum squared resid,0.331456,    Schwarz criterion,,-4.371014
+Log likelihood,1027.663,    Hannan-Quinn criter.,,-4.387194
+F-statistic,11.41089,    Durbin-Watson stat,,1.969461
+Prob(F-statistic),0.000015,,,
+,,,,

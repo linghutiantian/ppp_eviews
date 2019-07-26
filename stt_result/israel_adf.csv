@@ -1,0 +1,35 @@
+Null Hypothesis: ST_ISRAEL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-6.929612, 0.0000
+Test critical values:,1% level,,-3.444342,
+,5% level,,-2.867603,
+,10% level,,-2.570063,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_ISRAEL),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1980M09 2018M12,,,,
+Included observations: 460 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_ISRAEL(-1),-0.011533,0.001664,-6.929612,0.0000
+D(ST_ISRAEL(-1)),0.163348,0.045426,3.595891,0.0004
+C,0.018173,0.002749,6.610206,0.0000
+,,,,
+R-squared,0.159762,    Mean dependent var,,0.012885
+Adjusted R-squared,0.156085,    S.D. dependent var,,0.055585
+S.E. of regression,0.051063,    Akaike info criterion,,-3.105006
+Sum squared resid,1.191604,    Schwarz criterion,,-3.078063
+Log likelihood,717.1513,    Hannan-Quinn criter.,,-3.094396
+F-statistic,43.44689,    Durbin-Watson stat,,2.060446
+Prob(F-statistic),0.000000,,,
+,,,,

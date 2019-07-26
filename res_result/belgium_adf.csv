@@ -1,0 +1,35 @@
+Null Hypothesis: RES_BELGIUM has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.544894, 0.1053
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_BELGIUM),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_BELGIUM(-1),-0.012220,0.004802,-2.544894,0.0111
+D(RES_BELGIUM(-1)),0.295358,0.035995,8.205615,0.0000
+C,-0.000167,0.000833,-0.200294,0.8413
+,,,,
+R-squared,0.092388,    Mean dependent var,,-0.000225
+Adjusted R-squared,0.089806,    S.D. dependent var,,0.023190
+S.E. of regression,0.022124,    Akaike info criterion,,-4.780083
+Sum squared resid,0.344093,    Schwarz criterion,,-4.760708
+Log likelihood,1690.369,    Hannan-Quinn criter.,,-4.772597
+F-statistic,35.78011,    Durbin-Watson stat,,1.972553
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_CAMEROON has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.323634, 0.1665
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_CAMEROON),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_CAMEROON(-1),-0.069131,0.029751,-2.323634,0.0221
+D(PDIFF_CAMEROON(-1)),0.296281,0.094131,3.147533,0.0022
+C,-0.001140,0.000723,-1.576751,0.1179
+,,,,
+R-squared,0.115546,    Mean dependent var,,0.000200
+Adjusted R-squared,0.098372,    S.D. dependent var,,0.004918
+S.E. of regression,0.004670,    Akaike info criterion,,-7.867623
+Sum squared resid,0.002246,    Schwarz criterion,,-7.792242
+Log likelihood,419.9840,    Hannan-Quinn criter.,,-7.837070
+F-statistic,6.728029,    Durbin-Watson stat,,2.026690
+Prob(F-statistic),0.001794,,,
+,,,,

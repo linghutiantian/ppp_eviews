@@ -1,0 +1,35 @@
+Null Hypothesis: RES_MALI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.856729, 0.3515
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_MALI),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_MALI(-1),-0.047301,0.025475,-1.856729,0.0662
+D(RES_MALI(-1)),0.215538,0.093798,2.297900,0.0236
+C,0.000746,0.002210,0.337621,0.7363
+,,,,
+R-squared,0.072394,    Mean dependent var,,0.001008
+Adjusted R-squared,0.054382,    S.D. dependent var,,0.023349
+S.E. of regression,0.022705,    Akaike info criterion,,-4.704559
+Sum squared resid,0.053099,    Schwarz criterion,,-4.629178
+Log likelihood,252.3416,    Hannan-Quinn criter.,,-4.674007
+F-statistic,4.019252,    Durbin-Watson stat,,1.974529
+Prob(F-statistic),0.020856,,,
+,,,,

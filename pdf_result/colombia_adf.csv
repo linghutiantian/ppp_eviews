@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_COLOMBIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-5.170907, 0.0000
+Test critical values:,1% level,,-3.441280,
+,5% level,,-2.866254,
+,10% level,,-2.569339,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_COLOMBIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1970M03 2018M12,,,,
+Included observations: 586 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_COLOMBIA(-1),-0.001698,0.000328,-5.170907,0.0000
+D(PDIFF_COLOMBIA(-1)),0.123064,0.040944,3.005675,0.0028
+C,0.004014,0.000851,4.717089,0.0000
+,,,,
+R-squared,0.071990,    Mean dependent var,,0.008402
+Adjusted R-squared,0.068806,    S.D. dependent var,,0.013432
+S.E. of regression,0.012962,    Akaike info criterion,,-5.848527
+Sum squared resid,0.097948,    Schwarz criterion,,-5.826138
+Log likelihood,1716.618,    Hannan-Quinn criter.,,-5.839802
+F-statistic,22.61286,    Durbin-Watson stat,,2.061988
+Prob(F-statistic),0.000000,,,
+,,,,

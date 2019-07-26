@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_SAMOA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.098814, 0.2455
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_SAMOA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_SAMOA(-1),-0.032920,0.015685,-2.098814,0.0374
+D(PDIFF_SAMOA(-1)),0.164659,0.076397,2.155305,0.0326
+C,-0.002950,0.002069,-1.425420,0.1559
+,,,,
+R-squared,0.049671,    Mean dependent var,,0.000943
+Adjusted R-squared,0.038010,    S.D. dependent var,,0.013621
+S.E. of regression,0.013360,    Akaike info criterion,,-5.775194
+Sum squared resid,0.029094,    Schwarz criterion,,-5.718953
+Log likelihood,482.3411,    Hannan-Quinn criter.,,-5.752365
+F-statistic,4.259741,    Durbin-Watson stat,,1.987113
+Prob(F-statistic),0.015731,,,
+,,,,

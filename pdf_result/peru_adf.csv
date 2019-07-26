@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_PERU has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.580462, 0.8693
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_PERU),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_PERU(-1),-0.004621,0.007962,-0.580462,0.5629
+D(PDIFF_PERU(-1)),0.167444,0.097468,1.717942,0.0888
+C,0.001181,0.000652,1.810650,0.0731
+,,,,
+R-squared,0.030838,    Mean dependent var,,0.001030
+Adjusted R-squared,0.012020,    S.D. dependent var,,0.003454
+S.E. of regression,0.003433,    Akaike info criterion,,-8.482854
+Sum squared resid,0.001214,    Schwarz criterion,,-8.407474
+Log likelihood,452.5913,    Hannan-Quinn criter.,,-8.452302
+F-statistic,1.638704,    Durbin-Watson stat,,1.903442
+Prob(F-statistic),0.199254,,,
+,,,,

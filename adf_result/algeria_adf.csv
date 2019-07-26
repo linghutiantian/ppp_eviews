@@ -1,0 +1,35 @@
+Null Hypothesis: QT_ALGERIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.898951, 0.7867
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_ALGERIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_ALGERIA(-1),-0.011145,0.012397,-0.898951,0.3700
+D(QT_ALGERIA(-1)),0.315435,0.075120,4.199097,0.0000
+C,0.045800,0.050175,0.912819,0.3627
+,,,,
+R-squared,0.098158,    Mean dependent var,,0.001005
+Adjusted R-squared,0.087092,    S.D. dependent var,,0.014973
+S.E. of regression,0.014307,    Akaike info criterion,,-5.638295
+Sum squared resid,0.033362,    Schwarz criterion,,-5.582055
+Log likelihood,470.9785,    Hannan-Quinn criter.,,-5.615467
+F-statistic,8.870601,    Durbin-Watson stat,,2.001210
+Prob(F-statistic),0.000220,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_NAMIBIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.181795, 0.6803
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_NAMIBIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_NAMIBIA(-1),-0.019899,0.016838,-1.181795,0.2400
+D(QT_NAMIBIA(-1)),0.233940,0.095400,2.452208,0.0159
+C,0.048957,0.039611,1.235943,0.2193
+,,,,
+R-squared,0.063821,    Mean dependent var,,0.002993
+Adjusted R-squared,0.045642,    S.D. dependent var,,0.031374
+S.E. of regression,0.030650,    Akaike info criterion,,-4.104470
+Sum squared resid,0.096761,    Schwarz criterion,,-4.029089
+Log likelihood,220.5369,    Hannan-Quinn criter.,,-4.073918
+F-statistic,3.510822,    Durbin-Watson stat,,1.926875
+Prob(F-statistic),0.033496,,,
+,,,,

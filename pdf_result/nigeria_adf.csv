@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_NIGERIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 1.571827, 0.9994
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_NIGERIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_NIGERIA(-1),0.003874,0.002465,1.571827,0.1191
+D(PDIFF_NIGERIA(-1)),0.169059,0.095656,1.767370,0.0801
+C,0.004730,0.001302,3.633502,0.0004
+,,,,
+R-squared,0.061411,    Mean dependent var,,0.007675
+Adjusted R-squared,0.043186,    S.D. dependent var,,0.006015
+S.E. of regression,0.005884,    Akaike info criterion,,-7.405322
+Sum squared resid,0.003566,    Schwarz criterion,,-7.329942
+Log likelihood,395.4821,    Hannan-Quinn criter.,,-7.374770
+F-statistic,3.369580,    Durbin-Watson stat,,1.902859
+Prob(F-statistic),0.038238,,,
+,,,,

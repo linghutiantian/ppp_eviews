@@ -1,0 +1,35 @@
+Null Hypothesis: ST_GUINEA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.117507, 0.9456
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_GUINEA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_GUINEA(-1),-0.000192,0.001637,-0.117507,0.9065
+D(ST_GUINEA(-1)),-0.021542,0.037734,-0.570877,0.5683
+C,0.009636,0.010065,0.957383,0.3387
+,,,,
+R-squared,0.000491,    Mean dependent var,,0.008364
+Adjusted R-squared,-0.002353,    S.D. dependent var,,0.103387
+S.E. of regression,0.103509,    Akaike info criterion,,-1.694082
+Sum squared resid,7.531975,    Schwarz criterion,,-1.674707
+Log likelihood,601.0110,    Hannan-Quinn criter.,,-1.686596
+F-statistic,0.172684,    Durbin-Watson stat,,2.000264
+Prob(F-statistic),0.841439,,,
+,,,,

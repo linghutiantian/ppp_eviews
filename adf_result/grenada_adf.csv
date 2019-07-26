@@ -1,0 +1,35 @@
+Null Hypothesis: QT_GRENADA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.798745, 0.3805
+Test critical values:,1% level,,-3.461327,
+,5% level,,-2.875062,
+,10% level,,-2.574054,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_GRENADA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2001M03 2018M09,,,,
+Included observations: 211 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_GRENADA(-1),-0.023016,0.012795,-1.798745,0.0735
+D(QT_GRENADA(-1)),0.272112,0.066699,4.079677,0.0001
+C,0.023067,0.012822,1.798954,0.0735
+,,,,
+R-squared,0.081836,    Mean dependent var,,3.26E-05
+Adjusted R-squared,0.073007,    S.D. dependent var,,0.005753
+S.E. of regression,0.005539,    Akaike info criterion,,-7.539992
+Sum squared resid,0.006381,    Schwarz criterion,,-7.492335
+Log likelihood,798.4691,    Hannan-Quinn criter.,,-7.520728
+F-statistic,9.269523,    Durbin-Watson stat,,1.996311
+Prob(F-statistic),0.000139,,,
+,,,,

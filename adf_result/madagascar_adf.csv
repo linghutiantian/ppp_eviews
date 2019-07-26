@@ -1,0 +1,35 @@
+Null Hypothesis: QT_MADAGASCAR has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.502591, 0.1161
+Test critical values:,1% level,,-3.457984,
+,5% level,,-2.873596,
+,10% level,,-2.573270,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_MADAGASCAR),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1999M05 2018M12,,,,
+Included observations: 236 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_MADAGASCAR(-1),-0.031472,0.012576,-2.502591,0.0130
+D(QT_MADAGASCAR(-1)),0.362689,0.060836,5.961759,0.0000
+C,0.212557,0.085222,2.494138,0.0133
+,,,,
+R-squared,0.144420,    Mean dependent var,,-0.000842
+Adjusted R-squared,0.137076,    S.D. dependent var,,0.031469
+S.E. of regression,0.029233,    Akaike info criterion,,-4.214422
+Sum squared resid,0.199111,    Schwarz criterion,,-4.170390
+Log likelihood,500.3018,    Hannan-Quinn criter.,,-4.196673
+F-statistic,19.66492,    Durbin-Watson stat,,1.941812
+Prob(F-statistic),0.000000,,,
+,,,,

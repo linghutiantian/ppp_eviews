@@ -1,0 +1,35 @@
+Null Hypothesis: ST_CHINA_P_R_HONG_KONG has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.928151, 0.7793
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_CHINA_P_R_HONG_KONG),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_CHINA_P_R_HONG_KONG(-1),-0.001664,0.001793,-0.928151,0.3536
+D(ST_CHINA_P_R_HONG_KONG(-1)),0.252786,0.036484,6.928633,0.0000
+C,0.003517,0.003446,1.020664,0.3078
+,,,,
+R-squared,0.064687,    Mean dependent var,,0.000445
+Adjusted R-squared,0.062026,    S.D. dependent var,,0.008793
+S.E. of regression,0.008516,    Akaike info criterion,,-6.689520
+Sum squared resid,0.050982,    Schwarz criterion,,-6.670145
+Log likelihood,2364.401,    Hannan-Quinn criter.,,-6.682033
+F-statistic,24.31018,    Durbin-Watson stat,,1.950831
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: RES_CHINA_P_R_MAINLAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.773259, 0.3935
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_CHINA_P_R_MAINLAND),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_CHINA_P_R_MAINLAND(-1),-0.018559,0.010466,-1.773259,0.0772
+D(RES_CHINA_P_R_MAINLAND(-1)),0.017560,0.056991,0.308121,0.7582
+C,0.000209,0.001315,0.158634,0.8741
+,,,,
+R-squared,0.010222,    Mean dependent var,,0.000199
+Adjusted R-squared,0.003773,    S.D. dependent var,,0.023189
+S.E. of regression,0.023145,    Akaike info criterion,,-4.684415
+Sum squared resid,0.164462,    Schwarz criterion,,-4.648255
+Log likelihood,729.0843,    Hannan-Quinn criter.,,-4.669960
+F-statistic,1.585207,    Durbin-Watson stat,,1.998903
+Prob(F-statistic),0.206578,,,
+,,,,

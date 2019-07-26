@@ -1,0 +1,35 @@
+Null Hypothesis: QT_COMOROS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.999176, 0.0411
+Test critical values:,1% level,,-3.552666,
+,5% level,,-2.914517,
+,10% level,,-2.595033,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_COMOROS),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2014M10,,,,
+Included observations: 56 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_COMOROS(-1),-0.329628,0.109906,-2.999176,0.0041
+D(QT_COMOROS(-1)),0.028282,0.135020,0.209461,0.8349
+C,1.820367,0.606642,3.000727,0.0041
+,,,,
+R-squared,0.158678,    Mean dependent var,,0.000852
+Adjusted R-squared,0.126930,    S.D. dependent var,,0.032706
+S.E. of regression,0.030560,    Akaike info criterion,,-4.086161
+Sum squared resid,0.049498,    Schwarz criterion,,-3.977660
+Log likelihood,117.4125,    Hannan-Quinn criter.,,-4.044095
+F-statistic,4.998063,    Durbin-Watson stat,,1.980526
+Prob(F-statistic),0.010268,,,
+,,,,

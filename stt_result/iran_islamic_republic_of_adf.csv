@@ -1,0 +1,35 @@
+Null Hypothesis: ST_IRAN_ISLAMIC_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.002940, 0.9576
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_IRAN_ISLAMIC_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_IRAN_ISLAMIC_REPUBLIC_OF(-1),4.76E-06,0.001618,0.002940,0.9977
+D(ST_IRAN_ISLAMIC_REPUBLIC_OF(-1)),0.311608,0.035916,8.675948,0.0000
+C,0.006131,0.010834,0.565867,0.5717
+,,,,
+R-squared,0.097104,    Mean dependent var,,0.008949
+Adjusted R-squared,0.094535,    S.D. dependent var,,0.105981
+S.E. of regression,0.100847,    Akaike info criterion,,-1.746182
+Sum squared resid,7.149609,    Schwarz criterion,,-1.726807
+Log likelihood,619.4022,    Hannan-Quinn criter.,,-1.738695
+F-statistic,37.80281,    Durbin-Watson stat,,1.933049
+Prob(F-statistic),0.000000,,,
+,,,,

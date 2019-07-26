@@ -1,0 +1,35 @@
+Null Hypothesis: RES_COSTA_RICA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.935603, 0.3156
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_COSTA_RICA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_COSTA_RICA(-1),-0.015655,0.008088,-1.935603,0.0542
+D(RES_COSTA_RICA(-1)),0.414519,0.061371,6.754305,0.0000
+C,0.000458,0.000601,0.761876,0.4469
+,,,,
+R-squared,0.178238,    Mean dependent var,,0.000840
+Adjusted R-squared,0.170868,    S.D. dependent var,,0.009875
+S.E. of regression,0.008992,    Akaike info criterion,,-6.571794
+Sum squared resid,0.018031,    Schwarz criterion,,-6.526388
+Log likelihood,745.6127,    Hannan-Quinn criter.,,-6.553470
+F-statistic,24.18400,    Durbin-Watson stat,,1.843930
+Prob(F-statistic),0.000000,,,
+,,,,

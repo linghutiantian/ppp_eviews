@@ -1,0 +1,35 @@
+Null Hypothesis: RES_MAURITIUS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.340232, 0.0142
+Test critical values:,1% level,,-3.458470,
+,5% level,,-2.873809,
+,10% level,,-2.573384,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_MAURITIUS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1999M09 2018M12,,,,
+Included observations: 232 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_MAURITIUS(-1),-0.053139,0.015909,-3.340232,0.0010
+D(RES_MAURITIUS(-1)),0.436854,0.059299,7.367027,0.0000
+C,0.000300,0.001032,0.290270,0.7719
+,,,,
+R-squared,0.208011,    Mean dependent var,,0.000529
+Adjusted R-squared,0.201095,    S.D. dependent var,,0.017580
+S.E. of regression,0.015713,    Akaike info criterion,,-5.455803
+Sum squared resid,0.056540,    Schwarz criterion,,-5.411233
+Log likelihood,635.8731,    Hannan-Quinn criter.,,-5.437828
+F-statistic,30.07280,    Durbin-Watson stat,,1.900012
+Prob(F-statistic),0.000000,,,
+,,,,

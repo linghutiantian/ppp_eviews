@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_CHINA_P_R_MAINLAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-4.950710, 0.0000
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_CHINA_P_R_MAINLAND),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_CHINA_P_R_MAINLAND(-1),-0.031343,0.006331,-4.950710,0.0000
+D(PDIFF_CHINA_P_R_MAINLAND(-1)),0.372629,0.050829,7.330989,0.0000
+C,-0.003231,0.000913,-3.538594,0.0005
+,,,,
+R-squared,0.240751,    Mean dependent var,,0.001218
+Adjusted R-squared,0.235805,    S.D. dependent var,,0.008968
+S.E. of regression,0.007840,    Akaike info criterion,,-6.849554
+Sum squared resid,0.018869,    Schwarz criterion,,-6.813393
+Log likelihood,1064.681,    Hannan-Quinn criter.,,-6.835098
+F-statistic,48.67357,    Durbin-Watson stat,,1.869371
+Prob(F-statistic),0.000000,,,
+,,,,

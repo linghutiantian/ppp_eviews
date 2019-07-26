@@ -1,0 +1,36 @@
+Null Hypothesis: ST_FRENCH_TERRITORIES_NEW_CALEDONIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.513543, 0.1126
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_FRENCH_TERRITORIES_NEW_CALEDONI,,,,
+        A),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_FRENCH_TERRITORIES_NEW_CALEDONIA(-1),-0.012611,0.005017,-2.513543,0.0122
+D(ST_FRENCH_TERRITORIES_NEW_CALEDONIA(-1)),0.292322,0.036063,8.105892,0.0000
+C,0.058075,0.023058,2.518682,0.0120
+,,,,
+R-squared,0.090034,    Mean dependent var,,0.000220
+Adjusted R-squared,0.087445,    S.D. dependent var,,0.023102
+S.E. of regression,0.022068,    Akaike info criterion,,-4.785095
+Sum squared resid,0.342373,    Schwarz criterion,,-4.765720
+Log likelihood,1692.138,    Hannan-Quinn criter.,,-4.777608
+F-statistic,34.77806,    Durbin-Watson stat,,1.973842
+Prob(F-statistic),0.000000,,,
+,,,,

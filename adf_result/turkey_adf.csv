@@ -1,0 +1,35 @@
+Null Hypothesis: QT_TURKEY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.878851, 0.0489
+Test critical values:,1% level,,-3.450411,
+,5% level,,-2.870274,
+,10% level,,-2.571493,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_TURKEY),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1992M02 2018M12,,,,
+Included observations: 323 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_TURKEY(-1),-0.039334,0.013663,-2.878851,0.0043
+D(QT_TURKEY(-1)),0.038424,0.055157,0.696625,0.4865
+C,0.005542,0.003911,1.417044,0.1574
+,,,,
+R-squared,0.025902,    Mean dependent var,,-0.001015
+Adjusted R-squared,0.019814,    S.D. dependent var,,0.057843
+S.E. of regression,0.057267,    Akaike info criterion,,-2.872930
+Sum squared resid,1.049453,    Schwarz criterion,,-2.837844
+Log likelihood,466.9782,    Hannan-Quinn criter.,,-2.858924
+F-statistic,4.254470,    Durbin-Watson stat,,2.008740
+Prob(F-statistic),0.015012,,,
+,,,,

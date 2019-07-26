@@ -1,0 +1,35 @@
+Null Hypothesis: RES_MALAYSIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.767606, 0.3960
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_MALAYSIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_MALAYSIA(-1),-0.022927,0.012970,-1.767606,0.0785
+D(RES_MALAYSIA(-1)),0.201007,0.065708,3.059091,0.0025
+C,0.000157,0.001108,0.141577,0.8875
+,,,,
+R-squared,0.048947,    Mean dependent var,,0.000229
+Adjusted R-squared,0.040417,    S.D. dependent var,,0.017004
+S.E. of regression,0.016657,    Akaike info criterion,,-5.338841
+Sum squared resid,0.061869,    Schwarz criterion,,-5.293436
+Log likelihood,606.2890,    Hannan-Quinn criter.,,-5.320517
+F-statistic,5.738481,    Durbin-Watson stat,,1.955242
+Prob(F-statistic),0.003714,,,
+,,,,

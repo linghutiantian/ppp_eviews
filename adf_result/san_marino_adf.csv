@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SAN_MARINO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.445703, 0.5570
+Test critical values:,1% level,,-3.495021,
+,5% level,,-2.889753,
+,10% level,,-2.581890,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SAN_MARINO),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M09,,,,
+Included observations: 103 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SAN_MARINO(-1),-0.031754,0.021965,-1.445703,0.1514
+D(QT_SAN_MARINO(-1)),0.216865,0.096181,2.254768,0.0263
+C,-0.005099,0.004910,-1.038470,0.3016
+,,,,
+R-squared,0.062170,    Mean dependent var,,0.001790
+Adjusted R-squared,0.043414,    S.D. dependent var,,0.021403
+S.E. of regression,0.020933,    Akaike info criterion,,-4.866257
+Sum squared resid,0.043820,    Schwarz criterion,,-4.789518
+Log likelihood,253.6123,    Hannan-Quinn criter.,,-4.835175
+F-statistic,3.314580,    Durbin-Watson stat,,1.977810
+Prob(F-statistic),0.040383,,,
+,,,,

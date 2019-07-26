@@ -1,0 +1,35 @@
+Null Hypothesis: QT_ALBANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.748873, 0.4046
+Test critical values:,1% level,,-3.476805,
+,5% level,,-2.881830,
+,10% level,,-2.577668,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_ALBANIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2007M03 2018M12,,,,
+Included observations: 142 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_ALBANIA(-1),-0.031893,0.018236,-1.748873,0.0825
+D(QT_ALBANIA(-1)),0.241088,0.082562,2.920076,0.0041
+C,0.152276,0.086863,1.753057,0.0818
+,,,,
+R-squared,0.071064,    Mean dependent var,,0.000564
+Adjusted R-squared,0.057698,    S.D. dependent var,,0.022927
+S.E. of regression,0.022256,    Akaike info criterion,,-4.751550
+Sum squared resid,0.068848,    Schwarz criterion,,-4.689103
+Log likelihood,340.3601,    Hannan-Quinn criter.,,-4.726174
+F-statistic,5.316802,    Durbin-Watson stat,,1.967187
+Prob(F-statistic),0.005957,,,
+,,,,

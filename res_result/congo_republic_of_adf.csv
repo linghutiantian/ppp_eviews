@@ -1,0 +1,35 @@
+Null Hypothesis: RES_CONGO_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.370144, 0.1519
+Test critical values:,1% level,,-3.471192,
+,5% level,,-2.879380,
+,10% level,,-2.576361,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_CONGO_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M04 2018M08,,,,
+Included observations: 161 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_CONGO_REPUBLIC_OF(-1),-0.059357,0.025044,-2.370144,0.0190
+D(RES_CONGO_REPUBLIC_OF(-1)),0.172347,0.078434,2.197358,0.0295
+C,1.78E-05,0.001931,0.009198,0.9927
+,,,,
+R-squared,0.053952,    Mean dependent var,,5.61E-05
+Adjusted R-squared,0.041976,    S.D. dependent var,,0.025037
+S.E. of regression,0.024505,    Akaike info criterion,,-4.561387
+Sum squared resid,0.094882,    Schwarz criterion,,-4.503969
+Log likelihood,370.1916,    Hannan-Quinn criter.,,-4.538073
+F-statistic,4.505235,    Durbin-Watson stat,,2.034493
+Prob(F-statistic),0.012507,,,
+,,,,

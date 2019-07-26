@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_UNITED_KINGDOM has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.331914, 0.0139
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_UNITED_KINGDOM),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_UNITED_KINGDOM(-1),-0.002360,0.000708,-3.331914,0.0009
+D(PDIFF_UNITED_KINGDOM(-1)),0.196859,0.036861,5.340623,0.0000
+C,0.000242,0.000284,0.852906,0.3940
+,,,,
+R-squared,0.059989,    Mean dependent var,,0.001138
+Adjusted R-squared,0.057314,    S.D. dependent var,,0.005481
+S.E. of regression,0.005322,    Akaike info criterion,,-7.629675
+Sum squared resid,0.019912,    Schwarz criterion,,-7.610299
+Log likelihood,2696.275,    Hannan-Quinn criter.,,-7.622188
+F-statistic,22.43160,    Durbin-Watson stat,,2.015167
+Prob(F-statistic),0.000000,,,
+,,,,

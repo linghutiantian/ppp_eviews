@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_ESTONIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.185428, 0.6813
+Test critical values:,1% level,,-3.456408,
+,5% level,,-2.872904,
+,10% level,,-2.572900,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_ESTONIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1998M03 2018M12,,,,
+Included observations: 250 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_ESTONIA(-1),-0.003691,0.003114,-1.185428,0.2370
+D(PDIFF_ESTONIA(-1)),0.281348,0.060568,4.645158,0.0000
+C,0.002543,0.001592,1.597334,0.1115
+,,,,
+R-squared,0.086898,    Mean dependent var,,0.000964
+Adjusted R-squared,0.079504,    S.D. dependent var,,0.004259
+S.E. of regression,0.004086,    Akaike info criterion,,-8.150470
+Sum squared resid,0.004124,    Schwarz criterion,,-8.108212
+Log likelihood,1021.809,    Hannan-Quinn criter.,,-8.133462
+F-statistic,11.75323,    Durbin-Watson stat,,2.022630
+Prob(F-statistic),0.000013,,,
+,,,,

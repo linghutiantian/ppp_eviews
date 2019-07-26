@@ -1,0 +1,35 @@
+Null Hypothesis: RES_DOMINICAN_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.541868, 0.1069
+Test critical values:,1% level,,-3.457747,
+,5% level,,-2.873492,
+,10% level,,-2.573215,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_DOMINICAN_REPUBLIC),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1999M03 2018M12,,,,
+Included observations: 238 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_DOMINICAN_REPUBLIC(-1),-0.041565,0.016352,-2.541868,0.0117
+D(RES_DOMINICAN_REPUBLIC(-1)),0.270170,0.062857,4.298163,0.0000
+C,0.000356,0.001810,0.196380,0.8445
+,,,,
+R-squared,0.086938,    Mean dependent var,,0.000533
+Adjusted R-squared,0.079168,    S.D. dependent var,,0.029098
+S.E. of regression,0.027922,    Akaike info criterion,,-4.306277
+Sum squared resid,0.183215,    Schwarz criterion,,-4.262508
+Log likelihood,515.4469,    Hannan-Quinn criter.,,-4.288637
+F-statistic,11.18793,    Durbin-Watson stat,,2.014060
+Prob(F-statistic),0.000023,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: ST_ESTONIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.812315, 0.3739
+Test critical values:,1% level,,-3.459898,
+,5% level,,-2.874435,
+,10% level,,-2.573719,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_ESTONIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1992M08 2010M12,,,,
+Included observations: 221 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_ESTONIA(-1),-0.020196,0.011144,-1.812315,0.0713
+D(ST_ESTONIA(-1)),0.319172,0.064146,4.975706,0.0000
+C,0.052134,0.028774,1.811863,0.0714
+,,,,
+R-squared,0.108540,    Mean dependent var,,-4.57E-05
+Adjusted R-squared,0.100361,    S.D. dependent var,,0.025247
+S.E. of regression,0.023946,    Akaike info criterion,,-4.612518
+Sum squared resid,0.125007,    Schwarz criterion,,-4.566390
+Log likelihood,512.6833,    Hannan-Quinn criter.,,-4.593892
+F-statistic,13.27131,    Durbin-Watson stat,,1.902572
+Prob(F-statistic),0.000004,,,
+,,,,

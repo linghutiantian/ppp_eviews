@@ -1,0 +1,33 @@
+Null Hypothesis: RES_OMAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.919840, 0.7806
+Test critical values:,1% level,,-3.460884,
+,5% level,,-2.874868,
+,10% level,,-2.573951,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_OMAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2001M03 2018M12,,,,
+Included observations: 214 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_OMAN(-1),-0.004782,0.005199,-0.919840,0.3587
+D(RES_OMAN(-1)),0.414760,0.062303,6.657183,0.0000
+C,-1.01E-17,1.11E-17,-0.909816,0.3640
+,,,,
+R-squared,0.174741,    Mean dependent var,,-9.12E-18
+Adjusted R-squared,0.166919,    S.D. dependent var,,1.61E-16
+S.E. of regression,1.47E-16,    Sum squared resid,,4.55E-30
+F-statistic,22.33869,    Durbin-Watson stat,,1.951242
+Prob(F-statistic),0.000000,,,
+,,,,

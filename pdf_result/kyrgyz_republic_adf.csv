@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_KYRGYZ_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.807388, 0.8143
+Test critical values:,1% level,,-3.466994,
+,5% level,,-2.877544,
+,10% level,,-2.575381,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_KYRGYZ_REPUBLIC),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2003M03 2018M01,,,,
+Included observations: 179 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_KYRGYZ_REPUBLIC(-1),-0.002427,0.003006,-0.807388,0.4205
+D(PDIFF_KYRGYZ_REPUBLIC(-1)),0.468013,0.066426,7.045665,0.0000
+C,0.001185,0.001537,0.771042,0.4417
+,,,,
+R-squared,0.222357,    Mean dependent var,,0.004133
+Adjusted R-squared,0.213520,    S.D. dependent var,,0.012512
+S.E. of regression,0.011096,    Akaike info criterion,,-6.147842
+Sum squared resid,0.021669,    Schwarz criterion,,-6.094422
+Log likelihood,553.2319,    Hannan-Quinn criter.,,-6.126181
+F-statistic,25.16245,    Durbin-Watson stat,,1.923645
+Prob(F-statistic),0.000000,,,
+,,,,

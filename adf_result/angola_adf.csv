@@ -1,0 +1,35 @@
+Null Hypothesis: QT_ANGOLA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.775212, 0.0637
+Test critical values:,1% level,,-3.462737,
+,5% level,,-2.875680,
+,10% level,,-2.574385,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_ANGOLA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2002M03 2018M12,,,,
+Included observations: 202 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_ANGOLA(-1),-0.012311,0.004436,-2.775212,0.0060
+D(QT_ANGOLA(-1)),0.314391,0.066336,4.739340,0.0000
+C,0.059037,0.022403,2.635259,0.0091
+,,,,
+R-squared,0.152205,    Mean dependent var,,-0.004503
+Adjusted R-squared,0.143685,    S.D. dependent var,,0.024329
+S.E. of regression,0.022513,    Akaike info criterion,,-4.734701
+Sum squared resid,0.100861,    Schwarz criterion,,-4.685569
+Log likelihood,481.2048,    Hannan-Quinn criter.,,-4.714822
+F-statistic,17.86332,    Durbin-Watson stat,,2.003962
+Prob(F-statistic),0.000000,,,
+,,,,

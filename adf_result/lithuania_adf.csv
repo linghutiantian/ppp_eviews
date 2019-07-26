@@ -1,0 +1,35 @@
+Null Hypothesis: QT_LITHUANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-8.021711, 0.0000
+Test critical values:,1% level,,-3.455096,
+,5% level,,-2.872328,
+,10% level,,-2.572592,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_LITHUANIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1993M02 2014M12,,,,
+Included observations: 263 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_LITHUANIA(-1),-0.027694,0.003452,-8.021711,0.0000
+D(QT_LITHUANIA(-1)),0.359443,0.049661,7.237911,0.0000
+C,0.032910,0.004797,6.860403,0.0000
+,,,,
+R-squared,0.431972,    Mean dependent var,,-0.007987
+Adjusted R-squared,0.427602,    S.D. dependent var,,0.028118
+S.E. of regression,0.021273,    Akaike info criterion,,-4.851413
+Sum squared resid,0.117661,    Schwarz criterion,,-4.810666
+Log likelihood,640.9608,    Hannan-Quinn criter.,,-4.835037
+F-statistic,98.86176,    Durbin-Watson stat,,1.938379
+Prob(F-statistic),0.000000,,,
+,,,,

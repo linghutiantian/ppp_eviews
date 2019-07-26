@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_GUATEMALA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.377912, 0.5921
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_GUATEMALA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_GUATEMALA(-1),-0.004493,0.003261,-1.377912,0.1701
+D(PDIFF_GUATEMALA(-1)),0.338911,0.073344,4.620846,0.0000
+C,0.001570,0.000399,3.932232,0.0001
+,,,,
+R-squared,0.131033,    Mean dependent var,,0.002331
+Adjusted R-squared,0.120371,    S.D. dependent var,,0.004949
+S.E. of regression,0.004641,    Akaike info criterion,,-7.889662
+Sum squared resid,0.003512,    Schwarz criterion,,-7.833421
+Log likelihood,657.8419,    Hannan-Quinn criter.,,-7.866834
+F-statistic,12.28950,    Durbin-Watson stat,,1.815147
+Prob(F-statistic),0.000011,,,
+,,,,

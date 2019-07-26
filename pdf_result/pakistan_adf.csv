@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_PAKISTAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.150672, 0.0259
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_PAKISTAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_PAKISTAN(-1),-0.020376,0.006467,-3.150672,0.0021
+D(PDIFF_PAKISTAN(-1)),0.018286,0.096525,0.189446,0.8501
+C,0.015162,0.003709,4.087379,0.0001
+,,,,
+R-squared,0.094997,    Mean dependent var,,0.004134
+Adjusted R-squared,0.077424,    S.D. dependent var,,0.007735
+S.E. of regression,0.007430,    Akaike info criterion,,-6.938794
+Sum squared resid,0.005686,    Schwarz criterion,,-6.863413
+Log likelihood,370.7561,    Hannan-Quinn criter.,,-6.908241
+F-statistic,5.405857,    Durbin-Watson stat,,1.994753
+Prob(F-statistic),0.005854,,,
+,,,,

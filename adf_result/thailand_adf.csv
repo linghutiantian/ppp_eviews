@@ -1,0 +1,35 @@
+Null Hypothesis: QT_THAILAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.581746, 0.4884
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_THAILAND),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_THAILAND(-1),-0.030533,0.019304,-1.581746,0.1168
+D(QT_THAILAND(-1)),0.382850,0.091204,4.197725,0.0001
+C,0.109070,0.068932,1.582279,0.1167
+,,,,
+R-squared,0.154846,    Mean dependent var,,9.60E-05
+Adjusted R-squared,0.138436,    S.D. dependent var,,0.012784
+S.E. of regression,0.011866,    Akaike info criterion,,-6.002368
+Sum squared resid,0.014503,    Schwarz criterion,,-5.926988
+Log likelihood,321.1255,    Hannan-Quinn criter.,,-5.971816
+F-statistic,9.435668,    Durbin-Watson stat,,1.873595
+Prob(F-statistic),0.000173,,,
+,,,,

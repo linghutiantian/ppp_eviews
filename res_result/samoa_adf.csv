@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SAMOA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.866784, 0.0515
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SAMOA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SAMOA(-1),-0.065623,0.022891,-2.866784,0.0047
+D(RES_SAMOA(-1)),0.359818,0.073137,4.919779,0.0000
+C,0.000176,0.001438,0.122144,0.9029
+,,,,
+R-squared,0.149303,    Mean dependent var,,0.000280
+Adjusted R-squared,0.138865,    S.D. dependent var,,0.019964
+S.E. of regression,0.018526,    Akaike info criterion,,-5.121369
+Sum squared resid,0.055944,    Schwarz criterion,,-5.065128
+Log likelihood,428.0736,    Hannan-Quinn criter.,,-5.098540
+F-statistic,14.30381,    Durbin-Watson stat,,2.056481
+Prob(F-statistic),0.000002,,,
+,,,,

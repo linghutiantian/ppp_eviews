@@ -1,0 +1,35 @@
+Null Hypothesis: QT_POLAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.514058, 0.1129
+Test critical values:,1% level,,-3.448414,
+,5% level,,-2.869396,
+,10% level,,-2.571023,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_POLAND),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1989M03 2018M12,,,,
+Included observations: 358 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_POLAND(-1),-0.021433,0.008525,-2.514058,0.0124
+D(QT_POLAND(-1)),0.294955,0.050483,5.842630,0.0000
+C,0.025652,0.010793,2.376799,0.0180
+,,,,
+R-squared,0.098586,    Mean dependent var,,-0.001276
+Adjusted R-squared,0.093508,    S.D. dependent var,,0.043417
+S.E. of regression,0.041337,    Akaike info criterion,,-3.525751
+Sum squared resid,0.606619,    Schwarz criterion,,-3.493233
+Log likelihood,634.1094,    Hannan-Quinn criter.,,-3.512818
+F-statistic,19.41289,    Durbin-Watson stat,,1.840326
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: ST_BHUTAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.385207, 0.9090
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_BHUTAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_BHUTAN(-1),-0.000383,0.000995,-0.385207,0.7002
+D(ST_BHUTAN(-1)),0.116581,0.037478,3.110665,0.0019
+C,0.004487,0.003025,1.483062,0.1385
+,,,,
+R-squared,0.013733,    Mean dependent var,,0.003822
+Adjusted R-squared,0.010927,    S.D. dependent var,,0.023931
+S.E. of regression,0.023800,    Akaike info criterion,,-4.634054
+Sum squared resid,0.398195,    Schwarz criterion,,-4.614679
+Log likelihood,1638.821,    Hannan-Quinn criter.,,-4.626567
+F-statistic,4.894301,    Durbin-Watson stat,,2.000525
+Prob(F-statistic),0.007746,,,
+,,,,

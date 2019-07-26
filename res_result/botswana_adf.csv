@@ -1,0 +1,35 @@
+Null Hypothesis: RES_BOTSWANA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.869293, 0.0524
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_BOTSWANA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_BOTSWANA(-1),-0.092375,0.032194,-2.869293,0.0050
+D(RES_BOTSWANA(-1)),0.158256,0.094158,1.680749,0.0958
+C,-0.001587,0.002251,-0.704886,0.4825
+,,,,
+R-squared,0.089543,    Mean dependent var,,-0.001691
+Adjusted R-squared,0.071865,    S.D. dependent var,,0.024011
+S.E. of regression,0.023132,    Akaike info criterion,,-4.667311
+Sum squared resid,0.055114,    Schwarz criterion,,-4.591930
+Log likelihood,250.3675,    Hannan-Quinn criter.,,-4.636759
+F-statistic,5.065025,    Durbin-Watson stat,,2.004455
+Prob(F-statistic),0.007977,,,
+,,,,

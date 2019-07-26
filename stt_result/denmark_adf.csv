@@ -1,0 +1,35 @@
+Null Hypothesis: ST_DENMARK has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.625264, 0.0883
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_DENMARK),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_DENMARK(-1),-0.013481,0.005135,-2.625264,0.0088
+D(ST_DENMARK(-1)),0.310542,0.035849,8.662509,0.0000
+C,0.025415,0.009734,2.610863,0.0092
+,,,,
+R-squared,0.101129,    Mean dependent var,,-7.36E-05
+Adjusted R-squared,0.098571,    S.D. dependent var,,0.022707
+S.E. of regression,0.021559,    Akaike info criterion,,-4.831819
+Sum squared resid,0.326744,    Schwarz criterion,,-4.812444
+Log likelihood,1708.632,    Hannan-Quinn criter.,,-4.824332
+F-statistic,39.54591,    Durbin-Watson stat,,1.969880
+Prob(F-statistic),0.000000,,,
+,,,,

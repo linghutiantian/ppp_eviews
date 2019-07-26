@@ -1,0 +1,35 @@
+Null Hypothesis: ST_RWANDA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.160855, 0.9406
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_RWANDA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_RWANDA(-1),-0.000260,0.001614,-0.160855,0.8723
+D(ST_RWANDA(-1)),0.055865,0.037685,1.482415,0.1387
+C,0.005178,0.008494,0.609633,0.5423
+,,,,
+R-squared,0.003131,    Mean dependent var,,0.004059
+Adjusted R-squared,0.000295,    S.D. dependent var,,0.039933
+S.E. of regression,0.039927,    Akaike info criterion,,-3.599306
+Sum squared resid,1.120677,    Schwarz criterion,,-3.579931
+Log likelihood,1273.555,    Hannan-Quinn criter.,,-3.591820
+F-statistic,1.104064,    Durbin-Watson stat,,2.000992
+Prob(F-statistic),0.332095,,,
+,,,,

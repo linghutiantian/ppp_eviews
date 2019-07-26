@@ -1,0 +1,35 @@
+Null Hypothesis: RES_BENIN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.347837, 0.1592
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_BENIN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_BENIN(-1),-0.073627,0.031360,-2.347837,0.0208
+D(RES_BENIN(-1)),0.235070,0.093802,2.506029,0.0138
+C,0.001131,0.002589,0.436687,0.6633
+,,,,
+R-squared,0.092766,    Mean dependent var,,0.001487
+Adjusted R-squared,0.075149,    S.D. dependent var,,0.027654
+S.E. of regression,0.026594,    Akaike info criterion,,-4.388341
+Sum squared resid,0.072848,    Schwarz criterion,,-4.312960
+Log likelihood,235.5821,    Hannan-Quinn criter.,,-4.357789
+F-statistic,5.265926,    Durbin-Watson stat,,1.977227
+Prob(F-statistic),0.006646,,,
+,,,,

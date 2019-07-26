@@ -1,0 +1,35 @@
+Null Hypothesis: QT_ARUBA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.849259, 0.3560
+Test critical values:,1% level,,-3.460884,
+,5% level,,-2.874868,
+,10% level,,-2.573951,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_ARUBA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2001M03 2018M12,,,,
+Included observations: 214 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_ARUBA(-1),-0.024315,0.013149,-1.849259,0.0658
+D(QT_ARUBA(-1)),0.146627,0.068018,2.155704,0.0322
+C,0.011890,0.006503,1.828458,0.0689
+,,,,
+R-squared,0.034047,    Mean dependent var,,-0.000113
+Adjusted R-squared,0.024891,    S.D. dependent var,,0.006975
+S.E. of regression,0.006888,    Akaike info criterion,,-7.104274
+Sum squared resid,0.010010,    Schwarz criterion,,-7.057088
+Log likelihood,763.1573,    Hannan-Quinn criter.,,-7.085207
+F-statistic,3.718526,    Durbin-Watson stat,,2.013533
+Prob(F-statistic),0.025875,,,
+,,,,

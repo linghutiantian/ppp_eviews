@@ -1,0 +1,35 @@
+Null Hypothesis: QT_ESTONIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.816238, 0.8114
+Test critical values:,1% level,,-3.473096,
+,5% level,,-2.880211,
+,10% level,,-2.576805,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_ESTONIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1998M03 2010M12,,,,
+Included observations: 154 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_ESTONIA(-1),-0.007817,0.009577,-0.816238,0.4156
+D(QT_ESTONIA(-1)),0.270066,0.079048,3.416489,0.0008
+C,0.014827,0.020665,0.717494,0.4742
+,,,,
+R-squared,0.073223,    Mean dependent var,,-0.002749
+Adjusted R-squared,0.060948,    S.D. dependent var,,0.025783
+S.E. of regression,0.024985,    Akaike info criterion,,-4.521818
+Sum squared resid,0.094260,    Schwarz criterion,,-4.462656
+Log likelihood,351.1800,    Hannan-Quinn criter.,,-4.497787
+F-statistic,5.965127,    Durbin-Watson stat,,1.915261
+Prob(F-statistic),0.003211,,,
+,,,,

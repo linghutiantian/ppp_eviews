@@ -1,0 +1,35 @@
+Null Hypothesis: RES_UKRAINE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.644205, 0.0862
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_UKRAINE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_UKRAINE(-1),-0.064225,0.024289,-2.644205,0.0090
+D(RES_UKRAINE(-1)),0.113417,0.077031,1.472356,0.1429
+C,-0.002161,0.003742,-0.577601,0.5643
+,,,,
+R-squared,0.048566,    Mean dependent var,,-0.002335
+Adjusted R-squared,0.036892,    S.D. dependent var,,0.049077
+S.E. of regression,0.048163,    Akaike info criterion,,-3.210529
+Sum squared resid,0.378113,    Schwarz criterion,,-3.154288
+Log likelihood,269.4739,    Hannan-Quinn criter.,,-3.187701
+F-statistic,4.160178,    Durbin-Watson stat,,1.964271
+Prob(F-statistic),0.017293,,,
+,,,,

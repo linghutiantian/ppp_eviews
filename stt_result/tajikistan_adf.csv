@@ -1,0 +1,35 @@
+Null Hypothesis: ST_TAJIKISTAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-5.113251, 0.0000
+Test critical values:,1% level,,-3.451283,
+,5% level,,-2.870651,
+,10% level,,-2.571695,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_TAJIKISTAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1993M03 2018M12,,,,
+Included observations: 310 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_TAJIKISTAN(-1),-0.018019,0.003524,-5.113251,0.0000
+D(ST_TAJIKISTAN(-1)),-0.225356,0.054760,-4.115367,0.0000
+C,0.037206,0.006403,5.810820,0.0000
+,,,,
+R-squared,0.107246,    Mean dependent var,,0.022090
+Adjusted R-squared,0.101430,    S.D. dependent var,,0.109522
+S.E. of regression,0.103819,    Akaike info criterion,,-1.682710
+Sum squared resid,3.308947,    Schwarz criterion,,-1.646550
+Log likelihood,263.8201,    Hannan-Quinn criter.,,-1.668255
+F-statistic,18.43992,    Durbin-Watson stat,,1.966731
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_GREECE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.525895, 0.1097
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_GREECE),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_GREECE(-1),-0.013832,0.005476,-2.525895,0.0118
+D(QT_GREECE(-1)),0.227889,0.036716,6.206789,0.0000
+C,0.079603,0.031561,2.522182,0.0119
+,,,,
+R-squared,0.057435,    Mean dependent var,,-0.000107
+Adjusted R-squared,0.054754,    S.D. dependent var,,0.024025
+S.E. of regression,0.023358,    Akaike info criterion,,-4.671515
+Sum squared resid,0.383554,    Schwarz criterion,,-4.652140
+Log likelihood,1652.045,    Hannan-Quinn criter.,,-4.664028
+F-statistic,21.41862,    Durbin-Watson stat,,1.957769
+Prob(F-statistic),0.000000,,,
+,,,,

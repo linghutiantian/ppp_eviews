@@ -1,0 +1,35 @@
+Null Hypothesis: QT_TRINIDAD_AND_TOBAGO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.047634, 0.7362
+Test critical values:,1% level,,-3.459494,
+,5% level,,-2.874258,
+,10% level,,-2.573625,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_TRINIDAD_AND_TOBAGO),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2000M03 2018M10,,,,
+Included observations: 224 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_TRINIDAD_AND_TOBAGO(-1),-0.002851,0.002721,-1.047634,0.2960
+D(QT_TRINIDAD_AND_TOBAGO(-1)),0.212599,0.065068,3.267353,0.0013
+C,0.004320,0.006096,0.708625,0.4793
+,,,,
+R-squared,0.051109,    Mean dependent var,,-0.002567
+Adjusted R-squared,0.042522,    S.D. dependent var,,0.009282
+S.E. of regression,0.009082,    Akaike info criterion,,-6.551678
+Sum squared resid,0.018230,    Schwarz criterion,,-6.505986
+Log likelihood,736.7879,    Hannan-Quinn criter.,,-6.533234
+F-statistic,5.951790,    Durbin-Watson stat,,2.051616
+Prob(F-statistic),0.003037,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: ST_GEORGIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.943351, 0.3121
+Test critical values:,1% level,,-3.453823,
+,5% level,,-2.871768,
+,10% level,,-2.572293,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_GEORGIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1995M12 2018M12,,,,
+Included observations: 277 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_GEORGIA(-1),-0.014133,0.007272,-1.943351,0.0530
+D(ST_GEORGIA(-1)),0.466774,0.053441,8.734306,0.0000
+C,0.009970,0.004588,2.173251,0.0306
+,,,,
+R-squared,0.221423,    Mean dependent var,,0.002740
+Adjusted R-squared,0.215740,    S.D. dependent var,,0.026486
+S.E. of regression,0.023455,    Akaike info criterion,,-4.656654
+Sum squared resid,0.150744,    Schwarz criterion,,-4.617405
+Log likelihood,647.9466,    Hannan-Quinn criter.,,-4.640906
+F-statistic,38.96210,    Durbin-Watson stat,,2.058091
+Prob(F-statistic),0.000000,,,
+,,,,

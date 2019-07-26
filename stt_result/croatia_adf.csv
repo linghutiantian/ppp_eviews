@@ -1,0 +1,35 @@
+Null Hypothesis: ST_CROATIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-9.765467, 0.0000
+Test critical values:,1% level,,-3.450474,
+,5% level,,-2.870302,
+,10% level,,-2.571508,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_CROATIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1992M03 2018M12,,,,
+Included observations: 322 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_CROATIA(-1),-0.035025,0.003587,-9.765467,0.0000
+D(ST_CROATIA(-1)),0.540754,0.039348,13.74275,0.0000
+C,0.064836,0.006609,9.809617,0.0000
+,,,,
+R-squared,0.700890,    Mean dependent var,,0.013291
+Adjusted R-squared,0.699015,    S.D. dependent var,,0.059144
+S.E. of regression,0.032448,    Akaike info criterion,,-4.009091
+Sum squared resid,0.335864,    Schwarz criterion,,-3.973924
+Log likelihood,648.4637,    Hannan-Quinn criter.,,-3.995051
+F-statistic,373.7483,    Durbin-Watson stat,,2.154797
+Prob(F-statistic),0.000000,,,
+,,,,

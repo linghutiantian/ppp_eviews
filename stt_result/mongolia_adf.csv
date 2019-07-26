@@ -1,0 +1,35 @@
+Null Hypothesis: ST_MONGOLIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-5.090011, 0.0000
+Test critical values:,1% level,,-3.449389,
+,5% level,,-2.869825,
+,10% level,,-2.571253,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_MONGOLIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1990M09 2018M12,,,,
+Included observations: 340 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_MONGOLIA(-1),-0.021689,0.004261,-5.090011,0.0000
+D(ST_MONGOLIA(-1)),-0.023368,0.053386,-0.437712,0.6619
+C,0.162382,0.029014,5.596692,0.0000
+,,,,
+R-squared,0.072059,    Mean dependent var,,0.018123
+Adjusted R-squared,0.066552,    S.D. dependent var,,0.108432
+S.E. of regression,0.104761,    Akaike info criterion,,-1.665476
+Sum squared resid,3.698565,    Schwarz criterion,,-1.631692
+Log likelihood,286.1310,    Hannan-Quinn criter.,,-1.652015
+F-statistic,13.08474,    Durbin-Watson stat,,2.008400
+Prob(F-statistic),0.000003,,,
+,,,,

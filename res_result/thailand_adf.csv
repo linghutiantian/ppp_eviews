@@ -1,0 +1,35 @@
+Null Hypothesis: RES_THAILAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.995915, 0.2883
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_THAILAND),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_THAILAND(-1),-0.043293,0.021691,-1.995915,0.0486
+D(RES_THAILAND(-1)),0.441823,0.088538,4.990187,0.0000
+C,-0.000215,0.001164,-0.184896,0.8537
+,,,,
+R-squared,0.206778,    Mean dependent var,,-0.000261
+Adjusted R-squared,0.191375,    S.D. dependent var,,0.013323
+S.E. of regression,0.011980,    Akaike info criterion,,-5.983213
+Sum squared resid,0.014783,    Schwarz criterion,,-5.907833
+Log likelihood,320.1103,    Hannan-Quinn criter.,,-5.952661
+F-statistic,13.42507,    Durbin-Watson stat,,1.763681
+Prob(F-statistic),0.000007,,,
+,,,,

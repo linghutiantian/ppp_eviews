@@ -1,0 +1,35 @@
+Null Hypothesis: QT_FIJI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.916764, 0.0461
+Test critical values:,1% level,,-3.481217,
+,5% level,,-2.883753,
+,10% level,,-2.578694,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_FIJI),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2008M03 2018M12,,,,
+Included observations: 130 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_FIJI(-1),-0.071444,0.024494,-2.916764,0.0042
+D(QT_FIJI(-1)),0.317126,0.082353,3.850821,0.0002
+C,0.048902,0.016526,2.959156,0.0037
+,,,,
+R-squared,0.143209,    Mean dependent var,,0.001286
+Adjusted R-squared,0.129716,    S.D. dependent var,,0.020017
+S.E. of regression,0.018674,    Akaike info criterion,,-5.100598
+Sum squared resid,0.044286,    Schwarz criterion,,-5.034424
+Log likelihood,334.5389,    Hannan-Quinn criter.,,-5.073709
+F-statistic,10.61376,    Durbin-Watson stat,,2.070203
+Prob(F-statistic),0.000055,,,
+,,,,

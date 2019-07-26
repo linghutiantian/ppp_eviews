@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_NICARAGUA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.242597, 0.1922
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_NICARAGUA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_NICARAGUA(-1),-0.005085,0.002268,-2.242597,0.0263
+D(PDIFF_NICARAGUA(-1)),0.375312,0.072318,5.189714,0.0000
+C,0.004478,0.001053,4.253186,0.0000
+,,,,
+R-squared,0.194177,    Mean dependent var,,0.004151
+Adjusted R-squared,0.184290,    S.D. dependent var,,0.006438
+S.E. of regression,0.005815,    Akaike info criterion,,-7.438932
+Sum squared resid,0.005511,    Schwarz criterion,,-7.382691
+Log likelihood,620.4313,    Hannan-Quinn criter.,,-7.416103
+F-statistic,19.63882,    Durbin-Watson stat,,1.947421
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_UKRAINE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.219786, 0.6655
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_UKRAINE),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_UKRAINE(-1),-0.018830,0.015437,-1.219786,0.2243
+D(QT_UKRAINE(-1)),0.100195,0.078218,1.280963,0.2020
+C,0.043726,0.035062,1.247130,0.2141
+,,,,
+R-squared,0.016913,    Mean dependent var,,0.001321
+Adjusted R-squared,0.004850,    S.D. dependent var,,0.047612
+S.E. of regression,0.047497,    Akaike info criterion,,-3.238407
+Sum squared resid,0.367717,    Schwarz criterion,,-3.182166
+Log likelihood,271.7878,    Hannan-Quinn criter.,,-3.215579
+F-statistic,1.402113,    Durbin-Watson stat,,1.976299
+Prob(F-statistic),0.249028,,,
+,,,,

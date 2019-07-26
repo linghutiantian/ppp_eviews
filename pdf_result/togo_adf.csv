@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_TOGO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.347831, 0.0138
+Test critical values:,1% level,,-3.455193,
+,5% level,,-2.872370,
+,10% level,,-2.572615,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_TOGO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1997M03 2018M12,,,,
+Included observations: 262 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_TOGO(-1),-0.069123,0.020647,-3.347831,0.0009
+D(PDIFF_TOGO(-1)),0.199649,0.060626,3.293123,0.0011
+C,-0.007689,0.002413,-3.186929,0.0016
+,,,,
+R-squared,0.067850,    Mean dependent var,,-9.60E-06
+Adjusted R-squared,0.060651,    S.D. dependent var,,0.012569
+S.E. of regression,0.012182,    Akaike info criterion,,-5.966370
+Sum squared resid,0.038434,    Schwarz criterion,,-5.925511
+Log likelihood,784.5945,    Hannan-Quinn criter.,,-5.949948
+F-statistic,9.426066,    Durbin-Watson stat,,1.906643
+Prob(F-statistic),0.000112,,,
+,,,,

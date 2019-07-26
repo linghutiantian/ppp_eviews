@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_HAITI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 2.485364, 1.0000
+Test critical values:,1% level,,-3.496346,
+,5% level,,-2.890327,
+,10% level,,-2.582196,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_HAITI),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M07,,,,
+Included observations: 101 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_HAITI(-1),0.006439,0.002591,2.485364,0.0146
+D(PDIFF_HAITI(-1)),0.507097,0.082508,6.146049,0.0000
+C,-0.001782,0.001803,-0.988263,0.3255
+,,,,
+R-squared,0.441358,    Mean dependent var,,0.005877
+Adjusted R-squared,0.429957,    S.D. dependent var,,0.005159
+S.E. of regression,0.003895,    Akaike info criterion,,-8.229110
+Sum squared resid,0.001487,    Schwarz criterion,,-8.151434
+Log likelihood,418.5701,    Hannan-Quinn criter.,,-8.197665
+F-statistic,38.71275,    Durbin-Watson stat,,1.713523
+Prob(F-statistic),0.000000,,,
+,,,,

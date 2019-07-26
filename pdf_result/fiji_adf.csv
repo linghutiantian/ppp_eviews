@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_FIJI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.919527, 0.7794
+Test critical values:,1% level,,-3.481217,
+,5% level,,-2.883753,
+,10% level,,-2.578694,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_FIJI),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2008M03 2018M12,,,,
+Included observations: 130 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_FIJI(-1),-0.012997,0.014134,-0.919527,0.3596
+D(PDIFF_FIJI(-1)),-0.024634,0.088621,-0.277970,0.7815
+C,0.001049,0.000807,1.300141,0.1959
+,,,,
+R-squared,0.007570,    Mean dependent var,,0.001310
+Adjusted R-squared,-0.008059,    S.D. dependent var,,0.008289
+S.E. of regression,0.008322,    Akaike info criterion,,-6.716920
+Sum squared resid,0.008796,    Schwarz criterion,,-6.650746
+Log likelihood,439.5998,    Hannan-Quinn criter.,,-6.690031
+F-statistic,0.484370,    Durbin-Watson stat,,1.993429
+Prob(F-statistic),0.617219,,,
+,,,,

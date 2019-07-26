@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_SIERRA_LEONE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 3.444232, 1.0000
+Test critical values:,1% level,,-3.476805,
+,5% level,,-2.881830,
+,10% level,,-2.577668,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_SIERRA_LEONE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2007M03 2018M12,,,,
+Included observations: 142 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_SIERRA_LEONE(-1),0.010041,0.002915,3.444232,0.0008
+D(PDIFF_SIERRA_LEONE(-1)),0.257808,0.083007,3.105868,0.0023
+C,0.001537,0.000916,1.678108,0.0956
+,,,,
+R-squared,0.210908,    Mean dependent var,,0.005672
+Adjusted R-squared,0.199554,    S.D. dependent var,,0.007465
+S.E. of regression,0.006679,    Akaike info criterion,,-7.158815
+Sum squared resid,0.006201,    Schwarz criterion,,-7.096367
+Log likelihood,511.2758,    Hannan-Quinn criter.,,-7.133439
+F-statistic,18.57587,    Durbin-Watson stat,,1.984970
+Prob(F-statistic),0.000000,,,
+,,,,

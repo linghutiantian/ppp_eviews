@@ -1,0 +1,35 @@
+Null Hypothesis: RES_MALTA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.137925, 0.6892
+Test critical values:,1% level,,-3.639407,
+,5% level,,-2.951125,
+,10% level,,-2.614300,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_MALTA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2007M12,,,,
+Included observations: 34 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_MALTA(-1),-0.118810,0.104409,-1.137925,0.2639
+D(RES_MALTA(-1)),0.291009,0.193450,1.504312,0.1426
+C,-0.001308,0.004684,-0.279357,0.7818
+,,,,
+R-squared,0.075410,    Mean dependent var,,-0.002668
+Adjusted R-squared,0.015759,    S.D. dependent var,,0.027039
+S.E. of regression,0.026825,    Akaike info criterion,,-4.314832
+Sum squared resid,0.022308,    Schwarz criterion,,-4.180153
+Log likelihood,76.35214,    Hannan-Quinn criter.,,-4.268902
+F-statistic,1.264184,    Durbin-Watson stat,,2.025516
+Prob(F-statistic),0.296629,,,
+,,,,

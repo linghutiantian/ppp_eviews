@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_DOMINICAN_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.153841, 0.2240
+Test critical values:,1% level,,-3.457747,
+,5% level,,-2.873492,
+,10% level,,-2.573215,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_DOMINICAN_REPUBLIC),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1999M03 2018M12,,,,
+Included observations: 238 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_DOMINICAN_REPUBLIC(-1),-0.003608,0.001675,-2.153841,0.0323
+D(PDIFF_DOMINICAN_REPUBLIC(-1)),0.601625,0.051371,11.71138,0.0000
+C,0.001022,0.000747,1.368284,0.1725
+,,,,
+R-squared,0.398650,    Mean dependent var,,0.004611
+Adjusted R-squared,0.393532,    S.D. dependent var,,0.012334
+S.E. of regression,0.009605,    Akaike info criterion,,-6.440479
+Sum squared resid,0.021682,    Schwarz criterion,,-6.396711
+Log likelihood,769.4170,    Hannan-Quinn criter.,,-6.422840
+F-statistic,77.89380,    Durbin-Watson stat,,2.034524
+Prob(F-statistic),0.000000,,,
+,,,,

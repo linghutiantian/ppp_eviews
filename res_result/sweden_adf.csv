@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SWEDEN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.064778, 0.2593
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SWEDEN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SWEDEN(-1),-0.009174,0.004443,-2.064778,0.0393
+D(RES_SWEDEN(-1)),0.351101,0.035419,9.912676,0.0000
+C,0.000191,0.000802,0.237822,0.8121
+,,,,
+R-squared,0.124337,    Mean dependent var,,0.000313
+Adjusted R-squared,0.121846,    S.D. dependent var,,0.022728
+S.E. of regression,0.021298,    Akaike info criterion,,-4.856166
+Sum squared resid,0.318884,    Schwarz criterion,,-4.836791
+Log likelihood,1717.227,    Hannan-Quinn criter.,,-4.848679
+F-statistic,49.91026,    Durbin-Watson stat,,1.933620
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: ST_SUDAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-4.528145, 0.0002
+Test critical values:,1% level,,-3.450617,
+,5% level,,-2.870359,
+,10% level,,-2.571538,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_SUDAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1991M12 2018M07,,,,
+Included observations: 320 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_SUDAN(-1),-0.022685,0.005010,-4.528145,0.0000
+D(ST_SUDAN(-1)),0.027428,0.052387,0.523568,0.6009
+C,0.035529,0.006715,5.291158,0.0000
+,,,,
+R-squared,0.068132,    Mean dependent var,,0.021257
+Adjusted R-squared,0.062253,    S.D. dependent var,,0.102574
+S.E. of regression,0.099330,    Akaike info criterion,,-1.771414
+Sum squared resid,3.127642,    Schwarz criterion,,-1.736086
+Log likelihood,286.4263,    Hannan-Quinn criter.,,-1.757307
+F-statistic,11.58845,    Durbin-Watson stat,,1.940723
+Prob(F-statistic),0.000014,,,
+,,,,

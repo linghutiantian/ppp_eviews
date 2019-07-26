@@ -1,0 +1,35 @@
+Null Hypothesis: ST_SAN_MARINO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.848877, 0.8038
+Test critical values:,1% level,,-3.441674,
+,5% level,,-2.866428,
+,10% level,,-2.569433,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_SAN_MARINO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1971M11 2018M12,,,,
+Included observations: 566 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_SAN_MARINO(-1),-0.003183,0.003750,-0.848877,0.3963
+D(ST_SAN_MARINO(-1)),-0.000997,0.042178,-0.023642,0.9811
+C,0.001156,0.020149,0.057376,0.9543
+,,,,
+R-squared,0.001287,    Mean dependent var,,-0.011564
+Adjusted R-squared,-0.002261,    S.D. dependent var,,0.318857
+S.E. of regression,0.319217,    Akaike info criterion,,0.559395
+Sum squared resid,57.36942,    Schwarz criterion,,0.582391
+Log likelihood,-155.3088,    Hannan-Quinn criter.,,0.568370
+F-statistic,0.362667,    Durbin-Watson stat,,2.000019
+Prob(F-statistic),0.695980,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: ST_SENEGAL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.274988, 0.6428
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_SENEGAL),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_SENEGAL(-1),-0.004297,0.003370,-1.274988,0.2027
+D(ST_SENEGAL(-1)),0.117763,0.037464,3.143398,0.0017
+C,0.026406,0.019916,1.325900,0.1853
+,,,,
+R-squared,0.015609,    Mean dependent var,,0.001209
+Adjusted R-squared,0.012809,    S.D. dependent var,,0.035042
+S.E. of regression,0.034817,    Akaike info criterion,,-3.873202
+Sum squared resid,0.852176,    Schwarz criterion,,-3.853827
+Log likelihood,1370.240,    Hannan-Quinn criter.,,-3.865715
+F-statistic,5.573577,    Durbin-Watson stat,,2.001429
+Prob(F-statistic),0.003967,,,
+,,,,

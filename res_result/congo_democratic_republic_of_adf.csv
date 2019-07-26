@@ -1,0 +1,35 @@
+Null Hypothesis: RES_CONGO_DEMOCRATIC_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.175593, 0.0264
+Test critical values:,1% level,,-3.544063,
+,5% level,,-2.910860,
+,10% level,,-2.593090,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_CONGO_DEMOCRATIC_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2012M03 2017M02,,,,
+Included observations: 60 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_CONGO_DEMOCRATIC_REPUBLIC_OF(-1),-0.208074,0.065523,-3.175593,0.0024
+D(RES_CONGO_DEMOCRATIC_REPUBLIC_OF(-1)),0.337029,0.118865,2.835399,0.0063
+C,0.000468,0.001679,0.278581,0.7816
+,,,,
+R-squared,0.211205,    Mean dependent var,,0.000576
+Adjusted R-squared,0.183528,    S.D. dependent var,,0.014350
+S.E. of regression,0.012967,    Akaike info criterion,,-5.804122
+Sum squared resid,0.009584,    Schwarz criterion,,-5.699405
+Log likelihood,177.1237,    Hannan-Quinn criter.,,-5.763162
+F-statistic,7.631060,    Durbin-Watson stat,,2.011312
+Prob(F-statistic),0.001157,,,
+,,,,

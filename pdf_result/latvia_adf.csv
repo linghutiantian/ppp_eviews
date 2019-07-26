@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_LATVIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-5.459802, 0.0000
+Test critical values:,1% level,,-3.449738,
+,5% level,,-2.869978,
+,10% level,,-2.571335,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_LATVIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1991M03 2018M12,,,,
+Included observations: 334 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_LATVIA(-1),-0.012009,0.002199,-5.459802,0.0000
+D(PDIFF_LATVIA(-1)),0.734765,0.033980,21.62351,0.0000
+C,-0.002439,0.001619,-1.506129,0.1330
+,,,,
+R-squared,0.745508,    Mean dependent var,,0.012885
+Adjusted R-squared,0.743971,    S.D. dependent var,,0.049991
+S.E. of regression,0.025295,    Akaike info criterion,,-4.507461
+Sum squared resid,0.211790,    Schwarz criterion,,-4.473229
+Log likelihood,755.7460,    Hannan-Quinn criter.,,-4.493812
+F-statistic,484.8158,    Durbin-Watson stat,,1.605607
+Prob(F-statistic),0.000000,,,
+,,,,

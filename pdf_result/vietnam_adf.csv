@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_VIETNAM has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.077670, 0.0313
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_VIETNAM),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_VIETNAM(-1),-0.015044,0.004888,-3.077670,0.0027
+D(PDIFF_VIETNAM(-1)),0.443438,0.083995,5.279372,0.0000
+C,-0.000326,0.000756,-0.430884,0.6675
+,,,,
+R-squared,0.396845,    Mean dependent var,,0.003406
+Adjusted R-squared,0.385133,    S.D. dependent var,,0.005773
+S.E. of regression,0.004527,    Akaike info criterion,,-7.929638
+Sum squared resid,0.002111,    Schwarz criterion,,-7.854257
+Log likelihood,423.2708,    Hannan-Quinn criter.,,-7.899086
+F-statistic,33.88436,    Durbin-Watson stat,,1.989753
+Prob(F-statistic),0.000000,,,
+,,,,

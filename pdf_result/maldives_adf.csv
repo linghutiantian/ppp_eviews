@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_MALDIVES has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.468556, 0.8935
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_MALDIVES),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_MALDIVES(-1),-0.002791,0.005956,-0.468556,0.6398
+D(PDIFF_MALDIVES(-1)),-0.039724,0.066859,-0.594141,0.5530
+C,0.000743,0.001592,0.466880,0.6410
+,,,,
+R-squared,0.002716,    Mean dependent var,,0.001299
+Adjusted R-squared,-0.006228,    S.D. dependent var,,0.013760
+S.E. of regression,0.013803,    Akaike info criterion,,-5.714645
+Sum squared resid,0.042488,    Schwarz criterion,,-5.669240
+Log likelihood,648.7549,    Hannan-Quinn criter.,,-5.696322
+F-statistic,0.303693,    Durbin-Watson stat,,1.998682
+Prob(F-statistic),0.738392,,,
+,,,,

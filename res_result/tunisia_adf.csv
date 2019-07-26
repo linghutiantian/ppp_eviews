@@ -1,0 +1,35 @@
+Null Hypothesis: RES_TUNISIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.990801, 0.0378
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_TUNISIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_TUNISIA(-1),-0.090655,0.030311,-2.990801,0.0032
+D(RES_TUNISIA(-1)),0.220066,0.076693,2.869433,0.0047
+C,0.000370,0.001435,0.257957,0.7968
+,,,,
+R-squared,0.080221,    Mean dependent var,,0.000521
+Adjusted R-squared,0.068935,    S.D. dependent var,,0.019152
+S.E. of regression,0.018480,    Akaike info criterion,,-5.126381
+Sum squared resid,0.055664,    Schwarz criterion,,-5.070140
+Log likelihood,428.4896,    Hannan-Quinn criter.,,-5.103553
+F-statistic,7.108195,    Durbin-Watson stat,,1.986422
+Prob(F-statistic),0.001097,,,
+,,,,

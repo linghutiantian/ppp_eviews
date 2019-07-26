@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_BOLIVIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.246249, 0.6537
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_BOLIVIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_BOLIVIA(-1),-0.003702,0.002971,-1.246249,0.2145
+D(PDIFF_BOLIVIA(-1)),0.457369,0.068946,6.633711,0.0000
+C,0.000346,0.001017,0.340369,0.7340
+,,,,
+R-squared,0.223177,    Mean dependent var,,0.002661
+Adjusted R-squared,0.213645,    S.D. dependent var,,0.006515
+S.E. of regression,0.005777,    Akaike info criterion,,-7.451865
+Sum squared resid,0.005440,    Schwarz criterion,,-7.395625
+Log likelihood,621.5048,    Hannan-Quinn criter.,,-7.429037
+F-statistic,23.41450,    Durbin-Watson stat,,1.881509
+Prob(F-statistic),0.000000,,,
+,,,,

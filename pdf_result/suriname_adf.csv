@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_SURINAME has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.649591, 0.0853
+Test critical values:,1% level,,-3.470934,
+,5% level,,-2.879267,
+,10% level,,-2.576301,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_SURINAME),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 162 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_SURINAME(-1),-0.076363,0.028821,-2.649591,0.0089
+D(PDIFF_SURINAME(-1)),-0.046088,0.078315,-0.588490,0.5570
+C,0.010412,0.005546,1.877531,0.0623
+,,,,
+R-squared,0.048149,    Mean dependent var,,0.002334
+Adjusted R-squared,0.036176,    S.D. dependent var,,0.060588
+S.E. of regression,0.059482,    Akaike info criterion,,-2.787943
+Sum squared resid,0.562558,    Schwarz criterion,,-2.730765
+Log likelihood,228.8234,    Hannan-Quinn criter.,,-2.764728
+F-statistic,4.021484,    Durbin-Watson stat,,2.017128
+Prob(F-statistic),0.019780,,,
+,,,,

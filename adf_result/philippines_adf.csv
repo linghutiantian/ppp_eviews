@@ -1,0 +1,35 @@
+Null Hypothesis: QT_PHILIPPINES has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.060574, 0.7291
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_PHILIPPINES),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_PHILIPPINES(-1),-0.020523,0.019350,-1.060574,0.2914
+D(QT_PHILIPPINES(-1)),0.190455,0.097109,1.961240,0.0526
+C,0.079224,0.074573,1.062367,0.2906
+,,,,
+R-squared,0.042259,    Mean dependent var,,0.000172
+Adjusted R-squared,0.023662,    S.D. dependent var,,0.011405
+S.E. of regression,0.011269,    Akaike info criterion,,-6.105637
+Sum squared resid,0.013080,    Schwarz criterion,,-6.030257
+Log likelihood,326.5988,    Hannan-Quinn criter.,,-6.075085
+F-statistic,2.272379,    Durbin-Watson stat,,1.976514
+Prob(F-statistic),0.108211,,,
+,,,,

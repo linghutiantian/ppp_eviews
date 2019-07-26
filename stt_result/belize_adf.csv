@@ -1,0 +1,35 @@
+Null Hypothesis: ST_BELIZE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.220026, 0.1994
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_BELIZE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_BELIZE(-1),-0.007241,0.003262,-2.220026,0.0267
+D(ST_BELIZE(-1)),0.214131,0.036720,5.831394,0.0000
+C,0.004905,0.002081,2.357313,0.0187
+,,,,
+R-squared,0.052166,    Mean dependent var,,0.000475
+Adjusted R-squared,0.049469,    S.D. dependent var,,0.011014
+S.E. of regression,0.010738,    Akaike info criterion,,-6.225834
+Sum squared resid,0.081058,    Schwarz criterion,,-6.206459
+Log likelihood,2200.719,    Hannan-Quinn criter.,,-6.218347
+F-statistic,19.34552,    Durbin-Watson stat,,1.998232
+Prob(F-statistic),0.000000,,,
+,,,,

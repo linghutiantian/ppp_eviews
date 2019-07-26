@@ -1,0 +1,35 @@
+Null Hypothesis: ST_QATAR has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.631415, 0.0871
+Test critical values:,1% level,,-3.440435,
+,5% level,,-2.865881,
+,10% level,,-2.569140,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_QATAR),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1966M03 2018M12,,,,
+Included observations: 634 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_QATAR(-1),-0.004715,0.001792,-2.631415,0.0087
+D(ST_QATAR(-1)),0.417232,0.035954,11.60467,0.0000
+C,0.006049,0.002397,2.524175,0.0118
+,,,,
+R-squared,0.189036,    Mean dependent var,,-0.000423
+Adjusted R-squared,0.186465,    S.D. dependent var,,0.004350
+S.E. of regression,0.003924,    Akaike info criterion,,-8.238917
+Sum squared resid,0.009714,    Schwarz criterion,,-8.217850
+Log likelihood,2614.737,    Hannan-Quinn criter.,,-8.230736
+F-statistic,73.54298,    Durbin-Watson stat,,1.800292
+Prob(F-statistic),0.000000,,,
+,,,,

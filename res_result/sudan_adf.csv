@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SUDAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.453389, 0.1313
+Test critical values:,1% level,,-3.527045,
+,5% level,,-2.903566,
+,10% level,,-2.589227,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SUDAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2010M03 2015M12,,,,
+Included observations: 70 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SUDAN(-1),-0.172545,0.070329,-2.453389,0.0168
+D(RES_SUDAN(-1)),0.113864,0.122767,0.927482,0.3570
+C,-0.000888,0.005658,-0.156882,0.8758
+,,,,
+R-squared,0.082909,    Mean dependent var,,-0.001319
+Adjusted R-squared,0.055533,    S.D. dependent var,,0.048675
+S.E. of regression,0.047304,    Akaike info criterion,,-3.222515
+Sum squared resid,0.149926,    Schwarz criterion,,-3.126150
+Log likelihood,115.7880,    Hannan-Quinn criter.,,-3.184238
+F-statistic,3.028540,    Durbin-Watson stat,,2.012245
+Prob(F-statistic),0.055058,,,
+,,,,

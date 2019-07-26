@@ -1,0 +1,35 @@
+Null Hypothesis: ST_SURINAME has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.237507, 0.1935
+Test critical values:,1% level,,-3.452141,
+,5% level,,-2.871029,
+,10% level,,-2.571897,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_SURINAME),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1994M03 2018M12,,,,
+Included observations: 298 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_SURINAME(-1),-0.008696,0.003887,-2.237507,0.0260
+D(ST_SURINAME(-1)),0.161942,0.057020,2.840110,0.0048
+C,0.016200,0.004577,3.539078,0.0005
+,,,,
+R-squared,0.045308,    Mean dependent var,,0.012498
+Adjusted R-squared,0.038835,    S.D. dependent var,,0.065051
+S.E. of regression,0.063775,    Akaike info criterion,,-2.656892
+Sum squared resid,1.199842,    Schwarz criterion,,-2.619673
+Log likelihood,398.8769,    Hannan-Quinn criter.,,-2.641994
+F-statistic,7.000021,    Durbin-Watson stat,,2.014174
+Prob(F-statistic),0.001071,,,
+,,,,

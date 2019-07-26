@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_ROMANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-8.095648, 0.0000
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_ROMANIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_ROMANIA(-1),-0.018202,0.002248,-8.095648,0.0000
+D(PDIFF_ROMANIA(-1)),0.299899,0.061743,4.857196,0.0000
+C,-0.001847,0.000636,-2.905969,0.0040
+,,,,
+R-squared,0.549298,    Mean dependent var,,0.004721
+Adjusted R-squared,0.545256,    S.D. dependent var,,0.009234
+S.E. of regression,0.006227,    Akaike info criterion,,-7.306747
+Sum squared resid,0.008646,    Schwarz criterion,,-7.261342
+Log likelihood,828.6624,    Hannan-Quinn criter.,,-7.288423
+F-statistic,135.8917,    Durbin-Watson stat,,2.009568
+Prob(F-statistic),0.000000,,,
+,,,,

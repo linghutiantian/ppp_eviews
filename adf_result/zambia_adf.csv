@@ -1,0 +1,35 @@
+Null Hypothesis: QT_ZAMBIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.570098, 0.4943
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_ZAMBIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_ZAMBIA(-1),-0.042137,0.026837,-1.570098,0.1195
+D(QT_ZAMBIA(-1)),0.238457,0.096256,2.477312,0.0149
+C,0.070422,0.043371,1.623726,0.1075
+,,,,
+R-squared,0.068130,    Mean dependent var,,0.003422
+Adjusted R-squared,0.050036,    S.D. dependent var,,0.042240
+S.E. of regression,0.041169,    Akaike info criterion,,-3.514353
+Sum squared resid,0.174576,    Schwarz criterion,,-3.438973
+Log likelihood,189.2607,    Hannan-Quinn criter.,,-3.483801
+F-statistic,3.765231,    Durbin-Watson stat,,1.891035
+Prob(F-statistic),0.026412,,,
+,,,,

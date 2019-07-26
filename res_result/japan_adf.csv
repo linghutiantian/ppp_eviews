@@ -1,0 +1,35 @@
+Null Hypothesis: RES_JAPAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.347802, 0.1573
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_JAPAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_JAPAN(-1),-0.006464,0.002753,-2.347802,0.0192
+D(RES_JAPAN(-1)),0.286034,0.035992,7.947048,0.0000
+C,-0.000604,0.000936,-0.645001,0.5191
+,,,,
+R-squared,0.089439,    Mean dependent var,,-0.000826
+Adjusted R-squared,0.086849,    S.D. dependent var,,0.026016
+S.E. of regression,0.024860,    Akaike info criterion,,-4.546861
+Sum squared resid,0.434473,    Schwarz criterion,,-4.527486
+Log likelihood,1608.042,    Hannan-Quinn criter.,,-4.539374
+F-statistic,34.52583,    Durbin-Watson stat,,1.981261
+Prob(F-statistic),0.000000,,,
+,,,,

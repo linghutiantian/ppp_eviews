@@ -1,0 +1,35 @@
+Null Hypothesis: RES_EGYPT has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.046952, 0.0339
+Test critical values:,1% level,,-3.493747,
+,5% level,,-2.889200,
+,10% level,,-2.581596,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_EGYPT),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M11,,,,
+Included observations: 105 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_EGYPT(-1),-0.137103,0.044997,-3.046952,0.0029
+D(RES_EGYPT(-1)),0.234760,0.096103,2.442800,0.0163
+C,-0.001731,0.005228,-0.331170,0.7412
+,,,,
+R-squared,0.108908,    Mean dependent var,,-0.002240
+Adjusted R-squared,0.091435,    S.D. dependent var,,0.056152
+S.E. of regression,0.053523,    Akaike info criterion,,-2.989250
+Sum squared resid,0.292202,    Schwarz criterion,,-2.913422
+Log likelihood,159.9356,    Hannan-Quinn criter.,,-2.958523
+F-statistic,6.233123,    Durbin-Watson stat,,1.962713
+Prob(F-statistic),0.002793,,,
+,,,,

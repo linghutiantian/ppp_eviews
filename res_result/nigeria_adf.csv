@@ -1,0 +1,35 @@
+Null Hypothesis: RES_NIGERIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.526013, 0.1122
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_NIGERIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_NIGERIA(-1),-0.066840,0.026461,-2.526013,0.0131
+D(RES_NIGERIA(-1)),0.406453,0.088835,4.575373,0.0000
+C,-0.001212,0.002839,-0.426956,0.6703
+,,,,
+R-squared,0.195818,    Mean dependent var,,-0.001951
+Adjusted R-squared,0.180203,    S.D. dependent var,,0.032219
+S.E. of regression,0.029172,    Akaike info criterion,,-4.203299
+Sum squared resid,0.087656,    Schwarz criterion,,-4.127918
+Log likelihood,225.7748,    Hannan-Quinn criter.,,-4.172747
+F-statistic,12.54024,    Durbin-Watson stat,,1.839145
+Prob(F-statistic),0.000013,,,
+,,,,

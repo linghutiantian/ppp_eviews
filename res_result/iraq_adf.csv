@@ -1,0 +1,35 @@
+Null Hypothesis: RES_IRAQ has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.098440, 0.2462
+Test critical values:,1% level,,-3.581152,
+,5% level,,-2.926622,
+,10% level,,-2.601424,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_IRAQ),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2015M03 2018M12,,,,
+Included observations: 46 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_IRAQ(-1),-0.142301,0.067813,-2.098440,0.0418
+D(RES_IRAQ(-1)),0.115402,0.147297,0.783466,0.4376
+C,0.000146,0.000344,0.423705,0.6739
+,,,,
+R-squared,0.095990,    Mean dependent var,,0.000130
+Adjusted R-squared,0.053943,    S.D. dependent var,,0.002396
+S.E. of regression,0.002330,    Akaike info criterion,,-9.222859
+Sum squared resid,0.000233,    Schwarz criterion,,-9.103600
+Log likelihood,215.1258,    Hannan-Quinn criter.,,-9.178184
+F-statistic,2.282915,    Durbin-Watson stat,,2.019980
+Prob(F-statistic),0.114216,,,
+,,,,

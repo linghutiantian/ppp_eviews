@@ -1,0 +1,35 @@
+Null Hypothesis: ST_ITALY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.304089, 0.6294
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_ITALY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_ITALY(-1),-0.002364,0.001813,-1.304089,0.1926
+D(ST_ITALY(-1)),0.357430,0.035190,10.15724,0.0000
+C,0.017569,0.012793,1.373350,0.1701
+,,,,
+R-squared,0.129557,    Mean dependent var,,0.001427
+Adjusted R-squared,0.127081,    S.D. dependent var,,0.021990
+S.E. of regression,0.020545,    Akaike info criterion,,-4.928173
+Sum squared resid,0.296730,    Schwarz criterion,,-4.908797
+Log likelihood,1742.645,    Hannan-Quinn criter.,,-4.920686
+F-statistic,52.31732,    Durbin-Watson stat,,1.951934
+Prob(F-statistic),0.000000,,,
+,,,,

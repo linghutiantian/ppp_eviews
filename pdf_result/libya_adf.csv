@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_LIBYA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.587358, 0.4817
+Test critical values:,1% level,,-3.565430,
+,5% level,,-2.919952,
+,10% level,,-2.597905,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_LIBYA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2014M05,,,,
+Included observations: 51 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_LIBYA(-1),-0.051941,0.032722,-1.587358,0.1190
+D(PDIFF_LIBYA(-1)),0.348124,0.130870,2.660065,0.0106
+C,0.021183,0.012525,1.691199,0.0973
+,,,,
+R-squared,0.165121,    Mean dependent var,,0.002689
+Adjusted R-squared,0.130335,    S.D. dependent var,,0.018536
+S.E. of regression,0.017286,    Akaike info criterion,,-5.220783
+Sum squared resid,0.014343,    Schwarz criterion,,-5.107146
+Log likelihood,136.1300,    Hannan-Quinn criter.,,-5.177359
+F-statistic,4.746694,    Durbin-Watson stat,,1.890500
+Prob(F-statistic),0.013151,,,
+,,,,

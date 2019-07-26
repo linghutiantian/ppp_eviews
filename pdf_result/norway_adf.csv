@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_NORWAY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.684235, 0.0772
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_NORWAY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_NORWAY(-1),-0.004231,0.001576,-2.684235,0.0074
+D(PDIFF_NORWAY(-1)),0.032081,0.037555,0.854258,0.3933
+C,-8.26E-05,0.000333,-0.248113,0.8041
+,,,,
+R-squared,0.011577,    Mean dependent var,,0.000617
+Adjusted R-squared,0.008765,    S.D. dependent var,,0.005781
+S.E. of regression,0.005756,    Akaike info criterion,,-7.472903
+Sum squared resid,0.023292,    Schwarz criterion,,-7.453528
+Log likelihood,2640.935,    Hannan-Quinn criter.,,-7.465416
+F-statistic,4.116917,    Durbin-Watson stat,,2.008527
+Prob(F-statistic),0.016689,,,
+,,,,

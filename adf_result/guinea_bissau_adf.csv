@@ -1,0 +1,35 @@
+Null Hypothesis: QT_GUINEA_BISSAU has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.473717, 0.5431
+Test critical values:,1% level,,-3.493747,
+,5% level,,-2.889200,
+,10% level,,-2.581596,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_GUINEA_BISSAU),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M11,,,,
+Included observations: 105 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_GUINEA_BISSAU(-1),-0.032360,0.021958,-1.473717,0.1436
+D(QT_GUINEA_BISSAU(-1)),0.227957,0.094881,2.402552,0.0181
+C,0.204293,0.137833,1.482184,0.1414
+,,,,
+R-squared,0.067131,    Mean dependent var,,0.001625
+Adjusted R-squared,0.048839,    S.D. dependent var,,0.022222
+S.E. of regression,0.021672,    Akaike info criterion,,-4.797395
+Sum squared resid,0.047909,    Schwarz criterion,,-4.721567
+Log likelihood,254.8632,    Hannan-Quinn criter.,,-4.766668
+F-statistic,3.670038,    Durbin-Watson stat,,2.028956
+Prob(F-statistic),0.028898,,,
+,,,,

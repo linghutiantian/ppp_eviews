@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_MOROCCO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.428155, 0.0115
+Test critical values:,1% level,,-3.476805,
+,5% level,,-2.881830,
+,10% level,,-2.577668,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_MOROCCO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2007M03 2018M12,,,,
+Included observations: 142 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_MOROCCO(-1),-0.116158,0.033883,-3.428155,0.0008
+D(PDIFF_MOROCCO(-1)),0.322184,0.079748,4.040029,0.0001
+C,0.006936,0.002154,3.219640,0.0016
+,,,,
+R-squared,0.144682,    Mean dependent var,,-0.000287
+Adjusted R-squared,0.132376,    S.D. dependent var,,0.007056
+S.E. of regression,0.006572,    Akaike info criterion,,-7.190993
+Sum squared resid,0.006004,    Schwarz criterion,,-7.128546
+Log likelihood,513.5605,    Hannan-Quinn criter.,,-7.165617
+F-statistic,11.75636,    Durbin-Watson stat,,1.855085
+Prob(F-statistic),0.000019,,,
+,,,,

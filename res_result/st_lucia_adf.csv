@@ -1,0 +1,33 @@
+Null Hypothesis: RES_ST_LUCIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.583430, 0.0980
+Test critical values:,1% level,,-3.461327,
+,5% level,,-2.875062,
+,10% level,,-2.574054,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_ST_LUCIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2001M03 2018M09,,,,
+Included observations: 211 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_ST_LUCIA(-1),-0.064980,0.025153,-2.583430,0.0105
+D(RES_ST_LUCIA(-1)),0.059596,0.069508,0.857400,0.3922
+C,-4.63E-17,1.68E-16,-0.276259,0.7826
+,,,,
+R-squared,0.031710,    Mean dependent var,,6.40E-17
+Adjusted R-squared,0.022400,    S.D. dependent var,,2.38E-15
+S.E. of regression,2.35E-15,    Sum squared resid,,1.15E-27
+F-statistic,3.405874,    Durbin-Watson stat,,1.983806
+Prob(F-statistic),0.035039,,,
+,,,,

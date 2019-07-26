@@ -1,0 +1,35 @@
+Null Hypothesis: QT_MALAWI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.373415, 0.1517
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_MALAWI),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_MALAWI(-1),-0.057118,0.024066,-2.373415,0.0195
+D(QT_MALAWI(-1)),0.322184,0.091609,3.516957,0.0007
+C,0.381218,0.159592,2.388696,0.0187
+,,,,
+R-squared,0.140756,    Mean dependent var,,0.003808
+Adjusted R-squared,0.124071,    S.D. dependent var,,0.054567
+S.E. of regression,0.051070,    Akaike info criterion,,-3.083362
+Sum squared resid,0.268635,    Schwarz criterion,,-3.007981
+Log likelihood,166.4182,    Hannan-Quinn criter.,,-3.052810
+F-statistic,8.436383,    Durbin-Watson stat,,1.987070
+Prob(F-statistic),0.000405,,,
+,,,,

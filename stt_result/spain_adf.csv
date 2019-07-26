@@ -1,0 +1,35 @@
+Null Hypothesis: ST_SPAIN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.381341, 0.5925
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_SPAIN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_SPAIN(-1),-0.002997,0.002170,-1.381341,0.1676
+D(ST_SPAIN(-1)),0.319660,0.035705,8.952841,0.0000
+C,0.014733,0.010077,1.461989,0.1442
+,,,,
+R-squared,0.104070,    Mean dependent var,,0.001261
+Adjusted R-squared,0.101521,    S.D. dependent var,,0.022820
+S.E. of regression,0.021631,    Akaike info criterion,,-4.825180
+Sum squared resid,0.328920,    Schwarz criterion,,-4.805805
+Log likelihood,1706.289,    Hannan-Quinn criter.,,-4.817694
+F-statistic,40.82980,    Durbin-Watson stat,,1.961488
+Prob(F-statistic),0.000000,,,
+,,,,

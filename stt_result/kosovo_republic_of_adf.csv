@@ -1,0 +1,35 @@
+Null Hypothesis: ST_KOSOVO_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.270293, 0.0176
+Test critical values:,1% level,,-3.462737,
+,5% level,,-2.875680,
+,10% level,,-2.574385,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_KOSOVO_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2002M03 2018M12,,,,
+Included observations: 202 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_KOSOVO_REPUBLIC_OF(-1),-0.044952,0.013746,-3.270293,0.0013
+D(ST_KOSOVO_REPUBLIC_OF(-1)),0.284806,0.066105,4.308364,0.0000
+C,-0.010790,0.003384,-3.188329,0.0017
+,,,,
+R-squared,0.127672,    Mean dependent var,,-0.001325
+Adjusted R-squared,0.118905,    S.D. dependent var,,0.023631
+S.E. of regression,0.022181,    Akaike info criterion,,-4.764383
+Sum squared resid,0.097911,    Schwarz criterion,,-4.715250
+Log likelihood,484.2027,    Hannan-Quinn criter.,,-4.744504
+F-statistic,14.56258,    Durbin-Watson stat,,1.971327
+Prob(F-statistic),0.000001,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: RES_BURUNDI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.008980, 0.0355
+Test critical values:,1% level,,-3.457747,
+,5% level,,-2.873492,
+,10% level,,-2.573215,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_BURUNDI),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1999M03 2018M12,,,,
+Included observations: 238 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_BURUNDI(-1),-0.044559,0.014809,-3.008980,0.0029
+D(RES_BURUNDI(-1)),0.001484,0.063411,0.023402,0.9813
+C,0.001501,0.001516,0.990316,0.3230
+,,,,
+R-squared,0.037099,    Mean dependent var,,0.001447
+Adjusted R-squared,0.028904,    S.D. dependent var,,0.023674
+S.E. of regression,0.023330,    Akaike info criterion,,-4.665650
+Sum squared resid,0.127905,    Schwarz criterion,,-4.621882
+Log likelihood,558.2123,    Hannan-Quinn criter.,,-4.648010
+F-statistic,4.527069,    Durbin-Watson stat,,2.000779
+Prob(F-statistic),0.011772,,,
+,,,,

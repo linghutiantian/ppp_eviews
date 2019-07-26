@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_CENTRAL_AFRICAN_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 2.399167, 1.0000
+Test critical values:,1% level,,-3.524233,
+,5% level,,-2.902358,
+,10% level,,-2.588587,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_CENTRAL_AFRICAN_REPUBLIC),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2016M02,,,,
+Included observations: 72 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_CENTRAL_AFRICAN_REPUBLIC(-1),0.030411,0.012676,2.399167,0.0191
+D(PDIFF_CENTRAL_AFRICAN_REPUBLIC(-1)),0.247384,0.122293,2.022874,0.0470
+C,-0.026725,0.014081,-1.897953,0.0619
+,,,,
+R-squared,0.222830,    Mean dependent var,,0.010348
+Adjusted R-squared,0.200304,    S.D. dependent var,,0.022537
+S.E. of regression,0.020154,    Akaike info criterion,,-4.930102
+Sum squared resid,0.028025,    Schwarz criterion,,-4.835241
+Log likelihood,180.4837,    Hannan-Quinn criter.,,-4.892338
+F-statistic,9.891859,    Durbin-Watson stat,,1.977793
+Prob(F-statistic),0.000167,,,
+,,,,

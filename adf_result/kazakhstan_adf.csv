@@ -1,0 +1,35 @@
+Null Hypothesis: QT_KAZAKHSTAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.244320, 0.6545
+Test critical values:,1% level,,-3.471454,
+,5% level,,-2.879494,
+,10% level,,-2.576422,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_KAZAKHSTAN),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M06,,,,
+Included observations: 160 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_KAZAKHSTAN(-1),-0.014990,0.012047,-1.244320,0.2152
+D(QT_KAZAKHSTAN(-1)),0.385486,0.074141,5.199394,0.0000
+C,0.085724,0.068493,1.251570,0.2126
+,,,,
+R-squared,0.149213,    Mean dependent var,,0.000781
+Adjusted R-squared,0.138375,    S.D. dependent var,,0.030611
+S.E. of regression,0.028414,    Akaike info criterion,,-4.265283
+Sum squared resid,0.126757,    Schwarz criterion,,-4.207623
+Log likelihood,344.2226,    Hannan-Quinn criter.,,-4.241869
+F-statistic,13.76752,    Durbin-Watson stat,,2.005152
+Prob(F-statistic),0.000003,,,
+,,,,

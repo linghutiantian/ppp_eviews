@@ -1,0 +1,35 @@
+Null Hypothesis: QT_EL_SALVADOR has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.850274, 0.8006
+Test critical values:,1% level,,-3.486551,
+,5% level,,-2.886074,
+,10% level,,-2.579931,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_EL_SALVADOR),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2009M03 2018M12,,,,
+Included observations: 118 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_EL_SALVADOR(-1),-0.020415,0.024010,-0.850274,0.3969
+D(QT_EL_SALVADOR(-1)),0.052822,0.093574,0.564495,0.5735
+C,0.000205,0.000460,0.446209,0.6563
+,,,,
+R-squared,0.007810,    Mean dependent var,,0.000409
+Adjusted R-squared,-0.009445,    S.D. dependent var,,0.004354
+S.E. of regression,0.004374,    Akaike info criterion,,-8.000996
+Sum squared resid,0.002201,    Schwarz criterion,,-7.930555
+Log likelihood,475.0588,    Hannan-Quinn criter.,,-7.972395
+F-statistic,0.452613,    Durbin-Watson stat,,1.984749
+Prob(F-statistic),0.637092,,,
+,,,,

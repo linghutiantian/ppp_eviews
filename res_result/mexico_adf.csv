@@ -1,0 +1,35 @@
+Null Hypothesis: RES_MEXICO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.270545, 0.0167
+Test critical values:,1% level,,-3.441056,
+,5% level,,-2.866155,
+,10% level,,-2.569286,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_MEXICO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1969M03 2018M12,,,,
+Included observations: 598 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_MEXICO(-1),-0.035844,0.010960,-3.270545,0.0011
+D(RES_MEXICO(-1)),0.022188,0.041019,0.540918,0.5888
+C,0.000400,0.002048,0.195301,0.8452
+,,,,
+R-squared,0.017674,    Mean dependent var,,0.000417
+Adjusted R-squared,0.014373,    S.D. dependent var,,0.050450
+S.E. of regression,0.050086,    Akaike info criterion,,-3.145133
+Sum squared resid,1.492641,    Schwarz criterion,,-3.123092
+Log likelihood,943.3948,    Hannan-Quinn criter.,,-3.136551
+F-statistic,5.352770,    Durbin-Watson stat,,1.995086
+Prob(F-statistic),0.004966,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_BELIZE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.100144, 0.7132
+Test critical values:,1% level,,-3.501445,
+,5% level,,-2.892536,
+,10% level,,-2.583371,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_BELIZE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2011M03 2018M12,,,,
+Included observations: 94 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_BELIZE(-1),-0.021077,0.019159,-1.100144,0.2742
+D(PDIFF_BELIZE(-1)),0.239008,0.101192,2.361935,0.0203
+C,-0.001732,0.001088,-1.592382,0.1148
+,,,,
+R-squared,0.065567,    Mean dependent var,,-0.000830
+Adjusted R-squared,0.045030,    S.D. dependent var,,0.003915
+S.E. of regression,0.003826,    Akaike info criterion,,-8.262675
+Sum squared resid,0.001332,    Schwarz criterion,,-8.181506
+Log likelihood,391.3457,    Hannan-Quinn criter.,,-8.229889
+F-statistic,3.192609,    Durbin-Watson stat,,1.908866
+Prob(F-statistic),0.045704,,,
+,,,,

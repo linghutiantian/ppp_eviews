@@ -1,0 +1,35 @@
+Null Hypothesis: QT_IRELAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.557144, 0.1028
+Test critical values:,1% level,,-3.442795,
+,5% level,,-2.866922,
+,10% level,,-2.569697,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_IRELAND),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1976M01 2018M12,,,,
+Included observations: 516 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_IRELAND(-1),-0.020298,0.007938,-2.557144,0.0108
+D(QT_IRELAND(-1)),0.174713,0.043438,4.022097,0.0001
+C,-0.007092,0.002965,-2.391564,0.0171
+,,,,
+R-squared,0.039465,    Mean dependent var,,-0.000124
+Adjusted R-squared,0.035720,    S.D. dependent var,,0.026684
+S.E. of regression,0.026203,    Akaike info criterion,,-4.440107
+Sum squared resid,0.352218,    Schwarz criterion,,-4.415420
+Log likelihood,1148.548,    Hannan-Quinn criter.,,-4.430433
+F-statistic,10.53875,    Durbin-Watson stat,,1.965712
+Prob(F-statistic),0.000033,,,
+,,,,

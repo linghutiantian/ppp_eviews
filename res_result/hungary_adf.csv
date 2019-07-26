@@ -1,0 +1,35 @@
+Null Hypothesis: RES_HUNGARY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.497848, 0.1166
+Test critical values:,1% level,,-3.444158,
+,5% level,,-2.867522,
+,10% level,,-2.570019,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_HUNGARY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1980M03 2018M12,,,,
+Included observations: 466 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_HUNGARY(-1),-0.019190,0.007682,-2.497848,0.0128
+D(RES_HUNGARY(-1)),0.224180,0.045200,4.959757,0.0000
+C,0.000606,0.001207,0.501841,0.6160
+,,,,
+R-squared,0.059247,    Mean dependent var,,0.000773
+Adjusted R-squared,0.055183,    S.D. dependent var,,0.026805
+S.E. of regression,0.026055,    Akaike info criterion,,-4.450825
+Sum squared resid,0.314305,    Schwarz criterion,,-4.424146
+Log likelihood,1040.042,    Hannan-Quinn criter.,,-4.440325
+F-statistic,14.57950,    Durbin-Watson stat,,1.971220
+Prob(F-statistic),0.000001,,,
+,,,,

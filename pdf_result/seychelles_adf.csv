@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_SEYCHELLES has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.311427, 0.0162
+Test critical values:,1% level,,-3.476805,
+,5% level,,-2.881830,
+,10% level,,-2.577668,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_SEYCHELLES),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2007M03 2018M12,,,,
+Included observations: 142 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_SEYCHELLES(-1),-0.034184,0.010323,-3.311427,0.0012
+D(PDIFF_SEYCHELLES(-1)),0.251126,0.079061,3.176366,0.0018
+C,-0.002039,0.002444,-0.834440,0.4055
+,,,,
+R-squared,0.153238,    Mean dependent var,,0.004611
+Adjusted R-squared,0.141054,    S.D. dependent var,,0.023257
+S.E. of regression,0.021554,    Akaike info criterion,,-4.815590
+Sum squared resid,0.064577,    Schwarz criterion,,-4.753143
+Log likelihood,344.9069,    Hannan-Quinn criter.,,-4.790214
+F-statistic,12.57736,    Durbin-Watson stat,,2.007423
+Prob(F-statistic),0.000010,,,
+,,,,

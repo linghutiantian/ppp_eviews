@@ -1,0 +1,35 @@
+Null Hypothesis: QT_YEMEN_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.854865, 0.7955
+Test critical values:,1% level,,-3.548208,
+,5% level,,-2.912631,
+,10% level,,-2.594027,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_YEMEN_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2014M12,,,,
+Included observations: 58 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_YEMEN_REPUBLIC_OF(-1),-0.013568,0.015872,-0.854865,0.3963
+D(QT_YEMEN_REPUBLIC_OF(-1)),0.263279,0.127418,2.066260,0.0435
+C,0.061765,0.079613,0.775818,0.4412
+,,,,
+R-squared,0.080920,    Mean dependent var,,-0.008168
+Adjusted R-squared,0.047499,    S.D. dependent var,,0.017290
+S.E. of regression,0.016875,    Akaike info criterion,,-5.275668
+Sum squared resid,0.015661,    Schwarz criterion,,-5.169093
+Log likelihood,155.9944,    Hannan-Quinn criter.,,-5.234155
+F-statistic,2.421235,    Durbin-Watson stat,,2.027630
+Prob(F-statistic),0.098223,,,
+,,,,

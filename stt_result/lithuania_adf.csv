@@ -1,0 +1,35 @@
+Null Hypothesis: ST_LITHUANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.650207, 0.4555
+Test critical values:,1% level,,-3.455096,
+,5% level,,-2.872328,
+,10% level,,-2.572592,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_LITHUANIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1993M02 2014M12,,,,
+Included observations: 263 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_LITHUANIA(-1),-0.009858,0.005974,-1.650207,0.1001
+D(ST_LITHUANIA(-1)),0.382094,0.049621,7.700276,0.0000
+C,0.010363,0.007042,1.471515,0.1424
+,,,,
+R-squared,0.188988,    Mean dependent var,,-0.001279
+Adjusted R-squared,0.182749,    S.D. dependent var,,0.023318
+S.E. of regression,0.021080,    Akaike info criterion,,-4.869658
+Sum squared resid,0.115533,    Schwarz criterion,,-4.828911
+Log likelihood,643.3601,    Hannan-Quinn criter.,,-4.853283
+F-statistic,30.29353,    Durbin-Watson stat,,2.005098
+Prob(F-statistic),0.000000,,,
+,,,,

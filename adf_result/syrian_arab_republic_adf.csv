@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SYRIAN_ARAB_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.565440, 0.4915
+Test critical values:,1% level,,-3.588509,
+,5% level,,-2.929734,
+,10% level,,-2.603064,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SYRIAN_ARAB_REPUBLIC),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2013M10,,,,
+Included observations: 44 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SYRIAN_ARAB_REPUBLIC(-1),-0.079368,0.050700,-1.565440,0.1252
+D(QT_SYRIAN_ARAB_REPUBLIC(-1)),-0.001677,0.152488,-0.010995,0.9913
+C,0.291960,0.163743,1.783034,0.0820
+,,,,
+R-squared,0.057107,    Mean dependent var,,0.039816
+Adjusted R-squared,0.011113,    S.D. dependent var,,0.216659
+S.E. of regression,0.215452,    Akaike info criterion,,-0.166414
+Sum squared resid,1.903197,    Schwarz criterion,,-0.044765
+Log likelihood,6.661109,    Hannan-Quinn criter.,,-0.121301
+F-statistic,1.241606,    Durbin-Watson stat,,2.010315
+Prob(F-statistic),0.299554,,,
+,,,,

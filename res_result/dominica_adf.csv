@@ -1,0 +1,33 @@
+Null Hypothesis: RES_DOMINICA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.753274, 0.8295
+Test critical values:,1% level,,-3.461327,
+,5% level,,-2.875062,
+,10% level,,-2.574054,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_DOMINICA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2001M03 2018M09,,,,
+Included observations: 211 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_DOMINICA(-1),-0.010937,0.014519,-0.753274,0.4521
+D(RES_DOMINICA(-1)),-0.149768,0.069057,-2.168758,0.0312
+C,1.81E-17,3.27E-17,0.554987,0.5795
+,,,,
+R-squared,0.027299,    Mean dependent var,,3.02E-17
+Adjusted R-squared,0.017946,    S.D. dependent var,,3.45E-16
+S.E. of regression,3.42E-16,    Sum squared resid,,2.43E-29
+F-statistic,2.918765,    Durbin-Watson stat,,1.995809
+Prob(F-statistic),0.056216,,,
+,,,,

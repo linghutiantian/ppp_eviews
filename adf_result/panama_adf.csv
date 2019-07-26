@@ -1,0 +1,35 @@
+Null Hypothesis: QT_PANAMA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.548220, 0.5068
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_PANAMA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_PANAMA(-1),-0.005820,0.003759,-1.548220,0.1235
+D(QT_PANAMA(-1)),0.283518,0.074613,3.799846,0.0002
+C,0.000151,0.000575,0.261862,0.7938
+,,,,
+R-squared,0.099115,    Mean dependent var,,-0.000883
+Adjusted R-squared,0.088061,    S.D. dependent var,,0.003724
+S.E. of regression,0.003557,    Akaike info criterion,,-8.422085
+Sum squared resid,0.002062,    Schwarz criterion,,-8.365844
+Log likelihood,702.0331,    Hannan-Quinn criter.,,-8.399257
+F-statistic,8.966594,    Durbin-Watson stat,,2.010867
+Prob(F-statistic),0.000202,,,
+,,,,

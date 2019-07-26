@@ -1,0 +1,35 @@
+Null Hypothesis: RES_PHILIPPINES has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.290903, 0.1768
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_PHILIPPINES),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_PHILIPPINES(-1),-0.053781,0.023476,-2.290903,0.0240
+D(RES_PHILIPPINES(-1)),0.158435,0.095096,1.666051,0.0987
+C,-0.000749,0.001175,-0.637981,0.5249
+,,,,
+R-squared,0.070546,    Mean dependent var,,-0.000823
+Adjusted R-squared,0.052498,    S.D. dependent var,,0.012390
+S.E. of regression,0.012060,    Akaike info criterion,,-5.969953
+Sum squared resid,0.014981,    Schwarz criterion,,-5.894573
+Log likelihood,319.4075,    Hannan-Quinn criter.,,-5.939401
+F-statistic,3.908882,    Durbin-Watson stat,,1.992572
+Prob(F-statistic),0.023106,,,
+,,,,

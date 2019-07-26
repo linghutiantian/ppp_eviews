@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_TANZANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.680685, 0.4381
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_TANZANIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_TANZANIA(-1),-0.005984,0.003560,-1.680685,0.0959
+D(PDIFF_TANZANIA(-1)),0.591225,0.078256,7.555061,0.0000
+C,0.000617,0.000842,0.732007,0.4658
+,,,,
+R-squared,0.412810,    Mean dependent var,,0.004342
+Adjusted R-squared,0.401409,    S.D. dependent var,,0.006783
+S.E. of regression,0.005248,    Akaike info criterion,,-7.634024
+Sum squared resid,0.002837,    Schwarz criterion,,-7.558644
+Log likelihood,407.6033,    Hannan-Quinn criter.,,-7.603472
+F-statistic,36.20591,    Durbin-Watson stat,,1.896518
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: RES_BULGARIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.866012, 0.3482
+Test critical values:,1% level,,-3.453072,
+,5% level,,-2.871438,
+,10% level,,-2.572116,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_BULGARIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1995M03 2018M12,,,,
+Included observations: 286 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_BULGARIA(-1),-0.022047,0.011815,-1.866012,0.0631
+D(RES_BULGARIA(-1)),0.076705,0.059209,1.295495,0.1962
+C,0.000363,0.002866,0.126575,0.8994
+,,,,
+R-squared,0.016453,    Mean dependent var,,0.000371
+Adjusted R-squared,0.009502,    S.D. dependent var,,0.048699
+S.E. of regression,0.048467,    Akaike info criterion,,-3.205418
+Sum squared resid,0.664791,    Schwarz criterion,,-3.167068
+Log likelihood,461.3747,    Hannan-Quinn criter.,,-3.190046
+F-statistic,2.367005,    Durbin-Watson stat,,2.018748
+Prob(F-statistic),0.095615,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_LIBYA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.645168, 0.4526
+Test critical values:,1% level,,-3.565430,
+,5% level,,-2.919952,
+,10% level,,-2.597905,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_LIBYA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2014M05,,,,
+Included observations: 51 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_LIBYA(-1),-0.066258,0.040274,-1.645168,0.1065
+D(QT_LIBYA(-1)),0.205295,0.138520,1.482063,0.1449
+C,-0.012061,0.006672,-1.807714,0.0769
+,,,,
+R-squared,0.086008,    Mean dependent var,,-0.002845
+Adjusted R-squared,0.047925,    S.D. dependent var,,0.022734
+S.E. of regression,0.022182,    Akaike info criterion,,-4.722008
+Sum squared resid,0.023619,    Schwarz criterion,,-4.608371
+Log likelihood,123.4112,    Hannan-Quinn criter.,,-4.678584
+F-statistic,2.258428,    Durbin-Watson stat,,2.018245
+Prob(F-statistic),0.115510,,,
+,,,,

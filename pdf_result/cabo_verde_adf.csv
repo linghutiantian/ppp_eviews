@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_CABO_VERDE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.403452, 0.9046
+Test critical values:,1% level,,-3.470179,
+,5% level,,-2.878937,
+,10% level,,-2.576124,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_CABO_VERDE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M04 2018M12,,,,
+Included observations: 165 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_CABO_VERDE(-1),-0.006180,0.015317,-0.403452,0.6871
+D(PDIFF_CABO_VERDE(-1)),0.008394,0.079554,0.105519,0.9161
+C,-0.000653,0.001489,-0.438637,0.6615
+,,,,
+R-squared,0.001014,    Mean dependent var,,-0.000929
+Adjusted R-squared,-0.011319,    S.D. dependent var,,0.016926
+S.E. of regression,0.017021,    Akaike info criterion,,-5.290699
+Sum squared resid,0.046935,    Schwarz criterion,,-5.234227
+Log likelihood,439.4827,    Hannan-Quinn criter.,,-5.267775
+F-statistic,0.082198,    Durbin-Watson stat,,2.001272
+Prob(F-statistic),0.921128,,,
+,,,,

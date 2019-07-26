@@ -1,0 +1,35 @@
+Null Hypothesis: QT_BELARUS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.006639, 0.7505
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_BELARUS),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_BELARUS(-1),-0.014951,0.014852,-1.006639,0.3156
+D(QT_BELARUS(-1)),0.164165,0.077901,2.107350,0.0366
+C,0.010237,0.008602,1.190028,0.2358
+,,,,
+R-squared,0.029564,    Mean dependent var,,0.002632
+Adjusted R-squared,0.017657,    S.D. dependent var,,0.042372
+S.E. of regression,0.041997,    Akaike info criterion,,-3.484554
+Sum squared resid,0.287484,    Schwarz criterion,,-3.428313
+Log likelihood,292.2180,    Hannan-Quinn criter.,,-3.461725
+F-statistic,2.482888,    Durbin-Watson stat,,1.907483
+Prob(F-statistic),0.086655,,,
+,,,,

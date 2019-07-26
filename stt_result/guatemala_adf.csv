@@ -1,0 +1,35 @@
+Null Hypothesis: ST_GUATEMALA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.517589, 0.8850
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_GUATEMALA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_GUATEMALA(-1),-0.000770,0.001487,-0.517589,0.6049
+D(ST_GUATEMALA(-1)),0.020261,0.037709,0.537290,0.5912
+C,0.003618,0.002065,1.752089,0.0802
+,,,,
+R-squared,0.000775,    Mean dependent var,,0.002897
+Adjusted R-squared,-0.002067,    S.D. dependent var,,0.037419
+S.E. of regression,0.037458,    Akaike info criterion,,-3.726975
+Sum squared resid,0.986358,    Schwarz criterion,,-3.707600
+Log likelihood,1318.622,    Hannan-Quinn criter.,,-3.719489
+F-statistic,0.272726,    Durbin-Watson stat,,1.999368
+Prob(F-statistic),0.761382,,,
+,,,,

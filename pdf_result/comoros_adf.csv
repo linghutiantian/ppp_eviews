@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_COMOROS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.469339, 0.0125
+Test critical values:,1% level,,-3.552666,
+,5% level,,-2.914517,
+,10% level,,-2.595033,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_COMOROS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2014M10,,,,
+Included observations: 56 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_COMOROS(-1),-0.388232,0.111904,-3.469339,0.0010
+D(PDIFF_COMOROS(-1)),0.159889,0.137656,1.161515,0.2506
+C,0.151911,0.043746,3.472569,0.0010
+,,,,
+R-squared,0.186550,    Mean dependent var,,0.000521
+Adjusted R-squared,0.155854,    S.D. dependent var,,0.026248
+S.E. of regression,0.024116,    Akaike info criterion,,-4.559778
+Sum squared resid,0.030824,    Schwarz criterion,,-4.451277
+Log likelihood,130.6738,    Hannan-Quinn criter.,,-4.517712
+F-statistic,6.077300,    Durbin-Watson stat,,2.008552
+Prob(F-statistic),0.004205,,,
+,,,,

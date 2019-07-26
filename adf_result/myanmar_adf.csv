@@ -1,0 +1,35 @@
+Null Hypothesis: QT_MYANMAR has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.705518, 0.4256
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_MYANMAR),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_MYANMAR(-1),-0.036047,0.021136,-1.705518,0.0911
+D(QT_MYANMAR(-1)),0.002074,0.097308,0.021310,0.9830
+C,0.254290,0.128650,1.976604,0.0508
+,,,,
+R-squared,0.027509,    Mean dependent var,,0.049797
+Adjusted R-squared,0.008626,    S.D. dependent var,,0.484840
+S.E. of regression,0.482744,    Akaike info criterion,,1.409233
+Sum squared resid,24.00329,    Schwarz criterion,,1.484613
+Log likelihood,-71.68934,    Hannan-Quinn criter.,,1.439785
+F-statistic,1.456812,    Durbin-Watson stat,,2.001287
+Prob(F-statistic),0.237738,,,
+,,,,

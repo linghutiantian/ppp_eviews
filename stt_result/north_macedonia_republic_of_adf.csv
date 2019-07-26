@@ -1,0 +1,35 @@
+Null Hypothesis: ST_NORTH_MACEDONIA_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.884656, 0.3394
+Test critical values:,1% level,,-3.452066,
+,5% level,,-2.870996,
+,10% level,,-2.571880,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_NORTH_MACEDONIA_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1994M02 2018M12,,,,
+Included observations: 299 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_NORTH_MACEDONIA_REPUBLIC_OF(-1),-0.017349,0.009205,-1.884656,0.0605
+D(ST_NORTH_MACEDONIA_REPUBLIC_OF(-1)),0.283534,0.054718,5.181736,0.0000
+C,0.068146,0.036017,1.892068,0.0595
+,,,,
+R-squared,0.089488,    Mean dependent var,,0.000545
+Adjusted R-squared,0.083336,    S.D. dependent var,,0.025475
+S.E. of regression,0.024391,    Akaike info criterion,,-4.579262
+Sum squared resid,0.176090,    Schwarz criterion,,-4.542134
+Log likelihood,687.5997,    Hannan-Quinn criter.,,-4.564401
+F-statistic,14.54594,    Durbin-Watson stat,,1.966115
+Prob(F-statistic),0.000001,,,
+,,,,

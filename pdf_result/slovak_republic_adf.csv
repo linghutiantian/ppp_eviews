@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_SLOVAK_REPUBLIC has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-4.890205, 0.0000
+Test critical values:,1% level,,-3.449738,
+,5% level,,-2.869978,
+,10% level,,-2.571335,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_SLOVAK_REPUBLIC),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1991M03 2018M12,,,,
+Included observations: 334 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_SLOVAK_REPUBLIC(-1),-0.008812,0.001802,-4.890205,0.0000
+D(PDIFF_SLOVAK_REPUBLIC(-1)),0.279514,0.046862,5.964606,0.0000
+C,0.003826,0.000630,6.068977,0.0000
+,,,,
+R-squared,0.222009,    Mean dependent var,,0.002751
+Adjusted R-squared,0.217308,    S.D. dependent var,,0.008861
+S.E. of regression,0.007839,    Akaike info criterion,,-6.850402
+Sum squared resid,0.020341,    Schwarz criterion,,-6.816171
+Log likelihood,1147.017,    Hannan-Quinn criter.,,-6.836754
+F-statistic,47.22741,    Durbin-Watson stat,,2.089255
+Prob(F-statistic),0.000000,,,
+,,,,

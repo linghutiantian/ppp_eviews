@@ -1,0 +1,35 @@
+Null Hypothesis: QT_JAMAICA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.640381, 0.4601
+Test critical values:,1% level,,-3.462737,
+,5% level,,-2.875680,
+,10% level,,-2.574385,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_JAMAICA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2002M03 2018M12,,,,
+Included observations: 202 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_JAMAICA(-1),-0.018198,0.011094,-1.640381,0.1025
+D(QT_JAMAICA(-1)),0.270718,0.068358,3.960293,0.0001
+C,0.073788,0.045195,1.632664,0.1041
+,,,,
+R-squared,0.080883,    Mean dependent var,,-0.000468
+Adjusted R-squared,0.071646,    S.D. dependent var,,0.015269
+S.E. of regression,0.014711,    Akaike info criterion,,-5.585647
+Sum squared resid,0.043069,    Schwarz criterion,,-5.536514
+Log likelihood,567.1503,    Hannan-Quinn criter.,,-5.565768
+F-statistic,8.756062,    Durbin-Watson stat,,2.064722
+Prob(F-statistic),0.000227,,,
+,,,,

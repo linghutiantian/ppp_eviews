@@ -1,0 +1,35 @@
+Null Hypothesis: RES_CYPRUS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.279913, 0.6363
+Test critical values:,1% level,,-3.501445,
+,5% level,,-2.892536,
+,10% level,,-2.583371,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_CYPRUS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M03 2007M12,,,,
+Included observations: 94 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_CYPRUS(-1),-0.032053,0.025043,-1.279913,0.2038
+D(RES_CYPRUS(-1)),0.154564,0.102683,1.505258,0.1357
+C,-0.001916,0.003223,-0.594332,0.5538
+,,,,
+R-squared,0.036383,    Mean dependent var,,-0.002206
+Adjusted R-squared,0.015205,    S.D. dependent var,,0.031441
+S.E. of regression,0.031201,    Akaike info criterion,,-4.065359
+Sum squared resid,0.088587,    Schwarz criterion,,-3.984190
+Log likelihood,194.0719,    Hannan-Quinn criter.,,-4.032572
+F-statistic,1.717925,    Durbin-Watson stat,,1.996757
+Prob(F-statistic),0.185206,,,
+,,,,

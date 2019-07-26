@@ -1,0 +1,35 @@
+Null Hypothesis: QT_BENIN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.094099, 0.7161
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_BENIN),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_BENIN(-1),-0.022081,0.020182,-1.094099,0.2765
+D(QT_BENIN(-1)),0.167570,0.095453,1.755523,0.0821
+C,0.139477,0.126063,1.106405,0.2711
+,,,,
+R-squared,0.036713,    Mean dependent var,,0.001944
+Adjusted R-squared,0.018008,    S.D. dependent var,,0.021903
+S.E. of regression,0.021705,    Akaike info criterion,,-4.794634
+Sum squared resid,0.048525,    Schwarz criterion,,-4.719254
+Log likelihood,257.1156,    Hannan-Quinn criter.,,-4.764082
+F-statistic,1.962761,    Durbin-Watson stat,,1.988179
+Prob(F-statistic),0.145689,,,
+,,,,

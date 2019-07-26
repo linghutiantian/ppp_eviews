@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_MALTA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-4.509478, 0.0003
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_MALTA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_MALTA(-1),-0.206078,0.045699,-4.509478,0.0000
+D(PDIFF_MALTA(-1)),0.169540,0.077397,2.190514,0.0299
+C,-0.022870,0.005093,-4.490358,0.0000
+,,,,
+R-squared,0.114757,    Mean dependent var,,-8.01E-05
+Adjusted R-squared,0.103895,    S.D. dependent var,,0.008395
+S.E. of regression,0.007947,    Akaike info criterion,,-6.814148
+Sum squared resid,0.010294,    Schwarz criterion,,-6.757907
+Log likelihood,568.5743,    Hannan-Quinn criter.,,-6.791320
+F-statistic,10.56512,    Durbin-Watson stat,,1.986903
+Prob(F-statistic),0.000048,,,
+,,,,

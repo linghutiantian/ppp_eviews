@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_HUNGARY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.130980, 0.2327
+Test critical values:,1% level,,-3.444158,
+,5% level,,-2.867522,
+,10% level,,-2.570019,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_HUNGARY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1980M03 2018M12,,,,
+Included observations: 466 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_HUNGARY(-1),-0.001069,0.000502,-2.130980,0.0336
+D(PDIFF_HUNGARY(-1)),0.403318,0.042236,9.549053,0.0000
+C,0.002357,0.000623,3.784224,0.0002
+,,,,
+R-squared,0.180599,    Mean dependent var,,0.005194
+Adjusted R-squared,0.177060,    S.D. dependent var,,0.011490
+S.E. of regression,0.010423,    Akaike info criterion,,-6.283103
+Sum squared resid,0.050304,    Schwarz criterion,,-6.256424
+Log likelihood,1466.963,    Hannan-Quinn criter.,,-6.272603
+F-statistic,51.02355,    Durbin-Watson stat,,2.106681
+Prob(F-statistic),0.000000,,,
+,,,,

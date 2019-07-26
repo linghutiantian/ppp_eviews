@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_EQUATORIAL_GUINEA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.831369, 0.3636
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_EQUATORIAL_GUINEA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_EQUATORIAL_GUINEA(-1),-0.032947,0.017990,-1.831369,0.0699
+D(PDIFF_EQUATORIAL_GUINEA(-1)),0.045821,0.096734,0.473685,0.6367
+C,0.006028,0.002947,2.045802,0.0433
+,,,,
+R-squared,0.033662,    Mean dependent var,,0.000765
+Adjusted R-squared,0.014898,    S.D. dependent var,,0.005713
+S.E. of regression,0.005671,    Akaike info criterion,,-7.479166
+Sum squared resid,0.003312,    Schwarz criterion,,-7.403785
+Log likelihood,399.3958,    Hannan-Quinn criter.,,-7.448614
+F-statistic,1.793963,    Durbin-Watson stat,,1.982970
+Prob(F-statistic),0.171457,,,
+,,,,

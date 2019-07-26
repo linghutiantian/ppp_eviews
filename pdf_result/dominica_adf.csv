@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_DOMINICA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.753274, 0.8295
+Test critical values:,1% level,,-3.461327,
+,5% level,,-2.875062,
+,10% level,,-2.574054,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_DOMINICA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2001M03 2018M09,,,,
+Included observations: 211 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_DOMINICA(-1),-0.010937,0.014519,-0.753274,0.4521
+D(PDIFF_DOMINICA(-1)),-0.149768,0.069057,-2.168758,0.0312
+C,-0.000990,0.000665,-1.488100,0.1382
+,,,,
+R-squared,0.027299,    Mean dependent var,,-0.000504
+Adjusted R-squared,0.017946,    S.D. dependent var,,0.005742
+S.E. of regression,0.005691,    Akaike info criterion,,-7.485884
+Sum squared resid,0.006736,    Schwarz criterion,,-7.438227
+Log likelihood,792.7608,    Hannan-Quinn criter.,,-7.466620
+F-statistic,2.918765,    Durbin-Watson stat,,1.995809
+Prob(F-statistic),0.056216,,,
+,,,,

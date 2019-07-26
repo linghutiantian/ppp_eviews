@@ -1,0 +1,35 @@
+Null Hypothesis: QT_MALDIVES has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.546592, 0.5083
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_MALDIVES),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_MALDIVES(-1),-0.021150,0.013675,-1.546592,0.1234
+D(QT_MALDIVES(-1)),0.046813,0.066849,0.700278,0.4845
+C,0.059825,0.038771,1.543029,0.1242
+,,,,
+R-squared,0.011899,    Mean dependent var,,-0.000118
+Adjusted R-squared,0.003037,    S.D. dependent var,,0.015783
+S.E. of regression,0.015759,    Akaike info criterion,,-5.449675
+Sum squared resid,0.055378,    Schwarz criterion,,-5.404270
+Log likelihood,618.8133,    Hannan-Quinn criter.,,-5.431352
+F-statistic,1.342749,    Durbin-Watson stat,,1.994674
+Prob(F-statistic),0.263230,,,
+,,,,

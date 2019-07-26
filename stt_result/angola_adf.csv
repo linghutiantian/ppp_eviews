@@ -1,0 +1,35 @@
+Null Hypothesis: ST_ANGOLA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-5.491536, 0.0000
+Test critical values:,1% level,,-3.453823,
+,5% level,,-2.871768,
+,10% level,,-2.572293,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_ANGOLA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1995M12 2018M12,,,,
+Included observations: 277 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_ANGOLA(-1),-0.016206,0.002951,-5.491536,0.0000
+D(ST_ANGOLA(-1)),0.255283,0.056895,4.486915,0.0000
+C,0.082176,0.012592,6.525925,0.0000
+,,,,
+R-squared,0.217500,    Mean dependent var,,0.037322
+Adjusted R-squared,0.211789,    S.D. dependent var,,0.120824
+S.E. of regression,0.107269,    Akaike info criterion,,-1.616183
+Sum squared resid,3.152817,    Schwarz criterion,,-1.576934
+Log likelihood,226.8414,    Hannan-Quinn criter.,,-1.600435
+F-statistic,38.07992,    Durbin-Watson stat,,2.040586
+Prob(F-statistic),0.000000,,,
+,,,,

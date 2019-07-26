@@ -1,0 +1,35 @@
+Null Hypothesis: ST_MONTENEGRO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.724210, 0.4178
+Test critical values:,1% level,,-3.457747,
+,5% level,,-2.873492,
+,10% level,,-2.573215,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_MONTENEGRO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1999M03 2018M12,,,,
+Included observations: 238 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_MONTENEGRO(-1),-0.017698,0.010265,-1.724210,0.0860
+D(ST_MONTENEGRO(-1)),0.291598,0.062110,4.694886,0.0000
+C,-0.003224,0.002355,-1.368651,0.1724
+,,,,
+R-squared,0.092057,    Mean dependent var,,-4.75E-05
+Adjusted R-squared,0.084329,    S.D. dependent var,,0.023981
+S.E. of regression,0.022947,    Akaike info criterion,,-4.698722
+Sum squared resid,0.123744,    Schwarz criterion,,-4.654954
+Log likelihood,562.1479,    Hannan-Quinn criter.,,-4.681083
+F-statistic,11.91334,    Durbin-Watson stat,,1.972035
+Prob(F-statistic),0.000012,,,
+,,,,

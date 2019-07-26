@@ -1,0 +1,33 @@
+Null Hypothesis: RES_ST_KITTS_AND_NEVIS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.479086, 0.5418
+Test critical values:,1% level,,-3.470679,
+,5% level,,-2.879155,
+,10% level,,-2.576241,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_ST_KITTS_AND_NEVIS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2005M03 2018M09,,,,
+Included observations: 163 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_ST_KITTS_AND_NEVIS(-1),-0.025365,0.017149,-1.479086,0.1411
+D(RES_ST_KITTS_AND_NEVIS(-1)),0.087769,0.078772,1.114211,0.2669
+C,-2.94E-17,2.04E-17,-1.436740,0.1527
+,,,,
+R-squared,0.019010,    Mean dependent var,,5.70E-20
+Adjusted R-squared,0.006748,    S.D. dependent var,,6.04E-17
+S.E. of regression,6.02E-17,    Sum squared resid,,5.79E-31
+F-statistic,1.550273,    Durbin-Watson stat,,1.946731
+Prob(F-statistic),0.215360,,,
+,,,,

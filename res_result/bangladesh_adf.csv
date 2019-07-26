@@ -1,0 +1,35 @@
+Null Hypothesis: RES_BANGLADESH has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.232970, 0.1960
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_BANGLADESH),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_BANGLADESH(-1),-0.039433,0.017659,-2.232970,0.0277
+D(RES_BANGLADESH(-1)),0.554117,0.081286,6.816879,0.0000
+C,0.000253,0.000633,0.399105,0.6906
+,,,,
+R-squared,0.323896,    Mean dependent var,,0.000566
+Adjusted R-squared,0.310768,    S.D. dependent var,,0.007828
+S.E. of regression,0.006499,    Akaike info criterion,,-7.206551
+Sum squared resid,0.004350,    Schwarz criterion,,-7.131171
+Log likelihood,384.9472,    Hannan-Quinn criter.,,-7.175999
+F-statistic,24.67169,    Durbin-Watson stat,,1.767319
+Prob(F-statistic),0.000000,,,
+,,,,

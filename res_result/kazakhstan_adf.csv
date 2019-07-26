@@ -1,0 +1,35 @@
+Null Hypothesis: RES_KAZAKHSTAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.754073, 0.4022
+Test critical values:,1% level,,-3.471454,
+,5% level,,-2.879494,
+,10% level,,-2.576422,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_KAZAKHSTAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M06,,,,
+Included observations: 160 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_KAZAKHSTAN(-1),-0.022429,0.012787,-1.754073,0.0814
+D(RES_KAZAKHSTAN(-1)),0.367221,0.074059,4.958503,0.0000
+C,-0.000333,0.002257,-0.147623,0.8828
+,,,,
+R-squared,0.145343,    Mean dependent var,,-0.000516
+Adjusted R-squared,0.134456,    S.D. dependent var,,0.030682
+S.E. of regression,0.028545,    Akaike info criterion,,-4.256092
+Sum squared resid,0.127927,    Schwarz criterion,,-4.198432
+Log likelihood,343.4874,    Hannan-Quinn criter.,,-4.232678
+F-statistic,13.34972,    Durbin-Watson stat,,1.996309
+Prob(F-statistic),0.000004,,,
+,,,,

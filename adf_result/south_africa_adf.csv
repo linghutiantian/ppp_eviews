@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SOUTH_AFRICA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.775774, 0.3927
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SOUTH_AFRICA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SOUTH_AFRICA(-1),-0.007612,0.004287,-1.775774,0.0762
+D(QT_SOUTH_AFRICA(-1)),0.278013,0.036299,7.659042,0.0000
+C,0.017737,0.009673,1.833560,0.0671
+,,,,
+R-squared,0.078795,    Mean dependent var,,0.000933
+Adjusted R-squared,0.076175,    S.D. dependent var,,0.031434
+S.E. of regression,0.030213,    Akaike info criterion,,-4.156874
+Sum squared resid,0.641700,    Schwarz criterion,,-4.137499
+Log likelihood,1470.377,    Hannan-Quinn criter.,,-4.149387
+F-statistic,30.06560,    Durbin-Watson stat,,1.986963
+Prob(F-statistic),0.000000,,,
+,,,,

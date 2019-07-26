@@ -1,0 +1,35 @@
+Null Hypothesis: QT_CABO_VERDE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.703316, 0.8419
+Test critical values:,1% level,,-3.470179,
+,5% level,,-2.878937,
+,10% level,,-2.576124,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_CABO_VERDE),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M04 2018M12,,,,
+Included observations: 165 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_CABO_VERDE(-1),-0.009637,0.013702,-0.703316,0.4829
+D(QT_CABO_VERDE(-1)),0.176105,0.078161,2.253124,0.0256
+C,0.044087,0.060549,0.728122,0.4676
+,,,,
+R-squared,0.031200,    Mean dependent var,,0.001829
+Adjusted R-squared,0.019239,    S.D. dependent var,,0.027978
+S.E. of regression,0.027708,    Akaike info criterion,,-4.316208
+Sum squared resid,0.124369,    Schwarz criterion,,-4.259736
+Log likelihood,359.0871,    Hannan-Quinn criter.,,-4.293284
+F-statistic,2.608558,    Durbin-Watson stat,,1.962806
+Prob(F-statistic),0.076732,,,
+,,,,

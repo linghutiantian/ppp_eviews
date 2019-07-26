@@ -1,0 +1,35 @@
+Null Hypothesis: QT_IRAQ has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.845140, 0.7964
+Test critical values:,1% level,,-3.581152,
+,5% level,,-2.926622,
+,10% level,,-2.601424,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_IRAQ),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2015M03 2018M12,,,,
+Included observations: 46 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_IRAQ(-1),-0.033050,0.039106,-0.845140,0.4027
+D(QT_IRAQ(-1)),0.064565,0.151143,0.427179,0.6714
+C,0.237234,0.279231,0.849597,0.4003
+,,,,
+R-squared,0.018887,    Mean dependent var,,0.001316
+Adjusted R-squared,-0.026746,    S.D. dependent var,,0.005997
+S.E. of regression,0.006076,    Akaike info criterion,,-7.305876
+Sum squared resid,0.001588,    Schwarz criterion,,-7.186617
+Log likelihood,171.0351,    Hannan-Quinn criter.,,-7.261201
+F-statistic,0.413883,    Durbin-Watson stat,,1.965869
+Prob(F-statistic),0.663684,,,
+,,,,

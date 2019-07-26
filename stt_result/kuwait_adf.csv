@@ -1,0 +1,35 @@
+Null Hypothesis: ST_KUWAIT has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.012255, 0.2816
+Test critical values:,1% level,,-3.439517,
+,5% level,,-2.865476,
+,10% level,,-2.568923,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_KUWAIT),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 696 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_KUWAIT(-1),-0.009029,0.004487,-2.012255,0.0446
+D(ST_KUWAIT(-1)),-0.073908,0.037794,-1.955556,0.0509
+C,-0.011011,0.005348,-2.058977,0.0399
+,,,,
+R-squared,0.011694,    Mean dependent var,,-0.000262
+Adjusted R-squared,0.008841,    S.D. dependent var,,0.010959
+S.E. of regression,0.010911,    Akaike info criterion,,-6.193847
+Sum squared resid,0.082497,    Schwarz criterion,,-6.174255
+Log likelihood,2158.459,    Hannan-Quinn criter.,,-6.186272
+F-statistic,4.099792,    Durbin-Watson stat,,2.001115
+Prob(F-statistic),0.016980,,,
+,,,,

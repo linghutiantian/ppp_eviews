@@ -1,0 +1,35 @@
+Null Hypothesis: QT_TAJIKISTAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.492162, 0.9856
+Test critical values:,1% level,,-3.507394,
+,5% level,,-2.895109,
+,10% level,,-2.584738,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_TAJIKISTAN),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2017M05,,,,
+Included observations: 87 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_TAJIKISTAN(-1),0.007325,0.014883,0.492162,0.6239
+D(QT_TAJIKISTAN(-1)),0.277149,0.107695,2.573453,0.0118
+C,0.000690,0.004088,0.168709,0.8664
+,,,,
+R-squared,0.087067,    Mean dependent var,,0.003397
+Adjusted R-squared,0.065330,    S.D. dependent var,,0.018421
+S.E. of regression,0.017810,    Akaike info criterion,,-5.184293
+Sum squared resid,0.026643,    Schwarz criterion,,-5.099262
+Log likelihood,228.5167,    Hannan-Quinn criter.,,-5.150053
+F-statistic,4.005556,    Durbin-Watson stat,,2.072011
+Prob(F-statistic),0.021799,,,
+,,,,

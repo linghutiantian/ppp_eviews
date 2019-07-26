@@ -1,0 +1,35 @@
+Null Hypothesis: ST_SRI_LANKA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.343947, 0.9156
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_SRI_LANKA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_SRI_LANKA(-1),-0.000221,0.000643,-0.343947,0.7310
+D(ST_SRI_LANKA(-1)),0.404972,0.034493,11.74069,0.0000
+C,0.003816,0.002308,1.652999,0.0988
+,,,,
+R-squared,0.163985,    Mean dependent var,,0.005145
+Adjusted R-squared,0.161606,    S.D. dependent var,,0.022948
+S.E. of regression,0.021012,    Akaike info criterion,,-4.883227
+Sum squared resid,0.310371,    Schwarz criterion,,-4.863852
+Log likelihood,1726.779,    Hannan-Quinn criter.,,-4.875740
+F-statistic,68.94693,    Durbin-Watson stat,,1.956172
+Prob(F-statistic),0.000000,,,
+,,,,

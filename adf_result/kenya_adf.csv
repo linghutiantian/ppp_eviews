@@ -1,0 +1,35 @@
+Null Hypothesis: QT_KENYA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.041590, 0.2689
+Test critical values:,1% level,,-3.487046,
+,5% level,,-2.886290,
+,10% level,,-2.580046,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_KENYA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2009M04 2018M12,,,,
+Included observations: 117 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_KENYA(-1),-0.042612,0.020872,-2.041590,0.0435
+D(QT_KENYA(-1)),0.338895,0.087472,3.874319,0.0002
+C,0.178108,0.087955,2.024993,0.0452
+,,,,
+R-squared,0.135842,    Mean dependent var,,-0.002065
+Adjusted R-squared,0.120681,    S.D. dependent var,,0.017781
+S.E. of regression,0.016674,    Akaike info criterion,,-5.324621
+Sum squared resid,0.031695,    Schwarz criterion,,-5.253796
+Log likelihood,314.4903,    Hannan-Quinn criter.,,-5.295867
+F-statistic,8.960142,    Durbin-Watson stat,,1.899789
+Prob(F-statistic),0.000243,,,
+,,,,

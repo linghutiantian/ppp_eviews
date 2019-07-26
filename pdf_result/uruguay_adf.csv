@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_URUGUAY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.760748, 0.9931
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_URUGUAY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_URUGUAY(-1),0.001486,0.001953,0.760748,0.4479
+D(PDIFF_URUGUAY(-1)),0.138711,0.077432,1.791394,0.0751
+C,0.003804,0.000584,6.510957,0.0000
+,,,,
+R-squared,0.025094,    Mean dependent var,,0.004541
+Adjusted R-squared,0.013132,    S.D. dependent var,,0.005950
+S.E. of regression,0.005911,    Akaike info criterion,,-7.406193
+Sum squared resid,0.005695,    Schwarz criterion,,-7.349952
+Log likelihood,617.7140,    Hannan-Quinn criter.,,-7.383365
+F-statistic,2.097839,    Durbin-Watson stat,,1.976312
+Prob(F-statistic),0.126023,,,
+,,,,

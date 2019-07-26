@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SINGAPORE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.428185, 0.0113
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SINGAPORE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SINGAPORE(-1),-0.077197,0.022518,-3.428185,0.0008
+D(RES_SINGAPORE(-1)),0.338832,0.072211,4.692258,0.0000
+C,-0.000819,0.001318,-0.620992,0.5355
+,,,,
+R-squared,0.158846,    Mean dependent var,,-0.001160
+Adjusted R-squared,0.148525,    S.D. dependent var,,0.018370
+S.E. of regression,0.016951,    Akaike info criterion,,-5.299104
+Sum squared resid,0.046834,    Schwarz criterion,,-5.242863
+Log likelihood,442.8256,    Hannan-Quinn criter.,,-5.276275
+F-statistic,15.39066,    Durbin-Watson stat,,2.014689
+Prob(F-statistic),0.000001,,,
+,,,,

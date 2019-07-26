@@ -1,0 +1,35 @@
+Null Hypothesis: QT_LIBERIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.227950, 0.1973
+Test critical values:,1% level,,-3.472813,
+,5% level,,-2.880088,
+,10% level,,-2.576739,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_LIBERIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2006M02 2018M12,,,,
+Included observations: 155 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_LIBERIA(-1),-0.047780,0.021446,-2.227950,0.0274
+D(QT_LIBERIA(-1)),-0.032775,0.079631,-0.411583,0.6812
+C,0.246162,0.110866,2.220351,0.0279
+,,,,
+R-squared,0.034407,    Mean dependent var,,-0.000798
+Adjusted R-squared,0.021702,    S.D. dependent var,,0.020348
+S.E. of regression,0.020126,    Akaike info criterion,,-4.954452
+Sum squared resid,0.061568,    Schwarz criterion,,-4.895547
+Log likelihood,386.9700,    Hannan-Quinn criter.,,-4.930526
+F-statistic,2.708150,    Durbin-Watson stat,,2.010721
+Prob(F-statistic),0.069877,,,
+,,,,

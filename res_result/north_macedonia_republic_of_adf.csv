@@ -1,0 +1,35 @@
+Null Hypothesis: RES_NORTH_MACEDONIA_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.776382, 0.0635
+Test critical values:,1% level,,-3.462737,
+,5% level,,-2.875680,
+,10% level,,-2.574385,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_NORTH_MACEDONIA_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2002M03 2018M12,,,,
+Included observations: 202 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_NORTH_MACEDONIA_REPUBLIC_OF(-1),-0.042785,0.015410,-2.776382,0.0060
+D(RES_NORTH_MACEDONIA_REPUBLIC_OF(-1)),0.202604,0.068268,2.967768,0.0034
+C,-0.000794,0.001683,-0.471760,0.6376
+,,,,
+R-squared,0.072733,    Mean dependent var,,-0.000867
+Adjusted R-squared,0.063413,    S.D. dependent var,,0.024709
+S.E. of regression,0.023912,    Akaike info criterion,,-4.614098
+Sum squared resid,0.113789,    Schwarz criterion,,-4.564965
+Log likelihood,469.0239,    Hannan-Quinn criter.,,-4.594218
+F-statistic,7.804533,    Durbin-Watson stat,,1.920334
+Prob(F-statistic),0.000546,,,
+,,,,

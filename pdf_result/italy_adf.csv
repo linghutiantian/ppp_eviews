@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_ITALY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.256114, 0.0174
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_ITALY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_ITALY(-1),-0.001071,0.000329,-3.256114,0.0012
+D(PDIFF_ITALY(-1)),0.494062,0.032606,15.15267,0.0000
+C,0.000347,0.000206,1.684700,0.0925
+,,,,
+R-squared,0.275388,    Mean dependent var,,0.001608
+Adjusted R-squared,0.273327,    S.D. dependent var,,0.004572
+S.E. of regression,0.003897,    Akaike info criterion,,-8.252874
+Sum squared resid,0.010677,    Schwarz criterion,,-8.233499
+Log likelihood,2916.265,    Hannan-Quinn criter.,,-8.245387
+F-statistic,133.5873,    Durbin-Watson stat,,2.121794
+Prob(F-statistic),0.000000,,,
+,,,,

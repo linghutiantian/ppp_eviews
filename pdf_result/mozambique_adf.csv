@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_MOZAMBIQUE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.204921, 0.2054
+Test critical values:,1% level,,-3.467205,
+,5% level,,-2.877636,
+,10% level,,-2.575430,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_MOZAMBIQUE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2004M03 2018M12,,,,
+Included observations: 178 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_MOZAMBIQUE(-1),-0.030246,0.013717,-2.204921,0.0288
+D(PDIFF_MOZAMBIQUE(-1)),0.441509,0.067712,6.520415,0.0000
+C,-0.006288,0.004463,-1.408973,0.1606
+,,,,
+R-squared,0.204813,    Mean dependent var,,-0.000308
+Adjusted R-squared,0.195725,    S.D. dependent var,,0.051937
+S.E. of regression,0.046578,    Akaike info criterion,,-3.278655
+Sum squared resid,0.379669,    Schwarz criterion,,-3.225030
+Log likelihood,294.8003,    Hannan-Quinn criter.,,-3.256909
+F-statistic,22.53697,    Durbin-Watson stat,,1.809872
+Prob(F-statistic),0.000000,,,
+,,,,

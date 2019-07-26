@@ -1,0 +1,35 @@
+Null Hypothesis: ST_MEXICO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.449216, 0.8980
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_MEXICO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_MEXICO(-1),-0.000272,0.000606,-0.449216,0.6534
+D(ST_MEXICO(-1)),0.137573,0.037353,3.683072,0.0002
+C,0.009110,0.001982,4.596845,0.0000
+,,,,
+R-squared,0.019205,    Mean dependent var,,0.010779
+Adjusted R-squared,0.016415,    S.D. dependent var,,0.050805
+S.E. of regression,0.050387,    Akaike info criterion,,-3.133937
+Sum squared resid,1.784794,    Schwarz criterion,,-3.114562
+Log likelihood,1109.280,    Hannan-Quinn criter.,,-3.126450
+F-statistic,6.882831,    Durbin-Watson stat,,1.995273
+Prob(F-statistic),0.001096,,,
+,,,,

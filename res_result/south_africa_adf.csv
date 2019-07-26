@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SOUTH_AFRICA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.730331, 0.0039
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SOUTH_AFRICA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SOUTH_AFRICA(-1),-0.028818,0.007725,-3.730331,0.0002
+D(RES_SOUTH_AFRICA(-1)),0.278270,0.036238,7.678872,0.0000
+C,3.98E-05,0.001144,0.034819,0.9722
+,,,,
+R-squared,0.087578,    Mean dependent var,,6.77E-05
+Adjusted R-squared,0.084982,    S.D. dependent var,,0.031785
+S.E. of regression,0.030405,    Akaike info criterion,,-4.144204
+Sum squared resid,0.649882,    Schwarz criterion,,-4.124829
+Log likelihood,1465.904,    Hannan-Quinn criter.,,-4.136717
+F-statistic,33.73834,    Durbin-Watson stat,,1.996846
+Prob(F-statistic),0.000000,,,
+,,,,

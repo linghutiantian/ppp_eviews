@@ -1,0 +1,35 @@
+Null Hypothesis: ST_PERU has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-9.991039, 0.0000
+Test critical values:,1% level,,-3.449053,
+,5% level,,-2.869677,
+,10% level,,-2.571174,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_PERU),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1990M03 2018M12,,,,
+Included observations: 346 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_PERU(-1),-0.075268,0.007534,-9.991039,0.0000
+D(ST_PERU(-1)),0.156648,0.048369,3.238596,0.0013
+C,0.081017,0.008870,9.134131,0.0000
+,,,,
+R-squared,0.316316,    Mean dependent var,,0.016812
+Adjusted R-squared,0.312330,    S.D. dependent var,,0.120933
+S.E. of regression,0.100284,    Akaike info criterion,,-1.752980
+Sum squared resid,3.449539,    Schwarz criterion,,-1.719629
+Log likelihood,306.2655,    Hannan-Quinn criter.,,-1.739700
+F-statistic,79.34696,    Durbin-Watson stat,,2.056472
+Prob(F-statistic),0.000000,,,
+,,,,

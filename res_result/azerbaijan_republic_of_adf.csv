@@ -1,0 +1,35 @@
+Null Hypothesis: RES_AZERBAIJAN_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.175529, 0.6845
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_AZERBAIJAN_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_AZERBAIJAN_REPUBLIC_OF(-1),-0.010368,0.008820,-1.175529,0.2415
+D(RES_AZERBAIJAN_REPUBLIC_OF(-1)),0.328818,0.073886,4.450321,0.0000
+C,-0.000201,0.002097,-0.095983,0.9237
+,,,,
+R-squared,0.112767,    Mean dependent var,,-0.000229
+Adjusted R-squared,0.101881,    S.D. dependent var,,0.028506
+S.E. of regression,0.027015,    Akaike info criterion,,-4.366956
+Sum squared resid,0.118957,    Schwarz criterion,,-4.310715
+Log likelihood,365.4573,    Hannan-Quinn criter.,,-4.344127
+F-statistic,10.35861,    Durbin-Watson stat,,1.969239
+Prob(F-statistic),0.000058,,,
+,,,,

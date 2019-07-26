@@ -1,0 +1,35 @@
+Null Hypothesis: QT_URUGUAY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.003306, 0.2853
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_URUGUAY),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_URUGUAY(-1),-0.016058,0.008016,-2.003306,0.0468
+D(QT_URUGUAY(-1)),0.417399,0.070041,5.959354,0.0000
+C,0.047850,0.024782,1.930819,0.0552
+,,,,
+R-squared,0.201534,    Mean dependent var,,-0.002998
+Adjusted R-squared,0.191737,    S.D. dependent var,,0.022016
+S.E. of regression,0.019793,    Akaike info criterion,,-4.989064
+Sum squared resid,0.063858,    Schwarz criterion,,-4.932823
+Log likelihood,417.0923,    Hannan-Quinn criter.,,-4.966235
+F-statistic,20.57070,    Durbin-Watson stat,,1.879539
+Prob(F-statistic),0.000000,,,
+,,,,

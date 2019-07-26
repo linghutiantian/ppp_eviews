@@ -1,0 +1,35 @@
+Null Hypothesis: QT_MOZAMBIQUE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.857986, 0.3516
+Test critical values:,1% level,,-3.467205,
+,5% level,,-2.877636,
+,10% level,,-2.575430,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_MOZAMBIQUE),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2004M03 2018M12,,,,
+Included observations: 178 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_MOZAMBIQUE(-1),-0.019973,0.010750,-1.857986,0.0649
+D(QT_MOZAMBIQUE(-1)),0.404156,0.068756,5.878090,0.0000
+C,0.077103,0.039902,1.932279,0.0549
+,,,,
+R-squared,0.174661,    Mean dependent var,,0.005635
+Adjusted R-squared,0.165229,    S.D. dependent var,,0.061213
+S.E. of regression,0.055928,    Akaike info criterion,,-2.912796
+Sum squared resid,0.547388,    Schwarz criterion,,-2.859170
+Log likelihood,262.2388,    Hannan-Quinn criter.,,-2.891049
+F-statistic,18.51705,    Durbin-Watson stat,,1.885121
+Prob(F-statistic),0.000000,,,
+,,,,

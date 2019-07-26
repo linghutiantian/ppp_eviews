@@ -1,0 +1,35 @@
+Null Hypothesis: QT_GUYANA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.923246, 0.0448
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_GUYANA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_GUYANA(-1),-0.030686,0.010497,-2.923246,0.0040
+D(QT_GUYANA(-1)),-0.011139,0.075362,-0.147807,0.8827
+C,0.162561,0.055982,2.903816,0.0042
+,,,,
+R-squared,0.049814,    Mean dependent var,,-0.001076
+Adjusted R-squared,0.038155,    S.D. dependent var,,0.008812
+S.E. of regression,0.008642,    Akaike info criterion,,-6.646391
+Sum squared resid,0.012174,    Schwarz criterion,,-6.590151
+Log likelihood,554.6505,    Hannan-Quinn criter.,,-6.623563
+F-statistic,4.272686,    Durbin-Watson stat,,2.037173
+Prob(F-statistic),0.015538,,,
+,,,,

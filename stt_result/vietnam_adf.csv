@@ -1,0 +1,35 @@
+Null Hypothesis: ST_VIETNAM has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.270839, 0.1821
+Test critical values:,1% level,,-3.445739,
+,5% level,,-2.868219,
+,10% level,,-2.570392,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_VIETNAM),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1983M03 2018M12,,,,
+Included observations: 419 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_VIETNAM(-1),-0.005697,0.002509,-2.270839,0.0237
+D(ST_VIETNAM(-1)),0.098104,0.033215,2.953586,0.0033
+C,0.063345,0.022626,2.799594,0.0054
+,,,,
+R-squared,0.036768,    Mean dependent var,,0.016589
+Adjusted R-squared,0.032137,    S.D. dependent var,,0.131972
+S.E. of regression,0.129834,    Akaike info criterion,,-1.237990
+Sum squared resid,7.012426,    Schwarz criterion,,-1.209080
+Log likelihood,262.3590,    Hannan-Quinn criter.,,-1.226562
+F-statistic,7.939697,    Durbin-Watson stat,,1.709350
+Prob(F-statistic),0.000413,,,
+,,,,

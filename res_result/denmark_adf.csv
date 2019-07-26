@@ -1,0 +1,35 @@
+Null Hypothesis: RES_DENMARK has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.518417, 0.1115
+Test critical values:,1% level,,-3.440634,
+,5% level,,-2.865969,
+,10% level,,-2.569187,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_DENMARK),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1967M03 2018M12,,,,
+Included observations: 622 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_DENMARK(-1),-0.013928,0.005531,-2.518417,0.0120
+D(RES_DENMARK(-1)),0.308534,0.038218,8.072951,0.0000
+C,-0.000112,0.000919,-0.121448,0.9034
+,,,,
+R-squared,0.100298,    Mean dependent var,,-0.000158
+Adjusted R-squared,0.097391,    S.D. dependent var,,0.024137
+S.E. of regression,0.022932,    Akaike info criterion,,-4.707798
+Sum squared resid,0.325504,    Schwarz criterion,,-4.686417
+Log likelihood,1467.125,    Hannan-Quinn criter.,,-4.699488
+F-statistic,34.50288,    Durbin-Watson stat,,1.972671
+Prob(F-statistic),0.000000,,,
+,,,,

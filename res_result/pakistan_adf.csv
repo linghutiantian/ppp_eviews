@@ -1,0 +1,35 @@
+Null Hypothesis: RES_PAKISTAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.409242, 0.9825
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_PAKISTAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_PAKISTAN(-1),0.014019,0.034256,0.409242,0.6832
+D(RES_PAKISTAN(-1)),0.216424,0.105503,2.051367,0.0428
+C,0.001039,0.001326,0.783530,0.4351
+,,,,
+R-squared,0.051778,    Mean dependent var,,0.001190
+Adjusted R-squared,0.033366,    S.D. dependent var,,0.013800
+S.E. of regression,0.013568,    Akaike info criterion,,-5.734309
+Sum squared resid,0.018961,    Schwarz criterion,,-5.658929
+Log likelihood,306.9184,    Hannan-Quinn criter.,,-5.703757
+F-statistic,2.812185,    Durbin-Watson stat,,1.907224
+Prob(F-statistic),0.064694,,,
+,,,,

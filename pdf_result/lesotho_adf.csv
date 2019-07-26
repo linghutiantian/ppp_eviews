@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_LESOTHO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.820354, 0.8104
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_LESOTHO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_LESOTHO(-1),-0.001901,0.002318,-0.820354,0.4132
+D(PDIFF_LESOTHO(-1)),0.366931,0.072243,5.079128,0.0000
+C,0.001985,0.000427,4.648073,0.0000
+,,,,
+R-squared,0.140104,    Mean dependent var,,0.003001
+Adjusted R-squared,0.129554,    S.D. dependent var,,0.004924
+S.E. of regression,0.004594,    Akaike info criterion,,-7.910229
+Sum squared resid,0.003440,    Schwarz criterion,,-7.853988
+Log likelihood,659.5490,    Hannan-Quinn criter.,,-7.887400
+F-statistic,13.27895,    Durbin-Watson stat,,2.044962
+Prob(F-statistic),0.000005,,,
+,,,,

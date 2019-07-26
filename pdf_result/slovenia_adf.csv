@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_SLOVENIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.489738, 0.1186
+Test critical values:,1% level,,-3.444158,
+,5% level,,-2.867522,
+,10% level,,-2.570019,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_SLOVENIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1980M03 2018M12,,,,
+Included observations: 466 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_SLOVENIA(-1),-0.000775,0.000311,-2.489738,0.0131
+D(PDIFF_SLOVENIA(-1)),0.870436,0.022410,38.84115,0.0000
+C,0.001023,0.001472,0.695152,0.4873
+,,,,
+R-squared,0.791682,    Mean dependent var,,0.024491
+Adjusted R-squared,0.790782,    S.D. dependent var,,0.056995
+S.E. of regression,0.026070,    Akaike info criterion,,-4.449672
+Sum squared resid,0.314667,    Schwarz criterion,,-4.422993
+Log likelihood,1039.774,    Hannan-Quinn criter.,,-4.439172
+F-statistic,879.7791,    Durbin-Watson stat,,2.170087
+Prob(F-statistic),0.000000,,,
+,,,,

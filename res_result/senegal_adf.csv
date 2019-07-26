@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SENEGAL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.873395, 0.3445
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SENEGAL),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SENEGAL(-1),-0.020823,0.011115,-1.873395,0.0623
+D(RES_SENEGAL(-1)),0.272446,0.064005,4.256616,0.0000
+C,-0.000299,0.001587,-0.188097,0.8510
+,,,,
+R-squared,0.083939,    Mean dependent var,,-0.000302
+Adjusted R-squared,0.075723,    S.D. dependent var,,0.024819
+S.E. of regression,0.023861,    Akaike info criterion,,-4.619936
+Sum squared resid,0.126967,    Schwarz criterion,,-4.574531
+Log likelihood,525.0528,    Hannan-Quinn criter.,,-4.601613
+F-statistic,10.21676,    Durbin-Watson stat,,1.989447
+Prob(F-statistic),0.000057,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_KAZAKHSTAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.741684, 0.8320
+Test critical values:,1% level,,-3.471454,
+,5% level,,-2.879494,
+,10% level,,-2.576422,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_KAZAKHSTAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M06,,,,
+Included observations: 160 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_KAZAKHSTAN(-1),-0.001470,0.001982,-0.741684,0.4594
+D(PDIFF_KAZAKHSTAN(-1)),0.594541,0.064031,9.285171,0.0000
+C,0.001289,0.001225,1.052219,0.2943
+,,,,
+R-squared,0.356216,    Mean dependent var,,0.005149
+Adjusted R-squared,0.348015,    S.D. dependent var,,0.007562
+S.E. of regression,0.006106,    Akaike info criterion,,-7.340505
+Sum squared resid,0.005854,    Schwarz criterion,,-7.282846
+Log likelihood,590.2404,    Hannan-Quinn criter.,,-7.317092
+F-statistic,43.43538,    Durbin-Watson stat,,1.788979
+Prob(F-statistic),0.000000,,,
+,,,,

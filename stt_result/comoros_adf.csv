@@ -1,0 +1,35 @@
+Null Hypothesis: ST_COMOROS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.650791, 0.4560
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_COMOROS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_COMOROS(-1),-0.006329,0.003834,-1.650791,0.0992
+D(ST_COMOROS(-1)),0.195545,0.036993,5.286052,0.0000
+C,0.037194,0.022163,1.678215,0.0937
+,,,,
+R-squared,0.040698,    Mean dependent var,,0.000801
+Adjusted R-squared,0.037968,    S.D. dependent var,,0.027758
+S.E. of regression,0.027226,    Akaike info criterion,,-4.365078
+Sum squared resid,0.521087,    Schwarz criterion,,-4.345702
+Log likelihood,1543.872,    Hannan-Quinn criter.,,-4.357591
+F-statistic,14.91207,    Durbin-Watson stat,,1.996948
+Prob(F-statistic),0.000000,,,
+,,,,

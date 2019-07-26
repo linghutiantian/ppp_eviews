@@ -1,0 +1,35 @@
+Null Hypothesis: RES_KIRIBATI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.248000, 0.1908
+Test critical values:,1% level,,-3.486551,
+,5% level,,-2.886074,
+,10% level,,-2.579931,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_KIRIBATI),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2006M03 2015M12,,,,
+Included observations: 118 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_KIRIBATI(-1),-0.045979,0.020453,-2.248000,0.0265
+D(RES_KIRIBATI(-1)),0.478467,0.082252,5.817090,0.0000
+C,-0.000160,0.002663,-0.060222,0.9521
+,,,,
+R-squared,0.237861,    Mean dependent var,,0.000180
+Adjusted R-squared,0.224606,    S.D. dependent var,,0.032838
+S.E. of regression,0.028916,    Akaike info criterion,,-4.223756
+Sum squared resid,0.096155,    Schwarz criterion,,-4.153314
+Log likelihood,252.2016,    Hannan-Quinn criter.,,-4.195154
+F-statistic,17.94555,    Durbin-Watson stat,,1.892023
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SPAIN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.562717, 0.1014
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SPAIN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SPAIN(-1),-0.012697,0.004954,-2.562717,0.0106
+D(RES_SPAIN(-1)),0.306309,0.035889,8.534914,0.0000
+C,-6.24E-05,0.000813,-0.076732,0.9389
+,,,,
+R-squared,0.098530,    Mean dependent var,,-8.20E-05
+Adjusted R-squared,0.095966,    S.D. dependent var,,0.022727
+S.E. of regression,0.021609,    Akaike info criterion,,-4.827178
+Sum squared resid,0.328264,    Schwarz criterion,,-4.807803
+Log likelihood,1706.994,    Hannan-Quinn criter.,,-4.819691
+F-statistic,38.41883,    Durbin-Watson stat,,1.971394
+Prob(F-statistic),0.000000,,,
+,,,,

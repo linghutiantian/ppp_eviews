@@ -1,0 +1,35 @@
+Null Hypothesis: RES_CHILE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-4.059140, 0.0012
+Test critical values:,1% level,,-3.441280,
+,5% level,,-2.866254,
+,10% level,,-2.569339,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_CHILE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1970M03 2018M12,,,,
+Included observations: 586 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_CHILE(-1),-0.070430,0.017351,-4.059140,0.0001
+D(RES_CHILE(-1)),-0.285668,0.039603,-7.213338,0.0000
+C,-0.000549,0.003373,-0.162836,0.8707
+,,,,
+R-squared,0.127226,    Mean dependent var,,-0.000375
+Adjusted R-squared,0.124232,    S.D. dependent var,,0.087256
+S.E. of regression,0.081657,    Akaike info criterion,,-2.167483
+Sum squared resid,3.887324,    Schwarz criterion,,-2.145094
+Log likelihood,638.0725,    Hannan-Quinn criter.,,-2.158758
+F-statistic,42.49262,    Durbin-Watson stat,,1.961104
+Prob(F-statistic),0.000000,,,
+,,,,

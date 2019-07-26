@@ -1,0 +1,35 @@
+Null Hypothesis: QT_MALAYSIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.453915, 0.5552
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_MALAYSIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_MALAYSIA(-1),-0.015221,0.010469,-1.453915,0.1474
+D(QT_MALAYSIA(-1)),0.282639,0.064487,4.382903,0.0000
+C,0.019626,0.013378,1.466966,0.1438
+,,,,
+R-squared,0.083229,    Mean dependent var,,0.000331
+Adjusted R-squared,0.075007,    S.D. dependent var,,0.014887
+S.E. of regression,0.014318,    Akaike info criterion,,-5.641441
+Sum squared resid,0.045715,    Schwarz criterion,,-5.596035
+Log likelihood,640.4828,    Hannan-Quinn criter.,,-5.623117
+F-statistic,10.12253,    Durbin-Watson stat,,1.968623
+Prob(F-statistic),0.000062,,,
+,,,,

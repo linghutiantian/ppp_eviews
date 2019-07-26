@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_BENIN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.039592, 0.2697
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_BENIN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_BENIN(-1),-0.082172,0.040288,-2.039592,0.0440
+D(PDIFF_BENIN(-1)),0.067244,0.098971,0.679438,0.4984
+C,0.001982,0.001566,1.265359,0.2086
+,,,,
+R-squared,0.039319,    Mean dependent var,,-0.000207
+Adjusted R-squared,0.020665,    S.D. dependent var,,0.011893
+S.E. of regression,0.011769,    Akaike info criterion,,-6.018753
+Sum squared resid,0.014267,    Schwarz criterion,,-5.943373
+Log likelihood,321.9939,    Hannan-Quinn criter.,,-5.988201
+F-statistic,2.107813,    Durbin-Watson stat,,1.979404
+Prob(F-statistic),0.126714,,,
+,,,,

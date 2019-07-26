@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SAN_MARINO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.250953, 0.1900
+Test critical values:,1% level,,-3.495021,
+,5% level,,-2.889753,
+,10% level,,-2.581890,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SAN_MARINO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M09,,,,
+Included observations: 103 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SAN_MARINO(-1),-0.062079,0.027579,-2.250953,0.0266
+D(RES_SAN_MARINO(-1)),0.352068,0.090127,3.906340,0.0002
+C,0.000435,0.002326,0.187235,0.8519
+,,,,
+R-squared,0.158219,    Mean dependent var,,0.000950
+Adjusted R-squared,0.141383,    S.D. dependent var,,0.025416
+S.E. of regression,0.023551,    Akaike info criterion,,-4.630577
+Sum squared resid,0.055466,    Schwarz criterion,,-4.553837
+Log likelihood,241.4747,    Hannan-Quinn criter.,,-4.599495
+F-statistic,9.397860,    Durbin-Watson stat,,1.880294
+Prob(F-statistic),0.000182,,,
+,,,,

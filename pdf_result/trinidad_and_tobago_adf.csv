@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_TRINIDAD_AND_TOBAGO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.722881, 0.8375
+Test critical values:,1% level,,-3.459494,
+,5% level,,-2.874258,
+,10% level,,-2.573625,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_TRINIDAD_AND_TOBAGO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2000M03 2018M10,,,,
+Included observations: 224 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_TRINIDAD_AND_TOBAGO(-1),-0.001743,0.002411,-0.722881,0.4705
+D(PDIFF_TRINIDAD_AND_TOBAGO(-1)),0.199220,0.065280,3.051787,0.0026
+C,0.001670,0.001089,1.534650,0.1263
+,,,,
+R-squared,0.042580,    Mean dependent var,,0.002881
+Adjusted R-squared,0.033916,    S.D. dependent var,,0.008847
+S.E. of regression,0.008695,    Akaike info criterion,,-6.638764
+Sum squared resid,0.016709,    Schwarz criterion,,-6.593073
+Log likelihood,746.5416,    Hannan-Quinn criter.,,-6.620321
+F-statistic,4.914365,    Durbin-Watson stat,,2.039145
+Prob(F-statistic),0.008162,,,
+,,,,

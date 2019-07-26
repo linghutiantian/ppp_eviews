@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_YEMEN_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.862420, 0.7932
+Test critical values:,1% level,,-3.548208,
+,5% level,,-2.912631,
+,10% level,,-2.594027,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_YEMEN_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2010M03 2014M12,,,,
+Included observations: 58 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_YEMEN_REPUBLIC_OF(-1),-0.009754,0.011310,-0.862420,0.3922
+D(PDIFF_YEMEN_REPUBLIC_OF(-1)),0.412335,0.123910,3.327699,0.0016
+C,0.008544,0.004523,1.888779,0.0642
+,,,,
+R-squared,0.181764,    Mean dependent var,,0.008247
+Adjusted R-squared,0.152010,    S.D. dependent var,,0.012265
+S.E. of regression,0.011295,    Akaike info criterion,,-6.078620
+Sum squared resid,0.007016,    Schwarz criterion,,-5.972045
+Log likelihood,179.2800,    Hannan-Quinn criter.,,-6.037107
+F-statistic,6.108896,    Durbin-Watson stat,,1.915848
+Prob(F-statistic),0.004019,,,
+,,,,

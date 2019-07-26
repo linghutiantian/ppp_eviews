@@ -1,0 +1,35 @@
+Null Hypothesis: ST_LIBYA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.121025, 0.9672
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_LIBYA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_LIBYA(-1),0.000232,0.001916,0.121025,0.9037
+D(ST_LIBYA(-1)),0.065483,0.037700,1.736928,0.0828
+C,0.001958,0.001784,1.097508,0.2728
+,,,,
+R-squared,0.004344,    Mean dependent var,,0.001924
+Adjusted R-squared,0.001512,    S.D. dependent var,,0.031652
+S.E. of regression,0.031628,    Akaike info criterion,,-4.065291
+Sum squared resid,0.703244,    Schwarz criterion,,-4.045915
+Log likelihood,1438.048,    Hannan-Quinn criter.,,-4.057804
+F-statistic,1.533707,    Durbin-Watson stat,,2.000502
+Prob(F-statistic),0.216455,,,
+,,,,

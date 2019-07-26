@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_GABON has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.794110, 0.3817
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_GABON),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_GABON(-1),-0.080277,0.044745,-1.794110,0.0757
+D(PDIFF_GABON(-1)),0.094090,0.101224,0.929528,0.3548
+C,0.013040,0.007098,1.837056,0.0691
+,,,,
+R-squared,0.032001,    Mean dependent var,,0.000427
+Adjusted R-squared,0.013205,    S.D. dependent var,,0.009375
+S.E. of regression,0.009313,    Akaike info criterion,,-6.486963
+Sum squared resid,0.008933,    Schwarz criterion,,-6.411583
+Log likelihood,346.8090,    Hannan-Quinn criter.,,-6.456411
+F-statistic,1.702525,    Durbin-Watson stat,,1.975744
+Prob(F-statistic),0.187310,,,
+,,,,

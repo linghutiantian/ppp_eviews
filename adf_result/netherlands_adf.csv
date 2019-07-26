@@ -1,0 +1,35 @@
+Null Hypothesis: QT_NETHERLANDS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.580419, 0.0975
+Test critical values:,1% level,,-3.439424,
+,5% level,,-2.865435,
+,10% level,,-2.568900,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_NETHERLANDS),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1960M06 2018M12,,,,
+Included observations: 703 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_NETHERLANDS(-1),-0.010698,0.004146,-2.580419,0.0101
+D(QT_NETHERLANDS(-1)),0.277448,0.036185,7.667424,0.0000
+C,0.007638,0.003248,2.351355,0.0190
+,,,,
+R-squared,0.084104,    Mean dependent var,,-0.000608
+Adjusted R-squared,0.081488,    S.D. dependent var,,0.023729
+S.E. of regression,0.022742,    Akaike info criterion,,-4.724952
+Sum squared resid,0.362038,    Schwarz criterion,,-4.705512
+Log likelihood,1663.821,    Hannan-Quinn criter.,,-4.717439
+F-statistic,32.13965,    Durbin-Watson stat,,1.974735
+Prob(F-statistic),0.000000,,,
+,,,,

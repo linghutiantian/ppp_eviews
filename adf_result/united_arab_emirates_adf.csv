@@ -1,0 +1,35 @@
+Null Hypothesis: QT_UNITED_ARAB_EMIRATES has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.304098, 0.1723
+Test critical values:,1% level,,-3.481217,
+,5% level,,-2.883753,
+,10% level,,-2.578694,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_UNITED_ARAB_EMIRATES),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2008M03 2018M12,,,,
+Included observations: 130 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_UNITED_ARAB_EMIRATES(-1),-0.045834,0.019892,-2.304098,0.0228
+D(QT_UNITED_ARAB_EMIRATES(-1)),0.429947,0.079721,5.393171,0.0000
+C,0.062136,0.027029,2.298894,0.0231
+,,,,
+R-squared,0.201538,    Mean dependent var,,-0.000237
+Adjusted R-squared,0.188963,    S.D. dependent var,,0.005474
+S.E. of regression,0.004930,    Akaike info criterion,,-7.764137
+Sum squared resid,0.003087,    Schwarz criterion,,-7.697963
+Log likelihood,507.6689,    Hannan-Quinn criter.,,-7.737248
+F-statistic,16.02786,    Durbin-Watson stat,,1.956911
+Prob(F-statistic),0.000001,,,
+,,,,

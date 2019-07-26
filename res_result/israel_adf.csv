@@ -1,0 +1,35 @@
+Null Hypothesis: RES_ISRAEL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-5.072488, 0.0000
+Test critical values:,1% level,,-3.444342,
+,5% level,,-2.867603,
+,10% level,,-2.570063,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_ISRAEL),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1980M09 2018M12,,,,
+Included observations: 460 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_ISRAEL(-1),-0.098240,0.019367,-5.072488,0.0000
+D(RES_ISRAEL(-1)),-0.035464,0.045939,-0.771988,0.4405
+C,-0.000867,0.002045,-0.423862,0.6719
+,,,,
+R-squared,0.058641,    Mean dependent var,,-0.000739
+Adjusted R-squared,0.054521,    S.D. dependent var,,0.045102
+S.E. of regression,0.043855,    Akaike info criterion,,-3.409335
+Sum squared resid,0.878949,    Schwarz criterion,,-3.382392
+Log likelihood,787.1470,    Hannan-Quinn criter.,,-3.398725
+F-statistic,14.23406,    Durbin-Watson stat,,2.002296
+Prob(F-statistic),0.000001,,,
+,,,,

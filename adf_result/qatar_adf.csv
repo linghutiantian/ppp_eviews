@@ -1,0 +1,35 @@
+Null Hypothesis: QT_QATAR has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.368677, 0.5950
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_QATAR),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_QATAR(-1),-0.027682,0.020225,-1.368677,0.1741
+D(QT_QATAR(-1)),0.211191,0.096318,2.192633,0.0306
+C,0.037220,0.027246,1.366101,0.1749
+,,,,
+R-squared,0.056382,    Mean dependent var,,-7.86E-05
+Adjusted R-squared,0.038059,    S.D. dependent var,,0.004817
+S.E. of regression,0.004724,    Akaike info criterion,,-7.844221
+Sum squared resid,0.002299,    Schwarz criterion,,-7.768840
+Log likelihood,418.7437,    Hannan-Quinn criter.,,-7.813669
+F-statistic,3.077159,    Durbin-Watson stat,,1.961690
+Prob(F-statistic),0.050351,,,
+,,,,

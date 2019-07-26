@@ -1,0 +1,35 @@
+Null Hypothesis: QT_HONDURAS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.450510, 0.5569
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_HONDURAS),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_HONDURAS(-1),-0.003686,0.002541,-1.450510,0.1483
+D(QT_HONDURAS(-1)),0.312718,0.063280,4.941774,0.0000
+C,0.007500,0.005696,1.316706,0.1893
+,,,,
+R-squared,0.111114,    Mean dependent var,,-0.001112
+Adjusted R-squared,0.103142,    S.D. dependent var,,0.004582
+S.E. of regression,0.004340,    Akaike info criterion,,-8.028912
+Sum squared resid,0.004199,    Schwarz criterion,,-7.983506
+Log likelihood,910.2670,    Hannan-Quinn criter.,,-8.010588
+F-statistic,13.93788,    Durbin-Watson stat,,2.014414
+Prob(F-statistic),0.000002,,,
+,,,,

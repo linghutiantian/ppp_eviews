@@ -1,0 +1,35 @@
+Null Hypothesis: ST_UGANDA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.524601, 0.8837
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_UGANDA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_UGANDA(-1),-0.000449,0.000856,-0.524601,0.6000
+D(ST_UGANDA(-1)),0.098728,0.037525,2.630963,0.0087
+C,0.015246,0.004801,3.175429,0.0016
+,,,,
+R-squared,0.010118,    Mean dependent var,,0.015410
+Adjusted R-squared,0.007302,    S.D. dependent var,,0.106735
+S.E. of regression,0.106344,    Akaike info criterion,,-1.640029
+Sum squared resid,7.950309,    Schwarz criterion,,-1.620654
+Log likelihood,581.9302,    Hannan-Quinn criter.,,-1.632542
+F-statistic,3.592988,    Durbin-Watson stat,,2.001701
+Prob(F-statistic),0.028022,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_JAMAICA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.433026, 0.1340
+Test critical values:,1% level,,-3.462737,
+,5% level,,-2.875680,
+,10% level,,-2.574385,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_JAMAICA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2002M03 2018M12,,,,
+Included observations: 202 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_JAMAICA(-1),-0.003203,0.001317,-2.433026,0.0159
+D(PDIFF_JAMAICA(-1)),0.465204,0.062217,7.477163,0.0000
+C,0.004028,0.000782,5.148782,0.0000
+,,,,
+R-squared,0.266101,    Mean dependent var,,0.005372
+Adjusted R-squared,0.258726,    S.D. dependent var,,0.007499
+S.E. of regression,0.006456,    Akaike info criterion,,-7.232803
+Sum squared resid,0.008295,    Schwarz criterion,,-7.183670
+Log likelihood,733.5131,    Hannan-Quinn criter.,,-7.212923
+F-statistic,36.07731,    Durbin-Watson stat,,1.997449
+Prob(F-statistic),0.000000,,,
+,,,,

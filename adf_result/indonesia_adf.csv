@@ -1,0 +1,35 @@
+Null Hypothesis: QT_INDONESIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.647178, 0.4578
+Test critical values:,1% level,,-3.440841,
+,5% level,,-2.866060,
+,10% level,,-2.569236,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_INDONESIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1968M03 2018M12,,,,
+Included observations: 610 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_INDONESIA(-1),-0.007227,0.004388,-1.647178,0.1000
+D(QT_INDONESIA(-1)),0.170818,0.039981,4.272445,0.0000
+C,0.066510,0.039772,1.672269,0.0950
+,,,,
+R-squared,0.032292,    Mean dependent var,,0.001295
+Adjusted R-squared,0.029104,    S.D. dependent var,,0.050079
+S.E. of regression,0.049345,    Akaike info criterion,,-3.175069
+Sum squared resid,1.477981,    Schwarz criterion,,-3.153363
+Log likelihood,971.3960,    Hannan-Quinn criter.,,-3.166626
+F-statistic,10.12771,    Durbin-Watson stat,,1.977218
+Prob(F-statistic),0.000047,,,
+,,,,

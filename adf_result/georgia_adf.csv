@@ -1,0 +1,35 @@
+Null Hypothesis: QT_GEORGIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.472161, 0.5454
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_GEORGIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_GEORGIA(-1),-0.016577,0.011260,-1.472161,0.1429
+D(QT_GEORGIA(-1)),0.405838,0.072026,5.634609,0.0000
+C,0.010797,0.007461,1.447060,0.1498
+,,,,
+R-squared,0.166456,    Mean dependent var,,0.000232
+Adjusted R-squared,0.156228,    S.D. dependent var,,0.022772
+S.E. of regression,0.020917,    Akaike info criterion,,-4.878561
+Sum squared resid,0.071319,    Schwarz criterion,,-4.822320
+Log likelihood,407.9205,    Hannan-Quinn criter.,,-4.855732
+F-statistic,16.27527,    Durbin-Watson stat,,1.952310
+Prob(F-statistic),0.000000,,,
+,,,,

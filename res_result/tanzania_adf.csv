@@ -1,0 +1,35 @@
+Null Hypothesis: RES_TANZANIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.706399, 0.4251
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_TANZANIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_TANZANIA(-1),-0.027662,0.016210,-1.706399,0.0909
+D(RES_TANZANIA(-1)),0.529202,0.084027,6.298036,0.0000
+C,0.000242,0.001264,0.191527,0.8485
+,,,,
+R-squared,0.282957,    Mean dependent var,,0.000563
+Adjusted R-squared,0.269034,    S.D. dependent var,,0.015204
+S.E. of regression,0.012999,    Akaike info criterion,,-5.820051
+Sum squared resid,0.017403,    Schwarz criterion,,-5.744671
+Log likelihood,311.4627,    Hannan-Quinn criter.,,-5.789499
+F-statistic,20.32274,    Durbin-Watson stat,,1.907956
+Prob(F-statistic),0.000000,,,
+,,,,

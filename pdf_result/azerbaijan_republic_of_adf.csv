@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_AZERBAIJAN_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.164506, 0.6892
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_AZERBAIJAN_REPUBLIC_OF),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_AZERBAIJAN_REPUBLIC_OF(-1),-0.004777,0.004102,-1.164506,0.2459
+D(PDIFF_AZERBAIJAN_REPUBLIC_OF(-1)),0.581805,0.063409,9.175379,0.0000
+C,-0.000402,0.001961,-0.204989,0.8378
+,,,,
+R-squared,0.346793,    Mean dependent var,,0.003991
+Adjusted R-squared,0.338778,    S.D. dependent var,,0.012360
+S.E. of regression,0.010050,    Akaike info criterion,,-6.344509
+Sum squared resid,0.016465,    Schwarz criterion,,-6.288269
+Log likelihood,529.5943,    Hannan-Quinn criter.,,-6.321681
+F-statistic,43.26894,    Durbin-Watson stat,,1.875571
+Prob(F-statistic),0.000000,,,
+,,,,

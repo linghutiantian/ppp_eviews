@@ -1,0 +1,35 @@
+Null Hypothesis: RES_MOROCCO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.520488, 0.1128
+Test critical values:,1% level,,-3.476805,
+,5% level,,-2.881830,
+,10% level,,-2.577668,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_MOROCCO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2007M03 2018M12,,,,
+Included observations: 142 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_MOROCCO(-1),-0.058118,0.023058,-2.520488,0.0128
+D(RES_MOROCCO(-1)),0.376552,0.078537,4.794588,0.0000
+C,0.000184,0.001852,0.099169,0.9211
+,,,,
+R-squared,0.158976,    Mean dependent var,,0.000298
+Adjusted R-squared,0.146875,    S.D. dependent var,,0.023894
+S.E. of regression,0.022070,    Akaike info criterion,,-4.768296
+Sum squared resid,0.067705,    Schwarz criterion,,-4.705849
+Log likelihood,341.5490,    Hannan-Quinn criter.,,-4.742920
+F-statistic,13.13736,    Durbin-Watson stat,,1.985323
+Prob(F-statistic),0.000006,,,
+,,,,

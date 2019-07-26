@@ -1,0 +1,35 @@
+Null Hypothesis: ST_TURKEY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.307632, 0.0153
+Test critical values:,1% level,,-3.450411,
+,5% level,,-2.870274,
+,10% level,,-2.571493,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_TURKEY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1992M02 2018M12,,,,
+Included observations: 323 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_TURKEY(-1),-0.006696,0.002024,-3.307632,0.0010
+D(ST_TURKEY(-1)),0.086643,0.055294,1.566956,0.1181
+C,0.014651,0.003721,3.937496,0.0001
+,,,,
+R-squared,0.045855,    Mean dependent var,,0.019421
+Adjusted R-squared,0.039891,    S.D. dependent var,,0.063881
+S.E. of regression,0.062594,    Akaike info criterion,,-2.695048
+Sum squared resid,1.253765,    Schwarz criterion,,-2.659961
+Log likelihood,438.2502,    Hannan-Quinn criter.,,-2.681042
+F-statistic,7.689310,    Durbin-Watson stat,,2.033426
+Prob(F-statistic),0.000547,,,
+,,,,

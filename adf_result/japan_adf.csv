@@ -1,0 +1,35 @@
+Null Hypothesis: QT_JAPAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.255737, 0.1870
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_JAPAN),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_JAPAN(-1),-0.005743,0.002546,-2.255737,0.0244
+D(QT_JAPAN(-1)),0.291899,0.035935,8.122933,0.0000
+C,0.026804,0.012246,2.188683,0.0289
+,,,,
+R-squared,0.092420,    Mean dependent var,,-0.001049
+Adjusted R-squared,0.089837,    S.D. dependent var,,0.025208
+S.E. of regression,0.024049,    Akaike info criterion,,-4.613172
+Sum squared resid,0.406597,    Schwarz criterion,,-4.593797
+Log likelihood,1631.450,    Hannan-Quinn criter.,,-4.605685
+F-statistic,35.79347,    Durbin-Watson stat,,1.983089
+Prob(F-statistic),0.000000,,,
+,,,,

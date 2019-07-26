@@ -1,0 +1,35 @@
+Null Hypothesis: RES_FRANCE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.906259, 0.0451
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_FRANCE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_FRANCE(-1),-0.017317,0.005958,-2.906259,0.0038
+D(RES_FRANCE(-1)),0.279638,0.036213,7.721939,0.0000
+C,-4.12E-06,0.000828,-0.004977,0.9960
+,,,,
+R-squared,0.084407,    Mean dependent var,,4.01E-06
+Adjusted R-squared,0.081802,    S.D. dependent var,,0.022972
+S.E. of regression,0.022012,    Akaike info criterion,,-4.790183
+Sum squared resid,0.340635,    Schwarz criterion,,-4.770808
+Log likelihood,1693.935,    Hannan-Quinn criter.,,-4.782697
+F-statistic,32.40427,    Durbin-Watson stat,,1.976138
+Prob(F-statistic),0.000000,,,
+,,,,

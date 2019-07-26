@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_NETHERLANDS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.066773, 0.9630
+Test critical values:,1% level,,-3.439424,
+,5% level,,-2.865435,
+,10% level,,-2.568900,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_NETHERLANDS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M06 2018M12,,,,
+Included observations: 703 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_NETHERLANDS(-1),9.57E-05,0.001434,0.066773,0.9468
+D(PDIFF_NETHERLANDS(-1)),0.037289,0.037742,0.988019,0.3235
+C,-0.000345,0.000253,-1.366012,0.1724
+,,,,
+R-squared,0.001409,    Mean dependent var,,-0.000351
+Adjusted R-squared,-0.001444,    S.D. dependent var,,0.005921
+S.E. of regression,0.005925,    Akaike info criterion,,-7.414992
+Sum squared resid,0.024574,    Schwarz criterion,,-7.395553
+Log likelihood,2609.370,    Hannan-Quinn criter.,,-7.407479
+F-statistic,0.493939,    Durbin-Watson stat,,2.002645
+Prob(F-statistic),0.610431,,,
+,,,,

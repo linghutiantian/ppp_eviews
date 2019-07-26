@@ -1,0 +1,35 @@
+Null Hypothesis: QT_KUWAIT has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.421961, 0.0123
+Test critical values:,1% level,,-3.494378,
+,5% level,,-2.889474,
+,10% level,,-2.581741,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_KUWAIT),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M10,,,,
+Included observations: 104 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_KUWAIT(-1),-0.166122,0.048546,-3.421961,0.0009
+D(QT_KUWAIT(-1)),-0.163647,0.093265,-1.754648,0.0824
+C,-0.198661,0.057866,-3.433109,0.0009
+,,,,
+R-squared,0.146292,    Mean dependent var,,-0.000553
+Adjusted R-squared,0.129387,    S.D. dependent var,,0.011645
+S.E. of regression,0.010866,    Akaike info criterion,,-6.177976
+Sum squared resid,0.011925,    Schwarz criterion,,-6.101696
+Log likelihood,324.2548,    Hannan-Quinn criter.,,-6.147073
+F-statistic,8.653700,    Durbin-Watson stat,,1.963051
+Prob(F-statistic),0.000340,,,
+,,,,

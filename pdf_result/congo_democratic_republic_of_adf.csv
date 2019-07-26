@@ -1,0 +1,36 @@
+Null Hypothesis: PDIFF_CONGO_DEMOCRATIC_REPUBLIC_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.964016, 0.9957
+Test critical values:,1% level,,-3.544063,
+,5% level,,-2.910860,
+,10% level,,-2.593090,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_CONGO_DEMOCRATIC_REPUBLIC_O,,,,
+        F),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2012M03 2017M02,,,,
+Included observations: 60 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_CONGO_DEMOCRATIC_REPUBLIC_OF(-1),0.055971,0.058061,0.964016,0.3391
+D(PDIFF_CONGO_DEMOCRATIC_REPUBLIC_OF(-1)),0.565022,0.155730,3.628223,0.0006
+C,-0.007387,0.008507,-0.868364,0.3888
+,,,,
+R-squared,0.443379,    Mean dependent var,,0.001695
+Adjusted R-squared,0.423848,    S.D. dependent var,,0.007042
+S.E. of regression,0.005345,    Akaike info criterion,,-7.576441
+Sum squared resid,0.001629,    Schwarz criterion,,-7.471724
+Log likelihood,230.2932,    Hannan-Quinn criter.,,-7.535480
+F-statistic,22.70176,    Durbin-Watson stat,,2.036586
+Prob(F-statistic),0.000000,,,
+,,,,

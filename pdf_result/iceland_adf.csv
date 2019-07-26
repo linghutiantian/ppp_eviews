@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_ICELAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.946706, 0.0018
+Test critical values:,1% level,,-3.440841,
+,5% level,,-2.866060,
+,10% level,,-2.569236,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_ICELAND),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 610 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_ICELAND(-1),-0.001121,0.000284,-3.946706,0.0001
+D(PDIFF_ICELAND(-1)),0.404794,0.036950,10.95530,0.0000
+C,0.003246,0.000687,4.722994,0.0000
+,,,,
+R-squared,0.212156,    Mean dependent var,,0.007861
+Adjusted R-squared,0.209560,    S.D. dependent var,,0.015269
+S.E. of regression,0.013575,    Akaike info criterion,,-5.756286
+Sum squared resid,0.111856,    Schwarz criterion,,-5.734580
+Log likelihood,1758.667,    Hannan-Quinn criter.,,-5.747843
+F-statistic,81.72833,    Durbin-Watson stat,,2.252226
+Prob(F-statistic),0.000000,,,
+,,,,

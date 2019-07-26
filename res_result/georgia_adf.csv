@@ -1,0 +1,35 @@
+Null Hypothesis: RES_GEORGIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.332122, 0.6140
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_GEORGIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_GEORGIA(-1),-0.014867,0.011160,-1.332122,0.1847
+D(RES_GEORGIA(-1)),0.407634,0.072170,5.648235,0.0000
+C,0.000184,0.001602,0.114694,0.9088
+,,,,
+R-squared,0.165634,    Mean dependent var,,0.000475
+Adjusted R-squared,0.155396,    S.D. dependent var,,0.022442
+S.E. of regression,0.020624,    Akaike info criterion,,-4.906790
+Sum squared resid,0.069334,    Schwarz criterion,,-4.850549
+Log likelihood,410.2636,    Hannan-Quinn criter.,,-4.883961
+F-statistic,16.17891,    Durbin-Watson stat,,1.953832
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: ST_TONGA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.430928, 0.9012
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_TONGA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_TONGA(-1),-0.000727,0.001686,-0.430928,0.6667
+D(ST_TONGA(-1)),0.313142,0.035862,8.731963,0.0000
+C,0.001083,0.000736,1.472546,0.1413
+,,,,
+R-squared,0.097848,    Mean dependent var,,0.001320
+Adjusted R-squared,0.095281,    S.D. dependent var,,0.017054
+S.E. of regression,0.016221,    Akaike info criterion,,-5.400799
+Sum squared resid,0.184970,    Schwarz criterion,,-5.381424
+Log likelihood,1909.482,    Hannan-Quinn criter.,,-5.393312
+F-statistic,38.12392,    Durbin-Watson stat,,2.016958
+Prob(F-statistic),0.000000,,,
+,,,,

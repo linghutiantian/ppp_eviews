@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_CAMBODIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.442444, 0.5587
+Test critical values:,1% level,,-3.494378,
+,5% level,,-2.889474,
+,10% level,,-2.581741,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_CAMBODIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M10,,,,
+Included observations: 104 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_CAMBODIA(-1),-0.016829,0.011667,-1.442444,0.1523
+D(PDIFF_CAMBODIA(-1)),-0.022594,0.098489,-0.229407,0.8190
+C,0.007362,0.004340,1.696439,0.0929
+,,,,
+R-squared,0.020529,    Mean dependent var,,0.001112
+Adjusted R-squared,0.001133,    S.D. dependent var,,0.004242
+S.E. of regression,0.004239,    Akaike info criterion,,-8.060497
+Sum squared resid,0.001815,    Schwarz criterion,,-7.984216
+Log likelihood,422.1458,    Hannan-Quinn criter.,,-8.029593
+F-statistic,1.058437,    Durbin-Watson stat,,1.999076
+Prob(F-statistic),0.350815,,,
+,,,,

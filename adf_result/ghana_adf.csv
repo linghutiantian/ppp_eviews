@@ -1,0 +1,35 @@
+Null Hypothesis: QT_GHANA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.078824, 0.7221
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_GHANA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_GHANA(-1),-0.017393,0.016122,-1.078824,0.2832
+D(QT_GHANA(-1)),-0.061535,0.097977,-0.628058,0.5314
+C,0.016711,0.012514,1.335400,0.1847
+,,,,
+R-squared,0.015768,    Mean dependent var,,0.003337
+Adjusted R-squared,-0.003344,    S.D. dependent var,,0.029105
+S.E. of regression,0.029154,    Akaike info criterion,,-4.204570
+Sum squared resid,0.087544,    Schwarz criterion,,-4.129189
+Log likelihood,225.8422,    Hannan-Quinn criter.,,-4.174018
+F-statistic,0.825036,    Durbin-Watson stat,,1.965296
+Prob(F-statistic),0.441094,,,
+,,,,

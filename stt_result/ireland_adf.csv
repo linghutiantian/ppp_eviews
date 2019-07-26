@@ -1,0 +1,35 @@
+Null Hypothesis: ST_IRELAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.866716, 0.3482
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_IRELAND),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_IRELAND(-1),-0.005783,0.003098,-1.866716,0.0624
+D(ST_IRELAND(-1)),0.258100,0.036374,7.095669,0.0000
+C,-0.002581,0.001943,-1.328433,0.1845
+,,,,
+R-squared,0.070399,    Mean dependent var,,0.000925
+Adjusted R-squared,0.067754,    S.D. dependent var,,0.023156
+S.E. of regression,0.022358,    Akaike info criterion,,-4.759057
+Sum squared resid,0.351404,    Schwarz criterion,,-4.739682
+Log likelihood,1682.947,    Hannan-Quinn criter.,,-4.751570
+F-statistic,26.61928,    Durbin-Watson stat,,1.988937
+Prob(F-statistic),0.000000,,,
+,,,,

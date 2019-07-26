@@ -1,0 +1,35 @@
+Null Hypothesis: QT_TIMOR_LESTE_DEM_REP_OF has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.389020, 0.1475
+Test critical values:,1% level,,-3.499910,
+,5% level,,-2.891871,
+,10% level,,-2.583017,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_TIMOR_LESTE_DEM_REP_OF),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M02,,,,
+Included observations: 96 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_TIMOR_LESTE_DEM_REP_OF(-1),-0.020155,0.008436,-2.389020,0.0189
+D(QT_TIMOR_LESTE_DEM_REP_OF(-1)),0.467331,0.088507,5.280134,0.0000
+C,0.000932,0.001181,0.789780,0.4317
+,,,,
+R-squared,0.314991,    Mean dependent var,,-0.002571
+Adjusted R-squared,0.300260,    S.D. dependent var,,0.008835
+S.E. of regression,0.007390,    Akaike info criterion,,-6.946539
+Sum squared resid,0.005079,    Schwarz criterion,,-6.866403
+Log likelihood,336.4339,    Hannan-Quinn criter.,,-6.914147
+F-statistic,21.38232,    Durbin-Watson stat,,1.778827
+Prob(F-statistic),0.000000,,,
+,,,,

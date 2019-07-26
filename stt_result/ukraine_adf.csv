@@ -1,0 +1,35 @@
+Null Hypothesis: ST_UKRAINE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-6.720872, 0.0000
+Test critical values:,1% level,,-3.451214,
+,5% level,,-2.870621,
+,10% level,,-2.571679,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_UKRAINE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1993M02 2018M12,,,,
+Included observations: 311 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_UKRAINE(-1),-0.024477,0.003642,-6.720872,0.0000
+D(ST_UKRAINE(-1)),0.243281,0.053161,4.576319,0.0000
+C,0.056583,0.007782,7.270754,0.0000
+,,,,
+R-squared,0.251990,    Mean dependent var,,0.025498
+Adjusted R-squared,0.247133,    S.D. dependent var,,0.095963
+S.E. of regression,0.083265,    Akaike info criterion,,-2.123978
+Sum squared resid,2.135382,    Schwarz criterion,,-2.087903
+Log likelihood,333.2786,    Hannan-Quinn criter.,,-2.109558
+F-statistic,51.87964,    Durbin-Watson stat,,1.952028
+Prob(F-statistic),0.000000,,,
+,,,,

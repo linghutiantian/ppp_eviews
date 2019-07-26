@@ -1,0 +1,35 @@
+Null Hypothesis: ST_ALGERIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.625996, 0.9904
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_ALGERIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_ALGERIA(-1),0.000388,0.000620,0.625996,0.5315
+D(ST_ALGERIA(-1)),0.381060,0.034912,10.91485,0.0000
+C,0.001702,0.001916,0.888201,0.3747
+,,,,
+R-squared,0.146768,    Mean dependent var,,0.004501
+Adjusted R-squared,0.144340,    S.D. dependent var,,0.023696
+S.E. of regression,0.021920,    Akaike info criterion,,-4.798632
+Sum squared resid,0.337769,    Schwarz criterion,,-4.779257
+Log likelihood,1696.917,    Hannan-Quinn criter.,,-4.791146
+F-statistic,60.46292,    Durbin-Watson stat,,2.023502
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_BOSNIA_AND_HERZEGOVINA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.723162, 0.4176
+Test critical values:,1% level,,-3.472534,
+,5% level,,-2.879966,
+,10% level,,-2.576674,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_BOSNIA_AND_HERZEGOVINA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2005M03 2018M02,,,,
+Included observations: 156 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_BOSNIA_AND_HERZEGOVINA(-1),-0.027148,0.015755,-1.723162,0.0869
+D(PDIFF_BOSNIA_AND_HERZEGOVINA(-1)),0.422646,0.074508,5.672478,0.0000
+C,-0.000900,0.000640,-1.407734,0.1612
+,,,,
+R-squared,0.176705,    Mean dependent var,,-0.000266
+Adjusted R-squared,0.165943,    S.D. dependent var,,0.006367
+S.E. of regression,0.005815,    Akaike info criterion,,-7.437709
+Sum squared resid,0.005174,    Schwarz criterion,,-7.379057
+Log likelihood,583.1413,    Hannan-Quinn criter.,,-7.413887
+F-statistic,16.41933,    Durbin-Watson stat,,2.075823
+Prob(F-statistic),0.000000,,,
+,,,,

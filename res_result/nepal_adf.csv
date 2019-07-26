@@ -1,0 +1,35 @@
+Null Hypothesis: RES_NEPAL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.382617, 0.1483
+Test critical values:,1% level,,-3.472259,
+,5% level,,-2.879846,
+,10% level,,-2.576610,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_NEPAL),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M10 2018M10,,,,
+Included observations: 157 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_NEPAL(-1),-0.074778,0.031385,-2.382617,0.0184
+D(RES_NEPAL(-1)),0.049341,0.081043,0.608827,0.5435
+C,0.000219,0.001763,0.124406,0.9012
+,,,,
+R-squared,0.035668,    Mean dependent var,,0.000274
+Adjusted R-squared,0.023144,    S.D. dependent var,,0.022347
+S.E. of regression,0.022087,    Akaike info criterion,,-4.768736
+Sum squared resid,0.075126,    Schwarz criterion,,-4.710336
+Log likelihood,377.3458,    Hannan-Quinn criter.,,-4.745018
+F-statistic,2.848016,    Durbin-Watson stat,,1.986492
+Prob(F-statistic),0.061017,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_ETHIOPIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.379492, 0.9817
+Test critical values:,1% level,,-3.461178,
+,5% level,,-2.874997,
+,10% level,,-2.574019,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_ETHIOPIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2001M02 2018M09,,,,
+Included observations: 212 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_ETHIOPIA(-1),0.000585,0.001540,0.379492,0.7047
+D(PDIFF_ETHIOPIA(-1)),0.507368,0.059544,8.520842,0.0000
+C,0.004232,0.001277,3.314130,0.0011
+,,,,
+R-squared,0.261032,    Mean dependent var,,0.008147
+Adjusted R-squared,0.253961,    S.D. dependent var,,0.015961
+S.E. of regression,0.013786,    Akaike info criterion,,-5.716316
+Sum squared resid,0.039720,    Schwarz criterion,,-5.668817
+Log likelihood,608.9295,    Hannan-Quinn criter.,,-5.697118
+F-statistic,36.91349,    Durbin-Watson stat,,2.037460
+Prob(F-statistic),0.000000,,,
+,,,,

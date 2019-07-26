@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_MYANMAR has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.214838, 0.9321
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_MYANMAR),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_MYANMAR(-1),-0.001403,0.006530,-0.214838,0.8303
+D(PDIFF_MYANMAR(-1)),0.475884,0.088256,5.392100,0.0000
+C,0.001802,0.000803,2.245195,0.0269
+,,,,
+R-squared,0.221997,    Mean dependent var,,0.003383
+Adjusted R-squared,0.206890,    S.D. dependent var,,0.008081
+S.E. of regression,0.007197,    Akaike info criterion,,-7.002536
+Sum squared resid,0.005334,    Schwarz criterion,,-6.927156
+Log likelihood,374.1344,    Hannan-Quinn criter.,,-6.971984
+F-statistic,14.69512,    Durbin-Watson stat,,1.809569
+Prob(F-statistic),0.000002,,,
+,,,,

@@ -1,0 +1,33 @@
+Null Hypothesis: RES_SAUDI_ARABIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.470986, 0.5471
+Test critical values:,1% level,,-3.453072,
+,5% level,,-2.871438,
+,10% level,,-2.572116,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SAUDI_ARABIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1995M03 2018M12,,,,
+Included observations: 286 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SAUDI_ARABIA(-1),-0.005429,0.003691,-1.470986,0.1424
+D(RES_SAUDI_ARABIA(-1)),0.354292,0.055344,6.401661,0.0000
+C,-4.06E-18,1.55E-17,-0.261735,0.7937
+,,,,
+R-squared,0.133383,    Mean dependent var,,1.23E-17
+Adjusted R-squared,0.127259,    S.D. dependent var,,2.38E-16
+S.E. of regression,2.22E-16,    Sum squared resid,,1.40E-29
+F-statistic,21.77861,    Durbin-Watson stat,,2.003674
+Prob(F-statistic),0.000000,,,
+,,,,

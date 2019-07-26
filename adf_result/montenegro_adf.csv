@@ -1,0 +1,35 @@
+Null Hypothesis: QT_MONTENEGRO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.499475, 0.5302
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_MONTENEGRO),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_MONTENEGRO(-1),-0.034226,0.022825,-1.499475,0.1368
+D(QT_MONTENEGRO(-1)),0.222713,0.094191,2.364477,0.0199
+C,-0.002867,0.003448,-0.831321,0.4077
+,,,,
+R-squared,0.065506,    Mean dependent var,,0.001720
+Adjusted R-squared,0.047360,    S.D. dependent var,,0.021598
+S.E. of regression,0.021080,    Akaike info criterion,,-4.853082
+Sum squared resid,0.045770,    Schwarz criterion,,-4.777701
+Log likelihood,260.2133,    Hannan-Quinn criter.,,-4.822530
+F-statistic,3.610031,    Durbin-Watson stat,,1.972042
+Prob(F-statistic),0.030528,,,
+,,,,

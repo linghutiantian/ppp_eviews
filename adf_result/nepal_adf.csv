@@ -1,0 +1,35 @@
+Null Hypothesis: QT_NEPAL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.838995, 0.3606
+Test critical values:,1% level,,-3.472259,
+,5% level,,-2.879846,
+,10% level,,-2.576610,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_NEPAL),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M10 2018M10,,,,
+Included observations: 157 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_NEPAL(-1),-0.037757,0.020531,-1.838995,0.0678
+D(QT_NEPAL(-1)),-0.019650,0.080392,-0.244424,0.8072
+C,0.177288,0.097028,1.827186,0.0696
+,,,,
+R-squared,0.022786,    Mean dependent var,,-0.001067
+Adjusted R-squared,0.010094,    S.D. dependent var,,0.024705
+S.E. of regression,0.024580,    Akaike info criterion,,-4.554880
+Sum squared resid,0.093040,    Schwarz criterion,,-4.496481
+Log likelihood,360.5581,    Hannan-Quinn criter.,,-4.531162
+F-statistic,1.795399,    Durbin-Watson stat,,2.000231
+Prob(F-statistic),0.169519,,,
+,,,,

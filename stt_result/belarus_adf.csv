@@ -1,0 +1,35 @@
+Null Hypothesis: ST_BELARUS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.457720, 0.0100
+Test critical values:,1% level,,-3.457286,
+,5% level,,-2.873289,
+,10% level,,-2.573106,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_BELARUS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 1998M11 2018M12,,,,
+Included observations: 242 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_BELARUS(-1),-0.014761,0.004269,-3.457720,0.0006
+D(ST_BELARUS(-1)),0.071888,0.063573,1.130798,0.2593
+C,0.004894,0.006811,0.718589,0.4731
+,,,,
+R-squared,0.058535,    Mean dependent var,,0.022154
+Adjusted R-squared,0.050657,    S.D. dependent var,,0.081265
+S.E. of regression,0.079180,    Akaike info criterion,,-2.221870
+Sum squared resid,1.498399,    Schwarz criterion,,-2.178618
+Log likelihood,271.8462,    Hannan-Quinn criter.,,-2.204447
+F-statistic,7.429853,    Durbin-Watson stat,,1.991373
+Prob(F-statistic),0.000741,,,
+,,,,

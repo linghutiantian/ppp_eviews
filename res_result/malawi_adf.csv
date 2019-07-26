@@ -1,0 +1,35 @@
+Null Hypothesis: RES_MALAWI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.334429, 0.0157
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_MALAWI),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_MALAWI(-1),-0.126107,0.037820,-3.334429,0.0012
+D(RES_MALAWI(-1)),0.419726,0.089530,4.688091,0.0000
+C,0.000390,0.005184,0.075157,0.9402
+,,,,
+R-squared,0.211891,    Mean dependent var,,-8.83E-05
+Adjusted R-squared,0.196587,    S.D. dependent var,,0.059521
+S.E. of regression,0.053351,    Akaike info criterion,,-2.995956
+Sum squared resid,0.293172,    Schwarz criterion,,-2.920575
+Log likelihood,161.7857,    Hannan-Quinn criter.,,-2.965404
+F-statistic,13.84625,    Durbin-Watson stat,,2.055445
+Prob(F-statistic),0.000005,,,
+,,,,

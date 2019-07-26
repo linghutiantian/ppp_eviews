@@ -1,0 +1,35 @@
+Null Hypothesis: ST_SOUTH_SUDAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.049669, 0.9600
+Test critical values:,1% level,,-3.506484,
+,5% level,,-2.894716,
+,10% level,,-2.584529,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_SOUTH_SUDAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2011M09 2018M12,,,,
+Included observations: 88 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_SOUTH_SUDAN(-1),0.000473,0.009522,0.049669,0.9605
+D(ST_SOUTH_SUDAN(-1)),0.366425,0.101654,3.604614,0.0005
+C,0.025839,0.027958,0.924207,0.3580
+,,,,
+R-squared,0.135727,    Mean dependent var,,0.043621
+Adjusted R-squared,0.115391,    S.D. dependent var,,0.158402
+S.E. of regression,0.148983,    Akaike info criterion,,-0.936470
+Sum squared resid,1.886660,    Schwarz criterion,,-0.852015
+Log likelihood,44.20468,    Hannan-Quinn criter.,,-0.902445
+F-statistic,6.674272,    Durbin-Watson stat,,1.979948
+Prob(F-statistic),0.002031,,,
+,,,,

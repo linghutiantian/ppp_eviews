@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_MADAGASCAR has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.844637, 0.8041
+Test critical values:,1% level,,-3.457984,
+,5% level,,-2.873596,
+,10% level,,-2.573270,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_MADAGASCAR),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1999M05 2018M12,,,,
+Included observations: 236 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_MADAGASCAR(-1),-0.001304,0.001543,-0.844637,0.3992
+D(PDIFF_MADAGASCAR(-1)),0.630060,0.050802,12.40238,0.0000
+C,0.003074,0.001427,2.153860,0.0323
+,,,,
+R-squared,0.400250,    Mean dependent var,,0.005296
+Adjusted R-squared,0.395102,    S.D. dependent var,,0.011364
+S.E. of regression,0.008838,    Akaike info criterion,,-6.606875
+Sum squared resid,0.018200,    Schwarz criterion,,-6.562843
+Log likelihood,782.6112,    Hannan-Quinn criter.,,-6.589125
+F-statistic,77.74766,    Durbin-Watson stat,,1.642574
+Prob(F-statistic),0.000000,,,
+,,,,

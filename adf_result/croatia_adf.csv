@@ -1,0 +1,35 @@
+Null Hypothesis: QT_CROATIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.489366, 0.5367
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_CROATIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_CROATIA(-1),-0.022433,0.015062,-1.489366,0.1383
+D(QT_CROATIA(-1)),0.292817,0.075310,3.888135,0.0001
+C,0.042206,0.027973,1.508818,0.1333
+,,,,
+R-squared,0.090085,    Mean dependent var,,0.000862
+Adjusted R-squared,0.078921,    S.D. dependent var,,0.022585
+S.E. of regression,0.021675,    Akaike info criterion,,-4.807381
+Sum squared resid,0.076580,    Schwarz criterion,,-4.751141
+Log likelihood,402.0127,    Hannan-Quinn criter.,,-4.784553
+F-statistic,8.068828,    Durbin-Watson stat,,1.934957
+Prob(F-statistic),0.000456,,,
+,,,,

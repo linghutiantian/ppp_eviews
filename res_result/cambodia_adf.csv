@@ -1,0 +1,35 @@
+Null Hypothesis: RES_CAMBODIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.821820, 0.0037
+Test critical values:,1% level,,-3.494378,
+,5% level,,-2.889474,
+,10% level,,-2.581741,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_CAMBODIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M10,,,,
+Included observations: 104 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_CAMBODIA(-1),-0.165032,0.043182,-3.821820,0.0002
+D(RES_CAMBODIA(-1)),0.391237,0.090852,4.306323,0.0000
+C,-0.000127,0.000536,-0.236775,0.8133
+,,,,
+R-squared,0.210440,    Mean dependent var,,-9.33E-05
+Adjusted R-squared,0.194805,    S.D. dependent var,,0.006091
+S.E. of regression,0.005465,    Akaike info criterion,,-7.552392
+Sum squared resid,0.003017,    Schwarz criterion,,-7.476112
+Log likelihood,395.7244,    Hannan-Quinn criter.,,-7.521489
+F-statistic,13.45969,    Durbin-Watson stat,,1.937500
+Prob(F-statistic),0.000007,,,
+,,,,

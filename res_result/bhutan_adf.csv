@@ -1,0 +1,35 @@
+Null Hypothesis: RES_BHUTAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.529258, 0.1130
+Test critical values:,1% level,,-3.525618,
+,5% level,,-2.902953,
+,10% level,,-2.588902,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_BHUTAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2013M02 2018M12,,,,
+Included observations: 71 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_BHUTAN(-1),-0.150535,0.059517,-2.529258,0.0138
+D(RES_BHUTAN(-1)),0.200976,0.120224,1.671673,0.0992
+C,0.000685,0.001918,0.357193,0.7221
+,,,,
+R-squared,0.097799,    Mean dependent var,,0.000921
+Adjusted R-squared,0.071263,    S.D. dependent var,,0.016735
+S.E. of regression,0.016128,    Akaike info criterion,,-5.375170
+Sum squared resid,0.017688,    Schwarz criterion,,-5.279564
+Log likelihood,193.8185,    Hannan-Quinn criter.,,-5.337150
+F-statistic,3.685606,    Durbin-Watson stat,,2.058134
+Prob(F-statistic),0.030222,,,
+,,,,

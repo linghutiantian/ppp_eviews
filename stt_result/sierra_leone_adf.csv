@@ -1,0 +1,35 @@
+Null Hypothesis: ST_SIERRA_LEONE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.021309, 0.9592
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_SIERRA_LEONE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_SIERRA_LEONE(-1),1.42E-05,0.000667,0.021309,0.9830
+D(ST_SIERRA_LEONE(-1)),0.320580,0.035740,8.969852,0.0000
+C,0.008975,0.003655,2.455147,0.0143
+,,,,
+R-squared,0.102789,    Mean dependent var,,0.013289
+Adjusted R-squared,0.100237,    S.D. dependent var,,0.070014
+S.E. of regression,0.066412,    Akaike info criterion,,-2.581640
+Sum squared resid,3.100611,    Schwarz criterion,,-2.562265
+Log likelihood,914.3190,    Hannan-Quinn criter.,,-2.574154
+F-statistic,40.26978,    Durbin-Watson stat,,1.990424
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: RES_NICARAGUA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.932124, 0.7760
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_NICARAGUA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_NICARAGUA(-1),-0.009035,0.009693,-0.932124,0.3527
+D(RES_NICARAGUA(-1)),0.420263,0.071927,5.842951,0.0000
+C,0.000108,0.000424,0.255061,0.7990
+,,,,
+R-squared,0.173310,    Mean dependent var,,0.000211
+Adjusted R-squared,0.163167,    S.D. dependent var,,0.005962
+S.E. of regression,0.005454,    Akaike info criterion,,-7.567168
+Sum squared resid,0.004848,    Schwarz criterion,,-7.510927
+Log likelihood,631.0749,    Hannan-Quinn criter.,,-7.544339
+F-statistic,17.08592,    Durbin-Watson stat,,1.980919
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_EGYPT has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 1.727224, 0.9997
+Test critical values:,1% level,,-3.493747,
+,5% level,,-2.889200,
+,10% level,,-2.581596,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_EGYPT),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M11,,,,
+Included observations: 105 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_EGYPT(-1),0.006882,0.003984,1.727224,0.0872
+D(PDIFF_EGYPT(-1)),0.300036,0.097726,3.070189,0.0027
+C,0.003656,0.001771,2.064711,0.0415
+,,,,
+R-squared,0.152233,    Mean dependent var,,0.008978
+Adjusted R-squared,0.135610,    S.D. dependent var,,0.011011
+S.E. of regression,0.010237,    Akaike info criterion,,-6.297409
+Sum squared resid,0.010690,    Schwarz criterion,,-6.221582
+Log likelihood,333.6140,    Hannan-Quinn criter.,,-6.266683
+F-statistic,9.158042,    Durbin-Watson stat,,1.967869
+Prob(F-statistic),0.000220,,,
+,,,,

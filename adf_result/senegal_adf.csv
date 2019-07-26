@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SENEGAL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.872528, 0.3449
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SENEGAL),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SENEGAL(-1),-0.021124,0.011281,-1.872528,0.0624
+D(QT_SENEGAL(-1)),0.269457,0.064080,4.205010,0.0000
+C,0.133334,0.071358,1.868523,0.0630
+,,,,
+R-squared,0.082201,    Mean dependent var,,-0.000262
+Adjusted R-squared,0.073970,    S.D. dependent var,,0.025167
+S.E. of regression,0.024218,    Akaike info criterion,,-4.590257
+Sum squared resid,0.130792,    Schwarz criterion,,-4.544851
+Log likelihood,521.6990,    Hannan-Quinn criter.,,-4.571933
+F-statistic,9.986341,    Durbin-Watson stat,,1.992782
+Prob(F-statistic),0.000070,,,
+,,,,

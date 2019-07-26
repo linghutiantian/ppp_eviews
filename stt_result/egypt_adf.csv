@@ -1,0 +1,35 @@
+Null Hypothesis: ST_EGYPT has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.601126, 0.9897
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_EGYPT),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_EGYPT(-1),0.000868,0.001445,0.601126,0.5479
+D(ST_EGYPT(-1)),0.063994,0.037707,1.697147,0.0901
+C,0.004831,0.001881,2.568405,0.0104
+,,,,
+R-squared,0.004800,    Mean dependent var,,0.005570
+Adjusted R-squared,0.001968,    S.D. dependent var,,0.046885
+S.E. of regression,0.046839,    Akaike info criterion,,-3.279970
+Sum squared resid,1.542292,    Schwarz criterion,,-3.260595
+Log likelihood,1160.829,    Hannan-Quinn criter.,,-3.272484
+F-statistic,1.695210,    Durbin-Watson stat,,1.997991
+Prob(F-statistic),0.184310,,,
+,,,,

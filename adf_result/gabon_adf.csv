@@ -1,0 +1,35 @@
+Null Hypothesis: QT_GABON has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.019930, 0.2780
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_GABON),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_GABON(-1),-0.052692,0.026086,-2.019930,0.0460
+D(QT_GABON(-1)),0.257464,0.092740,2.776192,0.0065
+C,0.323106,0.159530,2.025369,0.0454
+,,,,
+R-squared,0.095638,    Mean dependent var,,0.001310
+Adjusted R-squared,0.078078,    S.D. dependent var,,0.022737
+S.E. of regression,0.021832,    Akaike info criterion,,-4.783013
+Sum squared resid,0.049092,    Schwarz criterion,,-4.707633
+Log likelihood,256.4997,    Hannan-Quinn criter.,,-4.752461
+F-statistic,5.446239,    Durbin-Watson stat,,1.977971
+Prob(F-statistic),0.005644,,,
+,,,,

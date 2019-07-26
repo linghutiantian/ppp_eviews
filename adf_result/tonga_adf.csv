@@ -1,0 +1,35 @@
+Null Hypothesis: QT_TONGA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.609331, 0.4755
+Test critical values:,1% level,,-3.470679,
+,5% level,,-2.879155,
+,10% level,,-2.576241,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_TONGA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M09,,,,
+Included observations: 163 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_TONGA(-1),-0.021261,0.013211,-1.609331,0.1095
+D(QT_TONGA(-1)),0.282063,0.075565,3.732709,0.0003
+C,0.014609,0.009384,1.556872,0.1215
+,,,,
+R-squared,0.089658,    Mean dependent var,,-0.000453
+Adjusted R-squared,0.078279,    S.D. dependent var,,0.018992
+S.E. of regression,0.018234,    Akaike info criterion,,-5.152834
+Sum squared resid,0.053196,    Schwarz criterion,,-5.095894
+Log likelihood,422.9560,    Hannan-Quinn criter.,,-5.129717
+F-statistic,7.879052,    Durbin-Watson stat,,1.964018
+Prob(F-statistic),0.000545,,,
+,,,,

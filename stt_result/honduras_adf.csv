@@ -1,0 +1,35 @@
+Null Hypothesis: ST_HONDURAS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 5.777781, 1.0000
+Test critical values:,1% level,,-3.441318,
+,5% level,,-2.866270,
+,10% level,,-2.569348,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_HONDURAS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 584 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_HONDURAS(-1),0.000285,4.93E-05,5.777781,0.0000
+D(ST_HONDURAS(-1)),0.708498,0.029252,24.22029,0.0000
+C,-0.000192,7.93E-05,-2.424168,0.0156
+,,,,
+R-squared,0.670386,    Mean dependent var,,0.000873
+Adjusted R-squared,0.669251,    S.D. dependent var,,0.001861
+S.E. of regression,0.001070,    Akaike info criterion,,-10.83694
+Sum squared resid,0.000665,    Schwarz criterion,,-10.81449
+Log likelihood,3167.387,    Hannan-Quinn criter.,,-10.82819
+F-statistic,590.8337,    Durbin-Watson stat,,2.167286
+Prob(F-statistic),0.000000,,,
+,,,,

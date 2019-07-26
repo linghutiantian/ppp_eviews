@@ -1,0 +1,35 @@
+Null Hypothesis: RES_HONDURAS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.398687, 0.9059
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_HONDURAS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_HONDURAS(-1),-0.001731,0.004342,-0.398687,0.6905
+D(RES_HONDURAS(-1)),0.462782,0.059666,7.756204,0.0000
+C,0.000260,0.000189,1.373929,0.1708
+,,,,
+R-squared,0.212665,    Mean dependent var,,0.000477
+Adjusted R-squared,0.205603,    S.D. dependent var,,0.003151
+S.E. of regression,0.002809,    Akaike info criterion,,-8.898881
+Sum squared resid,0.001759,    Schwarz criterion,,-8.853475
+Log likelihood,1008.574,    Hannan-Quinn criter.,,-8.880557
+F-statistic,30.11689,    Durbin-Watson stat,,2.098415
+Prob(F-statistic),0.000000,,,
+,,,,

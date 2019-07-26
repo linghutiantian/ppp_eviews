@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_NEPAL has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.223583, 0.9316
+Test critical values:,1% level,,-3.472259,
+,5% level,,-2.879846,
+,10% level,,-2.576610,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_NEPAL),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M10 2018M10,,,,
+Included observations: 157 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_NEPAL(-1),-0.001154,0.005162,-0.223583,0.8234
+D(PDIFF_NEPAL(-1)),0.144856,0.079767,1.815995,0.0713
+C,0.003314,0.001965,1.686220,0.0938
+,,,,
+R-squared,0.021046,    Mean dependent var,,0.004245
+Adjusted R-squared,0.008332,    S.D. dependent var,,0.015731
+S.E. of regression,0.015665,    Akaike info criterion,,-5.455806
+Sum squared resid,0.037792,    Schwarz criterion,,-5.397406
+Log likelihood,431.2808,    Hannan-Quinn criter.,,-5.432088
+F-statistic,1.655376,    Durbin-Watson stat,,1.978061
+Prob(F-statistic),0.194401,,,
+,,,,

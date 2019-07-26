@@ -1,0 +1,35 @@
+Null Hypothesis: QT_VIETNAM has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.979829, 0.2953
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_VIETNAM),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_VIETNAM(-1),-0.029498,0.014899,-1.979829,0.0504
+D(QT_VIETNAM(-1)),0.230356,0.094063,2.448950,0.0160
+C,0.297013,0.150521,1.973228,0.0511
+,,,,
+R-squared,0.090822,    Mean dependent var,,-0.001309
+Adjusted R-squared,0.073168,    S.D. dependent var,,0.008493
+S.E. of regression,0.008177,    Akaike info criterion,,-6.747198
+Sum squared resid,0.006886,    Schwarz criterion,,-6.671818
+Log likelihood,360.6015,    Hannan-Quinn criter.,,-6.716646
+F-statistic,5.144569,    Durbin-Watson stat,,1.862004
+Prob(F-statistic),0.007420,,,
+,,,,

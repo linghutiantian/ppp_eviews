@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_NAMIBIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.260577, 0.9751
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_NAMIBIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_NAMIBIA(-1),0.001318,0.005060,0.260577,0.7949
+D(PDIFF_NAMIBIA(-1)),-0.083993,0.098484,-0.852859,0.3957
+C,0.003041,0.000558,5.450790,0.0000
+,,,,
+R-squared,0.007388,    Mean dependent var,,0.002804
+Adjusted R-squared,-0.011886,    S.D. dependent var,,0.004946
+S.E. of regression,0.004976,    Akaike info criterion,,-7.740649
+Sum squared resid,0.002550,    Schwarz criterion,,-7.665269
+Log likelihood,413.2544,    Hannan-Quinn criter.,,-7.710097
+F-statistic,0.383324,    Durbin-Watson stat,,1.971536
+Prob(F-statistic),0.682560,,,
+,,,,

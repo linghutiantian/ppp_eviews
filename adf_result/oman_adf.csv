@@ -1,0 +1,35 @@
+Null Hypothesis: QT_OMAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.919840, 0.7806
+Test critical values:,1% level,,-3.460884,
+,5% level,,-2.874868,
+,10% level,,-2.573951,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_OMAN),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2001M03 2018M12,,,,
+Included observations: 214 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_OMAN(-1),-0.004782,0.005199,-0.919840,0.3587
+D(QT_OMAN(-1)),0.414760,0.062303,6.657183,0.0000
+C,-0.004249,0.004409,-0.963662,0.3363
+,,,,
+R-squared,0.174741,    Mean dependent var,,-0.000324
+Adjusted R-squared,0.166919,    S.D. dependent var,,0.005709
+S.E. of regression,0.005211,    Akaike info criterion,,-7.662079
+Sum squared resid,0.005730,    Schwarz criterion,,-7.614892
+Log likelihood,822.8424,    Hannan-Quinn criter.,,-7.643011
+F-statistic,22.33869,    Durbin-Watson stat,,1.951242
+Prob(F-statistic),0.000000,,,
+,,,,

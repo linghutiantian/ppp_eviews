@@ -1,0 +1,35 @@
+Null Hypothesis: ST_JAMAICA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 5.48E-05, 0.9573
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_JAMAICA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_JAMAICA(-1),3.06E-08,0.000558,5.48E-05,1.0000
+D(ST_JAMAICA(-1)),0.366562,0.035101,10.44322,0.0000
+C,0.004664,0.001625,2.869751,0.0042
+,,,,
+R-squared,0.134377,    Mean dependent var,,0.007355
+Adjusted R-squared,0.131914,    S.D. dependent var,,0.031377
+S.E. of regression,0.029234,    Akaike info criterion,,-4.222725
+Sum squared resid,0.600805,    Schwarz criterion,,-4.203350
+Log likelihood,1493.622,    Hannan-Quinn criter.,,-4.215238
+F-statistic,54.56582,    Durbin-Watson stat,,1.985807
+Prob(F-statistic),0.000000,,,
+,,,,

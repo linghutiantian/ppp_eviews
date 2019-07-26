@@ -1,0 +1,35 @@
+Null Hypothesis: QT_COSTA_RICA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.011969, 0.7493
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_COSTA_RICA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_COSTA_RICA(-1),-0.004752,0.004696,-1.011969,0.3126
+D(QT_COSTA_RICA(-1)),0.396231,0.062028,6.387975,0.0000
+C,0.030622,0.030744,0.996026,0.3203
+,,,,
+R-squared,0.157279,    Mean dependent var,,-0.000742
+Adjusted R-squared,0.149721,    S.D. dependent var,,0.010799
+S.E. of regression,0.009958,    Akaike info criterion,,-6.367795
+Sum squared resid,0.022111,    Schwarz criterion,,-6.322389
+Log likelihood,722.5608,    Hannan-Quinn criter.,,-6.349471
+F-statistic,20.80954,    Durbin-Watson stat,,1.825946
+Prob(F-statistic),0.000000,,,
+,,,,

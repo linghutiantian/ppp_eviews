@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SIERRA_LEONE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.441274, 0.5604
+Test critical values:,1% level,,-3.476805,
+,5% level,,-2.881830,
+,10% level,,-2.577668,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SIERRA_LEONE),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2007M03 2018M12,,,,
+Included observations: 142 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SIERRA_LEONE(-1),-0.013045,0.009051,-1.441274,0.1518
+D(QT_SIERRA_LEONE(-1)),0.490264,0.073817,6.641583,0.0000
+C,0.107157,0.073815,1.451686,0.1488
+,,,,
+R-squared,0.246866,    Mean dependent var,,0.001632
+Adjusted R-squared,0.236029,    S.D. dependent var,,0.012971
+S.E. of regression,0.011338,    Akaike info criterion,,-6.100480
+Sum squared resid,0.017867,    Schwarz criterion,,-6.038033
+Log likelihood,436.1341,    Hannan-Quinn criter.,,-6.075104
+F-statistic,22.78104,    Durbin-Watson stat,,2.022835
+Prob(F-statistic),0.000000,,,
+,,,,

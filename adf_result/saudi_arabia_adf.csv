@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SAUDI_ARABIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.470986, 0.5471
+Test critical values:,1% level,,-3.453072,
+,5% level,,-2.871438,
+,10% level,,-2.572116,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SAUDI_ARABIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1995M03 2018M12,,,,
+Included observations: 286 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SAUDI_ARABIA(-1),-0.005429,0.003691,-1.470986,0.1424
+D(QT_SAUDI_ARABIA(-1)),0.354292,0.055344,6.401661,0.0000
+C,0.008063,0.005364,1.503146,0.1339
+,,,,
+R-squared,0.133383,    Mean dependent var,,0.000286
+Adjusted R-squared,0.127259,    S.D. dependent var,,0.005537
+S.E. of regression,0.005173,    Akaike info criterion,,-7.680288
+Sum squared resid,0.007573,    Schwarz criterion,,-7.641939
+Log likelihood,1101.281,    Hannan-Quinn criter.,,-7.664917
+F-statistic,21.77861,    Durbin-Watson stat,,2.003674
+Prob(F-statistic),0.000000,,,
+,,,,

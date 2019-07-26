@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_POLAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-9.353262, 0.0000
+Test critical values:,1% level,,-3.448414,
+,5% level,,-2.869396,
+,10% level,,-2.571023,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_POLAND),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1989M03 2018M12,,,,
+Included observations: 358 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_POLAND(-1),-0.022972,0.002456,-9.353262,0.0000
+D(PDIFF_POLAND(-1)),0.432963,0.043903,9.861824,0.0000
+C,0.001072,0.001759,0.609466,0.5426
+,,,,
+R-squared,0.575234,    Mean dependent var,,0.013350
+Adjusted R-squared,0.572841,    S.D. dependent var,,0.048164
+S.E. of regression,0.031479,    Akaike info criterion,,-4.070646
+Sum squared resid,0.351780,    Schwarz criterion,,-4.038128
+Log likelihood,731.6457,    Hannan-Quinn criter.,,-4.057714
+F-statistic,240.3774,    Durbin-Watson stat,,2.036986
+Prob(F-statistic),0.000000,,,
+,,,,

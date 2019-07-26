@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_ARGENTINA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 1.585731, 0.9990
+Test critical values:,1% level,,-3.752946,
+,5% level,,-2.998064,
+,10% level,,-2.638752,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_ARGENTINA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2017M02 2018M12,,,,
+Included observations: 23 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_ARGENTINA(-1),0.034171,0.021549,1.585731,0.1285
+D(PDIFF_ARGENTINA(-1)),0.349097,0.245866,1.419868,0.1710
+C,0.012065,0.004566,2.642213,0.0156
+,,,,
+R-squared,0.509962,    Mean dependent var,,0.024410
+Adjusted R-squared,0.460958,    S.D. dependent var,,0.013074
+S.E. of regression,0.009599,    Akaike info criterion,,-6.333200
+Sum squared resid,0.001843,    Schwarz criterion,,-6.185092
+Log likelihood,75.83180,    Hannan-Quinn criter.,,-6.295951
+F-statistic,10.40657,    Durbin-Watson stat,,1.831592
+Prob(F-statistic),0.000799,,,
+,,,,

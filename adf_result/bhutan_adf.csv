@@ -1,0 +1,35 @@
+Null Hypothesis: QT_BHUTAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.480527, 0.1245
+Test critical values:,1% level,,-3.525618,
+,5% level,,-2.902953,
+,10% level,,-2.588902,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_BHUTAN),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2013M02 2018M12,,,,
+Included observations: 71 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_BHUTAN(-1),-0.147768,0.059571,-2.480527,0.0156
+D(QT_BHUTAN(-1)),0.191851,0.120282,1.595003,0.1153
+C,0.599662,0.241476,2.483318,0.0155
+,,,,
+R-squared,0.093566,    Mean dependent var,,0.000775
+Adjusted R-squared,0.066906,    S.D. dependent var,,0.016833
+S.E. of regression,0.016260,    Akaike info criterion,,-5.358870
+Sum squared resid,0.017979,    Schwarz criterion,,-5.263264
+Log likelihood,193.2399,    Hannan-Quinn criter.,,-5.320850
+F-statistic,3.509621,    Durbin-Watson stat,,2.049289
+Prob(F-statistic),0.035435,,,
+,,,,

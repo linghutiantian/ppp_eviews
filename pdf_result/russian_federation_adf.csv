@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_RUSSIAN_FEDERATION has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-7.421954, 0.0000
+Test critical values:,1% level,,-3.450474,
+,5% level,,-2.870302,
+,10% level,,-2.571508,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_RUSSIAN_FEDERATION),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1992M03 2018M12,,,,
+Included observations: 322 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_RUSSIAN_FEDERATION(-1),-0.010112,0.001362,-7.421954,0.0000
+D(PDIFF_RUSSIAN_FEDERATION(-1)),0.567255,0.043053,13.17561,0.0000
+C,0.000616,0.001532,0.402343,0.6877
+,,,,
+R-squared,0.793743,    Mean dependent var,,0.026104
+Adjusted R-squared,0.792450,    S.D. dependent var,,0.052134
+S.E. of regression,0.023751,    Akaike info criterion,,-4.633104
+Sum squared resid,0.179952,    Schwarz criterion,,-4.597938
+Log likelihood,748.9298,    Hannan-Quinn criter.,,-4.619065
+F-statistic,613.8067,    Durbin-Watson stat,,2.125872
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: ST_POLAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.378291, 0.1485
+Test critical values:,1% level,,-3.444724,
+,5% level,,-2.867772,
+,10% level,,-2.570153,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_POLAND),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1981M09 2018M12,,,,
+Included observations: 448 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_POLAND(-1),-0.004209,0.001770,-2.378291,0.0178
+D(ST_POLAND(-1)),0.291054,0.045122,6.450371,0.0000
+C,0.009094,0.003834,2.371832,0.0181
+,,,,
+R-squared,0.102129,    Mean dependent var,,0.013242
+Adjusted R-squared,0.098094,    S.D. dependent var,,0.084404
+S.E. of regression,0.080158,    Akaike info criterion,,-2.202967
+Sum squared resid,2.859241,    Schwarz criterion,,-2.175480
+Log likelihood,496.4646,    Hannan-Quinn criter.,,-2.192131
+F-statistic,25.30842,    Durbin-Watson stat,,2.079778
+Prob(F-statistic),0.000000,,,
+,,,,

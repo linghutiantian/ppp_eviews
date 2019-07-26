@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_GUINEA_BISSAU has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.013337, 0.0369
+Test critical values:,1% level,,-3.493747,
+,5% level,,-2.889200,
+,10% level,,-2.581596,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_GUINEA_BISSAU),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M11,,,,
+Included observations: 105 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_GUINEA_BISSAU(-1),-0.162006,0.053763,-3.013337,0.0033
+D(PDIFF_GUINEA_BISSAU(-1)),0.086913,0.099348,0.874836,0.3837
+C,-0.000648,0.000960,-0.674982,0.5012
+,,,,
+R-squared,0.081785,    Mean dependent var,,0.000143
+Adjusted R-squared,0.063781,    S.D. dependent var,,0.009775
+S.E. of regression,0.009459,    Akaike info criterion,,-6.455646
+Sum squared resid,0.009125,    Schwarz criterion,,-6.379819
+Log likelihood,341.9214,    Hannan-Quinn criter.,,-6.424920
+F-statistic,4.542559,    Durbin-Watson stat,,1.981074
+Prob(F-statistic),0.012887,,,
+,,,,

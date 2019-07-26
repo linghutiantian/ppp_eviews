@@ -1,0 +1,35 @@
+Null Hypothesis: QT_BOLIVIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.781967, 0.3884
+Test critical values:,1% level,,-3.469933,
+,5% level,,-2.878829,
+,10% level,,-2.576067,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_BOLIVIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2005M03 2018M12,,,,
+Included observations: 166 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_BOLIVIA(-1),-0.004202,0.002358,-1.781967,0.0766
+D(QT_BOLIVIA(-1)),0.553854,0.064058,8.646187,0.0000
+C,0.007916,0.005355,1.478248,0.1413
+,,,,
+R-squared,0.341373,    Mean dependent var,,-0.003589
+Adjusted R-squared,0.333291,    S.D. dependent var,,0.007493
+S.E. of regression,0.006119,    Akaike info criterion,,-7.337090
+Sum squared resid,0.006102,    Schwarz criterion,,-7.280850
+Log likelihood,611.9785,    Hannan-Quinn criter.,,-7.314262
+F-statistic,42.24221,    Durbin-Watson stat,,1.985279
+Prob(F-statistic),0.000000,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_LUXEMBOURG has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.511821, 0.8862
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_LUXEMBOURG),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_LUXEMBOURG(-1),-0.000961,0.001878,-0.511821,0.6089
+D(PDIFF_LUXEMBOURG(-1)),-0.188894,0.036997,-5.105621,0.0000
+C,-0.000388,0.000200,-1.940632,0.0527
+,,,,
+R-squared,0.036296,    Mean dependent var,,-0.000345
+Adjusted R-squared,0.033554,    S.D. dependent var,,0.005232
+S.E. of regression,0.005144,    Akaike info criterion,,-7.697787
+Sum squared resid,0.018601,    Schwarz criterion,,-7.678412
+Log likelihood,2720.319,    Hannan-Quinn criter.,,-7.690300
+F-statistic,13.23850,    Durbin-Watson stat,,1.968038
+Prob(F-statistic),0.000002,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: ST_SWITZERLAND has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.168351, 0.6897
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_SWITZERLAND),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_SWITZERLAND(-1),-0.002057,0.001760,-1.168351,0.2431
+D(ST_SWITZERLAND(-1)),0.252468,0.036465,6.923581,0.0000
+C,-0.000289,0.001447,-0.199919,0.8416
+,,,,
+R-squared,0.065393,    Mean dependent var,,-0.002103
+Adjusted R-squared,0.062734,    S.D. dependent var,,0.025651
+S.E. of regression,0.024834,    Akaike info criterion,,-4.548994
+Sum squared resid,0.433547,    Schwarz criterion,,-4.529619
+Log likelihood,1608.795,    Hannan-Quinn criter.,,-4.541507
+F-statistic,24.59404,    Durbin-Watson stat,,1.977501
+Prob(F-statistic),0.000000,,,
+,,,,

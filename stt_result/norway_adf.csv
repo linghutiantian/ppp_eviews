@@ -1,0 +1,35 @@
+Null Hypothesis: ST_NORWAY has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.564695, 0.1009
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_NORWAY),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_NORWAY(-1),-0.013322,0.005195,-2.564695,0.0105
+D(ST_NORWAY(-1)),0.354270,0.035354,10.02061,0.0000
+C,0.025512,0.009907,2.575148,0.0102
+,,,,
+R-squared,0.128200,    Mean dependent var,,0.000264
+Adjusted R-squared,0.125720,    S.D. dependent var,,0.021773
+S.E. of regression,0.020358,    Akaike info criterion,,-4.946422
+Sum squared resid,0.291364,    Schwarz criterion,,-4.927047
+Log likelihood,1749.087,    Hannan-Quinn criter.,,-4.938936
+F-statistic,51.68900,    Durbin-Watson stat,,1.947183
+Prob(F-statistic),0.000000,,,
+,,,,

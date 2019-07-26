@@ -1,0 +1,35 @@
+Null Hypothesis: RES_HAITI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.501995, 0.5287
+Test critical values:,1% level,,-3.496346,
+,5% level,,-2.890327,
+,10% level,,-2.582196,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_HAITI),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M07,,,,
+Included observations: 101 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_HAITI(-1),-0.049381,0.032877,-1.501995,0.1363
+D(RES_HAITI(-1)),0.140366,0.098856,1.419910,0.1588
+C,-0.000630,0.001635,-0.385320,0.7008
+,,,,
+R-squared,0.035280,    Mean dependent var,,-0.000808
+Adjusted R-squared,0.015592,    S.D. dependent var,,0.016516
+S.E. of regression,0.016386,    Akaike info criterion,,-5.355489
+Sum squared resid,0.026314,    Schwarz criterion,,-5.277812
+Log likelihood,273.4522,    Hannan-Quinn criter.,,-5.324043
+F-statistic,1.791943,    Durbin-Watson stat,,1.890437
+Prob(F-statistic),0.172053,,,
+,,,,

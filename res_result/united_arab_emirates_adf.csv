@@ -1,0 +1,33 @@
+Null Hypothesis: RES_UNITED_ARAB_EMIRATES has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.304098, 0.1723
+Test critical values:,1% level,,-3.481217,
+,5% level,,-2.883753,
+,10% level,,-2.578694,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_UNITED_ARAB_EMIRATES),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2008M03 2018M12,,,,
+Included observations: 130 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_UNITED_ARAB_EMIRATES(-1),-0.045834,0.019892,-2.304098,0.0228
+D(RES_UNITED_ARAB_EMIRATES(-1)),0.429947,0.079721,5.393171,0.0000
+C,-9.71E-17,9.10E-17,-1.066663,0.2881
+,,,,
+R-squared,0.201538,    Mean dependent var,,-4.70E-17
+Adjusted R-squared,0.188963,    S.D. dependent var,,1.08E-15
+S.E. of regression,9.76E-16,    Sum squared resid,,1.21E-28
+F-statistic,16.02786,    Durbin-Watson stat,,1.956911
+Prob(F-statistic),0.000001,,,
+,,,,

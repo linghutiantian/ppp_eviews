@@ -1,0 +1,35 @@
+Null Hypothesis: RES_CABO_VERDE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.605786, 0.0938
+Test critical values:,1% level,,-3.470179,
+,5% level,,-2.878937,
+,10% level,,-2.576124,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_CABO_VERDE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2005M04 2018M12,,,,
+Included observations: 165 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_CABO_VERDE(-1),-0.061953,0.023775,-2.605786,0.0100
+D(RES_CABO_VERDE(-1)),0.245410,0.075938,3.231717,0.0015
+C,0.000319,0.001897,0.168378,0.8665
+,,,,
+R-squared,0.084641,    Mean dependent var,,0.000376
+Adjusted R-squared,0.073340,    S.D. dependent var,,0.025316
+S.E. of regression,0.024370,    Akaike info criterion,,-4.572888
+Sum squared resid,0.096214,    Schwarz criterion,,-4.516416
+Log likelihood,380.2633,    Hannan-Quinn criter.,,-4.549964
+F-statistic,7.489839,    Durbin-Watson stat,,2.027541
+Prob(F-statistic),0.000774,,,
+,,,,

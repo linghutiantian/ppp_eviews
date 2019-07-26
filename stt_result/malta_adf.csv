@@ -1,0 +1,35 @@
+Null Hypothesis: ST_MALTA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.122374, 0.2360
+Test critical values:,1% level,,-3.441513,
+,5% level,,-2.866356,
+,10% level,,-2.569395,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_MALTA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2007M12,,,,
+Included observations: 574 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_MALTA(-1),-0.017580,0.008283,-2.122374,0.0342
+D(ST_MALTA(-1)),0.135854,0.041700,3.257870,0.0012
+C,-0.017427,0.008100,-2.151515,0.0319
+,,,,
+R-squared,0.023223,    Mean dependent var,,-0.000377
+Adjusted R-squared,0.019801,    S.D. dependent var,,0.020438
+S.E. of regression,0.020235,    Akaike info criterion,,-4.957632
+Sum squared resid,0.233790,    Schwarz criterion,,-4.934883
+Log likelihood,1425.840,    Hannan-Quinn criter.,,-4.948759
+F-statistic,6.787715,    Durbin-Watson stat,,2.005325
+Prob(F-statistic),0.001221,,,
+,,,,

@@ -1,0 +1,35 @@
+Null Hypothesis: QT_BURUNDI has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.092962, 0.7190
+Test critical values:,1% level,,-3.457747,
+,5% level,,-2.873492,
+,10% level,,-2.573215,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_BURUNDI),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1999M03 2018M12,,,,
+Included observations: 238 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_BURUNDI(-1),-0.011315,0.010352,-1.092962,0.2755
+D(QT_BURUNDI(-1)),-0.008991,0.064487,-0.139424,0.8892
+C,0.086655,0.079624,1.088304,0.2776
+,,,,
+R-squared,0.005281,    Mean dependent var,,-0.000349
+Adjusted R-squared,-0.003185,    S.D. dependent var,,0.026819
+S.E. of regression,0.026861,    Akaike info criterion,,-4.383734
+Sum squared resid,0.169560,    Schwarz criterion,,-4.339966
+Log likelihood,524.6644,    Hannan-Quinn criter.,,-4.366095
+F-statistic,0.623785,    Durbin-Watson stat,,2.009110
+Prob(F-statistic),0.536797,,,
+,,,,

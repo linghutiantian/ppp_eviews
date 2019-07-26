@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_CYPRUS has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.236134, 0.6590
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_CYPRUS),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_CYPRUS(-1),-0.012153,0.009832,-1.236134,0.2177
+D(PDIFF_CYPRUS(-1)),0.026358,0.066802,0.394567,0.6935
+C,-0.001092,0.001753,-0.623001,0.5339
+,,,,
+R-squared,0.007259,    Mean dependent var,,-0.001844
+Adjusted R-squared,-0.001644,    S.D. dependent var,,0.024792
+S.E. of regression,0.024812,    Akaike info criterion,,-4.541775
+Sum squared resid,0.137289,    Schwarz criterion,,-4.496370
+Log likelihood,516.2206,    Hannan-Quinn criter.,,-4.523452
+F-statistic,0.815327,    Durbin-Watson stat,,1.990676
+Prob(F-statistic),0.443809,,,
+,,,,

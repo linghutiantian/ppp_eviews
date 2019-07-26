@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_SAN_MARINO has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.576323, 0.4910
+Test critical values:,1% level,,-3.495021,
+,5% level,,-2.889753,
+,10% level,,-2.581890,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_SAN_MARINO),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2010M03 2018M09,,,,
+Included observations: 103 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_SAN_MARINO(-1),-0.051028,0.032371,-1.576323,0.1181
+D(PDIFF_SAN_MARINO(-1)),0.262878,0.096950,2.711472,0.0079
+C,-0.000843,0.000524,-1.608077,0.1110
+,,,,
+R-squared,0.077523,    Mean dependent var,,-0.000199
+Adjusted R-squared,0.059074,    S.D. dependent var,,0.003198
+S.E. of regression,0.003102,    Akaike info criterion,,-8.684988
+Sum squared resid,0.000962,    Schwarz criterion,,-8.608249
+Log likelihood,450.2769,    Hannan-Quinn criter.,,-8.653906
+F-statistic,4.201921,    Durbin-Watson stat,,1.898649
+Prob(F-statistic),0.017692,,,
+,,,,

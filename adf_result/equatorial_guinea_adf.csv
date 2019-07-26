@@ -1,0 +1,35 @@
+Null Hypothesis: QT_EQUATORIAL_GUINEA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.806955, 0.3754
+Test critical values:,1% level,,-3.493129,
+,5% level,,-2.888932,
+,10% level,,-2.581453,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_EQUATORIAL_GUINEA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2018M12,,,,
+Included observations: 106 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_EQUATORIAL_GUINEA(-1),-0.050239,0.027803,-1.806955,0.0737
+D(QT_EQUATORIAL_GUINEA(-1)),0.236865,0.094332,2.510968,0.0136
+C,0.307725,0.169934,1.810845,0.0731
+,,,,
+R-squared,0.075839,    Mean dependent var,,0.000972
+Adjusted R-squared,0.057894,    S.D. dependent var,,0.020669
+S.E. of regression,0.020061,    Akaike info criterion,,-4.952138
+Sum squared resid,0.041454,    Schwarz criterion,,-4.876758
+Log likelihood,265.4633,    Hannan-Quinn criter.,,-4.921586
+F-statistic,4.226208,    Durbin-Watson stat,,1.988167
+Prob(F-statistic),0.017219,,,
+,,,,

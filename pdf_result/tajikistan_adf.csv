@@ -1,0 +1,35 @@
+Null Hypothesis: PDIFF_TAJIKISTAN has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-0.682550, 0.8449
+Test critical values:,1% level,,-3.507394,
+,5% level,,-2.895109,
+,10% level,,-2.584738,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(PDIFF_TAJIKISTAN),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:07,,,,
+Sample (adjusted): 2010M03 2017M05,,,,
+Included observations: 87 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+PDIFF_TAJIKISTAN(-1),-0.002943,0.004312,-0.682550,0.4968
+D(PDIFF_TAJIKISTAN(-1)),0.442396,0.097649,4.530469,0.0000
+C,0.006647,0.006222,1.068220,0.2885
+,,,,
+R-squared,0.203288,    Mean dependent var,,0.004357
+Adjusted R-squared,0.184319,    S.D. dependent var,,0.004391
+S.E. of regression,0.003966,    Akaike info criterion,,-8.188327
+Sum squared resid,0.001321,    Schwarz criterion,,-8.103296
+Log likelihood,359.1922,    Hannan-Quinn criter.,,-8.154088
+F-statistic,10.71666,    Durbin-Watson stat,,1.944234
+Prob(F-statistic),0.000072,,,
+,,,,

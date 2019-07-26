@@ -1,0 +1,35 @@
+Null Hypothesis: RES_MALDIVES has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.977169, 0.0386
+Test critical values:,1% level,,-3.459231,
+,5% level,,-2.874143,
+,10% level,,-2.573563,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_MALDIVES),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2000M03 2018M12,,,,
+Included observations: 226 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_MALDIVES(-1),-0.055364,0.018596,-2.977169,0.0032
+D(RES_MALDIVES(-1)),0.208908,0.064879,3.219937,0.0015
+C,0.000349,0.000747,0.467802,0.6404
+,,,,
+R-squared,0.071986,    Mean dependent var,,0.000431
+Adjusted R-squared,0.063663,    S.D. dependent var,,0.011588
+S.E. of regression,0.011214,    Akaike info criterion,,-6.130204
+Sum squared resid,0.028041,    Schwarz criterion,,-6.084798
+Log likelihood,695.7130,    Hannan-Quinn criter.,,-6.111880
+F-statistic,8.649015,    Durbin-Watson stat,,1.972848
+Prob(F-statistic),0.000241,,,
+,,,,

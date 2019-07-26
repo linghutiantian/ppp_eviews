@@ -1,0 +1,35 @@
+Null Hypothesis: QT_CHAD has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.201527, 0.6700
+Test critical values:,1% level,,-3.520307,
+,5% level,,-2.900670,
+,10% level,,-2.587691,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_CHAD),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 2010M03 2017M04,,,,
+Included observations: 75 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_CHAD(-1),-0.041759,0.034755,-1.201527,0.2335
+D(QT_CHAD(-1)),0.007176,0.117170,0.061240,0.9513
+C,0.255931,0.211180,1.211909,0.2295
+,,,,
+R-squared,0.019885,    Mean dependent var,,0.002183
+Adjusted R-squared,-0.007340,    S.D. dependent var,,0.028619
+S.E. of regression,0.028724,    Akaike info criterion,,-4.223024
+Sum squared resid,0.059403,    Schwarz criterion,,-4.130324
+Log likelihood,161.3634,    Hannan-Quinn criter.,,-4.186010
+F-statistic,0.730388,    Durbin-Watson stat,,2.035832
+Prob(F-statistic),0.485256,,,
+,,,,

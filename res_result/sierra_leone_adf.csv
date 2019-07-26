@@ -1,0 +1,35 @@
+Null Hypothesis: RES_SIERRA_LEONE has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-1.797402, 0.3806
+Test critical values:,1% level,,-3.476805,
+,5% level,,-2.881830,
+,10% level,,-2.577668,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_SIERRA_LEONE),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 2007M03 2018M12,,,,
+Included observations: 142 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_SIERRA_LEONE(-1),-0.034096,0.018970,-1.797402,0.0744
+D(RES_SIERRA_LEONE(-1)),0.438279,0.077471,5.657312,0.0000
+C,-0.000413,0.001099,-0.375686,0.7077
+,,,,
+R-squared,0.191008,    Mean dependent var,,-0.000659
+Adjusted R-squared,0.179368,    S.D. dependent var,,0.014443
+S.E. of regression,0.013083,    Akaike info criterion,,-5.814059
+Sum squared resid,0.023793,    Schwarz criterion,,-5.751612
+Log likelihood,415.7982,    Hannan-Quinn criter.,,-5.788683
+F-statistic,16.40942,    Durbin-Watson stat,,2.039520
+Prob(F-statistic),0.000000,,,
+,,,,

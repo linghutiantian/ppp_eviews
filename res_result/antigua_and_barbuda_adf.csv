@@ -1,0 +1,33 @@
+Null Hypothesis: RES_ANTIGUA_AND_BARBUDA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-3.023514, 0.0343
+Test critical values:,1% level,,-3.461327,
+,5% level,,-2.875062,
+,10% level,,-2.574054,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(RES_ANTIGUA_AND_BARBUDA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:05,,,,
+Sample (adjusted): 2001M03 2018M09,,,,
+Included observations: 211 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+RES_ANTIGUA_AND_BARBUDA(-1),-0.078524,0.025971,-3.023514,0.0028
+D(RES_ANTIGUA_AND_BARBUDA(-1)),0.112504,0.068768,1.636009,0.1033
+C,-2.78E-16,4.93E-16,-0.563560,0.5737
+,,,,
+R-squared,0.047357,    Mean dependent var,,-1.70E-16
+Adjusted R-squared,0.038197,    S.D. dependent var,,7.27E-15
+S.E. of regression,7.13E-15,    Sum squared resid,,1.06E-26
+F-statistic,5.169922,    Durbin-Watson stat,,2.005723
+Prob(F-statistic),0.006438,,,
+,,,,

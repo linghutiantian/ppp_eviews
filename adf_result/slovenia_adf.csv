@@ -1,0 +1,35 @@
+Null Hypothesis: QT_SLOVENIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,,-2.026248, 0.2755
+Test critical values:,1% level,,-3.466377,
+,5% level,,-2.877274,
+,10% level,,-2.575236,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(QT_SLOVENIA),,,,
+Method: Least Squares,,,,
+Date: 07/23/19   Time: 22:18,,,,
+Sample (adjusted): 1992M01 2007M02,,,,
+Included observations: 182 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+QT_SLOVENIA(-1),-0.034406,0.016980,-2.026248,0.0442
+D(QT_SLOVENIA(-1)),0.280580,0.070506,3.979540,0.0001
+C,0.186574,0.092536,2.016228,0.0453
+,,,,
+R-squared,0.093213,    Mean dependent var,,-0.001333
+Adjusted R-squared,0.083081,    S.D. dependent var,,0.028433
+S.E. of regression,0.027226,    Akaike info criterion,,-4.352914
+Sum squared resid,0.132688,    Schwarz criterion,,-4.300101
+Log likelihood,399.1152,    Hannan-Quinn criter.,,-4.331504
+F-statistic,9.200123,    Durbin-Watson stat,,1.943235
+Prob(F-statistic),0.000157,,,
+,,,,

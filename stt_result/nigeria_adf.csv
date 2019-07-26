@@ -1,0 +1,35 @@
+Null Hypothesis: ST_NIGERIA has a unit root,,,,
+Exogenous: Constant,,,,
+Lag Length: 1 (Fixed),,,,
+,,,,
+,,,t-Statistic,  Prob.*
+,,,,
+Augmented Dickey-Fuller test statistic,,, 0.399590, 0.9829
+Test critical values:,1% level,,-3.439384,
+,5% level,,-2.865417,
+,10% level,,-2.568891,
+,,,,
+*MacKinnon (1996) one-sided p-values.,,,,
+,,,,
+,,,,
+Augmented Dickey-Fuller Test Equation,,,,
+Dependent Variable: D(ST_NIGERIA),,,,
+Method: Least Squares,,,,
+Date: 07/22/19   Time: 01:06,,,,
+Sample (adjusted): 1960M03 2018M12,,,,
+Included observations: 706 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+ST_NIGERIA(-1),0.000453,0.001134,0.399590,0.6896
+D(ST_NIGERIA(-1)),0.025732,0.037739,0.681845,0.4956
+C,0.007444,0.003591,2.073198,0.0385
+,,,,
+R-squared,0.000926,    Mean dependent var,,0.008596
+Adjusted R-squared,-0.001916,    S.D. dependent var,,0.072365
+S.E. of regression,0.072435,    Akaike info criterion,,-2.408021
+Sum squared resid,3.688494,    Schwarz criterion,,-2.388646
+Log likelihood,853.0316,    Hannan-Quinn criter.,,-2.400535
+F-statistic,0.325739,    Durbin-Watson stat,,1.998611
+Prob(F-statistic),0.722102,,,
+,,,,
