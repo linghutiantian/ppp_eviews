@@ -104,7 +104,8 @@ for country in filter_country:
 
 country_out = open('unit_root_countries.csv', 'wb')
 country_writer = csv.writer(country_out)
-country_writer.writerow(filter_country_final)
+for country in filter_country_final:
+  country_writer.writerow([country])
 
 
 # china = "China, P.R.: Mainland"
@@ -271,3 +272,29 @@ for country in oecd_countries:
     line = [row_to_month[i], rer_dict[country][i]]
     rer_writer.writerow(line)
   rer_out.close()
+
+row_start = month_to_row["1960M01"]
+row_end = month_to_row["2018M12"]
+data_count = {}
+for row in row_to_month.keys():
+  if row < row_start:
+    continue
+  if row > row_end:
+    continue
+  data_count[row] = 0
+  for country in common_countries:
+    has_er = er_dict.get(country) and er_dict[country].get(row) and er_dict[country][row] and er_dict[country][row] != "..."
+    has_cpi = cpi_dict.get(country) and cpi_dict[country].get(row) and cpi_dict[country][row] and cpi_dict[country][row] != "..."
+    if has_er and has_cpi:
+      data_count[row] += 1
+
+month_count_out = open('month_count.csv', 'wb')
+month_count_writer = csv.writer(month_count_out)
+for row in row_to_month.keys():
+  if row < row_start:
+    continue
+  if row > row_end:
+    continue
+  line = [row_to_month[row], data_count[row]]
+  month_count_writer.writerow(line)
+month_count_out.close()
