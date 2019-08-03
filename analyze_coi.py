@@ -74,6 +74,8 @@ for country in countries:
     cell_format = cell_format2
     if val == "NS":
       cell_format = cell_format1
+    elif test == "RES":
+      print(country)
     worksheet.write(row, col, val, cell_format)
     col = col + 1
   if country_dict[country]["ST"] == "NS" and country_dict[country]["PDIFF"] == "NS" and country_dict[country]["RES"] != "NS":

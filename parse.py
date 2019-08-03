@@ -305,4 +305,24 @@ for row in row_to_month.keys():
 month_count_out.close()
 
 # plot real exchange rate
+rer_countries_ = list(csv.reader(open("trade_countries.csv")))
+rer_countries = [ y for x in rer_countries_ for y in x]
+rer_countries.sort()
 
+def analyze_rer(country):
+  er_month = er_dict[country].keys()
+  cpi_month = cpi_dict[country].keys()
+  common_month = list(set(er_month) & set(cpi_month))
+  rer_out = open('./rer/trade_country/' + parse_country_name(country) + '.csv', 'wb')
+  rer_writer = csv.writer(rer_out)
+  line = ["Date", "Date", "Nominal Exchange Rate", "Real Exchange Rate"]
+  rer_writer.writerow(line)
+  month_0 = common_month[0]
+  ratio = float(cpi_dict[country][month_0].replace(',', '')) / float(cpi_dict["United States"][month_0].replace(',', ''))
+  for month in common_month:
+    line = [row_to_month[month], '', er_dict[country][month], float(er_dict[country][month].replace(',', '')) / float(cpi_dict[country][month].replace(',', '')) * float(cpi_dict["United States"][month].replace(',', ''))  * ratio]
+    rer_writer.writerow(line)
+  rer_out.close()
+
+for country in rer_countries:
+  analyze_rer(country)
