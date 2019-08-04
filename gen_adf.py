@@ -28,7 +28,7 @@ def gen_per_country(country, out):
   line = "endif\r\n"
   out.write(line)
 
-countries = [parse_country_name(x) for x in countries_original[0]]
+countries = [parse_country_name(y) for x in countries_original for y in x]
 print(countries, len(countries))
 
 
