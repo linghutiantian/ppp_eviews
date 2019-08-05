@@ -139,13 +139,13 @@ bad_country = []
 for i in range(row_start, row_end + 1):
   row = [row_to_month[i]]
   for country in filter_country_final:
-    if i not in er_dict[country]:
+    if i not in er_dict[country] or i not in cpi_dict[country]:
       row.append("")
       bad_country.append(country + "_ER")
     else:
       row.append(er_dict[country][i])
   for country in filter_country_final:
-    if i not in cpi_dict[country]:
+    if i not in cpi_dict[country] or i not in er_dict[country]:
       row.append("")
       bad_country.append(country + "_CPI")
     else:
