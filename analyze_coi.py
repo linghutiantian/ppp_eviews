@@ -18,69 +18,119 @@ for val in common_countries:
   file_name_to_country[parse_country_name(val).lower()] = val
 
 def file_to_name(file):
-  country = file[13:-8]
+  country = file[21:-8]
   return file_name_to_country[country]
 
-workbook = Workbook('coi_output' + '.xlsx', {'strings_to_numbers':True})
+workbook = Workbook('coi_new_output' + '.xlsx', {'strings_to_numbers':False})
 worksheet = workbook.add_worksheet()
 
-cell_format1 = workbook.add_format()
-cell_format1.set_font_color('red')
-cell_format2 = workbook.add_format()
-cell_format2.set_bg_color('green')
+cell_format_left = workbook.add_format()
+cell_format_left.set_align('left')
+
+cell_format_center = workbook.add_format()
+cell_format_center.set_align('center')
 
 row = 0
 worksheet.write(row, 0, 'Country')
-worksheet.write(row, 1, 'ST')
-worksheet.write(row, 2, 'PDIFF')
-worksheet.write(row, 3, 'RESID')
-worksheet.write(row, 4, 'RESULT')
+worksheet.write(row, 1, 'PT')
+worksheet.write(row, 2, 'PT 1st')
+worksheet.write(row, 3, 'ST')
+worksheet.write(row, 4, 'ST 1st')
+worksheet.write(row, 5, 'RES')
 row = row + 1
 
 country_dict = {}
 p_name = ["1%", "5%", "10%"]
+stars = ["***", "** ", "*  "]
 
-def read_folder(path, name):
+def read_folder(path):
   for csv_file in glob.glob(os.path.join('./' + path + '/', '*.csv')):
     country = file_to_name(csv_file)
+    name = csv_file[10:13]
     adf = list(csv.reader(open(csv_file)))
     t = adf[6][3]
     p = [adf[7][3], adf[8][3], adf[9][3]]
-    val = "NS"
+    star = "   "
     for i in range(3):
       if float(t) <= float(p[i]):
         val = p_name[i]
+        star = stars[i]
         break
     if not country in country_dict:
       country_dict[country] = {}
-    country_dict[country][name] = val
+    country_dict[country][name] = t + star
 
 
-read_folder("stt_result", "ST")
-read_folder("pdf_result", "PDIFF")
-read_folder("res_result", "RES")
+read_folder("coi_new")
 
 
 countries = list(country_dict.keys())
 countries.sort()
 
-tests = ["ST", "PDIFF", "RES"]
+tests = ["ptt", "dpt", "stt", "dst", "res"] #, "rm1", "rm2", "rm3"]
+need_star = ["dpt", "dst"]
+no_star = ["ptt", "stt"]
+
+skip_countries = []
 
 for country in countries:
   worksheet.write(row, 0, country)
-  col = 1
-  for test in tests:
-    val = country_dict[country][test]
-    cell_format = cell_format2
-    if val == "NS":
-      cell_format = cell_format1
-    elif test == "RES":
-      print(country)
-    worksheet.write(row, col, val, cell_format)
-    col = col + 1
-  if country_dict[country]["ST"] == "NS" and country_dict[country]["PDIFF"] == "NS" and country_dict[country]["RES"] != "NS":
-     worksheet.write(row, col, "PPP", cell_format2)
+  if country in country_dict:
+    col = 1
+    skip = False
+    for test in tests:
+      if test in country_dict[country]:
+        if skip:
+          val = "-"
+          worksheet.write_string(row, col, val, cell_format_center)
+        else:
+          val = country_dict[country][test]
+          worksheet.write_string(row, col, val, cell_format_left)
+          if test == "res" and "*" in val:
+            print(country)
+          if test in need_star and "*" not in val:
+            skip = True
+          if test in no_star and "*" in val:
+            skip = True
+          if skip:
+            skip_countries.append(country)
+      else:
+        val = "-"
+        worksheet.write_string(row, col, val, cell_format_center)
+        skip = True
+        skip_countries.append(country)
+      col = col + 1
   row = row + 1
 
-
 workbook.close()
+
+workbook2 = Workbook('coi_new_model_output' + '.xlsx', {'strings_to_numbers':False})
+worksheet2 = workbook2.add_worksheet()
+
+row = 0
+worksheet2.write(row, 0, 'Country')
+worksheet2.write(row, 1, '3val res')
+worksheet2.write(row, 2, 'model 1 res')
+worksheet2.write(row, 3, 'model 2 res')
+worksheet2.write(row, 4, 'model 3 res')
+row = row + 1
+
+tests = ["res", "rm1", "rm2", "rm3"]
+for country in countries:
+  if country in skip_countries:
+    continue
+  if country in country_dict:
+    val = country
+    worksheet2.write_string(row, 0, val, cell_format_left)
+    col = 1
+    for test in tests:
+      val = "x"
+      if test in country_dict[country]:
+        val = country_dict[country][test]
+      worksheet2.write_string(row, col, val, cell_format_center)
+      col = col + 1
+    row = row + 1
+
+workbook2.close()
+
+
