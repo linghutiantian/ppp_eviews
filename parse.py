@@ -156,7 +156,7 @@ for i in range(row_start, row_end + 1):
 #   print set(bad_country)
 
 
-oecd_countries_ = list(csv.reader(open("oecd.csv")))
+oecd_countries_ = list(csv.reader(open("top10.csv")))
 oecd_countries = [ y for x in oecd_countries_ for y in x]
 oecd_countries.sort()
 
