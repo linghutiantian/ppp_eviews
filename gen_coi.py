@@ -57,8 +57,9 @@ def gen_per_country(country, out):
 
 
 
-exception = ["anguilla", "aruba", "bahamas_the", "djibouti", "ecuador", "el_salvador", "panama", "sint_maarten", "timor_leste_dem_rep_of"]
+# exception = ["anguilla", "aruba", "bahamas_the", "djibouti", "ecuador", "el_salvador", "panama", "sint_maarten", "timor_leste_dem_rep_of"]
 
+exception = []
 
 countries = [parse_country_name(x) for y in countries_original for x in y]
 print(countries, len(countries))

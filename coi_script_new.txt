@@ -142,6 +142,40 @@ FRZ_RES_MD2_ANGOLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_resu
 freeze(FRZ_RES_MD3_ANGOLA) RES_MD3_ANGOLA.uroot(lag=1)
 FRZ_RES_MD3_ANGOLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_ANGOLA_ADF.csv
 FRZ_RES_MD3_ANGOLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_ANGOLA_ADF.pdf
+genr ST_ANGUILLA = log(ANGUILLA_ER)
+genr PT_ANGUILLA = log(ANGUILLA_CPI)
+equation EQ_ANGUILLA.ls ST_ANGUILLA c PT_ANGUILLA PT_UNITED_STATES
+EQ_ANGUILLA.makeresids RES_ANGUILLA
+equation EQ_ANGUILLA_MD1.ls ST_ANGUILLA c (PT_ANGUILLA - PT_UNITED_STATES)
+EQ_ANGUILLA_MD1.makeresids RES_MD1_ANGUILLA
+equation EQ_ANGUILLA_MD2.ls (ST_ANGUILLA - PT_ANGUILLA) c PT_UNITED_STATES
+EQ_ANGUILLA_MD2.makeresids RES_MD2_ANGUILLA
+equation EQ_ANGUILLA_MD3.ls (ST_ANGUILLA +  PT_UNITED_STATES) c PT_ANGUILLA
+EQ_ANGUILLA_MD3.makeresids RES_MD3_ANGUILLA
+freeze(FRZ_ST_ANGUILLA) ST_ANGUILLA.uroot(lag=1)
+FRZ_ST_ANGUILLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_ANGUILLA_ADF.csv
+FRZ_ST_ANGUILLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_ANGUILLA_ADF.pdf
+freeze(FRZ_PT_ANGUILLA) PT_ANGUILLA.uroot(lag=1)
+FRZ_PT_ANGUILLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_ANGUILLA_ADF.csv
+FRZ_PT_ANGUILLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_ANGUILLA_ADF.pdf
+freeze(FRZD_FRZ_ST_ANGUILLA) ST_ANGUILLA.uroot(dif=1, lag=1)
+FRZD_FRZ_ST_ANGUILLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_ANGUILLA_ADF.csv
+FRZD_FRZ_ST_ANGUILLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_ANGUILLA_ADF.pdf
+freeze(FRZD_FRZ_PT_ANGUILLA) PT_ANGUILLA.uroot(dif=1, lag=1)
+FRZD_FRZ_PT_ANGUILLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_ANGUILLA_ADF.csv
+FRZD_FRZ_PT_ANGUILLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_ANGUILLA_ADF.pdf
+freeze(FRZ_RES_ANGUILLA) RES_ANGUILLA.uroot(lag=1)
+FRZ_RES_ANGUILLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_ANGUILLA_ADF.csv
+FRZ_RES_ANGUILLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_ANGUILLA_ADF.pdf
+freeze(FRZ_RES_MD1_ANGUILLA) RES_MD1_ANGUILLA.uroot(lag=1)
+FRZ_RES_MD1_ANGUILLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_ANGUILLA_ADF.csv
+FRZ_RES_MD1_ANGUILLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_ANGUILLA_ADF.pdf
+freeze(FRZ_RES_MD2_ANGUILLA) RES_MD2_ANGUILLA.uroot(lag=1)
+FRZ_RES_MD2_ANGUILLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_ANGUILLA_ADF.csv
+FRZ_RES_MD2_ANGUILLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_ANGUILLA_ADF.pdf
+freeze(FRZ_RES_MD3_ANGUILLA) RES_MD3_ANGUILLA.uroot(lag=1)
+FRZ_RES_MD3_ANGUILLA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_ANGUILLA_ADF.csv
+FRZ_RES_MD3_ANGUILLA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_ANGUILLA_ADF.pdf
 genr ST_ANTIGUA_AND_BARBUDA = log(ANTIGUA_AND_BARBUDA_ER)
 genr PT_ANTIGUA_AND_BARBUDA = log(ANTIGUA_AND_BARBUDA_CPI)
 equation EQ_ANTIGUA_AND_BARBUDA.ls ST_ANTIGUA_AND_BARBUDA c PT_ANTIGUA_AND_BARBUDA PT_UNITED_STATES
@@ -244,6 +278,40 @@ FRZ_RES_MD2_ARMENIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi
 freeze(FRZ_RES_MD3_ARMENIA_REPUBLIC_OF) RES_MD3_ARMENIA_REPUBLIC_OF.uroot(lag=1)
 FRZ_RES_MD3_ARMENIA_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_ARMENIA_REPUBLIC_OF_ADF.csv
 FRZ_RES_MD3_ARMENIA_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_ARMENIA_REPUBLIC_OF_ADF.pdf
+genr ST_ARUBA = log(ARUBA_ER)
+genr PT_ARUBA = log(ARUBA_CPI)
+equation EQ_ARUBA.ls ST_ARUBA c PT_ARUBA PT_UNITED_STATES
+EQ_ARUBA.makeresids RES_ARUBA
+equation EQ_ARUBA_MD1.ls ST_ARUBA c (PT_ARUBA - PT_UNITED_STATES)
+EQ_ARUBA_MD1.makeresids RES_MD1_ARUBA
+equation EQ_ARUBA_MD2.ls (ST_ARUBA - PT_ARUBA) c PT_UNITED_STATES
+EQ_ARUBA_MD2.makeresids RES_MD2_ARUBA
+equation EQ_ARUBA_MD3.ls (ST_ARUBA +  PT_UNITED_STATES) c PT_ARUBA
+EQ_ARUBA_MD3.makeresids RES_MD3_ARUBA
+freeze(FRZ_ST_ARUBA) ST_ARUBA.uroot(lag=1)
+FRZ_ST_ARUBA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_ARUBA_ADF.csv
+FRZ_ST_ARUBA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_ARUBA_ADF.pdf
+freeze(FRZ_PT_ARUBA) PT_ARUBA.uroot(lag=1)
+FRZ_PT_ARUBA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_ARUBA_ADF.csv
+FRZ_PT_ARUBA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_ARUBA_ADF.pdf
+freeze(FRZD_FRZ_ST_ARUBA) ST_ARUBA.uroot(dif=1, lag=1)
+FRZD_FRZ_ST_ARUBA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_ARUBA_ADF.csv
+FRZD_FRZ_ST_ARUBA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_ARUBA_ADF.pdf
+freeze(FRZD_FRZ_PT_ARUBA) PT_ARUBA.uroot(dif=1, lag=1)
+FRZD_FRZ_PT_ARUBA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_ARUBA_ADF.csv
+FRZD_FRZ_PT_ARUBA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_ARUBA_ADF.pdf
+freeze(FRZ_RES_ARUBA) RES_ARUBA.uroot(lag=1)
+FRZ_RES_ARUBA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_ARUBA_ADF.csv
+FRZ_RES_ARUBA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_ARUBA_ADF.pdf
+freeze(FRZ_RES_MD1_ARUBA) RES_MD1_ARUBA.uroot(lag=1)
+FRZ_RES_MD1_ARUBA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_ARUBA_ADF.csv
+FRZ_RES_MD1_ARUBA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_ARUBA_ADF.pdf
+freeze(FRZ_RES_MD2_ARUBA) RES_MD2_ARUBA.uroot(lag=1)
+FRZ_RES_MD2_ARUBA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_ARUBA_ADF.csv
+FRZ_RES_MD2_ARUBA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_ARUBA_ADF.pdf
+freeze(FRZ_RES_MD3_ARUBA) RES_MD3_ARUBA.uroot(lag=1)
+FRZ_RES_MD3_ARUBA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_ARUBA_ADF.csv
+FRZ_RES_MD3_ARUBA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_ARUBA_ADF.pdf
 genr ST_AUSTRIA = log(AUSTRIA_ER)
 genr PT_AUSTRIA = log(AUSTRIA_CPI)
 equation EQ_AUSTRIA.ls ST_AUSTRIA c PT_AUSTRIA PT_UNITED_STATES
@@ -312,6 +380,40 @@ FRZ_RES_MD2_AZERBAIJAN_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\
 freeze(FRZ_RES_MD3_AZERBAIJAN_REPUBLIC_OF) RES_MD3_AZERBAIJAN_REPUBLIC_OF.uroot(lag=1)
 FRZ_RES_MD3_AZERBAIJAN_REPUBLIC_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_AZERBAIJAN_REPUBLIC_OF_ADF.csv
 FRZ_RES_MD3_AZERBAIJAN_REPUBLIC_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_AZERBAIJAN_REPUBLIC_OF_ADF.pdf
+genr ST_BAHAMAS_THE = log(BAHAMAS_THE_ER)
+genr PT_BAHAMAS_THE = log(BAHAMAS_THE_CPI)
+equation EQ_BAHAMAS_THE.ls ST_BAHAMAS_THE c PT_BAHAMAS_THE PT_UNITED_STATES
+EQ_BAHAMAS_THE.makeresids RES_BAHAMAS_THE
+equation EQ_BAHAMAS_THE_MD1.ls ST_BAHAMAS_THE c (PT_BAHAMAS_THE - PT_UNITED_STATES)
+EQ_BAHAMAS_THE_MD1.makeresids RES_MD1_BAHAMAS_THE
+equation EQ_BAHAMAS_THE_MD2.ls (ST_BAHAMAS_THE - PT_BAHAMAS_THE) c PT_UNITED_STATES
+EQ_BAHAMAS_THE_MD2.makeresids RES_MD2_BAHAMAS_THE
+equation EQ_BAHAMAS_THE_MD3.ls (ST_BAHAMAS_THE +  PT_UNITED_STATES) c PT_BAHAMAS_THE
+EQ_BAHAMAS_THE_MD3.makeresids RES_MD3_BAHAMAS_THE
+freeze(FRZ_ST_BAHAMAS_THE) ST_BAHAMAS_THE.uroot(lag=1)
+FRZ_ST_BAHAMAS_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_BAHAMAS_THE_ADF.csv
+FRZ_ST_BAHAMAS_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_BAHAMAS_THE_ADF.pdf
+freeze(FRZ_PT_BAHAMAS_THE) PT_BAHAMAS_THE.uroot(lag=1)
+FRZ_PT_BAHAMAS_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_BAHAMAS_THE_ADF.csv
+FRZ_PT_BAHAMAS_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_BAHAMAS_THE_ADF.pdf
+freeze(FRZD_FRZ_ST_BAHAMAS_THE) ST_BAHAMAS_THE.uroot(dif=1, lag=1)
+FRZD_FRZ_ST_BAHAMAS_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_BAHAMAS_THE_ADF.csv
+FRZD_FRZ_ST_BAHAMAS_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_BAHAMAS_THE_ADF.pdf
+freeze(FRZD_FRZ_PT_BAHAMAS_THE) PT_BAHAMAS_THE.uroot(dif=1, lag=1)
+FRZD_FRZ_PT_BAHAMAS_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_BAHAMAS_THE_ADF.csv
+FRZD_FRZ_PT_BAHAMAS_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_BAHAMAS_THE_ADF.pdf
+freeze(FRZ_RES_BAHAMAS_THE) RES_BAHAMAS_THE.uroot(lag=1)
+FRZ_RES_BAHAMAS_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_BAHAMAS_THE_ADF.csv
+FRZ_RES_BAHAMAS_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_BAHAMAS_THE_ADF.pdf
+freeze(FRZ_RES_MD1_BAHAMAS_THE) RES_MD1_BAHAMAS_THE.uroot(lag=1)
+FRZ_RES_MD1_BAHAMAS_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_BAHAMAS_THE_ADF.csv
+FRZ_RES_MD1_BAHAMAS_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_BAHAMAS_THE_ADF.pdf
+freeze(FRZ_RES_MD2_BAHAMAS_THE) RES_MD2_BAHAMAS_THE.uroot(lag=1)
+FRZ_RES_MD2_BAHAMAS_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_BAHAMAS_THE_ADF.csv
+FRZ_RES_MD2_BAHAMAS_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_BAHAMAS_THE_ADF.pdf
+freeze(FRZ_RES_MD3_BAHAMAS_THE) RES_MD3_BAHAMAS_THE.uroot(lag=1)
+FRZ_RES_MD3_BAHAMAS_THE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_BAHAMAS_THE_ADF.csv
+FRZ_RES_MD3_BAHAMAS_THE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_BAHAMAS_THE_ADF.pdf
 genr ST_BAHRAIN_KINGDOM_OF = log(BAHRAIN_KINGDOM_OF_ER)
 genr PT_BAHRAIN_KINGDOM_OF = log(BAHRAIN_KINGDOM_OF_CPI)
 equation EQ_BAHRAIN_KINGDOM_OF.ls ST_BAHRAIN_KINGDOM_OF c PT_BAHRAIN_KINGDOM_OF PT_UNITED_STATES
@@ -1502,6 +1604,40 @@ FRZ_RES_MD2_DENMARK.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_res
 freeze(FRZ_RES_MD3_DENMARK) RES_MD3_DENMARK.uroot(lag=1)
 FRZ_RES_MD3_DENMARK.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_DENMARK_ADF.csv
 FRZ_RES_MD3_DENMARK.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_DENMARK_ADF.pdf
+genr ST_DJIBOUTI = log(DJIBOUTI_ER)
+genr PT_DJIBOUTI = log(DJIBOUTI_CPI)
+equation EQ_DJIBOUTI.ls ST_DJIBOUTI c PT_DJIBOUTI PT_UNITED_STATES
+EQ_DJIBOUTI.makeresids RES_DJIBOUTI
+equation EQ_DJIBOUTI_MD1.ls ST_DJIBOUTI c (PT_DJIBOUTI - PT_UNITED_STATES)
+EQ_DJIBOUTI_MD1.makeresids RES_MD1_DJIBOUTI
+equation EQ_DJIBOUTI_MD2.ls (ST_DJIBOUTI - PT_DJIBOUTI) c PT_UNITED_STATES
+EQ_DJIBOUTI_MD2.makeresids RES_MD2_DJIBOUTI
+equation EQ_DJIBOUTI_MD3.ls (ST_DJIBOUTI +  PT_UNITED_STATES) c PT_DJIBOUTI
+EQ_DJIBOUTI_MD3.makeresids RES_MD3_DJIBOUTI
+freeze(FRZ_ST_DJIBOUTI) ST_DJIBOUTI.uroot(lag=1)
+FRZ_ST_DJIBOUTI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_DJIBOUTI_ADF.csv
+FRZ_ST_DJIBOUTI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_DJIBOUTI_ADF.pdf
+freeze(FRZ_PT_DJIBOUTI) PT_DJIBOUTI.uroot(lag=1)
+FRZ_PT_DJIBOUTI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_DJIBOUTI_ADF.csv
+FRZ_PT_DJIBOUTI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_DJIBOUTI_ADF.pdf
+freeze(FRZD_FRZ_ST_DJIBOUTI) ST_DJIBOUTI.uroot(dif=1, lag=1)
+FRZD_FRZ_ST_DJIBOUTI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_DJIBOUTI_ADF.csv
+FRZD_FRZ_ST_DJIBOUTI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_DJIBOUTI_ADF.pdf
+freeze(FRZD_FRZ_PT_DJIBOUTI) PT_DJIBOUTI.uroot(dif=1, lag=1)
+FRZD_FRZ_PT_DJIBOUTI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_DJIBOUTI_ADF.csv
+FRZD_FRZ_PT_DJIBOUTI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_DJIBOUTI_ADF.pdf
+freeze(FRZ_RES_DJIBOUTI) RES_DJIBOUTI.uroot(lag=1)
+FRZ_RES_DJIBOUTI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_DJIBOUTI_ADF.csv
+FRZ_RES_DJIBOUTI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_DJIBOUTI_ADF.pdf
+freeze(FRZ_RES_MD1_DJIBOUTI) RES_MD1_DJIBOUTI.uroot(lag=1)
+FRZ_RES_MD1_DJIBOUTI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_DJIBOUTI_ADF.csv
+FRZ_RES_MD1_DJIBOUTI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_DJIBOUTI_ADF.pdf
+freeze(FRZ_RES_MD2_DJIBOUTI) RES_MD2_DJIBOUTI.uroot(lag=1)
+FRZ_RES_MD2_DJIBOUTI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_DJIBOUTI_ADF.csv
+FRZ_RES_MD2_DJIBOUTI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_DJIBOUTI_ADF.pdf
+freeze(FRZ_RES_MD3_DJIBOUTI) RES_MD3_DJIBOUTI.uroot(lag=1)
+FRZ_RES_MD3_DJIBOUTI.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_DJIBOUTI_ADF.csv
+FRZ_RES_MD3_DJIBOUTI.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_DJIBOUTI_ADF.pdf
 genr ST_DOMINICA = log(DOMINICA_ER)
 genr PT_DOMINICA = log(DOMINICA_CPI)
 equation EQ_DOMINICA.ls ST_DOMINICA c PT_DOMINICA PT_UNITED_STATES
@@ -1570,6 +1706,40 @@ FRZ_RES_MD2_DOMINICAN_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_
 freeze(FRZ_RES_MD3_DOMINICAN_REPUBLIC) RES_MD3_DOMINICAN_REPUBLIC.uroot(lag=1)
 FRZ_RES_MD3_DOMINICAN_REPUBLIC.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_DOMINICAN_REPUBLIC_ADF.csv
 FRZ_RES_MD3_DOMINICAN_REPUBLIC.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_DOMINICAN_REPUBLIC_ADF.pdf
+genr ST_ECUADOR = log(ECUADOR_ER)
+genr PT_ECUADOR = log(ECUADOR_CPI)
+equation EQ_ECUADOR.ls ST_ECUADOR c PT_ECUADOR PT_UNITED_STATES
+EQ_ECUADOR.makeresids RES_ECUADOR
+equation EQ_ECUADOR_MD1.ls ST_ECUADOR c (PT_ECUADOR - PT_UNITED_STATES)
+EQ_ECUADOR_MD1.makeresids RES_MD1_ECUADOR
+equation EQ_ECUADOR_MD2.ls (ST_ECUADOR - PT_ECUADOR) c PT_UNITED_STATES
+EQ_ECUADOR_MD2.makeresids RES_MD2_ECUADOR
+equation EQ_ECUADOR_MD3.ls (ST_ECUADOR +  PT_UNITED_STATES) c PT_ECUADOR
+EQ_ECUADOR_MD3.makeresids RES_MD3_ECUADOR
+freeze(FRZ_ST_ECUADOR) ST_ECUADOR.uroot(lag=1)
+FRZ_ST_ECUADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_ECUADOR_ADF.csv
+FRZ_ST_ECUADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_ECUADOR_ADF.pdf
+freeze(FRZ_PT_ECUADOR) PT_ECUADOR.uroot(lag=1)
+FRZ_PT_ECUADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_ECUADOR_ADF.csv
+FRZ_PT_ECUADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_ECUADOR_ADF.pdf
+freeze(FRZD_FRZ_ST_ECUADOR) ST_ECUADOR.uroot(dif=1, lag=1)
+FRZD_FRZ_ST_ECUADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_ECUADOR_ADF.csv
+FRZD_FRZ_ST_ECUADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_ECUADOR_ADF.pdf
+freeze(FRZD_FRZ_PT_ECUADOR) PT_ECUADOR.uroot(dif=1, lag=1)
+FRZD_FRZ_PT_ECUADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_ECUADOR_ADF.csv
+FRZD_FRZ_PT_ECUADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_ECUADOR_ADF.pdf
+freeze(FRZ_RES_ECUADOR) RES_ECUADOR.uroot(lag=1)
+FRZ_RES_ECUADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_ECUADOR_ADF.csv
+FRZ_RES_ECUADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_ECUADOR_ADF.pdf
+freeze(FRZ_RES_MD1_ECUADOR) RES_MD1_ECUADOR.uroot(lag=1)
+FRZ_RES_MD1_ECUADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_ECUADOR_ADF.csv
+FRZ_RES_MD1_ECUADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_ECUADOR_ADF.pdf
+freeze(FRZ_RES_MD2_ECUADOR) RES_MD2_ECUADOR.uroot(lag=1)
+FRZ_RES_MD2_ECUADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_ECUADOR_ADF.csv
+FRZ_RES_MD2_ECUADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_ECUADOR_ADF.pdf
+freeze(FRZ_RES_MD3_ECUADOR) RES_MD3_ECUADOR.uroot(lag=1)
+FRZ_RES_MD3_ECUADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_ECUADOR_ADF.csv
+FRZ_RES_MD3_ECUADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_ECUADOR_ADF.pdf
 genr ST_EGYPT = log(EGYPT_ER)
 genr PT_EGYPT = log(EGYPT_CPI)
 equation EQ_EGYPT.ls ST_EGYPT c PT_EGYPT PT_UNITED_STATES
@@ -1604,6 +1774,40 @@ FRZ_RES_MD2_EGYPT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_resul
 freeze(FRZ_RES_MD3_EGYPT) RES_MD3_EGYPT.uroot(lag=1)
 FRZ_RES_MD3_EGYPT.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_EGYPT_ADF.csv
 FRZ_RES_MD3_EGYPT.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_EGYPT_ADF.pdf
+genr ST_EL_SALVADOR = log(EL_SALVADOR_ER)
+genr PT_EL_SALVADOR = log(EL_SALVADOR_CPI)
+equation EQ_EL_SALVADOR.ls ST_EL_SALVADOR c PT_EL_SALVADOR PT_UNITED_STATES
+EQ_EL_SALVADOR.makeresids RES_EL_SALVADOR
+equation EQ_EL_SALVADOR_MD1.ls ST_EL_SALVADOR c (PT_EL_SALVADOR - PT_UNITED_STATES)
+EQ_EL_SALVADOR_MD1.makeresids RES_MD1_EL_SALVADOR
+equation EQ_EL_SALVADOR_MD2.ls (ST_EL_SALVADOR - PT_EL_SALVADOR) c PT_UNITED_STATES
+EQ_EL_SALVADOR_MD2.makeresids RES_MD2_EL_SALVADOR
+equation EQ_EL_SALVADOR_MD3.ls (ST_EL_SALVADOR +  PT_UNITED_STATES) c PT_EL_SALVADOR
+EQ_EL_SALVADOR_MD3.makeresids RES_MD3_EL_SALVADOR
+freeze(FRZ_ST_EL_SALVADOR) ST_EL_SALVADOR.uroot(lag=1)
+FRZ_ST_EL_SALVADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_EL_SALVADOR_ADF.csv
+FRZ_ST_EL_SALVADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_EL_SALVADOR_ADF.pdf
+freeze(FRZ_PT_EL_SALVADOR) PT_EL_SALVADOR.uroot(lag=1)
+FRZ_PT_EL_SALVADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_EL_SALVADOR_ADF.csv
+FRZ_PT_EL_SALVADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_EL_SALVADOR_ADF.pdf
+freeze(FRZD_FRZ_ST_EL_SALVADOR) ST_EL_SALVADOR.uroot(dif=1, lag=1)
+FRZD_FRZ_ST_EL_SALVADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_EL_SALVADOR_ADF.csv
+FRZD_FRZ_ST_EL_SALVADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_EL_SALVADOR_ADF.pdf
+freeze(FRZD_FRZ_PT_EL_SALVADOR) PT_EL_SALVADOR.uroot(dif=1, lag=1)
+FRZD_FRZ_PT_EL_SALVADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_EL_SALVADOR_ADF.csv
+FRZD_FRZ_PT_EL_SALVADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_EL_SALVADOR_ADF.pdf
+freeze(FRZ_RES_EL_SALVADOR) RES_EL_SALVADOR.uroot(lag=1)
+FRZ_RES_EL_SALVADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_EL_SALVADOR_ADF.csv
+FRZ_RES_EL_SALVADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_EL_SALVADOR_ADF.pdf
+freeze(FRZ_RES_MD1_EL_SALVADOR) RES_MD1_EL_SALVADOR.uroot(lag=1)
+FRZ_RES_MD1_EL_SALVADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_EL_SALVADOR_ADF.csv
+FRZ_RES_MD1_EL_SALVADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_EL_SALVADOR_ADF.pdf
+freeze(FRZ_RES_MD2_EL_SALVADOR) RES_MD2_EL_SALVADOR.uroot(lag=1)
+FRZ_RES_MD2_EL_SALVADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_EL_SALVADOR_ADF.csv
+FRZ_RES_MD2_EL_SALVADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_EL_SALVADOR_ADF.pdf
+freeze(FRZ_RES_MD3_EL_SALVADOR) RES_MD3_EL_SALVADOR.uroot(lag=1)
+FRZ_RES_MD3_EL_SALVADOR.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_EL_SALVADOR_ADF.csv
+FRZ_RES_MD3_EL_SALVADOR.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_EL_SALVADOR_ADF.pdf
 genr ST_EQUATORIAL_GUINEA = log(EQUATORIAL_GUINEA_ER)
 genr PT_EQUATORIAL_GUINEA = log(EQUATORIAL_GUINEA_CPI)
 equation EQ_EQUATORIAL_GUINEA.ls ST_EQUATORIAL_GUINEA c PT_EQUATORIAL_GUINEA PT_UNITED_STATES
@@ -4052,6 +4256,40 @@ FRZ_RES_MD2_PAKISTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_re
 freeze(FRZ_RES_MD3_PAKISTAN) RES_MD3_PAKISTAN.uroot(lag=1)
 FRZ_RES_MD3_PAKISTAN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_PAKISTAN_ADF.csv
 FRZ_RES_MD3_PAKISTAN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_PAKISTAN_ADF.pdf
+genr ST_PANAMA = log(PANAMA_ER)
+genr PT_PANAMA = log(PANAMA_CPI)
+equation EQ_PANAMA.ls ST_PANAMA c PT_PANAMA PT_UNITED_STATES
+EQ_PANAMA.makeresids RES_PANAMA
+equation EQ_PANAMA_MD1.ls ST_PANAMA c (PT_PANAMA - PT_UNITED_STATES)
+EQ_PANAMA_MD1.makeresids RES_MD1_PANAMA
+equation EQ_PANAMA_MD2.ls (ST_PANAMA - PT_PANAMA) c PT_UNITED_STATES
+EQ_PANAMA_MD2.makeresids RES_MD2_PANAMA
+equation EQ_PANAMA_MD3.ls (ST_PANAMA +  PT_UNITED_STATES) c PT_PANAMA
+EQ_PANAMA_MD3.makeresids RES_MD3_PANAMA
+freeze(FRZ_ST_PANAMA) ST_PANAMA.uroot(lag=1)
+FRZ_ST_PANAMA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_PANAMA_ADF.csv
+FRZ_ST_PANAMA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_PANAMA_ADF.pdf
+freeze(FRZ_PT_PANAMA) PT_PANAMA.uroot(lag=1)
+FRZ_PT_PANAMA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_PANAMA_ADF.csv
+FRZ_PT_PANAMA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_PANAMA_ADF.pdf
+freeze(FRZD_FRZ_ST_PANAMA) ST_PANAMA.uroot(dif=1, lag=1)
+FRZD_FRZ_ST_PANAMA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_PANAMA_ADF.csv
+FRZD_FRZ_ST_PANAMA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_PANAMA_ADF.pdf
+freeze(FRZD_FRZ_PT_PANAMA) PT_PANAMA.uroot(dif=1, lag=1)
+FRZD_FRZ_PT_PANAMA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_PANAMA_ADF.csv
+FRZD_FRZ_PT_PANAMA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_PANAMA_ADF.pdf
+freeze(FRZ_RES_PANAMA) RES_PANAMA.uroot(lag=1)
+FRZ_RES_PANAMA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_PANAMA_ADF.csv
+FRZ_RES_PANAMA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_PANAMA_ADF.pdf
+freeze(FRZ_RES_MD1_PANAMA) RES_MD1_PANAMA.uroot(lag=1)
+FRZ_RES_MD1_PANAMA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_PANAMA_ADF.csv
+FRZ_RES_MD1_PANAMA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_PANAMA_ADF.pdf
+freeze(FRZ_RES_MD2_PANAMA) RES_MD2_PANAMA.uroot(lag=1)
+FRZ_RES_MD2_PANAMA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_PANAMA_ADF.csv
+FRZ_RES_MD2_PANAMA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_PANAMA_ADF.pdf
+freeze(FRZ_RES_MD3_PANAMA) RES_MD3_PANAMA.uroot(lag=1)
+FRZ_RES_MD3_PANAMA.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_PANAMA_ADF.csv
+FRZ_RES_MD3_PANAMA.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_PANAMA_ADF.pdf
 genr ST_PARAGUAY = log(PARAGUAY_ER)
 genr PT_PARAGUAY = log(PARAGUAY_CPI)
 equation EQ_PARAGUAY.ls ST_PARAGUAY c PT_PARAGUAY PT_UNITED_STATES
@@ -4630,6 +4868,40 @@ FRZ_RES_MD2_SINGAPORE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_r
 freeze(FRZ_RES_MD3_SINGAPORE) RES_MD3_SINGAPORE.uroot(lag=1)
 FRZ_RES_MD3_SINGAPORE.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_SINGAPORE_ADF.csv
 FRZ_RES_MD3_SINGAPORE.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_SINGAPORE_ADF.pdf
+genr ST_SINT_MAARTEN = log(SINT_MAARTEN_ER)
+genr PT_SINT_MAARTEN = log(SINT_MAARTEN_CPI)
+equation EQ_SINT_MAARTEN.ls ST_SINT_MAARTEN c PT_SINT_MAARTEN PT_UNITED_STATES
+EQ_SINT_MAARTEN.makeresids RES_SINT_MAARTEN
+equation EQ_SINT_MAARTEN_MD1.ls ST_SINT_MAARTEN c (PT_SINT_MAARTEN - PT_UNITED_STATES)
+EQ_SINT_MAARTEN_MD1.makeresids RES_MD1_SINT_MAARTEN
+equation EQ_SINT_MAARTEN_MD2.ls (ST_SINT_MAARTEN - PT_SINT_MAARTEN) c PT_UNITED_STATES
+EQ_SINT_MAARTEN_MD2.makeresids RES_MD2_SINT_MAARTEN
+equation EQ_SINT_MAARTEN_MD3.ls (ST_SINT_MAARTEN +  PT_UNITED_STATES) c PT_SINT_MAARTEN
+EQ_SINT_MAARTEN_MD3.makeresids RES_MD3_SINT_MAARTEN
+freeze(FRZ_ST_SINT_MAARTEN) ST_SINT_MAARTEN.uroot(lag=1)
+FRZ_ST_SINT_MAARTEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_SINT_MAARTEN_ADF.csv
+FRZ_ST_SINT_MAARTEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_SINT_MAARTEN_ADF.pdf
+freeze(FRZ_PT_SINT_MAARTEN) PT_SINT_MAARTEN.uroot(lag=1)
+FRZ_PT_SINT_MAARTEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_SINT_MAARTEN_ADF.csv
+FRZ_PT_SINT_MAARTEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_SINT_MAARTEN_ADF.pdf
+freeze(FRZD_FRZ_ST_SINT_MAARTEN) ST_SINT_MAARTEN.uroot(dif=1, lag=1)
+FRZD_FRZ_ST_SINT_MAARTEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_SINT_MAARTEN_ADF.csv
+FRZD_FRZ_ST_SINT_MAARTEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_SINT_MAARTEN_ADF.pdf
+freeze(FRZD_FRZ_PT_SINT_MAARTEN) PT_SINT_MAARTEN.uroot(dif=1, lag=1)
+FRZD_FRZ_PT_SINT_MAARTEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_SINT_MAARTEN_ADF.csv
+FRZD_FRZ_PT_SINT_MAARTEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_SINT_MAARTEN_ADF.pdf
+freeze(FRZ_RES_SINT_MAARTEN) RES_SINT_MAARTEN.uroot(lag=1)
+FRZ_RES_SINT_MAARTEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_SINT_MAARTEN_ADF.csv
+FRZ_RES_SINT_MAARTEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_SINT_MAARTEN_ADF.pdf
+freeze(FRZ_RES_MD1_SINT_MAARTEN) RES_MD1_SINT_MAARTEN.uroot(lag=1)
+FRZ_RES_MD1_SINT_MAARTEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_SINT_MAARTEN_ADF.csv
+FRZ_RES_MD1_SINT_MAARTEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_SINT_MAARTEN_ADF.pdf
+freeze(FRZ_RES_MD2_SINT_MAARTEN) RES_MD2_SINT_MAARTEN.uroot(lag=1)
+FRZ_RES_MD2_SINT_MAARTEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_SINT_MAARTEN_ADF.csv
+FRZ_RES_MD2_SINT_MAARTEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_SINT_MAARTEN_ADF.pdf
+freeze(FRZ_RES_MD3_SINT_MAARTEN) RES_MD3_SINT_MAARTEN.uroot(lag=1)
+FRZ_RES_MD3_SINT_MAARTEN.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_SINT_MAARTEN_ADF.csv
+FRZ_RES_MD3_SINT_MAARTEN.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_SINT_MAARTEN_ADF.pdf
 genr ST_SLOVAK_REPUBLIC = log(SLOVAK_REPUBLIC_ER)
 genr PT_SLOVAK_REPUBLIC = log(SLOVAK_REPUBLIC_CPI)
 equation EQ_SLOVAK_REPUBLIC.ls ST_SLOVAK_REPUBLIC c PT_SLOVAK_REPUBLIC PT_UNITED_STATES
@@ -5242,6 +5514,40 @@ FRZ_RES_MD2_THAILAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_re
 freeze(FRZ_RES_MD3_THAILAND) RES_MD3_THAILAND.uroot(lag=1)
 FRZ_RES_MD3_THAILAND.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_THAILAND_ADF.csv
 FRZ_RES_MD3_THAILAND.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_THAILAND_ADF.pdf
+genr ST_TIMOR_LESTE_DEM_REP_OF = log(TIMOR_LESTE_DEM_REP_OF_ER)
+genr PT_TIMOR_LESTE_DEM_REP_OF = log(TIMOR_LESTE_DEM_REP_OF_CPI)
+equation EQ_TIMOR_LESTE_DEM_REP_OF.ls ST_TIMOR_LESTE_DEM_REP_OF c PT_TIMOR_LESTE_DEM_REP_OF PT_UNITED_STATES
+EQ_TIMOR_LESTE_DEM_REP_OF.makeresids RES_TIMOR_LESTE_DEM_REP_OF
+equation EQ_TIMOR_LESTE_DEM_REP_OF_MD1.ls ST_TIMOR_LESTE_DEM_REP_OF c (PT_TIMOR_LESTE_DEM_REP_OF - PT_UNITED_STATES)
+EQ_TIMOR_LESTE_DEM_REP_OF_MD1.makeresids RES_MD1_TIMOR_LESTE_DEM_REP_OF
+equation EQ_TIMOR_LESTE_DEM_REP_OF_MD2.ls (ST_TIMOR_LESTE_DEM_REP_OF - PT_TIMOR_LESTE_DEM_REP_OF) c PT_UNITED_STATES
+EQ_TIMOR_LESTE_DEM_REP_OF_MD2.makeresids RES_MD2_TIMOR_LESTE_DEM_REP_OF
+equation EQ_TIMOR_LESTE_DEM_REP_OF_MD3.ls (ST_TIMOR_LESTE_DEM_REP_OF +  PT_UNITED_STATES) c PT_TIMOR_LESTE_DEM_REP_OF
+EQ_TIMOR_LESTE_DEM_REP_OF_MD3.makeresids RES_MD3_TIMOR_LESTE_DEM_REP_OF
+freeze(FRZ_ST_TIMOR_LESTE_DEM_REP_OF) ST_TIMOR_LESTE_DEM_REP_OF.uroot(lag=1)
+FRZ_ST_TIMOR_LESTE_DEM_REP_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_TIMOR_LESTE_DEM_REP_OF_ADF.csv
+FRZ_ST_TIMOR_LESTE_DEM_REP_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\stt_result_TIMOR_LESTE_DEM_REP_OF_ADF.pdf
+freeze(FRZ_PT_TIMOR_LESTE_DEM_REP_OF) PT_TIMOR_LESTE_DEM_REP_OF.uroot(lag=1)
+FRZ_PT_TIMOR_LESTE_DEM_REP_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_TIMOR_LESTE_DEM_REP_OF_ADF.csv
+FRZ_PT_TIMOR_LESTE_DEM_REP_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\ptt_result_TIMOR_LESTE_DEM_REP_OF_ADF.pdf
+freeze(FRZD_FRZ_ST_TIMOR_LESTE_DEM_REP_OF) ST_TIMOR_LESTE_DEM_REP_OF.uroot(dif=1, lag=1)
+FRZD_FRZ_ST_TIMOR_LESTE_DEM_REP_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_TIMOR_LESTE_DEM_REP_OF_ADF.csv
+FRZD_FRZ_ST_TIMOR_LESTE_DEM_REP_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dst_result_TIMOR_LESTE_DEM_REP_OF_ADF.pdf
+freeze(FRZD_FRZ_PT_TIMOR_LESTE_DEM_REP_OF) PT_TIMOR_LESTE_DEM_REP_OF.uroot(dif=1, lag=1)
+FRZD_FRZ_PT_TIMOR_LESTE_DEM_REP_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_TIMOR_LESTE_DEM_REP_OF_ADF.csv
+FRZD_FRZ_PT_TIMOR_LESTE_DEM_REP_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\dpt_result_TIMOR_LESTE_DEM_REP_OF_ADF.pdf
+freeze(FRZ_RES_TIMOR_LESTE_DEM_REP_OF) RES_TIMOR_LESTE_DEM_REP_OF.uroot(lag=1)
+FRZ_RES_TIMOR_LESTE_DEM_REP_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_TIMOR_LESTE_DEM_REP_OF_ADF.csv
+FRZ_RES_TIMOR_LESTE_DEM_REP_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\res_result_TIMOR_LESTE_DEM_REP_OF_ADF.pdf
+freeze(FRZ_RES_MD1_TIMOR_LESTE_DEM_REP_OF) RES_MD1_TIMOR_LESTE_DEM_REP_OF.uroot(lag=1)
+FRZ_RES_MD1_TIMOR_LESTE_DEM_REP_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_TIMOR_LESTE_DEM_REP_OF_ADF.csv
+FRZ_RES_MD1_TIMOR_LESTE_DEM_REP_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm1_result_TIMOR_LESTE_DEM_REP_OF_ADF.pdf
+freeze(FRZ_RES_MD2_TIMOR_LESTE_DEM_REP_OF) RES_MD2_TIMOR_LESTE_DEM_REP_OF.uroot(lag=1)
+FRZ_RES_MD2_TIMOR_LESTE_DEM_REP_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_TIMOR_LESTE_DEM_REP_OF_ADF.csv
+FRZ_RES_MD2_TIMOR_LESTE_DEM_REP_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm2_result_TIMOR_LESTE_DEM_REP_OF_ADF.pdf
+freeze(FRZ_RES_MD3_TIMOR_LESTE_DEM_REP_OF) RES_MD3_TIMOR_LESTE_DEM_REP_OF.uroot(lag=1)
+FRZ_RES_MD3_TIMOR_LESTE_DEM_REP_OF.save(t=csv) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_TIMOR_LESTE_DEM_REP_OF_ADF.csv
+FRZ_RES_MD3_TIMOR_LESTE_DEM_REP_OF.save(t=pdf) \\192.168.0.67\nas\workspace\ppp\coi_new\rm3_result_TIMOR_LESTE_DEM_REP_OF_ADF.pdf
 genr ST_TOGO = log(TOGO_ER)
 genr PT_TOGO = log(TOGO_CPI)
 equation EQ_TOGO.ls ST_TOGO c PT_TOGO PT_UNITED_STATES

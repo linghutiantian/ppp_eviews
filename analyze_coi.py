@@ -115,6 +115,9 @@ worksheet2.write(row, 3, 'model 2 res')
 worksheet2.write(row, 4, 'model 3 res')
 row = row + 1
 
+yes_no = []
+no_yes = []
+
 tests = ["res", "rm1", "rm2", "rm3"]
 for country in countries:
   if country in skip_countries:
@@ -123,14 +126,25 @@ for country in countries:
     val = country
     worksheet2.write_string(row, 0, val, cell_format_left)
     col = 1
+    three_val_adf = False
     for test in tests:
       val = "x"
-      if test in country_dict[country]:
-        val = country_dict[country][test]
+      if test not in country_dict[country]:
+        print("Bad!!!!!!", country, test)
+      val = country_dict[country][test]
+      if (test == "res") and "*" in val:
+        three_val_adf = True
+      if (test != "res") and three_val_adf == True and "*" not in val:
+        yes_no.append(country)
+      if (test != "res") and three_val_adf == False and "*" in val:
+        no_yes.append(country)
       worksheet2.write_string(row, col, val, cell_format_center)
       col = col + 1
     row = row + 1
 
 workbook2.close()
+
+print len(list(set(yes_no)))
+print len(list(set(no_yes)))
 
 
