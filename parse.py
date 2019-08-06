@@ -167,7 +167,7 @@ for oecd_country in oecd_countries:
     print(oecd_country)
 print(oecd_string)
 
-panal_out = open('final_panal_data.csv', 'wb')
+panal_out = open('final_panel_data.csv', 'wb')
 panal_writer = csv.writer(panal_out)
 
 panal_row_0 = ["DATE", "COUNTRY", "CPI", "CPI_US", "ER"]
@@ -182,6 +182,8 @@ for oecd_country in oecd_countries:
   cpi_indices = cpi_dict[oecd_country].keys()
   er_indices = er_dict[oecd_country].keys()
   common_idx = set(cpi_indices) & set(er_indices)
+  common_idx_list = list(common_idx)
+  print(oecd_country, row_to_month[common_idx_list[0]], row_to_month[common_idx_list[-1]])
   # print(len(common_idx), len(cpi_indices), len(er_indices))
   common_row = common_row & common_idx
   common_row_l = list(common_idx)
