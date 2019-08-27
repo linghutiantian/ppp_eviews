@@ -280,8 +280,8 @@ for country in oecd_countries:
     rer_writer.writerow(line)
   rer_out.close()
 
-row_start = month_to_row["1960M01"]
-row_end = month_to_row["2018M12"]
+row_start = month_to_row["1950M01"]
+row_end = month_to_row["2019M06"]
 data_count = {}
 for row in row_to_month.keys():
   if row < row_start:
